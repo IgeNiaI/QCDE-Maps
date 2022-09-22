@@ -127,14 +127,6 @@ map QCDE14 "Stubborn"
 	Next = "QCDE15"
 }
 
-//Map by DBThanatos
-map QCDE15 "House Of Decay"
-{
-	Music = QCDEM15
-	UsePlayerStartZ
-	Next = "QCDE16"
-}
-
 //map by DBThanatos & Ivan Dobrovski
 map QCDE16 "Sinister"
 {
@@ -408,6 +400,14 @@ map QCDL04 "Phrantic"
 {
 	Music = "QCDLM04"
 	sky1 = "QCDSky12", 0.05
+	UsePlayerStartZ
+	Next = "QCDL05"
+}
+
+//Map by DBThanatos
+map QCDL05 "House Of Decay"
+{
+	Music = QCDLM05
 	UsePlayerStartZ
 	Next = "QCDL01"
 }
