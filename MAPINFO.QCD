@@ -50,15 +50,6 @@ map QCDE06 "Vertical Vengeance"
 	Next = "QCDE07"
 }
 
-//map by RoosTer
-map QCDE07 "Morpheus"
-{
-	Music = QCDEM07
-	UsePlayerStartZ	
-	sky1 = "MRPSKY"
-	Next = "QCDE08"
-}
-
 //map by DBThanatos
 map QCDE08 "Furious Heights"
 {
@@ -429,5 +420,14 @@ map QCME01 "The Longest Yard"
 	Music = QCMEM01
 	sky1 = "BLKW", 0.1
 	UsePlayerStartZ
+	Next = "QCME02"
+}
+
+//map by RoosTer
+map QCME02 "Morpheus"
+{
+	Music = QCMEM02
+	UsePlayerStartZ	
+	sky1 = "MRPSKY"
 	Next = "QCDE01"
 }
