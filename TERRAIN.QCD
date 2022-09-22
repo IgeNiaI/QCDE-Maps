@@ -1,0 +1,52 @@
+terrain LockBoxAcid
+{
+	damagetype		Slime
+	damageamount		8
+	damagetimemask		7
+	allowprotection
+}
+terrain LockBoxSuperAcid
+{
+	damagetype		Slime
+	damageamount		24
+	damagetimemask		7
+	allowprotection
+}
+
+floor ACIDPACH		LockBoxAcid
+floor ACIDPAC2		LockBoxSuperAcid
+
+terrain ElderLava
+{
+	damagetype		Lava
+	damageamount		30
+	damagetimemask		14
+	allowprotection
+}
+
+floor ELAVA		ElderLava
+floor FIREMATE	ElderLava
+
+terrain BadLava
+{
+	damagetype		Lava
+	damageamount		50
+	damagetimemask		7
+}
+
+floor QALAV01X		BadLava
+
+
+
+// Edge water for splash sounds
+Splash EdgeWaterSplash
+{
+	Sound "QCDE/Misc/WaterSplash"
+}
+
+Terrain EdgeWater
+{
+	Splash EdgeWaterSplash
+}
+
+Floor BWAT_SPL EdgeWater

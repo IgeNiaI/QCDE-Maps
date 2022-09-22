@@ -1,0 +1,866 @@
+//-------------------------------
+//QCDE teleporters
+
+
+//Green
+TEXTURE QCT201
+    pic QCT201 tics 3
+	pic QCT202 tics 3
+	pic QCT203 tics 3
+	pic QCT204 tics 3
+	pic QCT205 tics 3
+	pic QCT206 tics 3
+	pic QCT207 tics 3
+	pic QCT208 tics 3
+	pic QCT209 tics 3
+	pic QCT210 tics 3
+	pic QCT211 tics 3
+	pic QCT212 tics 3
+	pic QCT213 tics 3
+	pic QCT214 tics 3
+	pic QCT215 tics 3
+	pic QCT216 tics 3
+	
+warp texture QCT201
+warp texture QCT202
+warp texture QCT203
+warp texture QCT204
+warp texture QCT205
+warp texture QCT206
+warp texture QCT207
+warp texture QCT208
+warp texture QCT209
+warp texture QCT210
+warp texture QCT211
+warp texture QCT212
+warp texture QCT213
+warp texture QCT214
+warp texture QCT215
+warp texture QCT216
+
+//bright blue
+TEXTURE QCT301
+    pic QCT301 tics 3
+	pic QCT302 tics 3
+	pic QCT303 tics 3
+	pic QCT304 tics 3
+	pic QCT305 tics 3
+	pic QCT306 tics 3
+	pic QCT307 tics 3
+	pic QCT308 tics 3
+	pic QCT309 tics 3
+	pic QCT310 tics 3
+	pic QCT311 tics 3
+	pic QCT312 tics 3
+	pic QCT313 tics 3
+	pic QCT314 tics 3
+	pic QCT315 tics 3
+	pic QCT316 tics 3
+	
+warp texture QCT301
+warp texture QCT302
+warp texture QCT303
+warp texture QCT304
+warp texture QCT305
+warp texture QCT306
+warp texture QCT307
+warp texture QCT308
+warp texture QCT309
+warp texture QCT310
+warp texture QCT311
+warp texture QCT312
+warp texture QCT313
+warp texture QCT314
+warp texture QCT315
+warp texture QCT316
+
+//orange
+TEXTURE QCT401
+    pic QCT401 tics 3
+	pic QCT402 tics 3
+	pic QCT403 tics 3
+	pic QCT404 tics 3
+	pic QCT405 tics 3
+	pic QCT406 tics 3
+	pic QCT407 tics 3
+	pic QCT408 tics 3
+	pic QCT409 tics 3
+	pic QCT410 tics 3
+	pic QCT411 tics 3
+	pic QCT412 tics 3
+	pic QCT413 tics 3
+	pic QCT414 tics 3
+	pic QCT415 tics 3
+	pic QCT416 tics 3
+	
+warp texture QCT401
+warp texture QCT402
+warp texture QCT403
+warp texture QCT404
+warp texture QCT405
+warp texture QCT406
+warp texture QCT407
+warp texture QCT408
+warp texture QCT409
+warp texture QCT410
+warp texture QCT411
+warp texture QCT412
+warp texture QCT413
+warp texture QCT414
+warp texture QCT415
+warp texture QCT416
+
+//Bitterman's Revenge
+warp texture SLUDGE_1
+warp texture SLUDGE_4
+
+//Fortress in the Void
+warp texture QLAVA
+warp texture SLIPGATE
+
+//Lockbox
+flat x_001
+
+pic 1 tics 5
+pic 2 tics 5
+pic 3 tics 5
+pic 4 tics 5
+
+flat x_005
+
+pic 1 rand 5 12
+pic 2 rand 5 12
+pic 3 rand 5 12
+pic 4 rand 5 12
+
+flat x_009
+
+pic 1 rand 3 10
+pic 2 rand 3 10
+pic 3 rand 3 10
+pic 2 rand 3 10
+
+texture tport1
+
+pic 1 tics 5
+pic 2 tics 5
+pic 3 tics 5
+pic 4 tics 5
+pic 5 tics 5
+pic 6 tics 5
+pic 7 tics 5
+pic 8 tics 5
+pic 9 tics 5
+
+texture x_water1
+
+pic 1 rand 5 12
+pic 2 rand 5 12
+pic 3 rand 5 12
+pic 4 rand 5 12
+
+texture x_swmp1
+
+pic 1 tics 5
+pic 2 tics 5
+pic 3 tics 5
+
+texture x_fire01
+
+pic 1 tics 5
+pic 2 tics 5
+pic 3 tics 5
+pic 4 tics 5
+
+texture x_swr1
+
+pic 1 tics 5
+pic 2 tics 5
+pic 3 tics 5
+
+
+texture x_fac01
+pic 1 tics 5
+pic 2 tics 5
+pic 3 tics 5
+pic 4 tics 5
+pic 3 tics 5
+pic 2 tics 5
+
+flat x_012
+pic 1 rand 4 6
+pic 2 rand 4 6
+pic 3 rand 4 6
+pic 4 rand 4 6
+pic 5 rand 4 6
+
+texture x_fac09
+pic 1 tics 5
+pic 2 tics 5
+pic 3 tics 5
+pic 4 tics 5
+
+texture gear0A
+pic 1 tics 12
+pic 2 tics 12
+
+texture gear02
+pic 1 tics 6
+pic 2 tics 6
+pic 3 tics 6
+pic 4 tics 6
+
+texture clock01
+pic 1 tics 160
+pic 2 tics 160
+pic 3 tics 160
+pic 4 tics 160
+pic 5 tics 160
+pic 6 tics 160
+pic 7 tics 160
+pic 8 tics 160
+
+texture clock11
+pic 1 tics 20
+pic 2 tics 20
+pic 3 tics 20
+pic 4 tics 20
+pic 5 tics 20
+pic 6 tics 20
+pic 7 tics 20
+pic 8 tics 20
+
+flat f_084
+pic 1 rand 4 6
+pic 2 rand 4 6
+pic 3 rand 4 6
+pic 4 rand 4 6
+pic 5 rand 4 6
+
+warp texture ACIDPACH
+warp texture ACIDPAC2
+
+//Elder
+warp2 texture FIREMATE 0.5
+warp2 texture EYE1_1 0.16
+warp2 texture ELAVA
+warp2 texture EYE1_2 0.16
+
+switch ELRU1OF on sound RuneSwitch pic ELRU1ON tics 0
+switch ELRU2OF on sound RuneSwitch pic ELRU2ON tics 0
+switch ELRU3OF on sound RuneSwitch pic ELRU3ON tics 0
+switch ELRU4OF on sound RuneSwitch pic ELRU4ON tics 0 off sound EMPTY pic ELRU4OF tics 0
+switch ROCKSWIT on sound RuneSwitch pic ROCKSWI2 tics 0 off sound EMPTY pic ROCKSWIT tics 0
+
+//The Bad Place
+warp2 flat QALAV01 
+
+//Sight
+Flat TEALW1 Range TEALW4 Tics 8
+Texture	BSONW01 Range BSONW11 Tics 3
+Texture	EAGLW01 Range EAGLW11 Tics 3
+Texture	BEARW01 Range BEARW11 Tics 3
+Texture	TFALL1 Range TFALL4 Tics 8
+Texture	ILLUM01 Range ILLUM08 Tics 2
+
+
+
+// hexen switches, for the entire hexen texture pack
+switch SW_1_UP on sound Switch1 pic SW_1_DN tics 0
+switch SW_2_UP on sound Switch1 pic SW_2_DN tics 0
+switch VALVE1 on sound ValveTurn pic VALVE2 tics 0
+switch SW51_OFF on sound Switch2 pic SW51_ON tics 0
+switch SW52_OFF on sound Switch2 pic SW52_ON tics 0
+switch SW53_UP on sound RopePull pic SW53_DN tics 0
+switch PUZZLE5 on sound Switch1 pic PUZZLE9 tics 0
+switch PUZZLE6 on sound Switch1 pic PUZZLE10 tics 0
+switch PUZZLE7 on sound Switch1 pic PUZZLE11 tics 0
+switch PUZZLE8 on sound Switch1 pic PUZZLE12 tics 0
+
+
+
+// Marathon Textures
+warp texture M2_LAV13
+warp texture M2_PHF06
+warp texture M2_SEW14
+warp2 texture M2_WAT20
+warp texture MI_JJA14
+warp texture MI_LAV13
+warp texture MI_PHF06
+warp texture MI_SEW14
+warp2 texture MI_WAT20
+
+
+
+// Adrenix Textures, for Placebo Effect
+texture WFALL_11 range WFALL_15 tics 4
+
+
+
+
+
+
+
+
+
+
+
+
+// "Too much brown" texture pack
+Switch TSW4A on pic TSW4B tics 0
+Switch TMTLSW1A on pic TMTLSW1B tics 0
+Switch TMTLSW2A on pic TMTLSW2B tics 0
+Switch TMTLSW3A on pic TMTLSW3B tics 0 
+Switch T2SW01A on pic T2SW01B tics 0
+Switch T2SW02A on pic T2SW02B tics 0
+
+warp flat TLAVFL0
+warp flat TSLIMEFL
+warp flat TWARP01
+warp flat TWARP02
+warp flat TWARP03
+warp flat TWARP04
+
+texture THEDWL1A
+   allowdecals
+   pic THEDWL1A tics 5
+   pic THEDWL1B tics 5
+   pic THEDWL1C tics 5
+   pic THEDWL1D tics 5
+   pic THEDWL1C tics 5
+   pic THEDWL1B tics 5
+   
+texture TLIGWL1A
+  allowdecals
+  pic TLIGWL1A tics 5
+  pic TLIGWL1B tics 5
+  pic TLIGWL1C tics 5
+  pic TLIGWL1D tics 5
+  pic TLIGWL1E tics 5
+  pic TLIGWL1D tics 5
+  pic TLIGWL1C tics 5
+  pic TLIGWl1B tics 5
+
+
+
+
+
+// For Rapha's ledge
+texture RALE01
+  pic RALE01 tics 5
+  pic RALE02 tics 5
+  pic RALE03 tics 5
+  pic RALE04 tics 5
+  pic RALE05 tics 5
+  pic RALE06 tics 5
+  pic RALE07 tics 5
+  pic RALE08 tics 5
+  pic RALE09 tics 5
+  pic RALE10 tics 14
+  pic RALE09 tics 5
+  pic RALE08 tics 5
+  pic RALE07 tics 5
+  pic RALE06 tics 5
+  pic RALE05 tics 5
+  pic RALE04 tics 5
+  pic RALE03 tics 5
+  pic RALE02 tics 5
+  
+ // Jumppads, sprites by Franco Tieppo
+  texture JPADBLU1
+  pic JPADBLU1 tics 8
+  pic JPADBLU2 tics 4
+  pic JPADBLU3 tics 4
+  pic JPADBLU4 tics 4
+  pic JPADBLU5 tics 6
+  pic JPADBLU4 tics 4
+  pic JPADBLU3 tics 4
+  pic JPADBLU2 tics 4
+  
+  texture JPADGRE1
+  pic JPADGRE1 tics 8
+  pic JPADGRE2 tics 4
+  pic JPADGRE3 tics 4
+  pic JPADGRE4 tics 4
+  pic JPADGRE5 tics 6
+  pic JPADGRE4 tics 4
+  pic JPADGRE3 tics 4
+  pic JPADGRE2 tics 4
+  
+    texture JPADORG1
+  pic JPADORG1 tics 8
+  pic JPADORG2 tics 4
+  pic JPADORG3 tics 4
+  pic JPADORG4 tics 4
+  pic JPADORG5 tics 6
+  pic JPADORG4 tics 4
+  pic JPADORG3 tics 4
+  pic JPADORG2 tics 4
+  
+    texture JPADRED1
+  pic JPADRED1 tics 8
+  pic JPADRED2 tics 4
+  pic JPADRED3 tics 4
+  pic JPADRED4 tics 4
+  pic JPADRED5 tics 6
+  pic JPADRED4 tics 4
+  pic JPADRED3 tics 4
+  pic JPADRED2 tics 4
+  
+    texture JPADYEL1
+  pic JPADYEL1 tics 8
+  pic JPADYEL2 tics 4
+  pic JPADYEL3 tics 4
+  pic JPADYEL4 tics 4
+  pic JPADYEL5 tics 6
+  pic JPADYEL4 tics 4
+  pic JPADYEL3 tics 4
+  pic JPADYEL2 tics 4
+
+  
+  
+  // Blood texture pack, by Ceeb
+
+texture ECG_1 range ECG_4 tics 3 //electrocardiogram
+texture PORT_1 range PORT_4 tics 8 oscillate //aging portrait
+texture CLOCK_1 range CLOCK_5 tics 6 oscillate //grandfather clock
+texture LTR_1 range LTR_3 tics 6 //left-to-right lights
+texture SLOTS_1 range SLOTS_4 tics 4 //slot machine
+texture TRAIN_1 range TRAIN_4 tics 3 //train wheels
+texture WHEEL1 range WHEEL2 tics 2 //wheel
+texture SAW1_1 range SAW1_3 tics 2 //sawblade
+texture SAW2_1 range SAW2_3 tics 2 //bloody sawblade
+texture SAW3_1 range SAW3_3 tics 2 //blood spurt for sawblade
+texture SWAXE_1 range SWAXE_7 TICS 8 //swinging axe
+texture FAN_1 range FAN_3 tics 4 //fan
+texture SGATE_1 range SGATE_3 tics 5 //stargate thingy :D
+texture TORCH_01 range TORCH_04 rand 3 6 //wall torch
+texture FLAG_1 range FLAG_8 rand 4 6 //evil flag
+texture PORTAL_1 range PORTAL_4 tics 2 //black n white portal
+texture STEAM_1 range STEAM_4 tics 2 //steam
+texture CHN1_1 range CHN1_5 tics 6 oscillate //swinging chain
+texture CHN2_1 range CHN2_3 tics 3 //scrolling chain
+texture RAIN_1 range RAIN_8 tics 2 //rain falling
+texture SNOW_01 range SNOW_10 tics 6 //snow falling
+texture BUBBLE_1 range BUBBLE_4 rand 3 6 //rising bubbles
+texture BLKBUB_1 range BLKBUB_4 rand 3 6 //idle bubbles
+texture BDRIP_1 range BDRIP_8 rand 4 8 //dripping blood
+texture ZAP_1 range ZAP_3 tics 2 //electricity
+texture WIRE_1 range WIRE_3 rand 3 5 //live wires
+texture SPIKE_1 range SPIKE_8 tics 4 //spinning spike trap
+texture GARGLOW1 range GARGLOW3 tics 8 oscillate //glowing gargoyle face
+texture SQUIRM_1 range SQUIRM_4 tics 4 //something squirming 
+texture SNAKES_1 range SNAKES_4 tics 4 //motherfuckin snakes
+texture BWAT_01 range BWAT_10 tics 4 //water
+texture BWT2_1 range BWT2_9 tics 4 //more water
+texture BWT3_1 range BWT3_5 tics 4 //are ya thirsty yet?
+texture SHALLOW1 range SHALLOW7 tics 4 //water over bricks
+texture POOP_1 range POOP_7 tics 8 //lol eeeew
+texture BLPOO2_1 range BLPOO2_4 tics 8 //what a wonderful smell I've discovered...
+texture POOFAL_1 range POOFAL_5 tics 3 //double eeeeew!
+texture RED_1 range RED_8 tics 3 //red energy or liquid
+texture BLSLDG_1 
+  pic BLSLDG_1 tics 8
+  pic BLSLDG_2 tics 8
+  pic BLSLDG_3 tics 8
+  pic BLSLDG_4 tics 8
+  pic BLSLDG_5 tics 8
+  pic BLSLDG_6 tics 8
+  pic BLSLDG_7 tics 8
+  
+//Blood splashy water for "the edge" map
+ warp texture BWAT_SPL
+  
+//--------------------------------------------------------------
+//--------------------------------------------------------------
+// Delirium
+//--------------------------------------------------------------
+//--------------------------------------------------------------
+  
+texture OFALLB01
+pic OFALLB01 tics 2
+pic OFALLB02 tics 2
+pic OFALLB03 tics 2
+pic OFALLB04 tics 2
+pic OFALLB05 tics 2
+pic OFALLB06 tics 2
+pic OFALLB07 tics 2
+pic OFALLB08 tics 2
+
+//warp2 Flat OBLODA01 0.5
+Flat OBLODA01
+pic OBLODA01 tics 2
+pic OBLODA02 tics 2
+pic OBLODA03 tics 2
+pic OBLODA04 tics 2
+pic OBLODA05 tics 2
+pic OBLODA06 tics 2
+pic OBLODA07 tics 2
+pic OBLODA08 tics 2
+
+texture OCOMPA90
+pic OCOMPA90 tics 2
+pic OCOMPA91 tics 2
+pic OCOMPA9A tics 2
+pic OCOMPA9B tics 2
+pic OCOMPA9C tics 2
+pic OCOMPA9D tics 2
+pic OCOMPA9E tics 2
+pic OCOMPA9F tics 2
+pic OCOMPA9G tics 2
+pic OCOMPA9H tics 2
+pic OCOMPA9I tics 2
+pic OCOMPA9J tics 2
+pic OCOMPA9K tics 2
+pic OCOMPA9L tics 2
+pic OCOMPA9M tics 2
+pic OCOMPA9N tics 2
+
+texture OCOMPA91
+pic OCOMPA91 tics 2
+pic OCOMPA9A tics 2
+pic OCOMPA9B tics 2
+pic OCOMPA9C tics 2
+pic OCOMPA9D tics 2
+pic OCOMPA9E tics 2
+pic OCOMPA9F tics 2
+pic OCOMPA9G tics 2
+pic OCOMPA9H tics 2
+pic OCOMPA9I tics 2
+pic OCOMPA9J tics 2
+pic OCOMPA9K tics 2
+pic OCOMPA9L tics 2
+pic OCOMPA9M tics 2
+pic OCOMPA9N tics 2
+pic OCOMPA90 tics 2
+
+texture OCOMPA9A
+pic OCOMPA9A tics 2
+pic OCOMPA9B tics 2
+pic OCOMPA9C tics 2
+pic OCOMPA9D tics 2
+pic OCOMPA9E tics 2
+pic OCOMPA9F tics 2
+pic OCOMPA9G tics 2
+pic OCOMPA9H tics 2
+pic OCOMPA9I tics 2
+pic OCOMPA9J tics 2
+pic OCOMPA9K tics 2
+pic OCOMPA9L tics 2
+pic OCOMPA9M tics 2
+pic OCOMPA9N tics 2
+pic OCOMPA90 tics 2
+pic OCOMPA91 tics 2
+
+texture OCOMPA9B
+pic OCOMPA9B tics 2
+pic OCOMPA9C tics 2
+pic OCOMPA9D tics 2
+pic OCOMPA9E tics 2
+pic OCOMPA9F tics 2
+pic OCOMPA9G tics 2
+pic OCOMPA9H tics 2
+pic OCOMPA9I tics 2
+pic OCOMPA9J tics 2
+pic OCOMPA9K tics 2
+pic OCOMPA9L tics 2
+pic OCOMPA9M tics 2
+pic OCOMPA9N tics 2
+pic OCOMPA90 tics 2
+pic OCOMPA91 tics 2
+pic OCOMPA9A tics 2
+
+texture OCOMPA9C
+pic OCOMPA9C tics 2
+pic OCOMPA9D tics 2
+pic OCOMPA9E tics 2
+pic OCOMPA9F tics 2
+pic OCOMPA9G tics 2
+pic OCOMPA9H tics 2
+pic OCOMPA9I tics 2
+pic OCOMPA9J tics 2
+pic OCOMPA9K tics 2
+pic OCOMPA9L tics 2
+pic OCOMPA9M tics 2
+pic OCOMPA9N tics 2
+pic OCOMPA90 tics 2
+pic OCOMPA91 tics 2
+pic OCOMPA9A tics 2
+pic OCOMPA9B tics 2
+
+texture OCOMPA9D
+pic OCOMPA9D tics 2
+pic OCOMPA9E tics 2
+pic OCOMPA9F tics 2
+pic OCOMPA9G tics 2
+pic OCOMPA9H tics 2
+pic OCOMPA9I tics 2
+pic OCOMPA9J tics 2
+pic OCOMPA9K tics 2
+pic OCOMPA9L tics 2
+pic OCOMPA9M tics 2
+pic OCOMPA9N tics 2
+pic OCOMPA90 tics 2
+pic OCOMPA91 tics 2
+pic OCOMPA9A tics 2
+pic OCOMPA9B tics 2
+pic OCOMPA9C tics 2
+
+texture OCOMPA9E
+pic OCOMPA9E tics 2
+pic OCOMPA9F tics 2
+pic OCOMPA9G tics 2
+pic OCOMPA9H tics 2
+pic OCOMPA9I tics 2
+pic OCOMPA9J tics 2
+pic OCOMPA9K tics 2
+pic OCOMPA9L tics 2
+pic OCOMPA9M tics 2
+pic OCOMPA9N tics 2
+pic OCOMPA90 tics 2
+pic OCOMPA91 tics 2
+pic OCOMPA9A tics 2
+pic OCOMPA9B tics 2
+pic OCOMPA9C tics 2
+pic OCOMPA9D tics 2
+
+texture OCOMPA9F
+pic OCOMPA9F tics 2
+pic OCOMPA9G tics 2
+pic OCOMPA9H tics 2
+pic OCOMPA9I tics 2
+pic OCOMPA9J tics 2
+pic OCOMPA9K tics 2
+pic OCOMPA9L tics 2
+pic OCOMPA9M tics 2
+pic OCOMPA9N tics 2
+pic OCOMPA90 tics 2
+pic OCOMPA91 tics 2
+pic OCOMPA9A tics 2
+pic OCOMPA9B tics 2
+pic OCOMPA9C tics 2
+pic OCOMPA9D tics 2
+pic OCOMPA9E tics 2
+
+texture OCOMPA9G
+pic OCOMPA9G tics 2
+pic OCOMPA9H tics 2
+pic OCOMPA9I tics 2
+pic OCOMPA9J tics 2
+pic OCOMPA9K tics 2
+pic OCOMPA9L tics 2
+pic OCOMPA9M tics 2
+pic OCOMPA9N tics 2
+pic OCOMPA90 tics 2
+pic OCOMPA91 tics 2
+pic OCOMPA9A tics 2
+pic OCOMPA9B tics 2
+pic OCOMPA9C tics 2
+pic OCOMPA9D tics 2
+pic OCOMPA9E tics 2
+pic OCOMPA9F tics 2
+
+texture OCOMPA9H
+pic OCOMPA9H tics 2
+pic OCOMPA9I tics 2
+pic OCOMPA9J tics 2
+pic OCOMPA9K tics 2
+pic OCOMPA9L tics 2
+pic OCOMPA9M tics 2
+pic OCOMPA9N tics 2
+pic OCOMPA90 tics 2
+pic OCOMPA91 tics 2
+pic OCOMPA9A tics 2
+pic OCOMPA9B tics 2
+pic OCOMPA9C tics 2
+pic OCOMPA9D tics 2
+pic OCOMPA9E tics 2
+pic OCOMPA9F tics 2
+pic OCOMPA9G tics 2
+
+texture OCOMPA9I
+pic OCOMPA9I tics 2
+pic OCOMPA9J tics 2
+pic OCOMPA9K tics 2
+pic OCOMPA9L tics 2
+pic OCOMPA9M tics 2
+pic OCOMPA9N tics 2
+pic OCOMPA90 tics 2
+pic OCOMPA91 tics 2
+pic OCOMPA9A tics 2
+pic OCOMPA9B tics 2
+pic OCOMPA9C tics 2
+pic OCOMPA9D tics 2
+pic OCOMPA9E tics 2
+pic OCOMPA9F tics 2
+pic OCOMPA9G tics 2
+pic OCOMPA9H tics 2
+
+texture OCOMPA9J
+pic OCOMPA9J tics 2
+pic OCOMPA9K tics 2
+pic OCOMPA9L tics 2
+pic OCOMPA9M tics 2
+pic OCOMPA9N tics 2
+pic OCOMPA90 tics 2
+pic OCOMPA91 tics 2
+pic OCOMPA9A tics 2
+pic OCOMPA9B tics 2
+pic OCOMPA9C tics 2
+pic OCOMPA9D tics 2
+pic OCOMPA9E tics 2
+pic OCOMPA9F tics 2
+pic OCOMPA9G tics 2
+pic OCOMPA9H tics 2
+pic OCOMPA9I tics 2
+
+texture OCOMPA9K
+pic OCOMPA9K tics 2
+pic OCOMPA9L tics 2
+pic OCOMPA9M tics 2
+pic OCOMPA9N tics 2
+pic OCOMPA90 tics 2
+pic OCOMPA91 tics 2
+pic OCOMPA9A tics 2
+pic OCOMPA9B tics 2
+pic OCOMPA9C tics 2
+pic OCOMPA9D tics 2
+pic OCOMPA9E tics 2
+pic OCOMPA9F tics 2
+pic OCOMPA9G tics 2
+pic OCOMPA9H tics 2
+pic OCOMPA9I tics 2
+pic OCOMPA9J tics 2
+
+texture OCOMPA9L
+pic OCOMPA9L tics 2
+pic OCOMPA9M tics 2
+pic OCOMPA9N tics 2
+pic OCOMPA90 tics 2
+pic OCOMPA91 tics 2
+pic OCOMPA9A tics 2
+pic OCOMPA9B tics 2
+pic OCOMPA9C tics 2
+pic OCOMPA9D tics 2
+pic OCOMPA9E tics 2
+pic OCOMPA9F tics 2
+pic OCOMPA9G tics 2
+pic OCOMPA9H tics 2
+pic OCOMPA9I tics 2
+pic OCOMPA9J tics 2
+pic OCOMPA9K tics 2
+
+texture OCOMPA9M
+pic OCOMPA9M tics 2
+pic OCOMPA9N tics 2
+pic OCOMPA90 tics 2
+pic OCOMPA91 tics 2
+pic OCOMPA9A tics 2
+pic OCOMPA9B tics 2
+pic OCOMPA9C tics 2
+pic OCOMPA9D tics 2
+pic OCOMPA9E tics 2
+pic OCOMPA9F tics 2
+pic OCOMPA9G tics 2
+pic OCOMPA9H tics 2
+pic OCOMPA9I tics 2
+pic OCOMPA9J tics 2
+pic OCOMPA9K tics 2
+pic OCOMPA9L tics 2
+
+texture OCOMPA9N
+pic OCOMPA9N tics 2
+pic OCOMPA90 tics 2
+pic OCOMPA91 tics 2
+pic OCOMPA9A tics 2
+pic OCOMPA9B tics 2
+pic OCOMPA9C tics 2
+pic OCOMPA9D tics 2
+pic OCOMPA9E tics 2
+pic OCOMPA9F tics 2
+pic OCOMPA9G tics 2
+pic OCOMPA9H tics 2
+pic OCOMPA9I tics 2
+pic OCOMPA9J tics 2
+pic OCOMPA9K tics 2
+pic OCOMPA9L tics 2
+pic OCOMPA9M tics 2
+
+warp2 Texture OHELLA12 0.16
+
+texture OBRCKU3D
+pic OBRCKU3D tics 3
+pic OBRCKU3E tics 3
+pic OBRCKU3F tics 3
+pic OBRCKU3G tics 3
+
+
+
+// Zenith Teleporter
+texture EQPORT1 range EQPORT5 tics 4
+
+
+
+
+
+//-------------------------------
+// Quake textures
+//I seem to have misplaced most of the liquid flats >_> not really a big deal, here's the cool ones
+warp2 texture QLAVA
+warp2 texture PWATER
+warp2 texture SLIPGATE
+
+texture WFALL_1 range WFALL_8 tics 2 //waterfall
+
+texture CANDLE_1 range CANDLE_3 rand 3 5 //candle-lit decoration
+
+texture GARG_1 range GARG_4 tics 7 oscillate //glowing gargoyle
+
+texture GLOW_1 range GLOW_5 tics 8 oscillate //glowing runes
+
+texture QSYMB1_1 range QSYMB1_3 tics 6 oscillate //glowing quake symbol
+
+texture QSYMB2_1 range QSYMB2_3 tics 6 oscillate //another glowing quake symbol
+
+texture SLATGL_1 //glowing grate
+  pic SLATGL_1 tics 8
+  pic SLATGL_2 tics 8
+  pic SLATGL_3 tics 8
+  pic SLATGL_4 tics 8
+  pic SLATGL_5 tics 8
+  pic SLATGL_6 tics 8
+  pic SLATGL_7 tics 8
+  
+  
+  
+  
+//-------------------------------
+// For heretic textures, special Dsparil dome animated sky
+texture HRSKY3A 
+  pic HRSKY3A tics 2
+  pic HRSKY3B tics 2
+  pic HRSKY3C tics 2
+  pic HRSKY3D tics 2
+  pic HRSKY3E tics 2
+  pic HRSKY3F tics 2
+  pic HRSKY3G tics 2
+  pic HRSKY3H tics 2
+  pic HRSKY3I tics 2
+  pic HRSKY3J tics 2
+  pic HRSKY3K tics 2
+  pic HRSKY3L tics 2
+  pic HRSKY3M tics 2
+  pic HRSKY3N tics 2
+  pic HRSKY3O tics 2
+  
+  //heretic water
+  warp2 texture HRTWAWA1
+  
+  
+//-------------------------------
+// Animated Duke3D textures for battleforged
+texture DTXB0081 range DTXB0083 tics 4
+texture DTXB0152 range DTXB0155 tics 2
+texture DTXC0115 range DTXC0118 tics 4
+texture DTXD0122 range DTXD0125 tics 3
+texture DTXI0048 range DTXI0051 tics 2

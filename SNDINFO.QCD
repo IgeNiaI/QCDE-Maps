@@ -1,0 +1,72 @@
+// Fortress in The Void
+world/quake/buttonpress				QBTNPRS
+world/quake/windambience			QWNDAMB
+world/bloodfall						BWTRFL
+$alias QAmbience1 world/quake/windambience
+
+$ambient 10 QAmbience1 point continuous 1.0
+
+PlatXST			PLAT1ST
+PlatXMID		PLAT1MID
+PlatXEND		PLAT1END
+
+// Monsoon
+$random qcde/thunder { qcde/thunder1 qcde/thunder2 qcde/thunder3 }
+qcde/thunder1 	THUNDER1
+qcde/thunder2 	THUNDER2
+qcde/thunder3 	THUNDER3
+
+// Elder
+GoldPickup			GOLDEKEY
+SilverPickup		SILVEKEY
+RuneSwitch			RUSWITCH
+GoldOpen			GOLDOP
+SilverOpen			SILVEOP
+DoorEnd				DOOREND
+Empty				EMPTY
+world/Lava			LAVALOOP
+world/RailgunRoom	RAILGR
+world/ObeliskRoom	OBELISK
+StoneRaise			STONERAI
+StoneEnd			STONEND
+ObeliskRaise		STONERAI
+$volume ObeliskRaise 0.3
+ObeliskEnd			STONEND
+$volume ObeliskEnd 	 0.3
+$alias QLava world/Lava
+$ambient 1 QLava point continuous 1.0
+$alias QRailgun world/RailgunRoom
+$ambient 2 QRailgun point continuous 1.0
+$alias QObelisk world/ObeliskRoom
+$ambient 4 QObelisk point continuous 1.0
+
+// Phrantic
+2gdStickMinus 2GDMINUS
+
+// Bad Place
+BPL/AmbientFire		AMBFIRE
+BPL/AmbientPortal	AMBPORT
+BPL/AmbientDrone	AMBDRNE
+BPL/AmbientBuzz		AMBBUZZ
+BPL/AmbientSuck		AMBSUCK
+BPL/AmbientComputer	AMBCOMP
+BPL/AmbientMarsh	AMBMRSH
+
+//Corrupted Station
+StayinAlive			STAYLIVE
+$rolloff StayinAlive 400 700
+
+// Delirium
+SHODAN	SHODAN
+LiftStart	LIFTSTAR
+LiftEnd		LIFTEND
+
+// Gibel Complex
+DBTlore	DBTlore
+DBTsumm DBTsumm
+
+// Battleforged
+DukiNukiTheme			DUKITHM
+
+// Rankin
+Ambient/Rain	AMBRAIN

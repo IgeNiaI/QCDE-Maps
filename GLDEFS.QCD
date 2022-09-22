@@ -1,0 +1,185 @@
+skybox aerowalk
+{
+MARS_N
+MARS_E
+MARS_S
+MARS_W
+MARS_T
+MARS_B
+}
+
+skybox TOXSKY
+{
+MARS_N
+MARS_E
+MARS_S
+MARS_W
+MARS_T
+MARS_B
+}
+
+skybox VERTSKY
+{
+VERT_N
+VERT_E
+VERT_S
+VERT_W
+VERT_T
+VERT_B
+}
+
+skybox sinisky //fliptop
+{
+RUINS_N
+RUINS_E
+RUINS_S
+RUINS_W
+RUINS_T
+RUINS_B
+}
+
+skybox KEEPSKY
+{
+KEEP_N
+KEEP_E
+KEEP_S
+KEEP_W
+KEEP_T
+KEEP_B
+}
+
+
+
+Glow
+{
+	Flats
+	{
+		EYE1_1
+		EYE1_2
+		ELAVA
+		GRAVE11
+		ADEL_RR2
+		CHSMF209
+		AL_FLR5E
+		CHSMF01E
+	}
+	Texture "EYE1_1", 		3bd547, 	140
+	Texture "EYE1_2", 		3bd547, 	260
+	Texture "GRAVE11", 		3bd547, 	140
+	Texture "ADEL_RR2", 	3bd547, 	140
+	Texture "AL_FLR5E", 	3bd547, 	140
+	Texture "CHSMF01E", 	3bd547, 	420
+	Texture "CHSMF02E", 	3bd547, 	140
+	Texture "ELAVA", 		FF0000, 	 80
+}
+
+
+brightmap texture QALAV01
+{
+	map "textures/QALAV01X.png"
+}
+
+brightmap texture QFTEL01
+{
+	map "textures/QFTEL01X.png"
+}
+
+brightmap texture QTELFOG1
+{
+	map "textures/QTELFOG1.tga"
+}
+
+brightmap texture QTELFOG2
+{
+	map "textures/QTELFOG2.tga"
+}
+
+brightmap texture QRLIT09
+{
+	map "textures/QRLIT09X.png"
+}
+
+brightmap texture QRMET48
+{
+	map "textures/QRMET48X.png"
+}
+
+
+
+//-----------
+// For placebo effect, textures pieced together from System shock 2
+// texture and bmaps by DBT
+
+brightmap texture PLAEFBIG { map "Graphics/BMAPS/PLAEFBIG.png" }
+brightmap texture PLAEFBI2 { map "Graphics/BMAPS/PLAEFBI2.png" }
+brightmap texture PLAEFBI3 { map "Graphics/BMAPS/PLAEFBI3.png" }
+brightmap texture PLAEFBI4 { map "Graphics/BMAPS/PLAEFBI4.png" }
+brightmap texture PLAEFBI5 { map "Graphics/BMAPS/PLAEFBI5.png" }
+brightmap texture PLAEFBI6 { map "Graphics/BMAPS/PLAEFBI6.png" }
+
+
+//-----------
+//Skybox "big gun" for "Excavation"
+skybox Q2BIGGUN
+{
+Q2BG_ft
+Q2BG_lf
+Q2BG_bk
+Q2BG_rt
+Q2BG_up
+Q2BG_dn
+}
+
+//-----------
+//Skybox for Delirium
+skybox deliriumsky fliptop
+{
+DLAND_N
+DLAND_E
+DLAND_S
+DLAND_W
+DLAND_T
+DLAND_B
+}
+
+
+//-----------
+//Skybox for zenith
+skybox "ORBIT"
+{
+ORBIT_N
+ORBIT_E
+ORBIT_S
+ORBIT_W
+ORBIT_T
+ORBIT_B
+}
+
+Glow
+{
+Texture ALLBLACK, 000000, 160
+}
+
+//-----------
+//Skybox for morpheus/deck
+skybox MRPSKY fliptop
+{
+MRPSKY_N
+MRPSKY_E
+MRPSKY_S
+MRPSKY_W
+MRPSKY_T
+MRPSKY_B
+}
+
+//-----------
+//Skybox for Helix, textures from HL
+skybox HLixSky
+{
+HLSKY1_N
+HLSKY1_E
+HLSKY1_S
+HLSKY1_W
+HLSKY1_U
+HLSKY1_D
+}

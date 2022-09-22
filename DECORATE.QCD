@@ -1,0 +1,1736 @@
+//Decorate file of "Fortress In The Void"
+
+//torches
+ACTOR NeonBaseTallTorch
+{
+	Game Doom
+	Game Heretic
+	Game Hexen
+	Radius 16
+	Height 68
+	+SOLID
+	+USESPECIAL
+	States
+	{
+	Spawn:
+		TWHI ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR NeonBaseShortTorch
+{
+  //$Category Light sources
+  //$Title "Short White Torch"
+	Game Doom
+	Game Heretic
+	Game Hexen
+	Radius 16
+	Height 37
+	+SOLID
+	+USESPECIAL
+	States
+	{
+	Spawn:
+		SMWT ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR Red2TorchNeon : NeonBaseTallTorch 10549
+{
+  //$Category Light sources
+  //$Title "Tall Red2 Torch"
+	States
+	{
+	Spawn:
+		TRD2 ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR OrangeTorchNeon : NeonBaseTallTorch 10524
+{
+  //$Category Light sources
+  //$Title "Tall Orange Torch"
+	States
+	{
+	Spawn:
+		TORA ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR YellowTorchNeon : NeonBaseTallTorch 5152
+{
+  //$Category Light sources
+  //$Title "Tall Yellow Torch"
+	States
+	{
+	Spawn:
+		TYEL ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR ChartreuseTorchNeon : NeonBaseTallTorch 10535
+{
+  //$Category Light sources
+  //$Title "Tall Chartreuse Torch"
+	States
+	{
+	Spawn:
+		TCHA ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR SpringGreenTorchNeon : NeonBaseTallTorch 10536
+{
+  //$Category Light sources
+  //$Title "Tall Spring Green Torch"
+	States
+	{
+	Spawn:
+		TTEA ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR CyanTorchNeon : NeonBaseTallTorch 10537
+{
+  //$Category Light sources
+  //$Title "Tall Cyan Torch"
+	States
+	{
+	Spawn:
+		TCYA ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR AzureTorchNeon : NeonBaseTallTorch 10551
+{
+  //$Category Light sources
+  //$Title "Tall Azure Torch"
+	States
+	{
+	Spawn:
+		TAZU ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR IndigoTorchNeon : NeonBaseTallTorch 10538
+{
+  //$Category Light sources
+  //$Title "Tall Indigo Torch"
+	States
+	{
+	Spawn:
+		TIND ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR PurpleTorchNeon : NeonBaseTallTorch 10539
+{
+  //$Category Light sources
+  //$Title "Tall Purple Torch"
+	States
+	{
+	Spawn:
+		TPUR ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR MagentaTorchNeon : NeonBaseTallTorch 10526
+{
+  //$Category Light sources
+  //$Title "Tall Magenta Torch"
+	States
+	{
+	Spawn:
+		TVIO ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR RoseTorchNeon : NeonBaseTallTorch 10540
+{
+  //$Category Light sources
+  //$Title "Tall Rose Torch"
+	States
+	{
+	Spawn:
+		TFUC ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR PinkTorchNeon : NeonBaseTallTorch 10541
+{
+  //$Category Light sources
+  //$Title "Tall Pink Torch"
+	States
+	{
+	Spawn:
+		TPIN ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR WhiteTorchNeon : NeonBaseTallTorch 5150
+{
+  //$Category Light sources
+  //$Title "Tall White Torch"
+	States
+	{
+	Spawn:
+		TWHI ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR BlackTorchNeon : NeonBaseTallTorch 10525
+{
+  //$Category Light sources
+  //$Title "Tall Black Torch"
+	States
+	{
+	Spawn:
+		TBLA ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+//short torches
+ACTOR ShortRed2TorchNeon : NeonBaseShortTorch 10550
+{
+  //$Category Light sources
+  //$Title "Short Red2 Torch"
+	States
+	{
+	Spawn:
+		SMRD ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR ShortOrangeTorchNeon : NeonBaseShortTorch 10527
+{
+  //$Category Light sources
+  //$Title "Short Orange Torch"
+	States
+	{
+	Spawn:
+		SMOT ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR ShortYellowTorchNeon : NeonBaseShortTorch 5153
+{
+  //$Category Light sources
+  //$Title "Short Yellow Torch"
+	States
+	{
+	Spawn:
+		SMYT ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR ShortChartreuseTorchNeon : NeonBaseShortTorch 10542
+{
+  //$Category Light sources
+  //$Title "Short Chartreuse Torch"
+	States
+	{
+	Spawn:
+		SMHT ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR ShortSpringGreenTorchNeon : NeonBaseShortTorch 10543
+{
+  //$Category Light sources
+  //$Title "Short Spring Green Torch"
+	States
+	{
+	Spawn:
+		SMTT ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR ShortCyanTorchNeon : NeonBaseShortTorch 10544
+{
+  //$Category Light sources
+  //$Title "Short Cyan Torch"
+	States
+	{
+	Spawn:
+		SMCT ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR ShortAzureTorchNeon : NeonBaseShortTorch 10552
+{
+  //$Category Light sources
+  //$Title "Short Azure Torch"
+	States
+	{
+	Spawn:
+		SMAT ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+//'SMIT' is taken by a doom decoration
+ACTOR ShortIndigoTorchNeon : NeonBaseShortTorch 10545
+{
+  //$Category Light sources
+  //$Title "Short Indigo Torch"
+	States
+	{
+	Spawn:
+		SMIO ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR ShortPurpleTorchNeon : NeonBaseShortTorch 10546
+{
+  //$Category Light sources
+  //$Title "Short Purple Torch"
+	States
+	{
+	Spawn:
+		SMUT ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR ShortRoseTorchNeon : NeonBaseShortTorch 10547
+{
+  //$Category Light sources
+  //$Title "Short Rose Torch"
+	States
+	{
+	Spawn:
+		SMFT ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR ShortPinkTorchNeon : NeonBaseShortTorch 10548
+{
+  //$Category Light sources
+  //$Title "Short Pink Torch"
+	States
+	{
+	Spawn:
+		SMPT ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR ShortMagentaTorchNeon : NeonBaseShortTorch 10529
+{
+  //$Category Light sources
+  //$Title "Short Magenta Torch"
+	States
+	{
+	Spawn:
+		SMVT ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR ShortWhiteTorchNeon : NeonBaseShortTorch 5151
+{
+  //$Category Light sources
+  //$Title "Short White Torch"
+	States
+	{
+	Spawn:
+		SMWT ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+ACTOR ShortBlackTorchNeon : NeonBaseShortTorch 10528
+{
+  //$Category Light sources
+  //$Title "Short Black Torch"
+	States
+	{
+	Spawn:
+		SMLT ABCD 4 BRIGHT
+		Loop
+	}
+}
+
+
+// Decorate file of "quake_badplace.wad" by Rocket_Man
+// Removed definition of the Quakestuff mod and added doomednums
+// to ambient sounds -DBT
+
+// Ambient Sounds
+
+ACTOR AmbientFire 14190
+{
+	Radius 16
+	Height 32
+	RenderStyle "None"
+	+NOBLOCKMAP
+	States
+	{
+	Spawn:
+		HDB1 A -1 NODELAY A_PlaySound ("BPL/AmbientFire",1,0.7,1)
+		Stop
+	}
+}
+
+ 
+ACTOR AmbientPortal 14191
+{
+	Radius 16
+	Height 32
+	RenderStyle "None"
+	+NOBLOCKMAP
+	States
+	{
+	Spawn:
+		HDB1 A -1 NODELAY A_PlaySound ("BPL/AmbientPortal",1,0.7,1)
+		Stop
+	}
+}
+
+
+
+ACTOR AmbientDrone 14192
+{
+	Radius 16
+	Height 32
+	RenderStyle "None"
+	+NOBLOCKMAP
+	States
+	{
+	Spawn:
+		HDB1 A -1 NODELAY A_PlaySound ("BPL/AmbientDrone",1,0.7,1)
+		Stop
+	}
+}
+
+ACTOR AmbientBuzz 14193
+{
+	Radius 16
+	Height 32
+	RenderStyle "None"
+	+NOBLOCKMAP
+	States
+	{
+	Spawn:
+		HDB1 A -1 NODELAY A_PlaySound ("BPL/AmbientBuzz",1,0.7,1)
+		Stop
+	}
+}
+
+ACTOR AmbientSuck 14194
+{
+	Radius 16
+	Height 32
+	RenderStyle "None"
+	+NOBLOCKMAP
+	States
+	{
+	Spawn:
+		HDB1 A -1 NODELAY A_PlaySound ("BPL/AmbientSuck",1,0.7,1)
+		Stop
+	}
+}
+
+ACTOR AmbientComputer 14195
+{
+	Radius 16
+	Height 32
+	RenderStyle "None"
+	+NOBLOCKMAP
+	States
+	{
+	Spawn:
+		HDB1 A -1 NODELAY A_PlaySound ("BPL/AmbientComputer",1,0.7,1)
+		Stop
+	}
+}
+
+
+
+
+ACTOR AmbientMarsh 14196
+{
+	Radius 16
+	Height 32
+	RenderStyle "None"
+	+NOBLOCKMAP
+	States
+	{
+	Spawn:
+		HDB1 A -1 NODELAY A_PlaySound ("BPL/AmbientMarsh",1,0.7,1)
+		Stop
+	}
+}
+
+// Decorate file of "Lockbox" by DBThanatos
+
+Actor LockboxSucker 16521
+{
+	+NOINTERACTION
+	States
+	{
+	Spawn:
+		TNT1 A 10
+		TNT1 A 0 A_RadiusThrust(-32,160,RTF_NOIMPACTDAMAGE)
+		Loop
+	}
+}
+
+// Decorate file of "Elder" by Ivory Duke
+
+Actor "QSilverKey": CustomInventory 17000
+{
+	+BRIGHT
+	+INVENTORY.NEVERRESPAWN
+	Inventory.PickupMessage "Picked up the Silver Key"
+	Inventory.PickupSound "SilverPickup"
+	Height 64
+	Tag "Silver Key"
+	States
+	{
+	Spawn:
+		KEY1 A 0
+	Idle:
+		KEY1 A -1
+		Wait
+	Pickup:
+		KEY1 A 0 A_GiveInventory("SilverToken",1)
+		Stop
+	}
+}
+
+Actor "GoldenKey": CustomInventory 17001
+{
+	+BRIGHT
+	+INVENTORY.NEVERRESPAWN
+	Inventory.PickupMessage "Picked up the Golden Key"
+	Inventory.PickupSound "GoldPickup"
+	Height 64
+	Tag "Golden Key"
+	States
+	{
+	Spawn:
+		KEY1 A 35 NoDelay
+		KEY1 A 35
+		KEY1 A 0 ACS_NamedExecuteWithResult("RemoveGoldenKeyIfDuel")
+		KEY1 A 35
+	Idle:
+		KEY1 A -1
+		Wait
+	Pickup:
+		KEY1 A 0 A_GiveInventory("GoldenToken",1)
+		Stop
+	}
+}
+
+Actor "SilverToken": Inventory
+{}
+
+Actor "GoldenToken": Inventory
+{}
+
+Actor "YouGoodBro": Inventory
+{}
+
+ACTOR ElderSlope	17002
+{
+	Radius 32 
+	Height 16
+	Scale 0.2
+	+NODAMAGE
+	+NOGRAVITY
+	+NOCLIP
+	States
+	{
+	Spawn:
+		EMPT A 1
+		Loop
+	}
+}
+
+
+ACTOR ElderPlatform	17007
+{
+	+SOLID
+	+NOGRAVITY
+	Radius 32
+	Height 8
+	Scale 0.1
+	States
+	{
+	Spawn:
+		EMPT A 1
+		Loop
+	}
+}
+
+ACTOR ElderPlatform32	17008
+{
+	+SOLID
+	+NOGRAVITY
+	Radius 16
+	Height 8
+	Scale 0.1
+	States
+	{
+	Spawn:
+		EMPT A 1
+		Loop
+	}
+}
+
+
+ACTOR PillarEasyJump1	17010
+{
+	+SOLID
+	Radius 32
+	Height 1
+	Scale 0.1
+	States
+	{
+	Spawn:
+		EMPT A 1
+		Loop
+	}
+}
+
+ACTOR PillarEasyJump2	17011
+{
+	+SOLID
+	Radius 40
+	Height 1
+	Scale 0.1
+	States
+	{
+	Spawn:
+		EMPT A 1
+		Loop
+	}
+}
+
+
+Actor SarnathToken1 : Inventory
+{	
+	Inventory.InterHubAmount 0 
+	Inventory.MaxAmount 1
+}
+
+Actor SarnathToken2 : SarnathToken1	{}
+Actor SarnathToken3 : SarnathToken1	{}
+Actor SarnathToken4 : SarnathToken1	{}
+Actor SarnathPuzzleSolved : SarnathToken1	{}
+
+
+
+
+
+//--------------------------------------------------------------------------------
+//		BLOOD (game) Decorations
+//--------------------------------------------------------------------------------
+Actor BloodBaseNonBlockingDeco
+{
+	Radius 10
+	Height 20
+	+NOINTERACTION
+	+CLIENTSIDEONLY
+	-SOLID
+	+FORCEYBILLBOARD
+}
+
+
+
+Actor BloodDeco_Sculpt : BloodBaseNonBlockingDeco 
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Stone abstract sclupt (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA A -1
+		Stop
+	}
+}
+
+Actor BloodDeco_Tree1 : BloodBaseNonBlockingDeco 16582
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Tree 1 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA B -1
+		Stop
+	}
+}
+
+Actor BloodDeco_Tree2 : BloodBaseNonBlockingDeco 16583
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Tree 2 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA C -1
+		Stop
+	}
+}
+Actor BloodDeco_Tree3 : BloodBaseNonBlockingDeco 16584
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Tree 3 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA D -1
+		Stop
+	}
+}
+Actor BloodDeco_Tree4 : BloodBaseNonBlockingDeco 16585
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Tree 4 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA E -1
+		Stop
+	}
+}
+Actor BloodDeco_Tree5 : BloodBaseNonBlockingDeco 16586
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Tree 5 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA F -1
+		Stop
+	}
+}
+Actor BloodDeco_Tree6 : BloodBaseNonBlockingDeco 16587
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Tree 6 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA G -1
+		Stop
+	}
+}
+Actor BloodDeco_Tree7 : BloodBaseNonBlockingDeco 16588
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Tree 7 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA H -1
+		Stop
+	}
+}
+Actor BloodDeco_Tree8 : BloodBaseNonBlockingDeco 16589
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Tree 8 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA I -1
+		Stop
+	}
+}
+
+Actor BloodDeco_Tree9 : BloodBaseNonBlockingDeco 16590
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Tree 9 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECB S -1
+		Stop
+	}
+}
+
+Actor BloodDeco_FloorTorch : BloodBaseNonBlockingDeco 16591
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Floor Torch (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA JKLM 4 Bright
+		Loop
+	}
+}
+
+
+Actor BloodDeco_Candle : BloodBaseNonBlockingDeco 16592
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Candle (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA N -1
+		Stop
+	}
+}
+
+
+Actor BloodDeco_Candelabra : BloodBaseNonBlockingDeco 16593
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Candelabra (No Block)"
+	+NOGRAVITY
+	+CEILINGHUGGER
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA O -1
+		Stop
+	}
+}
+
+Actor BloodDeco_SkullonPike : BloodBaseNonBlockingDeco 16594
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Skull on Pike (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA P -1
+		Stop
+	}
+}
+Actor BloodDeco_SkullHatchet : BloodBaseNonBlockingDeco 16595
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Skull w/Hatchet (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA Q -1
+		Stop
+	}
+}
+Actor BloodDeco_HeadPile : BloodBaseNonBlockingDeco 16596
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Head Pile (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA R -1
+		Stop
+	}
+}
+Actor BloodDeco_VasePlant : BloodBaseNonBlockingDeco 16597
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Plant on Vase (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA S -1
+		Stop
+	}
+}
+Actor BloodDeco_SkullCandle : BloodBaseNonBlockingDeco 16598
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Candle on Skull (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA TUV 4 Bright
+		Loop
+	}
+}
+
+Actor BloodDeco_3CandlesShort : BloodBaseNonBlockingDeco 16599
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood 3 Candles Short (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECA WXYZ 4 Bright
+		Loop
+	}
+}
+
+
+Actor BloodDeco_3CandlesTall : BloodBaseNonBlockingDeco 16600
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood 3 Candles Tall (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECB ABCD 4 Bright
+		Loop
+	}
+}
+
+
+Actor BloodDeco_Coil : BloodBaseNonBlockingDeco 16601
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Coil (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECB EFG 4 Bright
+		Loop
+	}
+}
+Actor BloodDeco_StoneStatue: BloodBaseNonBlockingDeco 16602
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Stone Statue (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECB H -1
+		Stop
+	}
+}
+Actor BloodDeco_HoodedCandleStatue : BloodBaseNonBlockingDeco 16603
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Hooded Candle Statue (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECB I -1 Bright
+		Stop
+	}
+}
+Actor BloodDeco_WallLamp : BloodBaseNonBlockingDeco 16604
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Wall Lamp (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECB J -1 Bright
+		Stop
+	}
+}
+Actor BloodDeco_DeadCivilian : BloodBaseNonBlockingDeco 16605
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Dead Civilian (No Block)"
+	Scale 0.55
+	-FORCEYBILLBOARD
+	States
+	{
+	Spawn:
+		DECB K -1
+		Stop
+	}
+}
+
+Actor BloodDeco_HangZombie : BloodBaseNonBlockingDeco 16606
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Hang Zombie Swing (No Block)"
+	Scale 1.0
+	+CEILINGHUGGER
+	States
+	{
+	Spawn:
+		DECB LMN 8
+		Loop
+	}
+}
+Actor BloodDeco_HangWebbedVictim : BloodBaseNonBlockingDeco 16607
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Hang Webb'd (No Block)"
+	Scale 1.0
+	+CEILINGHUGGER
+	States
+	{
+	Spawn:
+		DECB O -1
+		Stop
+	}
+}
+Actor BloodDeco_HangVictim1 : BloodBaseNonBlockingDeco 16608
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Hang Victim 1 (No Block)"
+	Scale 1.0
+	+CEILINGHUGGER
+	States
+	{
+	Spawn:
+		DECB P -1
+		Stop
+	}
+}
+Actor BloodDeco_HangVictim2 : BloodBaseNonBlockingDeco 16609
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Hang Victim 2 (No Block)"
+	Scale 1.0
+	+CEILINGHUGGER
+	States
+	{
+	Spawn:
+		DECB Q -1
+		Stop
+	}
+}
+Actor BloodDeco_HangVictim3 : BloodBaseNonBlockingDeco 16610
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Hang Victim 3 (No Block)"
+	Scale 1.0
+	+CEILINGHUGGER
+	States
+	{
+	Spawn:
+		DECB R -1
+		Stop
+	}
+}
+Actor BloodDeco_HangLamp : BloodBaseNonBlockingDeco 16611
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Hanging Lamp (No Block)"
+	Scale 1.0
+	+CEILINGHUGGER
+	States
+	{
+	Spawn:
+		DECB T -1 Bright
+		Stop
+	}
+}
+
+Actor BloodDeco_HangVictim4 : BloodBaseNonBlockingDeco 16612
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Hang Victim 4 (No Block)"
+	Scale 1.0
+	+CEILINGHUGGER
+	States
+	{
+	Spawn:
+		DECB U -1
+		Stop
+	}
+}
+
+Actor BloodDeco_BushGreen : BloodBaseNonBlockingDeco 16613
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Bush Green (No Block)"
+	Scale 1.0
+	-FORCEYBILLBOARD
+	States
+	{
+	Spawn:
+		DECB V -1
+		Stop
+	}
+}
+
+Actor BloodDeco_BushBrown : BloodBaseNonBlockingDeco 16614
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Bush Brown (No Block)"
+	Scale 1.0
+	-FORCEYBILLBOARD
+	States
+	{
+	Spawn:
+		DECB W -1
+		Stop
+	}
+}
+
+Actor BloodDeco_HangVictim5 : BloodBaseNonBlockingDeco 16615
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Hang Victim 5 (No Block)"
+	Scale 1.0
+	+CEILINGHUGGER
+	States
+	{
+	Spawn:
+		DECB X -1
+		Stop
+	}
+}
+
+Actor BloodDeco_HangVictim6 : BloodBaseNonBlockingDeco 16616
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Hang Victim 6 (No Block)"
+	Scale 1.0
+	+CEILINGHUGGER
+	States
+	{
+	Spawn:
+		DECB Y -1
+		Stop
+	}
+}
+
+Actor BloodDeco_HangVictim7 : BloodBaseNonBlockingDeco 16617
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Hang Victim 6 (No Block)"
+	Scale 1.0
+	+CEILINGHUGGER
+	States
+	{
+	Spawn:
+		DECB Z -1
+		Stop
+	}
+}
+
+
+Actor BloodDeco_SkullPikeTall : BloodBaseNonBlockingDeco 16618
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Skull on Pike Tall (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECC A -1
+		Stop
+	}
+}
+
+
+Actor BloodDeco_WallTorch1 : BloodBaseNonBlockingDeco 16619
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood WallTorch 1 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECC BCDE 4 Bright
+		Loop
+	}
+}
+
+Actor BloodDeco_WallTorch2 : BloodBaseNonBlockingDeco 16620
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood WallTorch 2 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECC FGHI 4 Bright
+		Loop
+	}
+}
+
+Actor BloodDeco_CeilingTorch2 : BloodBaseNonBlockingDeco 16621
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Ceiling Torch (No Block)"
+	Scale 1.0
+	+CEILINGHUGGER
+	States
+	{
+	Spawn:
+		DECC JKLM 4 Bright
+		Loop
+	}
+}
+
+Actor BloodDeco_FloorLampTall : BloodBaseNonBlockingDeco 16622
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Floor Lamp Tall (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		DECC N -1 Bright
+		Stop
+	}
+}
+
+Actor BloodDeco_Bucket : BloodBaseNonBlockingDeco 16623
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Bucket (No Block)"
+	Scale 0.65
+	-FORCEYBILLBOARD
+	States
+	{
+	Spawn:
+		DECC O -1 Bright
+		Stop
+	}
+}
+
+//---------------------------------------------
+//---------------------------------------------
+// Molten falls map deco
+Actor MoltenFallsBlackHole : BloodBaseNonBlockingDeco 16624
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Skybox Blackhole (MoltenFalls)"
+	Scale 0.9
+	Alpha 0.4
+	-FORCEYBILLBOARD
+	+FORCEXYBILLBOARD
+	States
+	{
+	Spawn:
+		TNT1 A 0 NODELAY A_Jump(255,8,16,24,32)
+		DB61 ABCDEFGHIJKLMNOPQRSTUVWXYZ 3 
+		DB62 ABCDEFGHIJKLMNOPQRSTUVWXYZ 3 
+		Goto Spawn+1
+	}
+}
+
+
+Actor BloodDeco_WetSign : BloodBaseNonBlockingDeco 16625
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Wet Floor (No Block)"
+	Scale 0.5
+	States
+	{
+	Spawn:
+		DECC P -1 
+		Stop
+	}
+}
+
+
+//---------------------------------------------
+//---------------------------------------------
+//Corrupted keep easter egg
+Actor CorrupedDiscoBall : SwitchableDecoration 16626
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Disco Ball (easter egg)"
+	+NOINTERACTION
+	-SOLID
+	Scale 0.22
+	+FORCEXYBILLBOARD
+	States
+	{
+	Spawn:
+	Inactive:
+		TNT1 A 10
+		Loop
+	Active:
+		DISB ABCDEFGHIJKL 3 
+		Loop
+	}
+}
+
+Actor BloodDeco_Freshner : BloodBaseNonBlockingDeco 16627
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Air Freshner (No Block)"
+	Scale 1.1
+	States
+	{
+	Spawn:
+		DECC SRQR 7
+		Loop
+	}
+}
+
+Actor BloodDeco_Barrel : BloodBaseNonBlockingDeco 16628
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Barrel (No Block)"
+	-FORCEYBILLBOARD
+	Scale 0.5
+	States
+	{
+	Spawn:
+		DECC T 7
+		Loop
+	}
+}
+
+Actor BloodDeco_BarrelZombie : BloodBaseNonBlockingDeco 16629
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Barrel Zombie (No Block)"
+	-FORCEYBILLBOARD
+	Scale 0.5
+	States
+	{
+	Spawn:
+		DECC U 7
+		Loop
+	}
+}
+
+Actor BloodDeco_BarrelWaste : BloodBaseNonBlockingDeco 16630
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Barrel Waste (No Block)"
+	-FORCEYBILLBOARD
+	Scale 0.65
+	States
+	{
+	Spawn:
+		DECC V 7
+		Loop
+	}
+}
+
+Actor BloodDeco_HangTechLampOFF : BloodBaseNonBlockingDeco 16631
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Hanging Tech Lamp (OFF)"
+	Scale 0.75
+	+CEILINGHUGGER
+	States
+	{
+	Spawn:
+		DECC W -1 
+		Stop
+	}
+}
+
+Actor BloodDeco_HangTechLampOn : BloodBaseNonBlockingDeco 16632
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Hanging Tech Lamp (ON)"
+	Scale 0.75
+	+CEILINGHUGGER
+	States
+	{
+	Spawn:
+		DECC X -1 Bright
+		Stop
+	}
+}
+
+Actor BloodDeco_HangTechLampFlick : BloodBaseNonBlockingDeco 16633
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Blood Hanging Tech Lamp (Flicker)"
+	Scale 0.75
+	+CEILINGHUGGER
+	States
+	{
+	Spawn:
+		DECC X 10 Light("WhiteMediumPoint2")
+		DECC X 0 A_Jump(16,"OFFerer")
+		Loop
+	OFFerer:
+		DECC W 5
+		Goto Spawn
+	}
+}
+
+Actor BloodDeco_AreaDamager 16634
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Invisible Area Damager (128mu rad)"
+	+NOCLIP
+	+NODAMAGETHRUST
+	Obituary "%o should've stayed away from cursed places."
+	States
+	{
+	Spawn:
+		TNT1 A 35 NODELAY A_Explode(10,128)
+		Loop
+	}
+}
+
+
+//--------------------------------------------------------------------------------
+//		Half life Decorations
+//--------------------------------------------------------------------------------
+
+Actor HLdeco_Zombie : BloodBaseNonBlockingDeco 16635
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "HL Zombie"
+	Scale 0.29
+	States
+	{
+	Spawn:
+		HLEI A -1
+		Stop
+	}
+}
+Actor HLdeco_Vort : BloodBaseNonBlockingDeco 16636
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "HL Vortigaunt"
+	Scale 0.385
+	States
+	{
+	Spawn:
+		HLFI A -1
+		Stop
+	}
+}
+Actor HLdeco_Grunt : BloodBaseNonBlockingDeco 16637
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "HL Grunt"
+	Scale 0.425
+	States
+	{
+	Spawn:
+		HLOI A -1
+		Stop
+	}
+}
+
+Actor HLdeco_Controller : BloodBaseNonBlockingDeco 16638
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "HL Controller"
+	Scale 0.5
+	States
+	{
+	Spawn:
+		HLCA A -1
+		Stop
+	}
+}
+
+Actor HLdeco_Gonome : BloodBaseNonBlockingDeco 16639
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "HL Gonome"
+	Scale 0.39
+	States
+	{
+	Spawn:
+		HLHI A -1
+		Stop
+	}
+}
+
+Actor HLdeco_Gargantua : BloodBaseNonBlockingDeco 16640
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "HL Gargantua"
+	Scale 0.72
+	States
+	{
+	Spawn:
+		HL0I A -1
+		Stop
+	}
+}
+
+Actor HLdeco_Nihilant : BloodBaseNonBlockingDeco 16641
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "HL Nihilant (bobs)"
+    Scale 1.2
+	+FLOATBOB
+	States
+	{
+	Spawn:
+		HLLI A -1
+		Stop
+	}
+}
+
+Actor HLdeco_WanderingHeadcrab  16642
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "HL Headcrab wanderer"
+    Height 40
+    Radius 16
+	Scale 0.28
+	Speed 8
+    States
+    {
+    Spawn:
+		HLBW ABCDEFG 5 A_Wander
+		Loop
+	}
+}
+
+
+Actor HLdeco_HEVsuit : BloodBaseNonBlockingDeco 16644
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "HL HEVs uit"
+	Scale 0.43
+	States
+	{
+	Spawn:
+		HLHE A -1 BRIGHT
+		Stop
+	}
+}
+
+Actor Hertcdeco_DsparilStatue : BloodBaseNonBlockingDeco 16643
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Dsparil Statue"
+	Scale 5.0
+	Translation "0:255=%[0,0,0]:[0.85,0.85,0.85]"
+	States
+	{
+	Spawn:
+		ZOR2 R -1
+		Stop
+	}
+}
+
+// Rankin
+
+//Place the RainDropSpawner on your map, and use values set on the specials tab to modify it
+
+//The first argument controls it's area. 128, for example makes it a 256x256 square or 256-radius circle (See fourth argument)
+//The second argument controls it's frequency. The lower the number, the heavier the rainfall
+//The third argument controls the area type. 0 is a square, 1 is a circle
+
+Actor RainSpawner 20000
+{
+  Radius 1
+  Height 1
+  +NoClip
+  +ClientSideOnly
+  +SpawnCeiling
+  +NoGravity
+  States
+  {
+  Spawn:
+    TNT1 A 0
+    TNT1 A 0 A_JumpIf(Args[2] > 0, "Circle")
+    TNT1 A 2 A_SpawnItemEx("RainDrop", Random(-Args[0], Args[0]), Random(-Args[0], Args[0]), 0, 0, 0, 0, 0, 128, Args[1])
+    Loop
+  Circle:
+    TNT1 A 2 A_SpawnItemEx("RainDrop", Random(-Args[0], Args[0]), 0, 0, 0, 0, 0, Random(0, 360), 128, Args[1])
+  }
+}
+
+Actor RainDrop
+{
+  +Missile
+  +NoBlockMap
+  -NoGravity
+  Height 2
+  Radius 2
+  Renderstyle Translucent
+  Alpha 0.6
+  Scale 2.0
+  States
+  {
+  Spawn:
+    RNDR A 1 A_JumpIf(WaterLevel > 0, "Death")
+    Loop
+  Death:
+    RNDR BCDEFGH 3 A_FadeOut(0.15)
+    Stop
+  }
+}
+
+Actor RainSound 20001
+{
+  Radius 1
+  Height 1
+  +NoClip
+  +ClientSideOnly
+  +NoGravity
+  States
+  {
+  Spawn:
+    TNT1 A 0
+    TNT1 A 2 A_PlaySoundEx("Ambient/Rain", "SoundSlot7", 1)
+  Looper:
+    TNT1 A 2
+    Loop
+  }
+}

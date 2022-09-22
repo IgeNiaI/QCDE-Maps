@@ -1,0 +1,433 @@
+//Map by DBThanatos
+map QCDE01 "Blood Covenant"
+{
+	Music = "QCDEM01"
+	sky1 = "QCDSky01", 0.5
+	UsePlayerStartZ
+	Next = "QCDE02"
+}
+
+//Map by DBThanatos
+map QCDE02 "Toxjcity"
+{
+	Music = "QCDEM02"
+	sky1 = "TOXSKY"
+	UsePlayerStartZ
+	Next = "QCDE03"
+}
+
+//Map by DBThanatos
+map QCDE03 "The Chasm"
+{
+	Music = QCDEM03
+	UsePlayerStartZ
+	Next = "QCDE04"
+}
+
+//Map by MrEnchanter
+map QCDE04 "Bitterman's Revenge"
+{
+	Music = QCDEM04
+	UsePlayerStartZ
+	Next = "QCDE05"
+	sky1 = "SKY1B"
+}
+
+//Map by Ivan Dobrovski
+map QCDE05 "Fortress in the Void"
+{
+	Music = QCDEM05
+	UsePlayerStartZ
+	Next = "QCDE06"
+}
+
+//map by RoosTer
+map QCDE06 "Vertical Vengeance"
+{
+	Music = QCDEM06
+	UsePlayerStartZ	
+	sky1 = VERTSKY, 0
+	Next = "QCDE07"
+}
+
+//map by RoosTer
+map QCDE07 "Morpheus"
+{
+	Music = QCDEM07
+	UsePlayerStartZ	
+	sky1 = "MRPSKY"
+	Next = "QCDE08"
+}
+
+//map by DBThanatos
+map QCDE08 "Furious Heights"
+{
+	Music = QCDEM08
+	UsePlayerStartZ	
+	sky1 = HDRKSKY1, 0.1
+	Next = "QCDE09"
+}
+
+//map by RoosTer
+map QCDE09 "Lost World"
+{
+	Music = QCDEM09
+	UsePlayerStartZ	
+	sky1 = "LOSTSKY", 0.4
+	Next = "QCDE10"
+}
+
+//map by DBThanatos
+map QCDE10 "Cure"
+{
+	Music = QCDEM10
+	UsePlayerStartZ	
+	sky1 = "CURESKY", 0.0
+	Next = "QCDE11"
+}
+
+//map by DBThanatos
+map QCDE11 "Monsoon"
+{
+	Music = QCDEM11
+	Lightning
+	Sky1 = "MONSKY1", 0.5
+	Sky2 = "MONSKY2", 0.5
+	UsePlayerStartZ
+	Next = "QCDE12"
+}
+
+//map by RoosTer
+map QCDE12 "Phobos Campgrounds"
+{
+	Music = QCDEM12
+	UsePlayerStartZ	
+	sky1 = "CAMPSKY", 0
+	Next = "QCDE13"
+}
+
+
+//Map by Ivan Dobrovski
+map QCDE13 "Sight"
+{
+	Music = QCDEM13
+	sky1 = "SITESKY"
+	UsePlayerStartZ
+	Next = "QCDE14"
+}
+
+//map by RoosTer
+map QCDE14 "Stubborn"
+{
+	Music = QCDEM14
+	UsePlayerStartZ	
+	sky1 = "VERTSKY"
+	fogdensity = "24"
+	skyfog = "1"
+	Next = "QCDE15"
+}
+
+//Map by DBThanatos
+map QCDE15 "House Of Decay"
+{
+	Music = QCDEM15
+	UsePlayerStartZ
+	Next = "QCDE16"
+}
+
+//map by DBThanatos & Ivan Dobrovski
+map QCDE16 "Sinister"
+{
+	Music = QCDEM16
+	UsePlayerStartZ	
+	sky1 = sinisky
+	Next = "QCDE17"
+}
+
+//map by DBThanatos
+map QCDE17 "Lockbox"
+{
+	Music = QCDEM17
+	UsePlayerStartZ	
+	Next = "QCDE18"
+	sky1 = "SKY1"
+}
+
+
+//map by Ivory Duke
+map QCDE18 "Elder"
+{
+	Music = QCDEM18
+	UsePlayerStartZ
+	sky1 = sinisky
+	Next = "QCDE19"
+}
+
+//map by DBThanatos
+map QCDE19 "Corrupted Station"
+{
+	Music = QCDEM19
+	sky1 = "KEEPSKY"
+	UsePlayerStartZ
+	Next = "QCDE20"
+}
+
+//map by RoosTer
+map QCDE20 "Deck"
+{
+	Music = QCDEM20
+	UsePlayerStartZ	
+	sky1 = "MRPSKY"
+	Next = "QCDE21"
+}
+
+//map by RoosTer
+map QCDE21 "Almost Lost"
+{
+	Music = QCDEM21
+	UsePlayerStartZ	
+	sky1 = "LOSTSKY", 0.45
+	Next = "QCDE22"
+}
+
+//map by DBThanatos
+map QCDE22 "Sarnath"
+{
+	Music = QCDEM22
+	sky1 = "SKY1", 0.2
+	UsePlayerStartZ
+	Next = "QCDE23"
+}
+
+//map by DBThanatos
+map QCDE23 "Lh'owon of Ice and Fire"
+{
+	UsePlayerStartZ
+	Music = QCDEM23
+	sky1 = "MAR_SKY1"
+	Next = "QCDE24"
+}
+
+//map by DBThanatos
+map QCDE24 "Vale of Pnath"
+{
+	Music = QCDEM24
+	sky1 = sinisky
+	UsePlayerStartZ
+	Next = "QCDE25"
+}
+
+map QCDE25 "Quarantine"
+{
+	Music = QCDEM25
+	UsePlayerStartZ	
+	sky1 = "QUARSKY", 0.03
+	Next = "QCDE26"
+}
+
+
+//map by DBThanatos
+map QCDE26 "Lh'owoken"
+{
+	Music = QCDEM26
+	sky1 = "MAR_SKY2"
+	UsePlayerStartZ
+	Next = "QCDE27"
+}
+
+//map by DBThanatos
+map QCDE27 "Placebo Effect"
+{
+	UsePlayerStartZ
+	Music = QCDEM27
+	sky1 = "MRPSKY", 0.2
+	Next = "QCDE28"
+}
+
+//map by DBThanatos
+map QCDE28 "Molten Falls"
+{
+	Music = QCDEM28
+	sky1 = "BSKY_2"
+	UsePlayerStartZ
+	Next = "QCDE29"
+}
+
+//Map by DBThanatos
+map QCDE29 "Blood Run"
+{
+	Music = QCDEM29
+	sky1 = POSNSKY3, 0.15
+	UsePlayerStartZ
+	Next = "QCDE30"
+}
+
+//map by DBThanatos
+map QCDE30 "Gibel Complex"
+{
+	Music = QCDEM30
+	UsePlayerStartZ
+	Next = "QCDE31"
+}
+
+//map by DBThanatos
+map QCDE31 "Excavation"
+{
+	Music = QCDEM31
+	sky1 = Q2BIGGUN
+	UsePlayerStartZ
+	Next = "QCDE32"
+}
+
+//map by Ivory Duke
+map QCDE32 "Delirium"
+{
+	Music = QCDEM32
+	sky1 = deliriumsky
+	SkyStretch
+	UsePlayerStartZ
+	Next = "QCDE33"
+}
+
+//map by DBThanatos
+map QCDE33 "Silence"
+{
+	Music = QCDEM33
+	sky1 = "SILENSKY"
+	UsePlayerStartZ
+	Next = "QCDE34"
+}
+
+//map by Killerkouhai
+map QCDE34 "Zenith"
+{
+	Music = QCDEM34
+	sky1 = ORBIT, 0.1
+	UsePlayerStartZ
+	Next = "QCDE35"
+}
+
+//map by DBThanatos
+map QCDE35 "The Edge"
+{
+	Music = QCDEM35
+	sky1 = "EdgySun"
+	UsePlayerStartZ
+	Next = "QCDE36"
+}
+
+//map by DBThanatos
+map QCDE36 "Fusillade"
+{
+	Music = QCDEM36
+	sky1 = "HRSKY3A"
+	UsePlayerStartZ
+	Next = "QCDE37"
+}
+
+//map by DBThanatos & Ivan Dobrovski
+map QCDE37 "Dukiforged"
+{
+	Music = QCDEM37
+	UsePlayerStartZ
+	Next = "QCDE38"
+}
+
+
+//map by DBThanatos
+map QCDE38 "Helix"
+{
+	Music = QCDEM38
+	sky1 = "HLixSky"
+	UsePlayerStartZ
+	Next = "QCDE39"
+}
+
+
+//map by geNia
+map QCDE39 "Arcane Temple"
+{
+	Music = "QCDEM39"
+	sky1 = "QCDSky01", 0.5
+	UsePlayerStartZ
+	Next = "QCDE40"
+}
+
+
+//map by geNia
+map QCDE40 "Rankin"
+{
+	Music = "QCDEM40"
+	Sky1 = "MONSKY1", 0.5
+	Sky2 = "MONSKY2", 0.5
+	UsePlayerStartZ
+	Next = "QCDE01"
+}
+
+
+//---------------------------------------------------
+// DUEL EXCLUSIVE MAPS
+//---------------------------------------------------
+
+
+//Map by Mr.Rocket
+map QCDL01 "The Bad Place"
+{
+	Music = "QCDLM01"
+	DoubleSky
+	Sky1 = "QSKY01", 0.5
+	Sky2 = "QSKY02", 1
+	UsePlayerStartZ
+	Next = "QCDL02"
+}
+
+
+//map by RoosTer
+map QCDL02 "Aerowalk"	//Edited version, bigger
+{
+	Music = QCDLM02
+	UsePlayerStartZ	
+	sky1 = aerowalk
+	Next = "QCDL03"
+}
+
+	
+//map by RoosTer
+map QCDL03 "Fatal Instinct"
+{
+	UsePlayerStartZ	
+	sky1 = "FATASKY" 
+	fogdensity = "128"
+	skyfog = "1"
+	Music = "QCDLM03"
+	Next = "QCDL04"
+}
+
+//Map by DBThanatos
+map QCDL04 "Phrantic"
+{
+	Music = "QCDLM04"
+	sky1 = "QCDSky12", 0.05
+	UsePlayerStartZ
+	Next = "QCDL01"
+}
+
+
+
+
+
+//---------------------------------------------------
+// Meme maps, which for some reason or another fell
+// out of grace. You can still play them if you want
+// tho
+//---------------------------------------------------
+
+//Map by Abysswalker "Credits to MrRocket for the inspiration to do this map!"
+//DBT note: It's a nice map, but people hate longest yard all around :(
+map QCME01 "The Longest Yard"
+{
+	Music = QCMEM01
+	sky1 = "BLKW", 0.1
+	UsePlayerStartZ
+	Next = "QCDE01"
+}

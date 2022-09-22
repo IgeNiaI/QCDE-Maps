@@ -1,0 +1,36 @@
+//Elder
+Model QSilverKey
+{ 
+	Path "MD3" 
+	SKIN 0 "SilverKey.tga" 
+	MODEL 0 "SilverKey.md3"
+	ROTATING
+	Rotation-Speed 2
+    Rotation-Vector 0 1 0
+	Offset 0 0 16
+	Scale 1.0 1.0 1.2
+	FrameIndex KEY1 A 0 0
+}
+
+Model GoldenKey
+{ 
+	Path "MD3" 
+	SKIN 0 "GoldenKey.tga" 
+	MODEL 0 "GoldenKey.md3"
+	ROTATING
+	Rotation-Speed 2
+    Rotation-Vector 0 1 0
+	Offset 0 0 16
+	Scale 1.0 1.0 1.2
+	FrameIndex KEY1 A 0 0
+}
+
+Model ElderSlope
+{ 
+	Path "MD3" 
+	SKIN 0 "Slope.png" 
+	MODEL 0 "Slope.md3"
+	Scale 5.0 5.0 6.0
+	FrameIndex EMPT A 0 0
+}
+

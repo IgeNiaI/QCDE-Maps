@@ -1,0 +1,53 @@
+//Fortress In The Void
+:HMGPlatform
+Platform	5
+	play		PlatXST
+	stopsound 	PlatXEND
+end
+
+//Vertical Vengeance
+[DoorNormal
+   Door 0
+   0   DoorOpenNormal
+   1   DoorCloseNormal
+   2   DoorOpenBlazing
+   3   DoorCloseBlazing
+]
+
+//Elder
+:SilverDoor
+	door		0
+	play		SilverOpen
+	stopsound 	DoorEnd
+end
+
+:GoldenDoor
+	door		1
+	play		GoldOpen
+	stopsound 	StoneEnd
+end
+
+:StoneRaise
+	Platform	2
+	playrepeat	StoneRaise
+	stopsound 	StoneEnd
+end
+
+:ObeliskRaise
+	Platform	3
+	playrepeat	ObeliskRaise
+	stopsound 	ObeliskEnd
+end
+
+:NoSound
+	Door		4
+	playrepeat	EMPTY
+	stopsound 	EMPTY
+end
+
+//Delirium
+:DeliriumLift
+	Platform	6
+	play		LiftStart
+	stopsound 	LiftEnd
+end
