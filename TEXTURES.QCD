@@ -1985,3 +1985,1022 @@ Texture "ELDARMR", 256, 256
 	Patch "ADEL_S54", 128, 0
 	Patch "ADEL_S54", 192, 0
 }
+
+Texture "OADCFB90", 256, 256
+{
+	Patch "OC0_50_0", 0, 0
+	Patch "OC0_11_0", 0, 160
+	Patch "OC0_18_4", 0, 128
+	Patch "OC0_1B_2", 0, 224
+}
+
+Texture "AQ63_192", 64, 192
+{
+	Patch "ADEL_Q62", 0, 0
+	Patch "ADEL_Q62", 0, 64
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 176
+}
+
+Texture "AQ63_180", 64, 180
+{
+	Patch "ADEL_Q62", 0, -12
+	Patch "ADEL_Q62", 0, 52
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 164
+}
+
+Texture "AQ63_168", 64, 168
+{
+	Patch "ADEL_Q62", 0, -24
+	Patch "ADEL_Q62", 0, 40
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 152
+}
+
+Texture "AQ63_156", 64, 156
+{
+	Patch "ADEL_Q62", 0, -36
+	Patch "ADEL_Q62", 0, 28
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 140
+}
+
+Texture "AQ63_144", 64, 144
+{
+	Patch "ADEL_Q62", 0, -48
+	Patch "ADEL_Q62", 0, 16
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 128
+}
+
+Texture "AQ63_132", 64, 132
+{
+	Patch "ADEL_Q62", 0, -60
+	Patch "ADEL_Q62", 0, 4
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 116
+}
+
+Texture "AQ63_120", 64, 120
+{
+	Patch "ADEL_Q62", 0, -8
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 104
+}
+
+Texture "AQ63_108", 64, 108
+{
+	Patch "ADEL_Q62", 0, -20
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 92
+}
+
+Texture "AQ63_100", 64, 100
+{
+	Patch "ADEL_Q62", 0, -28
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 84
+}
+
+Texture "AQ63_096", 64, 96
+{
+	Patch "ADEL_Q62", 0, -32
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 80
+}
+
+Texture "AQ63_090", 64, 90
+{
+	Patch "ADEL_Q62", 0, -38
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 74
+}
+
+Texture "AQ63_084", 64, 84
+{
+	Patch "ADEL_Q62", 0, -44
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 68
+}
+
+Texture "AQ63_080", 64, 80
+{
+	Patch "ADEL_Q62", 0, -48
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 64
+}
+
+Texture "AQ63_070", 64, 70
+{
+	Patch "ADEL_Q62", 0, -58
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 54
+}
+
+Texture "AQ63_060", 64, 60
+{
+	Patch "ADEL_Q62", 0, -68
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 44
+}
+
+Texture "AQ63_050", 64, 50
+{
+	Patch "ADEL_Q62", 0, -78
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 34
+}
+
+Texture "AQ63_048", 64, 48
+{
+	Patch "ADEL_Q62", 0, -80
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 32
+}
+
+Texture "AQ63_040", 64, 40
+{
+	Patch "ADEL_Q62", 0, -88
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 24
+}
+
+Texture "AQ63_036", 64, 36
+{
+	Patch "ADEL_Q62", 0, -92
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 20
+}
+
+Texture "AQ63_030", 64, 30
+{
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 14
+}
+
+Texture "AQ63_024", 64, 24
+{
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 8
+}
+
+Texture "AQ63_020", 64, 20
+{
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 4
+}
+
+Texture "MC_VINE2", 16, 32
+{
+	Patch "VINEVINE", 0, 0
+	Patch "VINEVINE", 0, 16
+}
+
+Texture "MC_VINE3", 16, 48
+{
+	Patch "VINEVINE", 0, 0
+	Patch "VINEVINE", 0, 16
+	Patch "VINEVINE", 0, 32
+}
+
+Texture "MC_VINE4", 16, 64
+{
+	Patch "VINEVINE", 0, 0
+	Patch "VINEVINE", 0, 16
+	Patch "VINEVINE", 0, 32
+	Patch "VINEVINE", 0, 48
+}
+
+Texture "MCCHAIN2", 6, 32
+{
+	Patch "MCCHAIN1", 0, 0
+	Patch "MCCHAIN1", 0, 16
+}
+
+Texture "COBLVINE", 16, 16
+{
+	Patch "MOSCOBST", 0, 0
+	Patch "VINEVINE", 0, 0
+}
+
+Texture "SMSTVINE", 16, 16
+{
+	Patch "SMTHSTON", 0, 0
+	Patch "VINEVINE", 0, 0
+}
+
+Texture "CHSTVINE", 16, 16
+{
+	Patch "CHISSTON", 0, 0
+	Patch "VINEVINE", 0, 0
+}
+
+Texture "MC_CBBLE", 256, 256
+{
+	Patch "MOSCOBST", 48, 0
+	Patch "MOSCOBST", 32, 16
+	Patch "MOSCOBST", 32, 32
+	Patch "MOSCOBST", 32, 48
+	Patch "MOSCOBST", 0, 96
+	Patch "MOSCOBST", 0, 144
+	Patch "MOSCOBST", 0, 112
+	Patch "MOSCOBST", 0, 176
+	Patch "MOSCOBST", 64, 192
+	Patch "MOSCOBST", 80, 144
+	Patch "MOSCOBST", 144, 144
+	Patch "MOSCOBST", 0, 192
+	Patch "MOSCOBST", 64, 208
+	Patch "MOSCOBST", 80, 160
+	Patch "MOSCOBST", 144, 160
+	Patch "MOSCOBST", 0, 208
+	Patch "MOSCOBST", 64, 224
+	Patch "MOSCOBST", 96, 240
+	Patch "MOSCOBST", 16, 224
+	Patch "MOSCOBST", 48, 240
+	Patch "MOSCOBST", 80, 176
+	Patch "MOSCOBST", 144, 176
+	Patch "MOSCOBST", 0, 160
+	Patch "MOSCOBST", 0, 80
+	Patch "MOSCOBST", 0, 128
+	Patch "MOSCOBST", 16, 64
+	Patch "MOSCOBST", 144, 48
+	Patch "MOSCOBST", 160, 64
+	Patch "MOSCOBST", 176, 80
+	Patch "MOSCOBST", 176, 96
+	Patch "MOSCOBST", 176, 112
+	Patch "MOSCOBST", 64, 0
+	Patch "MOSCOBST", 48, 16
+	Patch "MOSCOBST", 48, 32
+	Patch "MOSCOBST", 48, 48
+	Patch "MOSCOBST", 16, 96
+	Patch "MOSCOBST", 16, 144
+	Patch "MOSCOBST", 16, 112
+	Patch "MOSCOBST", 16, 176
+	Patch "MOSCOBST", 80, 192
+	Patch "MOSCOBST", 96, 144
+	Patch "MOSCOBST", 160, 144
+	Patch "MOSCOBST", 16, 192
+	Patch "MOSCOBST", 80, 208
+	Patch "MOSCOBST", 96, 160
+	Patch "MOSCOBST", 160, 160
+	Patch "MOSCOBST", 16, 208
+	Patch "MOSCOBST", 80, 224
+	Patch "MOSCOBST", 112, 240
+	Patch "MOSCOBST", 32, 224
+	Patch "MOSCOBST", 64, 240
+	Patch "MOSCOBST", 96, 176
+	Patch "MOSCOBST", 160, 176
+	Patch "MOSCOBST", 208, 176
+	Patch "MOSCOBST", 208, 192
+	Patch "MOSCOBST", 208, 208
+	Patch "MOSCOBST", 192, 224
+	Patch "MOSCOBST", 192, 240
+	Patch "MOSCOBST", 16, 160
+	Patch "MOSCOBST", 16, 80
+	Patch "MOSCOBST", 16, 128
+	Patch "MOSCOBST", 32, 64
+	Patch "MOSCOBST", 160, 48
+	Patch "MOSCOBST", 176, 64
+	Patch "MOSCOBST", 192, 80
+	Patch "MOSCOBST", 192, 96
+	Patch "MOSCOBST", 192, 112
+	Patch "MOSCOBST", 112, 0
+	Patch "MOSCOBST", 96, 16
+	Patch "MOSCOBST", 96, 32
+	Patch "MOSCOBST", 96, 48
+	Patch "MOSCOBST", 64, 96
+	Patch "MOSCOBST", 64, 112
+	Patch "MOSCOBST", 80, 128
+	Patch "MOSCOBST", 160, 128
+	Patch "MOSCOBST", 240, 128
+	Patch "MOSCOBST", 240, 160
+	Patch "MOSCOBST", 64, 80
+	Patch "MOSCOBST", 80, 64
+	Patch "MOSCOBST", 208, 48
+	Patch "MOSCOBST", 224, 64
+	Patch "MOSCOBST", 240, 80
+	Patch "MOSCOBST", 240, 96
+	Patch "MOSCOBST", 240, 112
+	Patch "MOSCOBST", 240, 144
+	Patch "MOSCOBST", 176, 0
+	Patch "MOSCOBST", 192, 16
+	Patch "MOSCOBST", 176, 32
+	Patch "MOSCOBST", 80, 0
+	Patch "MOSCOBST", 64, 16
+	Patch "MOSCOBST", 64, 32
+	Patch "MOSCOBST", 64, 48
+	Patch "MOSCOBST", 32, 96
+	Patch "MOSCOBST", 32, 112
+	Patch "MOSCOBST", 32, 176
+	Patch "MOSCOBST", 96, 192
+	Patch "MOSCOBST", 112, 144
+	Patch "MOSCOBST", 176, 144
+	Patch "MOSCOBST", 32, 192
+	Patch "MOSCOBST", 96, 208
+	Patch "MOSCOBST", 112, 160
+	Patch "MOSCOBST", 176, 160
+	Patch "MOSCOBST", 192, 160
+	Patch "MOSCOBST", 32, 208
+	Patch "MOSCOBST", 96, 224
+	Patch "MOSCOBST", 128, 240
+	Patch "MOSCOBST", 48, 224
+	Patch "MOSCOBST", 80, 240
+	Patch "MOSCOBST", 112, 176
+	Patch "MOSCOBST", 176, 176
+	Patch "MOSCOBST", 176, 192
+	Patch "MOSCOBST", 176, 208
+	Patch "MOSCOBST", 160, 224
+	Patch "MOSCOBST", 160, 240
+	Patch "MOSCOBST", 224, 176
+	Patch "MOSCOBST", 224, 192
+	Patch "MOSCOBST", 224, 208
+	Patch "MOSCOBST", 208, 224
+	Patch "MOSCOBST", 192, 176
+	Patch "MOSCOBST", 192, 192
+	Patch "MOSCOBST", 192, 208
+	Patch "MOSCOBST", 176, 224
+	Patch "MOSCOBST", 176, 240
+	Patch "MOSCOBST", 240, 176
+	Patch "MOSCOBST", 240, 192
+	Patch "MOSCOBST", 240, 208
+	Patch "MOSCOBST", 32, 160
+	Patch "MOSCOBST", 32, 80
+	Patch "MOSCOBST", 48, 64
+	Patch "MOSCOBST", 176, 48
+	Patch "MOSCOBST", 192, 64
+	Patch "MOSCOBST", 208, 80
+	Patch "MOSCOBST", 208, 96
+	Patch "MOSCOBST", 208, 112
+	Patch "MOSCOBST", 128, 0
+	Patch "MOSCOBST", 112, 16
+	Patch "MOSCOBST", 112, 32
+	Patch "MOSCOBST", 112, 48
+	Patch "MOSCOBST", 80, 96
+	Patch "MOSCOBST", 80, 112
+	Patch "MOSCOBST", 96, 128
+	Patch "MOSCOBST", 176, 128
+	Patch "MOSCOBST", 80, 80
+	Patch "MOSCOBST", 128, 64
+	Patch "MOSCOBST", 144, 80
+	Patch "MOSCOBST", 192, 0
+	Patch "MOSCOBST", 208, 16
+	Patch "MOSCOBST", 192, 32
+	Patch "MOSCOBST", 96, 0
+	Patch "MOSCOBST", 80, 16
+	Patch "MOSCOBST", 80, 32
+	Patch "MOSCOBST", 80, 48
+	Patch "MOSCOBST", 48, 96
+	Patch "MOSCOBST", 48, 112
+	Patch "MOSCOBST", 48, 176
+	Patch "MOSCOBST", 112, 192
+	Patch "MOSCOBST", 128, 144
+	Patch "MOSCOBST", 48, 192
+	Patch "MOSCOBST", 112, 208
+	Patch "MOSCOBST", 128, 160
+	Patch "MOSCOBST", 48, 208
+	Patch "MOSCOBST", 112, 224
+	Patch "MOSCOBST", 144, 240
+	Patch "MOSCOBST", 128, 176
+	Patch "MOSCOBST", 128, 192
+	Patch "MOSCOBST", 64, 128
+	Patch "MOSCOBST", 144, 128
+	Patch "MOSCOBST", 224, 128
+	Patch "MOSCOBST", 48, 80
+	Patch "MOSCOBST", 64, 64
+	Patch "MOSCOBST", 192, 48
+	Patch "MOSCOBST", 208, 64
+	Patch "MOSCOBST", 224, 80
+	Patch "MOSCOBST", 224, 96
+	Patch "MOSCOBST", 224, 112
+	Patch "MOSCOBST", 144, 0
+	Patch "MOSCOBST", 128, 16
+	Patch "MOSCOBST", 128, 32
+	Patch "MOSCOBST", 128, 48
+	Patch "MOSCOBST", 96, 96
+	Patch "MOSCOBST", 96, 112
+	Patch "MOSCOBST", 112, 128
+	Patch "MOSCOBST", 144, 64
+	Patch "MOSCOBST", 160, 80
+	Patch "MOSCOBST", 160, 96
+	Patch "MOSCOBST", 160, 112
+	Patch "MOSCOBST", 208, 0
+	Patch "MOSCOBST", 224, 16
+	Patch "MOSCOBST", 208, 32
+	Patch "COBLSTON", 0, 0
+	Patch "COBLSTON", 16, 0
+	Patch "COBLSTON", 32, 0
+	Patch "COBLSTON", 240, 0
+	Patch "COBLSTON", 224, 0
+	Patch "COBLSTON", 240, 16
+	Patch "COBLSTON", 240, 32
+	Patch "COBLSTON", 224, 32
+	Patch "COBLSTON", 240, 48
+	Patch "COBLSTON", 224, 48
+	Patch "COBLSTON", 240, 64
+	Patch "COBLSTON", 160, 0
+	Patch "COBLSTON", 160, 16
+	Patch "COBLSTON", 144, 16
+	Patch "COBLSTON", 176, 16
+	Patch "COBLSTON", 144, 32
+	Patch "COBLSTON", 160, 32
+	Patch "COBLSTON", 112, 64
+	Patch "COBLSTON", 96, 64
+	Patch "COBLSTON", 96, 80
+	Patch "COBLSTON", 112, 80
+	Patch "COBLSTON", 128, 80
+	Patch "COBLSTON", 112, 96
+	Patch "COBLSTON", 128, 96
+	Patch "COBLSTON", 144, 96
+	Patch "COBLSTON", 112, 112
+	Patch "COBLSTON", 128, 112
+	Patch "COBLSTON", 144, 112
+	Patch "COBLSTON", 128, 128
+	Patch "COBLSTON", 192, 128
+	Patch "COBLSTON", 208, 128
+	Patch "COBLSTON", 192, 144
+	Patch "COBLSTON", 208, 144
+	Patch "COBLSTON", 224, 144
+	Patch "COBLSTON", 208, 160
+	Patch "COBLSTON", 224, 160
+	Patch "COBLSTON", 240, 240
+	Patch "COBLSTON", 240, 224
+	Patch "COBLSTON", 224, 224
+	Patch "COBLSTON", 224, 240
+	Patch "COBLSTON", 208, 240
+	Patch "COBLSTON", 144, 192
+	Patch "COBLSTON", 160, 208
+	Patch "COBLSTON", 144, 208
+	Patch "COBLSTON", 128, 208
+	Patch "COBLSTON", 128, 224
+	Patch "COBLSTON", 144, 224
+	Patch "COBLSTON", 0, 240
+	Patch "COBLSTON", 0, 224
+	Patch "COBLSTON", 16, 240
+	Patch "COBLSTON", 32, 240
+	Patch "COBLSTON", 48, 128
+	Patch "COBLSTON", 32, 128
+	Patch "COBLSTON", 32, 144
+	Patch "COBLSTON", 48, 144
+	Patch "COBLSTON", 64, 144
+	Patch "COBLSTON", 48, 160
+	Patch "COBLSTON", 64, 160
+	Patch "COBLSTON", 64, 176
+	Patch "COBLSTON", 160, 192
+	Patch "COBLSTON", 0, 16
+	Patch "COBLSTON", 16, 16
+	Patch "COBLSTON", 0, 32
+	Patch "COBLSTON", 16, 32
+	Patch "COBLSTON", 0, 48
+	Patch "COBLSTON", 16, 48
+	Patch "COBLSTON", 0, 64
+}
+
+Texture "MC_BRICK", 256, 256
+{
+	Patch "MOSSTNBR", 48, 0
+	Patch "MOSSTNBR", 32, 16
+	Patch "MOSSTNBR", 32, 32
+	Patch "MOSSTNBR", 32, 48
+	Patch "MOSSTNBR", 0, 96
+	Patch "MOSSTNBR", 0, 144
+	Patch "MOSSTNBR", 0, 112
+	Patch "MOSSTNBR", 0, 176
+	Patch "MOSSTNBR", 64, 192
+	Patch "MOSSTNBR", 80, 144
+	Patch "MOSSTNBR", 144, 144
+	Patch "MOSSTNBR", 0, 192
+	Patch "MOSSTNBR", 64, 208
+	Patch "MOSSTNBR", 80, 160
+	Patch "MOSSTNBR", 144, 160
+	Patch "MOSSTNBR", 0, 208
+	Patch "MOSSTNBR", 64, 224
+	Patch "MOSSTNBR", 96, 240
+	Patch "MOSSTNBR", 16, 224
+	Patch "MOSSTNBR", 48, 240
+	Patch "MOSSTNBR", 80, 176
+	Patch "MOSSTNBR", 144, 176
+	Patch "MOSSTNBR", 0, 160
+	Patch "MOSSTNBR", 0, 80
+	Patch "MOSSTNBR", 0, 128
+	Patch "MOSSTNBR", 16, 64
+	Patch "MOSSTNBR", 144, 48
+	Patch "MOSSTNBR", 160, 64
+	Patch "MOSSTNBR", 176, 80
+	Patch "MOSSTNBR", 176, 96
+	Patch "MOSSTNBR", 176, 112
+	Patch "MOSSTNBR", 64, 0
+	Patch "MOSSTNBR", 48, 16
+	Patch "MOSSTNBR", 48, 32
+	Patch "MOSSTNBR", 48, 48
+	Patch "MOSSTNBR", 16, 96
+	Patch "MOSSTNBR", 16, 144
+	Patch "MOSSTNBR", 16, 112
+	Patch "MOSSTNBR", 16, 176
+	Patch "MOSSTNBR", 80, 192
+	Patch "MOSSTNBR", 96, 144
+	Patch "MOSSTNBR", 160, 144
+	Patch "MOSSTNBR", 16, 192
+	Patch "MOSSTNBR", 80, 208
+	Patch "MOSSTNBR", 96, 160
+	Patch "MOSSTNBR", 160, 160
+	Patch "MOSSTNBR", 16, 208
+	Patch "MOSSTNBR", 80, 224
+	Patch "MOSSTNBR", 112, 240
+	Patch "MOSSTNBR", 32, 224
+	Patch "MOSSTNBR", 64, 240
+	Patch "MOSSTNBR", 96, 176
+	Patch "MOSSTNBR", 160, 176
+	Patch "MOSSTNBR", 208, 176
+	Patch "MOSSTNBR", 208, 192
+	Patch "MOSSTNBR", 208, 208
+	Patch "MOSSTNBR", 192, 224
+	Patch "MOSSTNBR", 192, 240
+	Patch "MOSSTNBR", 16, 160
+	Patch "MOSSTNBR", 16, 80
+	Patch "MOSSTNBR", 16, 128
+	Patch "MOSSTNBR", 32, 64
+	Patch "MOSSTNBR", 160, 48
+	Patch "MOSSTNBR", 176, 64
+	Patch "MOSSTNBR", 192, 80
+	Patch "MOSSTNBR", 192, 96
+	Patch "MOSSTNBR", 192, 112
+	Patch "MOSSTNBR", 112, 0
+	Patch "MOSSTNBR", 96, 16
+	Patch "MOSSTNBR", 96, 32
+	Patch "MOSSTNBR", 96, 48
+	Patch "MOSSTNBR", 64, 96
+	Patch "MOSSTNBR", 64, 112
+	Patch "MOSSTNBR", 80, 128
+	Patch "MOSSTNBR", 160, 128
+	Patch "MOSSTNBR", 240, 128
+	Patch "MOSSTNBR", 240, 160
+	Patch "MOSSTNBR", 64, 80
+	Patch "MOSSTNBR", 80, 64
+	Patch "MOSSTNBR", 208, 48
+	Patch "MOSSTNBR", 224, 64
+	Patch "MOSSTNBR", 240, 80
+	Patch "MOSSTNBR", 240, 96
+	Patch "MOSSTNBR", 240, 112
+	Patch "MOSSTNBR", 240, 144
+	Patch "MOSSTNBR", 176, 0
+	Patch "MOSSTNBR", 192, 16
+	Patch "MOSSTNBR", 176, 32
+	Patch "MOSSTNBR", 80, 0
+	Patch "MOSSTNBR", 64, 16
+	Patch "MOSSTNBR", 64, 32
+	Patch "MOSSTNBR", 64, 48
+	Patch "MOSSTNBR", 32, 96
+	Patch "MOSSTNBR", 32, 112
+	Patch "MOSSTNBR", 32, 176
+	Patch "MOSSTNBR", 96, 192
+	Patch "MOSSTNBR", 112, 144
+	Patch "MOSSTNBR", 176, 144
+	Patch "MOSSTNBR", 32, 192
+	Patch "MOSSTNBR", 96, 208
+	Patch "MOSSTNBR", 112, 160
+	Patch "MOSSTNBR", 176, 160
+	Patch "MOSSTNBR", 192, 160
+	Patch "MOSSTNBR", 32, 208
+	Patch "MOSSTNBR", 96, 224
+	Patch "MOSSTNBR", 128, 240
+	Patch "MOSSTNBR", 48, 224
+	Patch "MOSSTNBR", 80, 240
+	Patch "MOSSTNBR", 112, 176
+	Patch "MOSSTNBR", 176, 176
+	Patch "MOSSTNBR", 176, 192
+	Patch "MOSSTNBR", 176, 208
+	Patch "MOSSTNBR", 160, 224
+	Patch "MOSSTNBR", 160, 240
+	Patch "MOSSTNBR", 224, 176
+	Patch "MOSSTNBR", 224, 192
+	Patch "MOSSTNBR", 224, 208
+	Patch "MOSSTNBR", 208, 224
+	Patch "MOSSTNBR", 192, 176
+	Patch "MOSSTNBR", 192, 192
+	Patch "MOSSTNBR", 192, 208
+	Patch "MOSSTNBR", 176, 224
+	Patch "MOSSTNBR", 176, 240
+	Patch "MOSSTNBR", 240, 176
+	Patch "MOSSTNBR", 240, 192
+	Patch "MOSSTNBR", 240, 208
+	Patch "MOSSTNBR", 32, 160
+	Patch "MOSSTNBR", 32, 80
+	Patch "MOSSTNBR", 48, 64
+	Patch "MOSSTNBR", 176, 48
+	Patch "MOSSTNBR", 192, 64
+	Patch "MOSSTNBR", 208, 80
+	Patch "MOSSTNBR", 208, 96
+	Patch "MOSSTNBR", 208, 112
+	Patch "MOSSTNBR", 128, 0
+	Patch "MOSSTNBR", 112, 16
+	Patch "MOSSTNBR", 112, 32
+	Patch "MOSSTNBR", 112, 48
+	Patch "MOSSTNBR", 80, 96
+	Patch "MOSSTNBR", 80, 112
+	Patch "MOSSTNBR", 96, 128
+	Patch "MOSSTNBR", 176, 128
+	Patch "MOSSTNBR", 80, 80
+	Patch "MOSSTNBR", 128, 64
+	Patch "MOSSTNBR", 144, 80
+	Patch "MOSSTNBR", 192, 0
+	Patch "MOSSTNBR", 208, 16
+	Patch "MOSSTNBR", 192, 32
+	Patch "MOSSTNBR", 96, 0
+	Patch "MOSSTNBR", 80, 16
+	Patch "MOSSTNBR", 80, 32
+	Patch "MOSSTNBR", 80, 48
+	Patch "MOSSTNBR", 48, 96
+	Patch "MOSSTNBR", 48, 112
+	Patch "MOSSTNBR", 48, 176
+	Patch "MOSSTNBR", 112, 192
+	Patch "MOSSTNBR", 128, 144
+	Patch "MOSSTNBR", 48, 192
+	Patch "MOSSTNBR", 112, 208
+	Patch "MOSSTNBR", 128, 160
+	Patch "MOSSTNBR", 48, 208
+	Patch "MOSSTNBR", 112, 224
+	Patch "MOSSTNBR", 144, 240
+	Patch "MOSSTNBR", 128, 176
+	Patch "MOSSTNBR", 128, 192
+	Patch "MOSSTNBR", 64, 128
+	Patch "MOSSTNBR", 144, 128
+	Patch "MOSSTNBR", 224, 128
+	Patch "MOSSTNBR", 48, 80
+	Patch "MOSSTNBR", 64, 64
+	Patch "MOSSTNBR", 192, 48
+	Patch "MOSSTNBR", 208, 64
+	Patch "MOSSTNBR", 224, 80
+	Patch "MOSSTNBR", 224, 96
+	Patch "MOSSTNBR", 224, 112
+	Patch "MOSSTNBR", 144, 0
+	Patch "MOSSTNBR", 128, 16
+	Patch "MOSSTNBR", 128, 32
+	Patch "MOSSTNBR", 128, 48
+	Patch "MOSSTNBR", 96, 96
+	Patch "MOSSTNBR", 96, 112
+	Patch "MOSSTNBR", 112, 128
+	Patch "MOSSTNBR", 144, 64
+	Patch "MOSSTNBR", 160, 80
+	Patch "MOSSTNBR", 160, 96
+	Patch "MOSSTNBR", 160, 112
+	Patch "MOSSTNBR", 208, 0
+	Patch "MOSSTNBR", 224, 16
+	Patch "MOSSTNBR", 208, 32
+	Patch "STONBRIK", 0, 0
+	Patch "STONBRIK", 16, 0
+	Patch "STONBRIK", 32, 0
+	Patch "STONBRIK", 240, 0
+	Patch "STONBRIK", 224, 0
+	Patch "STONBRIK", 240, 16
+	Patch "STONBRIK", 240, 32
+	Patch "STONBRIK", 224, 32
+	Patch "STONBRIK", 240, 48
+	Patch "STONBRIK", 224, 48
+	Patch "STONBRIK", 240, 64
+	Patch "STONBRIK", 160, 0
+	Patch "STONBRIK", 160, 16
+	Patch "STONBRIK", 144, 16
+	Patch "STONBRIK", 176, 16
+	Patch "STONBRIK", 144, 32
+	Patch "STONBRIK", 160, 32
+	Patch "STONBRIK", 112, 64
+	Patch "STONBRIK", 96, 64
+	Patch "STONBRIK", 96, 80
+	Patch "STONBRIK", 112, 80
+	Patch "STONBRIK", 128, 80
+	Patch "STONBRIK", 112, 96
+	Patch "STONBRIK", 128, 96
+	Patch "STONBRIK", 144, 96
+	Patch "STONBRIK", 112, 112
+	Patch "STONBRIK", 128, 112
+	Patch "STONBRIK", 144, 112
+	Patch "STONBRIK", 128, 128
+	Patch "STONBRIK", 192, 128
+	Patch "STONBRIK", 208, 128
+	Patch "STONBRIK", 192, 144
+	Patch "STONBRIK", 208, 144
+	Patch "STONBRIK", 224, 144
+	Patch "STONBRIK", 208, 160
+	Patch "STONBRIK", 224, 160
+	Patch "STONBRIK", 240, 240
+	Patch "STONBRIK", 240, 224
+	Patch "STONBRIK", 224, 224
+	Patch "STONBRIK", 224, 240
+	Patch "STONBRIK", 208, 240
+	Patch "STONBRIK", 144, 192
+	Patch "STONBRIK", 160, 208
+	Patch "STONBRIK", 144, 208
+	Patch "STONBRIK", 128, 208
+	Patch "STONBRIK", 128, 224
+	Patch "STONBRIK", 144, 224
+	Patch "STONBRIK", 0, 240
+	Patch "STONBRIK", 0, 224
+	Patch "STONBRIK", 16, 240
+	Patch "STONBRIK", 32, 240
+	Patch "STONBRIK", 48, 128
+	Patch "STONBRIK", 32, 128
+	Patch "STONBRIK", 32, 144
+	Patch "STONBRIK", 48, 144
+	Patch "STONBRIK", 64, 144
+	Patch "STONBRIK", 48, 160
+	Patch "STONBRIK", 64, 160
+	Patch "STONBRIK", 64, 176
+	Patch "STONBRIK", 160, 192
+	Patch "STONBRIK", 0, 16
+	Patch "STONBRIK", 16, 16
+	Patch "STONBRIK", 0, 32
+	Patch "STONBRIK", 16, 32
+	Patch "STONBRIK", 0, 48
+	Patch "STONBRIK", 16, 48
+	Patch "STONBRIK", 0, 64
+}
+
+Texture "MC_BRCBL", 256, 256
+{
+	Patch "MOSCOBST", 48, 0
+	Patch "MOSCOBST", 32, 16
+	Patch "MOSCOBST", 32, 32
+	Patch "MOSCOBST", 32, 48
+	Patch "MOSCOBST", 0, 96
+	Patch "MOSSTNBR", 0, 144
+	Patch "MOSCOBST", 0, 112
+	Patch "MOSSTNBR", 0, 176
+	Patch "MOSSTNBR", 64, 192
+	Patch "MOSSTNBR", 80, 144
+	Patch "MOSSTNBR", 144, 144
+	Patch "MOSSTNBR", 0, 192
+	Patch "MOSSTNBR", 64, 208
+	Patch "MOSSTNBR", 80, 160
+	Patch "MOSSTNBR", 144, 160
+	Patch "MOSSTNBR", 0, 208
+	Patch "MOSSTNBR", 64, 224
+	Patch "MOSSTNBR", 96, 240
+	Patch "MOSSTNBR", 16, 224
+	Patch "MOSSTNBR", 48, 240
+	Patch "MOSSTNBR", 80, 176
+	Patch "MOSSTNBR", 144, 176
+	Patch "MOSSTNBR", 0, 160
+	Patch "MOSCOBST", 0, 80
+	Patch "MOSSTNBR", 0, 128
+	Patch "MOSCOBST", 16, 64
+	Patch "MOSCOBST", 144, 48
+	Patch "MOSCOBST", 160, 64
+	Patch "MOSCOBST", 176, 80
+	Patch "MOSCOBST", 176, 96
+	Patch "MOSCOBST", 176, 112
+	Patch "MOSCOBST", 64, 0
+	Patch "MOSCOBST", 48, 16
+	Patch "MOSCOBST", 48, 32
+	Patch "MOSCOBST", 48, 48
+	Patch "MOSCOBST", 16, 96
+	Patch "MOSSTNBR", 16, 144
+	Patch "MOSCOBST", 16, 112
+	Patch "MOSSTNBR", 16, 176
+	Patch "MOSSTNBR", 80, 192
+	Patch "MOSSTNBR", 96, 144
+	Patch "MOSSTNBR", 160, 144
+	Patch "MOSSTNBR", 16, 192
+	Patch "MOSSTNBR", 80, 208
+	Patch "MOSSTNBR", 96, 160
+	Patch "MOSSTNBR", 160, 160
+	Patch "MOSSTNBR", 16, 208
+	Patch "MOSSTNBR", 80, 224
+	Patch "MOSSTNBR", 112, 240
+	Patch "MOSSTNBR", 32, 224
+	Patch "MOSSTNBR", 64, 240
+	Patch "MOSSTNBR", 96, 176
+	Patch "MOSSTNBR", 160, 176
+	Patch "MOSSTNBR", 208, 176
+	Patch "MOSSTNBR", 208, 192
+	Patch "MOSSTNBR", 208, 208
+	Patch "MOSSTNBR", 192, 224
+	Patch "MOSSTNBR", 192, 240
+	Patch "MOSSTNBR", 16, 160
+	Patch "MOSCOBST", 16, 80
+	Patch "MOSSTNBR", 16, 128
+	Patch "MOSCOBST", 32, 64
+	Patch "MOSCOBST", 160, 48
+	Patch "MOSCOBST", 176, 64
+	Patch "MOSCOBST", 192, 80
+	Patch "MOSCOBST", 192, 96
+	Patch "MOSCOBST", 192, 112
+	Patch "MOSCOBST", 112, 0
+	Patch "MOSCOBST", 96, 16
+	Patch "MOSCOBST", 96, 32
+	Patch "MOSCOBST", 96, 48
+	Patch "MOSCOBST", 64, 96
+	Patch "MOSCOBST", 64, 112
+	Patch "MOSSTNBR", 80, 128
+	Patch "MOSSTNBR", 160, 128
+	Patch "MOSSTNBR", 240, 128
+	Patch "MOSSTNBR", 240, 160
+	Patch "MOSCOBST", 64, 80
+	Patch "MOSCOBST", 80, 64
+	Patch "MOSCOBST", 208, 48
+	Patch "MOSCOBST", 224, 64
+	Patch "MOSCOBST", 240, 80
+	Patch "MOSCOBST", 240, 96
+	Patch "MOSCOBST", 240, 112
+	Patch "MOSSTNBR", 240, 144
+	Patch "MOSCOBST", 176, 0
+	Patch "MOSCOBST", 192, 16
+	Patch "MOSCOBST", 176, 32
+	Patch "MOSCOBST", 80, 0
+	Patch "MOSCOBST", 64, 16
+	Patch "MOSCOBST", 64, 32
+	Patch "MOSCOBST", 64, 48
+	Patch "MOSCOBST", 32, 96
+	Patch "MOSCOBST", 32, 112
+	Patch "MOSSTNBR", 32, 176
+	Patch "MOSSTNBR", 96, 192
+	Patch "MOSSTNBR", 112, 144
+	Patch "MOSSTNBR", 176, 144
+	Patch "MOSSTNBR", 32, 192
+	Patch "MOSSTNBR", 96, 208
+	Patch "MOSSTNBR", 112, 160
+	Patch "MOSSTNBR", 176, 160
+	Patch "MOSSTNBR", 192, 160
+	Patch "MOSSTNBR", 32, 208
+	Patch "MOSSTNBR", 96, 224
+	Patch "MOSSTNBR", 128, 240
+	Patch "MOSSTNBR", 48, 224
+	Patch "MOSSTNBR", 80, 240
+	Patch "MOSSTNBR", 112, 176
+	Patch "MOSSTNBR", 176, 176
+	Patch "MOSSTNBR", 176, 192
+	Patch "MOSSTNBR", 176, 208
+	Patch "MOSSTNBR", 160, 224
+	Patch "MOSSTNBR", 160, 240
+	Patch "MOSSTNBR", 224, 176
+	Patch "MOSSTNBR", 224, 192
+	Patch "MOSSTNBR", 224, 208
+	Patch "MOSSTNBR", 208, 224
+	Patch "MOSSTNBR", 192, 176
+	Patch "MOSSTNBR", 192, 192
+	Patch "MOSSTNBR", 192, 208
+	Patch "MOSSTNBR", 176, 224
+	Patch "MOSSTNBR", 176, 240
+	Patch "MOSSTNBR", 240, 176
+	Patch "MOSSTNBR", 240, 192
+	Patch "MOSSTNBR", 240, 208
+	Patch "MOSSTNBR", 32, 160
+	Patch "MOSCOBST", 32, 80
+	Patch "MOSCOBST", 48, 64
+	Patch "MOSCOBST", 176, 48
+	Patch "MOSCOBST", 192, 64
+	Patch "MOSCOBST", 208, 80
+	Patch "MOSCOBST", 208, 96
+	Patch "MOSCOBST", 208, 112
+	Patch "MOSCOBST", 128, 0
+	Patch "MOSCOBST", 112, 16
+	Patch "MOSCOBST", 112, 32
+	Patch "MOSCOBST", 112, 48
+	Patch "MOSCOBST", 80, 96
+	Patch "MOSCOBST", 80, 112
+	Patch "MOSSTNBR", 96, 128
+	Patch "MOSSTNBR", 176, 128
+	Patch "MOSCOBST", 80, 80
+	Patch "MOSCOBST", 128, 64
+	Patch "MOSCOBST", 144, 80
+	Patch "MOSCOBST", 192, 0
+	Patch "MOSCOBST", 208, 16
+	Patch "MOSCOBST", 192, 32
+	Patch "MOSCOBST", 96, 0
+	Patch "MOSCOBST", 80, 16
+	Patch "MOSCOBST", 80, 32
+	Patch "MOSCOBST", 80, 48
+	Patch "MOSCOBST", 48, 96
+	Patch "MOSCOBST", 48, 112
+	Patch "MOSSTNBR", 48, 176
+	Patch "MOSSTNBR", 112, 192
+	Patch "MOSSTNBR", 128, 144
+	Patch "MOSSTNBR", 48, 192
+	Patch "MOSSTNBR", 112, 208
+	Patch "MOSSTNBR", 128, 160
+	Patch "MOSSTNBR", 48, 208
+	Patch "MOSSTNBR", 112, 224
+	Patch "MOSSTNBR", 144, 240
+	Patch "MOSSTNBR", 128, 176
+	Patch "MOSSTNBR", 128, 192
+	Patch "MOSSTNBR", 64, 128
+	Patch "MOSSTNBR", 144, 128
+	Patch "MOSSTNBR", 224, 128
+	Patch "MOSCOBST", 48, 80
+	Patch "MOSCOBST", 64, 64
+	Patch "MOSCOBST", 192, 48
+	Patch "MOSCOBST", 208, 64
+	Patch "MOSCOBST", 224, 80
+	Patch "MOSCOBST", 224, 96
+	Patch "MOSCOBST", 224, 112
+	Patch "MOSCOBST", 144, 0
+	Patch "MOSCOBST", 128, 16
+	Patch "MOSCOBST", 128, 32
+	Patch "MOSCOBST", 128, 48
+	Patch "MOSCOBST", 96, 96
+	Patch "MOSCOBST", 96, 112
+	Patch "MOSSTNBR", 112, 128
+	Patch "MOSCOBST", 144, 64
+	Patch "MOSCOBST", 160, 80
+	Patch "MOSCOBST", 160, 96
+	Patch "MOSCOBST", 160, 112
+	Patch "MOSCOBST", 208, 0
+	Patch "MOSCOBST", 224, 16
+	Patch "MOSCOBST", 208, 32
+	Patch "COBLSTON", 0, 0
+	Patch "COBLSTON", 16, 0
+	Patch "COBLSTON", 32, 0
+	Patch "COBLSTON", 240, 0
+	Patch "COBLSTON", 224, 0
+	Patch "COBLSTON", 240, 16
+	Patch "COBLSTON", 240, 32
+	Patch "COBLSTON", 224, 32
+	Patch "COBLSTON", 240, 48
+	Patch "COBLSTON", 224, 48
+	Patch "COBLSTON", 240, 64
+	Patch "COBLSTON", 160, 0
+	Patch "COBLSTON", 160, 16
+	Patch "COBLSTON", 144, 16
+	Patch "COBLSTON", 176, 16
+	Patch "COBLSTON", 144, 32
+	Patch "COBLSTON", 160, 32
+	Patch "COBLSTON", 112, 64
+	Patch "COBLSTON", 96, 64
+	Patch "COBLSTON", 96, 80
+	Patch "COBLSTON", 112, 80
+	Patch "COBLSTON", 128, 80
+	Patch "COBLSTON", 112, 96
+	Patch "COBLSTON", 128, 96
+	Patch "COBLSTON", 144, 96
+	Patch "COBLSTON", 112, 112
+	Patch "COBLSTON", 128, 112
+	Patch "COBLSTON", 144, 112
+	Patch "STONBRIK", 128, 128
+	Patch "STONBRIK", 192, 128
+	Patch "STONBRIK", 208, 128
+	Patch "STONBRIK", 192, 144
+	Patch "STONBRIK", 208, 144
+	Patch "STONBRIK", 224, 144
+	Patch "STONBRIK", 208, 160
+	Patch "STONBRIK", 224, 160
+	Patch "STONBRIK", 240, 240
+	Patch "STONBRIK", 240, 224
+	Patch "STONBRIK", 224, 224
+	Patch "STONBRIK", 224, 240
+	Patch "STONBRIK", 208, 240
+	Patch "STONBRIK", 144, 192
+	Patch "STONBRIK", 160, 208
+	Patch "STONBRIK", 144, 208
+	Patch "STONBRIK", 128, 208
+	Patch "STONBRIK", 128, 224
+	Patch "STONBRIK", 144, 224
+	Patch "STONBRIK", 0, 240
+	Patch "STONBRIK", 0, 224
+	Patch "STONBRIK", 16, 240
+	Patch "STONBRIK", 32, 240
+	Patch "STONBRIK", 48, 128
+	Patch "STONBRIK", 32, 128
+	Patch "STONBRIK", 32, 144
+	Patch "STONBRIK", 48, 144
+	Patch "STONBRIK", 64, 144
+	Patch "STONBRIK", 48, 160
+	Patch "STONBRIK", 64, 160
+	Patch "STONBRIK", 64, 176
+	Patch "STONBRIK", 160, 192
+	Patch "COBLSTON", 0, 16
+	Patch "COBLSTON", 16, 16
+	Patch "COBLSTON", 0, 32
+	Patch "COBLSTON", 16, 32
+	Patch "COBLSTON", 0, 48
+	Patch "COBLSTON", 16, 48
+	Patch "COBLSTON", 0, 64
+}
+
+Texture "BRICKWAL", 64, 576
+{
+	Patch "BRICK7", 0, 0
+	Patch "BRICK7", 0, 128
+	Patch "BRICK12", 0, 142
+	Patch "BRICK12", 0, 270
+	Patch "BRONZE4", 0, 353
+	Patch "METAL1", 0, 480
+}
+
+Texture "BRICKFLT", 64, 160
+{
+	Patch "BRICK7", 0, 0
+	Patch "FLAT20", 0, 128
+}
+
+Texture "DEM1_FUL", 128, 128
+{
+	Patch "DEM1_1", 0, 0
+	Patch "DEM1_2", 64, 0
+	Patch "DEM1_3", 0, 64
+	Patch "DEM1_4", 64, 64
+}
+
+Texture "CEMENTT", 128, 8
+{
+	Patch "CEMENT6", 0, -120
+}

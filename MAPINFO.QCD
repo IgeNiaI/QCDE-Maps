@@ -50,6 +50,15 @@ map QCDE06 "Vertical Vengeance"
 	Next = "QCDE07"
 }
 
+//Map by RoosTer
+map QCDE07 "Temple of Retribution"
+{
+	Music = QCDEM07
+	UsePlayerStartZ
+	sky1 = VERTSKY
+	Next = "QCDE08"
+}
+
 //map by DBThanatos
 map QCDE08 "Furious Heights"
 {
@@ -116,6 +125,14 @@ map QCDE14 "Stubborn"
 	fogdensity = "24"
 	skyfog = "1"
 	Next = "QCDE15"
+}
+
+//Map by geNia
+map QCDE15 "Chastity Belt"
+{
+	Music = "QCDEM15"
+	UsePlayerStartZ
+	Next = "QCDE16"
 }
 
 //map by DBThanatos & Ivan Dobrovski
@@ -344,9 +361,45 @@ map QCDE40 "Rankin"
 	Sky1 = "MONSKY1", 0.5
 	Sky2 = "MONSKY2", 0.5
 	UsePlayerStartZ
-	Next = "QCDE01"
+	Next = "QCDE41"
 }
 
+
+//Map by geNia
+map QCDE41 "QWER"
+{
+	Music = QCDEM41
+	UsePlayerStartZ
+	Next = "QCDE42"
+}
+
+
+//Map by geNia
+map QCDE42 "Mine Embrace"
+{
+	Music = "QCDEM42"
+	UsePlayerStartZ
+	Next = "QCDE43"
+}
+
+
+//Map by TheSwampylad
+map QCDE43 "Temple of the Blood Serpants"
+{
+	Music = QCDEM43
+	UsePlayerStartZ
+	Next = "QCDE44"
+}
+
+
+//Map by TheSwampylad
+map QCDE44 "Exile"
+{
+	Music = QCDEM44
+	UsePlayerStartZ
+	sky1 = "OSKY35", 0.1
+	Next = "QCDE01"
+}
 
 //---------------------------------------------------
 // DUEL EXCLUSIVE MAPS
@@ -400,7 +453,46 @@ map QCDL05 "House Of Decay"
 {
 	Music = QCDLM05
 	UsePlayerStartZ
-	Next = "QCDL01"
+	Next = "QCDL06"
+}
+
+//Map by Kultasakaali
+map QCDL06 "Hell's Gate"
+{
+	Music = "QCDLM06"
+	DoubleSky
+	ForceNoSkyStretch
+	Sky1 = "killsky2", 0.5
+	Sky2 = "killsky1", 0.3
+	UsePlayerStartZ
+	Next = "QCDL07"
+}
+
+//map by Mr.Rocket
+map QCDL07 "The Dark Zone"
+{
+	music = "QCDLM07"
+	Sky1 = SKY4_2
+	UsePlayerStartZ
+	next = "QCDL08"
+}
+
+//map by Pixo
+map QCDL08 "Crash Course"
+{
+	music = "QCDLM08"
+	Sky1 = SITESKY
+	UsePlayerStartZ
+	next = "QCDL09"
+}
+
+//map by Pixo
+map QCDL09 "Hektik"
+{
+	music = "QCDLM09"
+	sky1 = RSKY2
+	UsePlayerStartZ
+	next = "QCDL01"
 }
 
 

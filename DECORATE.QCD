@@ -486,6 +486,38 @@ ACTOR AmbientMarsh 14196
 	}
 }
 
+// Decorate file of "Dark Zone" by Rocket_Man
+
+Actor DarkZoneTorch 17521
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Wall Torch Dark Zone"
+	+NOINTERACTION
+	+FORCEYBILLBOARD 
+	States
+	{
+	Spawn:
+		DZTC ABCD 3 Bright
+		Loop
+	}
+}
+
+Actor DarkZoneCandle : Candlestick 17522
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Candlestick Dark Zone"
+	States
+	{
+	Spawn:
+		DZCD A -1 Bright
+		Stop
+	}
+}
+
 // Decorate file of "Lockbox" by DBThanatos
 
 Actor LockboxSucker 16521
@@ -1734,3 +1766,26 @@ Actor RainSound 20001
     Loop
   }
 }
+
+//--------------------------------------------------------------------------------
+//		Quake 3 Decorations
+//--------------------------------------------------------------------------------
+
+ACTOR Q3T3Cross 17501 {
+
+	//$Category "Quake 3 Mapobjects"
+	//$Title "Q3Tourney3 Cross"
+
+	+SOLID
+	+NOGRAVITY
+	Radius 48
+	Height 432
+	Scale 1
+
+	States {
+		Spawn:
+			EMPT A 1
+			Loop
+	}
+}
+

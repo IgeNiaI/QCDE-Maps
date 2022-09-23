@@ -34,3 +34,16 @@ Model ElderSlope
 	FrameIndex EMPT A 0 0
 }
 
+//--------------------------------------------------------------------------------
+//		Quake 3 Model Definitions
+//--------------------------------------------------------------------------------
+
+Model Q3T3Cross { 
+	Path "MD3" 
+	SurfaceSkin 0 0 "cross.tga"
+	SurfaceSkin 0 1 "cross_skull.tga"
+	MODEL 0 "cross.md3"
+	Offset 0 0 96
+	Scale 1 1 1
+	FrameIndex EMPT A 0 0
+}
