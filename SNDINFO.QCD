@@ -76,3 +76,7 @@ McPortal MCPORTAL
 $attenuation McPortal 3.0
 $ambient 13 McPortal point continuous 1.0
 McBtnPrs MCBTNPRS
+
+// Arcane Temple
+WatrFall WATRFALL
+$ambient 14 WatrFall point continuous 1.0
