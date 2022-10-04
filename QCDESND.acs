@@ -1,7 +1,0 @@
-#library "QCDESND"
-#include "zcommon.acs"
-
-function str musicNameFromNumber( int musicNumber )
-{
-	return "OST not found";
-}

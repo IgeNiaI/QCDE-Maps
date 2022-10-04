@@ -204,7 +204,6 @@ function bool heightCheck( int min, int max, int actorZ )
 //Copy & paste these to the start of your map's SCRIPTS lump and edit map data according to your map
 
 #import "QCDEMAPS.ACS"
-#import "QCDESND.ACS"
 
 str mapName = "QCDE01";
 str mapTitle = "Blood Covenant";
@@ -212,41 +211,10 @@ str mapAuthor = "DBThanatos";
 str mapSource = "\"Blood Covenant\" from Quake Champions"; // leave this blank if this is a brand new map
 int musicNumber = 11;
 
-int ostTid = -1;
-script "SetOST" OPEN
-{
-	ostTid = UniqueTID();
-
-	if (SpawnForced("QCDE OST", 0, 0, 0, ostTid))
-		SetThingSpecial(ostTid, 0, musicNumber);
-	else
-		ostTid = -1;
-}
-
 Script "Introduction" OPEN CLIENTSIDE
 {
-	SetFont("BIGFONT");
-	HudMessage(s:mapName, s:" \c[brite]", s:mapTitle;
-		HUDMSG_FADEINOUT, 0, CR_RED, 0.05, 0.55, 2.5, 0.7, 1.0);
-
-	str originalString = "\nOriginal: ";
-
-	if (!strcmp(mapSource, ""))
-		originalString = "";
-
-	SetFont("CONFONT");
-	HudMessage(s:"Mapped by: ", s:mapAuthor, s:originalString, s:mapSource;
-		HUDMSG_FADEINOUT, 0, CR_RED, 0.05, 0.65, 2.3, 0.9, 1.0);
-
-	delay(140);
-
-	bool musicReady = ostTid != -1 || SpawnForced("QCDE OST", 0, 0, 0, UniqueTID());
-	if (musicReady)
-	{
-		SetFont("CONFONT");
-		HudMessage(s:  "\nMusic: ", s:musicNameFromNumber(musicNumber);
-			HUDMSG_FADEINOUT,0,CR_RED,0.05,0.65,2.3,0.9,1.0);
-	}
+	ACS_NamedExecuteWithResult("QCDE_SetMusicNumber", musicNumber);
+	ACS_NamedExecuteWithResult("QCDE_ShowMapIntroduction", mapName, mapTitle, mapAuthor, mapSource);
 }
 
 */
