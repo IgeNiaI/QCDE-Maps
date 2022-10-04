@@ -30,12 +30,6 @@ Texture "OLA_W1_2", 64, 128
 	Patch "ADEL_Y01", 32, 112
 }
 
-//Longest Yard
-Texture "GREY2", 128, 128
-{
-	Patch "GREY2", 0, 0
-}
-
 //Lockbox
 Texture "ABADONE", 64, 128
 {
