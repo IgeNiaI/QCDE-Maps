@@ -150,7 +150,7 @@ map QCDE17 "Lockbox"
 	Music = QCDEM17
 	UsePlayerStartZ	
 	Next = "QCDE18"
-	sky1 = "SKY1"
+	sky1 = "QCDSky01"
 }
 
 
@@ -194,7 +194,7 @@ map QCDE21 "Almost Lost"
 map QCDE22 "Sarnath"
 {
 	Music = QCDEM22
-	sky1 = "SKY1", 0.2
+	sky1 = "QCDSky01", 0.2
 	UsePlayerStartZ
 	Next = "QCDE23"
 }
@@ -432,9 +432,9 @@ map QCDL02 "Aerowalk"	//Edited version, bigger
 map QCDL03 "Fatal Instinct"
 {
 	UsePlayerStartZ	
-	sky1 = "FATASKY" 
-	fogdensity = "128"
+	fogdensity = 512
 	skyfog = "1"
+	sky1 = "FATASKY" 
 	Music = "QCDLM03"
 	Next = "QCDL04"
 }
