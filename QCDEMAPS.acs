@@ -1,6 +1,29 @@
 #library "QCDEMAPS"
 #include "zcommon.acs"
 
+////////////////////////////////////
+//    MAP INTRODUCTION SCRIPTS    //
+////////////////////////////////////
+/*
+
+//Copy & paste these to the start of your map's SCRIPTS lump and edit map data according to your map
+
+#import "QCDEMAPS.ACS"
+
+str mapName = "QCDE01";
+str mapTitle = "Blood Covenant";
+str mapAuthor = "DBThanatos";
+str mapSource = "\"Blood Covenant\" from Quake Champions"; // leave this blank if this is a brand new map
+int musicNumber = 11;
+
+Script "Introduction" OPEN CLIENTSIDE
+{
+	ACS_NamedExecuteWithResult("QCDE_SetMusicNumber", musicNumber);
+	ACS_NamedExecuteWithResult("QCDE_ShowMapIntroduction", mapName, mapTitle, mapAuthor, mapSource);
+}
+
+*/
+
 ////////////////////
 //    TELEPORT    //
 ////////////////////
@@ -164,12 +187,15 @@ script "BotPusher" ( int angle, int xy_for, int max_height, int min_height )
 //    MISC    //
 ////////////////
 
-script "NotARealDoor" ( void )
+script "NotARealDoor" ( int minheight, int maxheight )
 {
-	HUDMessage( s:"This door doesn't work"; HUDMSG_FADEOUT ,181 ,CR_GRAY ,0.5 ,0.75 , 0.75, 0.5 );
-	SetNetworkReplicationFlags( NETREP_SKIPOWNER );
-	PlaySound( 0, "*usefail" );
-	SetNetworkReplicationFlags( 0 );
+	if( heightCheck( minheight, maxheight, GetActorZ(0) ))
+    {
+		HUDMessage( s:"This door doesn't work"; HUDMSG_FADEOUT ,181 ,CR_GRAY ,0.5 ,0.75 , 0.75, 0.5 );
+		SetNetworkReplicationFlags( NETREP_SKIPOWNER );
+		PlaySound( 0, "*usefail" );
+		SetNetworkReplicationFlags( 0 );
+	}
 }
 
 function bool heightCheck( int min, int max, int actorZ )
@@ -195,26 +221,3 @@ function bool heightCheck( int min, int max, int actorZ )
 
 	return false;
 }
-
-////////////////////////////////////
-//    MAP INTRODUCTION SCRIPTS    //
-////////////////////////////////////
-/*
-
-//Copy & paste these to the start of your map's SCRIPTS lump and edit map data according to your map
-
-#import "QCDEMAPS.ACS"
-
-str mapName = "QCDE01";
-str mapTitle = "Blood Covenant";
-str mapAuthor = "DBThanatos";
-str mapSource = "\"Blood Covenant\" from Quake Champions"; // leave this blank if this is a brand new map
-int musicNumber = 11;
-
-Script "Introduction" OPEN CLIENTSIDE
-{
-	ACS_NamedExecuteWithResult("QCDE_SetMusicNumber", musicNumber);
-	ACS_NamedExecuteWithResult("QCDE_ShowMapIntroduction", mapName, mapTitle, mapAuthor, mapSource);
-}
-
-*/
