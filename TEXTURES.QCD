@@ -2978,3 +2978,75 @@ Texture "CEMENTT", 128, 8
 {
 	Patch "CEMENT6", 0, -120
 }
+
+// Sarnath eyeball
+Sprite "EYEAB3", 572, 192 { Offset 286, 32 Patch "EYEAA3", 0, 0 } // frame B
+Sprite "EYEAB4", 572, 192 { Offset 286, 32 Patch "EYEAA4", 0, 0 }
+Sprite "EYEAB5", 572, 192 { Offset 286, 32 Patch "EYEAA5", 0, 0 }
+Sprite "EYEAB6", 572, 192 { Offset 286, 32 Patch "EYEAA6", 0, 0 }
+Sprite "EYEAB7", 572, 192 { Offset 286, 32 Patch "EYEAA7", 0, 0 }
+Sprite "EYEAC3", 572, 192 { Offset 286, 32 Patch "EYEAA3", 0, 0 } // frame C
+Sprite "EYEAC4", 572, 192 { Offset 286, 32 Patch "EYEAA4", 0, 0 }
+Sprite "EYEAC5", 572, 192 { Offset 286, 32 Patch "EYEAA5", 0, 0 }
+Sprite "EYEAC6", 572, 192 { Offset 286, 32 Patch "EYEAA6", 0, 0 }
+Sprite "EYEAC7", 572, 192 { Offset 286, 32 Patch "EYEAA7", 0, 0 }
+Sprite "EYEAD3", 572, 192 { Offset 286, 32 Patch "EYEAA3", 0, 0 } // frame D
+Sprite "EYEAD4", 572, 192 { Offset 286, 32 Patch "EYEAA4", 0, 0 }
+Sprite "EYEAD5", 572, 192 { Offset 286, 32 Patch "EYEAA5", 0, 0 }
+Sprite "EYEAD6", 572, 192 { Offset 286, 32 Patch "EYEAA6", 0, 0 }
+Sprite "EYEAD7", 572, 192 { Offset 286, 32 Patch "EYEAA7", 0, 0 }
+Sprite "EYEAE3", 572, 192 { Offset 286, 32 Patch "EYEAA3", 0, 0 } // frame E
+Sprite "EYEAE4", 572, 192 { Offset 286, 32 Patch "EYEAA4", 0, 0 }
+Sprite "EYEAE5", 572, 192 { Offset 286, 32 Patch "EYEAA5", 0, 0 }
+Sprite "EYEAE6", 572, 192 { Offset 286, 32 Patch "EYEAA6", 0, 0 }
+Sprite "EYEAE7", 572, 192 { Offset 286, 32 Patch "EYEAA7", 0, 0 }
+Sprite "EYEAF3", 572, 192 { Offset 286, 32 Patch "EYEAA3", 0, 0 } // frame F
+Sprite "EYEAF4", 572, 192 { Offset 286, 32 Patch "EYEAA4", 0, 0 }
+Sprite "EYEAF5", 572, 192 { Offset 286, 32 Patch "EYEAA5", 0, 0 }
+Sprite "EYEAF6", 572, 192 { Offset 286, 32 Patch "EYEAA6", 0, 0 }
+Sprite "EYEAF7", 572, 192 { Offset 286, 32 Patch "EYEAA7", 0, 0 }
+Sprite "EYEAG3", 572, 192 { Offset 286, 32 Patch "EYEAA3", 0, 0 } // frame G
+Sprite "EYEAG4", 572, 192 { Offset 286, 32 Patch "EYEAA4", 0, 0 }
+Sprite "EYEAG5", 572, 192 { Offset 286, 32 Patch "EYEAA5", 0, 0 }
+Sprite "EYEAG6", 572, 192 { Offset 286, 32 Patch "EYEAA6", 0, 0 }
+Sprite "EYEAG7", 572, 192 { Offset 286, 32 Patch "EYEAA7", 0, 0 }
+Sprite "EYEAH3", 572, 192 { Offset 286, 32 Patch "EYEAA3", 0, 0 } // frame H
+Sprite "EYEAH4", 572, 192 { Offset 286, 32 Patch "EYEAA4", 0, 0 }
+Sprite "EYEAH5", 572, 192 { Offset 286, 32 Patch "EYEAA5", 0, 0 }
+Sprite "EYEAH6", 572, 192 { Offset 286, 32 Patch "EYEAA6", 0, 0 }
+Sprite "EYEAH7", 572, 192 { Offset 286, 32 Patch "EYEAA7", 0, 0 }
+Sprite "EYEAI3", 572, 192 { Offset 286, 32 Patch "EYEAA3", 0, 0 } // frame I
+Sprite "EYEAI4", 572, 192 { Offset 286, 32 Patch "EYEAA4", 0, 0 }
+Sprite "EYEAI5", 572, 192 { Offset 286, 32 Patch "EYEAA5", 0, 0 }
+Sprite "EYEAI6", 572, 192 { Offset 286, 32 Patch "EYEAA6", 0, 0 }
+Sprite "EYEAI7", 572, 192 { Offset 286, 32 Patch "EYEAA7", 0, 0 }
+Sprite "EYEAJ3", 572, 192 { Offset 286, 32 Patch "EYEAA3", 0, 0 } // frame J
+Sprite "EYEAJ4", 572, 192 { Offset 286, 32 Patch "EYEAA4", 0, 0 }
+Sprite "EYEAJ5", 572, 192 { Offset 286, 32 Patch "EYEAA5", 0, 0 }
+Sprite "EYEAJ6", 572, 192 { Offset 286, 32 Patch "EYEAA6", 0, 0 }
+Sprite "EYEAJ7", 572, 192 { Offset 286, 32 Patch "EYEAA7", 0, 0 }
+Sprite "EYEAK3", 572, 192 { Offset 286, 32 Patch "EYEAA3", 0, 0 } // frame K
+Sprite "EYEAK4", 572, 192 { Offset 286, 32 Patch "EYEAA4", 0, 0 }
+Sprite "EYEAK5", 572, 192 { Offset 286, 32 Patch "EYEAA5", 0, 0 }
+Sprite "EYEAK6", 572, 192 { Offset 286, 32 Patch "EYEAA6", 0, 0 }
+Sprite "EYEAK7", 572, 192 { Offset 286, 32 Patch "EYEAA7", 0, 0 }
+Sprite "EYEAL3", 572, 192 { Offset 286, 32 Patch "EYEAA3", 0, 0 } // frame L
+Sprite "EYEAL4", 572, 192 { Offset 286, 32 Patch "EYEAA4", 0, 0 }
+Sprite "EYEAL5", 572, 192 { Offset 286, 32 Patch "EYEAA5", 0, 0 }
+Sprite "EYEAL6", 572, 192 { Offset 286, 32 Patch "EYEAA6", 0, 0 }
+Sprite "EYEAL7", 572, 192 { Offset 286, 32 Patch "EYEAA7", 0, 0 }
+Sprite "EYEAM3", 572, 192 { Offset 286, 32 Patch "EYEAA3", 0, 0 } // frame M
+Sprite "EYEAM4", 572, 192 { Offset 286, 32 Patch "EYEAA4", 0, 0 }
+Sprite "EYEAM5", 572, 192 { Offset 286, 32 Patch "EYEAA5", 0, 0 }
+Sprite "EYEAM6", 572, 192 { Offset 286, 32 Patch "EYEAA6", 0, 0 }
+Sprite "EYEAM7", 572, 192 { Offset 286, 32 Patch "EYEAA7", 0, 0 }
+Sprite "EYEAN3", 572, 192 { Offset 286, 32 Patch "EYEAA3", 0, 0 } // frame N
+Sprite "EYEAN4", 572, 192 { Offset 286, 32 Patch "EYEAA4", 0, 0 }
+Sprite "EYEAN5", 572, 192 { Offset 286, 32 Patch "EYEAA5", 0, 0 }
+Sprite "EYEAN6", 572, 192 { Offset 286, 32 Patch "EYEAA6", 0, 0 }
+Sprite "EYEAN7", 572, 192 { Offset 286, 32 Patch "EYEAA7", 0, 0 }
+Sprite "EYEAO3", 572, 192 { Offset 286, 32 Patch "EYEAA3", 0, 0 } // frame O
+Sprite "EYEAO4", 572, 192 { Offset 286, 32 Patch "EYEAA4", 0, 0 }
+Sprite "EYEAO5", 572, 192 { Offset 286, 32 Patch "EYEAA5", 0, 0 }
+Sprite "EYEAO6", 572, 192 { Offset 286, 32 Patch "EYEAA6", 0, 0 }
+Sprite "EYEAO7", 572, 192 { Offset 286, 32 Patch "EYEAA7", 0, 0 }

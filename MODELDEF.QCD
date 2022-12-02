@@ -47,3 +47,77 @@ Model Q3T3Cross {
 	Scale 1 1 1
 	FrameIndex EMPT A 0 0
 }
+
+//--------------------------------------------------------------------------------
+//		Ruins of Sarnath eye models
+//--------------------------------------------------------------------------------
+
+Model SarnathEyeball
+{
+	Path "MD3"
+	Model 0 "eyeball.md3"
+	Scale 2.2 2.2 2.2
+  
+	SurfaceSkin 0 0 "sec01.png"
+	SurfaceSkin 0 1 "eyelid1.png"
+	FrameIndex EYEA A 0 0
+	SurfaceSkin 0 0 "sec02.png"
+	SurfaceSkin 0 1 "eyelid1.png"
+	FrameIndex EYEA B 0 0
+	SurfaceSkin 0 0 "sec03.png"
+	SurfaceSkin 0 1 "eyelid1.png"
+	FrameIndex EYEA C 0 0
+	SurfaceSkin 0 0 "sec04.png"
+	SurfaceSkin 0 1 "eyelid1.png"
+	FrameIndex EYEA D 0 0
+	SurfaceSkin 0 0 "sec05.png"
+	SurfaceSkin 0 1 "eyelid1.png"
+	FrameIndex EYEA E 0 0
+	SurfaceSkin 0 0 "sec06.png"
+	SurfaceSkin 0 1 "eyelid1.png"
+	FrameIndex EYEA F 0 0
+	SurfaceSkin 0 0 "sec07.png"
+	SurfaceSkin 0 1 "eyelid1.png"
+	FrameIndex EYEA G 0 0
+	SurfaceSkin 0 0 "sec08.png"
+	SurfaceSkin 0 1 "eyelid1.png"
+	FrameIndex EYEA H 0 0
+	//focus
+	SurfaceSkin 0 0 "sec09.png"
+	SurfaceSkin 0 1 "eyelid1.png"
+	FrameIndex EYEA I 0 0
+	SurfaceSkin 0 0 "sec10.png"
+	SurfaceSkin 0 1 "eyelid1.png"
+	FrameIndex EYEA J 0 0
+	SurfaceSkin 0 0 "sec11.png"
+	SurfaceSkin 0 1 "eyelid1.png"
+	FrameIndex EYEA K 0 0
+	SurfaceSkin 0 0 "sec12.png"
+	SurfaceSkin 0 1 "eyelid1.png"
+	FrameIndex EYEA L 0 0
+	SurfaceSkin 0 0 "sec13.png"
+	SurfaceSkin 0 1 "eyelid1.png"
+	FrameIndex EYEA M 0 0
+	SurfaceSkin 0 0 "sec14.png"
+	SurfaceSkin 0 1 "eyelid1.png"
+	FrameIndex EYEA N 0 0
+	SurfaceSkin 0 0 "sec15.png"
+	SurfaceSkin 0 1 "eyelid1.png"
+	FrameIndex EYEA O 0 0
+}
+
+Model SarnathEyeholder
+{
+	Path "MD3"
+	Model 0 "eyeholder.md3"
+
+	SurfaceSkin 0 0 "dmetal.png" //chain
+	SurfaceSkin 0 1 "smetal.png" //spikes
+	SurfaceSkin 0 2 "dmetal.png" //ring
+	SurfaceSkin 0 3 "rubble6.png" //mesh
+	SurfaceSkin 0 4 "bmetal.png" //anchors
+
+	Scale 2.2 2.2 2.2
+	  
+	FrameIndex TREA A 0 0
+}

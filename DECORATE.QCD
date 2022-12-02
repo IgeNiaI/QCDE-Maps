@@ -676,6 +676,64 @@ Actor SarnathToken3 : SarnathToken1	{}
 Actor SarnathToken4 : SarnathToken1	{}
 Actor SarnathPuzzleSolved : SarnathToken1	{}
 
+ACTOR SarnathEyeball 15019
+{
+	//$Category Props/Structures
+	//$Title Sarnath Eye
+	//$Color 5
+	+NOINTERACTION
+	+CLIENTSIDEONLY
+	-SOLID
+	+FORCEYBILLBOARD
+
+  	Radius 192
+  	Height 64
+
+	States {
+	Spawn:
+		EYEA A 1
+		EYEA BCDEFGH 35
+		//focus
+		EYEA IJ 5
+		EYEA K  5
+		//focusing..
+		EYEA LM 2
+		EYEA IJ 2
+		EYEA K  60 //look scared..
+		EYEA LM 2
+		EYEA M 60 //its ok now..
+		EYEA B 55 
+		EYEA	CDEFGH 35
+		EYEA NO 2
+		EYEA NO 3
+		EYEA O 60 //look up..
+		EYEA NO 1
+		EYEA D 65 //focus a little..
+
+		Loop
+	}
+}
+
+//eye socket holder
+ACTOR SarnathEyeholder 15020
+{
+	//$Category Props/Structures
+	//$Title Sarnath Eye Holder
+	//$Color 5
+	+NOINTERACTION
+	+CLIENTSIDEONLY
+	-SOLID
+	+FORCEYBILLBOARD
+
+  	Radius 192
+  	Height 64
+
+	States {
+	Spawn:
+		TREA A -1
+		Stop
+	}
+}
 
 
 
