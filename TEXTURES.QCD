@@ -988,26 +988,6 @@ Texture "PILLAR02", 32, 128
 	Patch "W_155", 0, 0
 }
 
-Texture "PLANET1", 128, 128
-{
-	Patch "W_053", 0, 0
-}
-
-Texture "PLANET2", 128, 128
-{
-	Patch "W_054", 0, 0
-}
-
-Texture "PLAT01", 64, 128
-{
-	Patch "W_311", 0, 0
-}
-
-Texture "PLAT02", 64, 128
-{
-	Patch "W_312", 0, 0
-}
-
 Texture "PRTL02", 128, 128
 {
 	Patch "W_057", 0, 0
