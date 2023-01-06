@@ -2952,31 +2952,28 @@ Texture "MC_BRCBL", 256, 256
 
 Texture "BRICKWAL", 64, 576
 {
-	Patch "BRICK7", 0, 0
-	Patch "BRICK7", 0, 128
-	Patch "BRICK12", 0, 142
-	Patch "BRICK12", 0, 270
-	Patch "BRONZE4", 0, 353
-	Patch "METAL1", 0, 480
+	Patch "ADEL_M02", 0, 0
+	Patch "AQ63_192", 0, 128
+	Patch "ADEL_B11", 0, 320
+	Patch "ADEL_B11", 32, 320
+	Patch "ADEL_Q63", 0, 352
+	Patch "BRICKH25", 0, 480
+}
+
+Texture "BRICKWOL", 64, 480
+{
+	Patch "ADEL_M02", 0, 0
+	Patch "AQ63_192", 0, 128
+	Patch "ADEL_B11", 0, 320
+	Patch "ADEL_B11", 32, 320
+	Patch "AQ63_090", 0, 352
 }
 
 Texture "BRICKFLT", 64, 160
 {
-	Patch "BRICK7", 0, 0
-	Patch "FLAT20", 0, 128
-}
-
-Texture "DEM1_FUL", 128, 128
-{
-	Patch "DEM1_1", 0, 0
-	Patch "DEM1_2", 64, 0
-	Patch "DEM1_3", 0, 64
-	Patch "DEM1_4", 64, 64
-}
-
-Texture "CEMENTT", 128, 8
-{
-	Patch "CEMENT6", 0, -120
+	Patch "ADEL_M02", 0, 0
+	Patch "ADEL_B11", 0, 128
+	Patch "ADEL_B11", 32, 128
 }
 
 // Sarnath eyeball

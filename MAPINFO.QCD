@@ -490,7 +490,6 @@ map QCDL08 "Crash Course"
 map QCDL09 "Hektik"
 {
 	music = "QCDLM09"
-	sky1 = RSKY2
 	UsePlayerStartZ
 	next = "QCDL01"
 }
