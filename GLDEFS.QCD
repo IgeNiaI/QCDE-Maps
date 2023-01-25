@@ -104,6 +104,46 @@ brightmap texture QRMET48
 	map "textures/QRMET48X.png"
 }
 
+brightmap texture Q1EXP604 
+{
+	map "textures/Q1EXP60B.png"
+}
+
+brightmap texture QPILAR2 
+{
+	map "textures/QPILAR2B.png"
+}
+
+brightmap texture QPILAR3 
+{
+	map "textures/QPILAR3B.png"
+}
+
+brightmap texture QPILAR4 
+{
+	map "textures/QPILAR4B.png"
+}
+
+brightmap texture QPILAR5 
+{
+	map "textures/QPILAR5B.png"
+}
+
+brightmap texture QPILAR6 
+{
+	map "textures/QPILAR6B.png"
+}
+
+brightmap texture QPILAR7 
+{
+	map "textures/QPILAR7B.png"
+}
+
+brightmap texture QPILAR8 
+{
+	map "textures/QPILAR8B.png"
+}
+
 
 
 //-----------

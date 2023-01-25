@@ -398,6 +398,48 @@ map QCDE44 "Exile"
 	Music = QCDEM44
 	UsePlayerStartZ
 	sky1 = "OSKY35", 0.1
+	Next = "QCDE45"
+}
+
+//Map by geNia
+map QCDE45 "Deck 17"
+{
+	Music = "QCDEM45"
+	UsePlayerStartZ
+	Next = "QCDE46"
+}
+
+//map by geNia
+map QCDE46 "Brought 2 doom"
+{
+	music = "QCDEM46"
+	sky1 = "HRSKY1"
+	UsePlayerStartZ
+	next = "QCDE47"
+}
+
+//Map by Mr.Rocket
+Map QCDE47 "Claustrophobopolis"
+{
+	Music = "QCDEM47"
+	Sky1 = QSKY01
+	UsePlayerStartZ
+	Next = "QCDE48"
+}
+
+//Map by geNia
+Map QCDE48 "Mythic"
+{
+	Music = "QCDEM48"
+	UsePlayerStartZ
+	Next = "QCDE49"
+}
+
+//Map by geNia
+Map QCDE49 "Erase"
+{
+	Music = "QCDEM49"
+	UsePlayerStartZ
 	Next = "QCDE01"
 }
 
@@ -491,7 +533,16 @@ map QCDL09 "Hektik"
 {
 	music = "QCDLM09"
 	UsePlayerStartZ
-	next = "QCDL01"
+	next = "QCDL10"
+}
+
+//Map by geNia
+Map QCDL10 "Unreal place"
+{
+	Music = "QCDLM10"
+	UsePlayerStartZ
+	Next = "QCDL01"
+	sky1 = RSKY2
 }
 
 

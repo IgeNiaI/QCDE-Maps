@@ -121,3 +121,32 @@ Model SarnathEyeholder
 	  
 	FrameIndex TREA A 0 0
 }
+
+//--------------------------------------------------------------------------------
+//		Deck 17
+//--------------------------------------------------------------------------------
+
+Model Deck17Lift {
+    Path "MD3"
+    SurfaceSkin 0 0 "BAS06HAB.png"
+    SurfaceSkin 0 1 "BAS04AL.png"
+    SurfaceSkin 0 2 "GRATINGS.png"
+    MODEL 0 "decklift.md3"
+    Offset 0 0 2
+    Scale 0.83 0.83 0.83
+    FrameIndex EMPT A 0 0
+}
+
+//--------------------------------------------------------------------------------
+//		Claustrophobopolis
+//--------------------------------------------------------------------------------
+
+Model X2
+{
+	Path "MD3"
+	Model 0 "X2.md3"
+	Skin 0 "QFMET04.png"
+	Scale 1.2 1.2 1.2
+
+	FrameIndex TREA A 0 0
+}

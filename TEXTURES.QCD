@@ -3047,3 +3047,558 @@ Sprite "EYEAO4", 572, 192 { Offset 286, 32 Patch "EYEAA4", 0, 0 }
 Sprite "EYEAO5", 572, 192 { Offset 286, 32 Patch "EYEAA5", 0, 0 }
 Sprite "EYEAO6", 572, 192 { Offset 286, 32 Patch "EYEAA6", 0, 0 }
 Sprite "EYEAO7", 572, 192 { Offset 286, 32 Patch "EYEAA7", 0, 0 }
+
+
+Texture "CP_NWAEV", 128, 128
+{
+	Patch "CP_15NWA", 0, 0
+	Patch "CP_EVIL2", 0, 16
+}
+
+Texture "CP_CONEV", 128, 256
+{
+	Patch "CONCRETE", 0, 0
+	Patch "CONCRETE", 0, 128
+	Patch "CP_EVIL2", 0, 173
+}
+
+Texture "CP_EVIEV", 128, 256
+{
+	Patch "CP_EVILS", 0, 0
+	Patch "CP_EVILS", 0, 128
+	Patch "CP_EVIL2", 0, 140
+}
+
+Texture HETL290, 128, 64
+{
+	XScale 1.0
+	YScale 1.0
+	Patch HETL2, 0, 0
+	{
+	   rotate 90
+	}
+}
+
+Texture "HKULHAIN", 64, 256
+{
+	Patch "HKULLSB1", 0, 0
+	Patch "SAINT6", 0, 128
+}
+
+Texture "BRWNHAIN", 64, 208
+{
+	Patch HETL2, 0, -48
+	{
+	   rotate 90
+	}
+	Patch "SAINT6", 0, 16
+	Patch "HETL1", 0, 144
+}
+
+Texture "STYSBRD3", 64, 320
+{
+	Patch "BRWNBRD3", 0, 0
+	Patch "HTYSTCI2", 0, 128
+	Patch "HTYSTCI2", 0, 256
+}
+
+texture QGNROCK, 64, 64
+{ 
+	patch QGNROCK, 0, 0
+}
+
+texture QALAV01, 64, 64
+{
+	patch QALAV01, 0, 0
+}
+
+texture QFCOP02, 64, 64
+{
+	patch QFCOP02, 0, 0
+}
+
+texture QFMET04, 64, 64
+{
+	patch QFMET04, 0, 0
+}
+
+texture QFMET12, 64, 64
+{
+	patch QFMET12, 0, 0
+}
+
+texture QFMET15, 64, 64
+{
+	patch QFMET15, 0, 0
+}
+
+texture QFMET21, 64, 64
+{ 
+	patch QFMET21, 0, 0
+}
+
+texture QFMET43, 64, 64
+{ 
+	patch QFMET43, 0, 0
+}
+
+texture QFMETV1, 64, 128
+{ 
+	patch QFMETV1, 0, 0
+}
+
+texture QFMETV2, 64, 128
+{ 
+	patch QFMETV2, 0, 0
+}
+
+texture QFTEL01, 64, 64
+{
+	patch QFTEL01, 0, 0
+}
+
+texture QRLIT09, 32, 32
+{
+	patch QRLIT09, 0, 0
+}
+
+texture QRMET27, 64, 64
+{
+	patch QRMET27, 0, 0
+}
+
+texture QRMET48, 32, 48
+{
+	patch QRMET48, 0, 0
+}
+
+texture QRMET58, 32, 32
+{
+	patch QRMET58, 0, 0
+}
+
+texture QRUNE01, 32, 64
+{
+	patch QRUNE01, 0, 0
+}
+
+texture QRUNEZ1, 32, 64
+{
+	patch QRUNEZ1, 0, 0
+}
+
+texture QRUNEZ2, 32, 64
+{
+	patch QRUNEZ2, 0, 0
+}
+
+texture QSKY01, 512, 512
+{
+	patch QSKY01, 0, 0
+}
+
+texture QSKY02, 512, 512
+{ 
+	patch QSKY02, 0, 0
+}
+
+texture QRCOP17, 64, 64
+{ 
+	patch QRCOP17, 0, 0
+}
+
+texture QRCOP07, 64, 64
+{ 
+	patch QRCOP07, 0, 0
+}
+
+texture QTECH16, 128, 16
+{ 
+	patch QTECH16, 0, 0
+}
+
+texture QTECH18, 16, 128
+{ 
+	patch QTECH18, 0, 0
+}
+
+texture metal2_3, 64, 64
+{ 
+	patch metal2_3, 0, 0
+}
+
+//brightmaps
+
+texture QALAV01X, 64, 64
+{
+	patch QALAV01X, 0, 0
+}
+
+texture QTELFOG1, 64, 64
+{
+	patch QTELFOG1, 0, 0
+}
+
+texture QTELFOG2, 64, 64
+{
+	patch QTELFOG2, 0, 0
+}
+
+texture QFTEL01X, 64, 64
+{
+	patch QFTEL01X, 0, 0
+}
+
+texture QRLIT09X, 32, 32
+{
+	patch QRLIT09X, 0, 0
+}
+
+texture QRMET48X, 64, 64
+{
+	patch QRMET48X, 0, 0
+}
+
+///////////////////////////from q1tex
+
+texture Q1EX_005, 64, 64
+{
+	patch Q1EX_005, 0, 0
+}
+
+texture Q1EX_026, 64, 64
+{
+	patch Q1EX_026, 0, 0
+}
+
+texture Q1EX_067, 64, 64
+{
+	patch Q1EX_067, 0, 0
+}
+
+texture Q1EX_123, 64, 64
+{
+	patch Q1EX_123, 0, 0
+}
+
+texture Q1EX_570, 64, 64
+{
+	patch Q1EX_570, 0, 0
+}
+
+texture Q1EX_576, 64, 64
+{
+	patch Q1EX_576, 0, 0
+}
+
+texture Q1EX_587, 64, 64
+{
+	patch Q1EX_587, 0, 0
+}
+
+texture Q1EX_591, 64, 64
+{
+	patch Q1EX_591, 0, 0
+}
+
+texture Q1EX_678, 64, 64
+{
+	patch Q1EX_678, 0, 0
+}
+
+texture SLIPGATE, 64, 64
+{
+	patch SLIPGATE, 0, 0
+}
+
+//////////////random sizes
+
+
+texture Q1EX_566, 32, 128
+{
+	patch Q1EX_566, 0, 0
+}
+
+texture SKY4_2, 128, 128
+{
+	patch SKY4_2, 0, 0
+}
+
+//additional quake1 textures
+
+
+texture Q1EX_056, 32, 32
+{
+	patch Q1EX_056, 0, 0
+}
+
+texture Q1EX_055, 32, 32
+{
+	patch Q1EX_055, 0, 0
+}
+
+texture Q1EX_054, 32, 32
+{
+	patch Q1EX_054, 0, 0
+}
+
+texture Q1EX_295, 32, 32
+{
+	patch Q1EX_295, 0, 0
+}
+
+texture Q1EX_392, 32, 32
+{
+	patch Q1EX_392, 0, 0
+}
+
+texture Q1EX_451, 32, 32
+{
+	patch Q1EX_451, 0, 0
+}
+
+texture Q1EX_479, 32, 32
+{
+	patch Q1EX_479, 0, 0
+}
+
+texture Q1EX_518, 32, 32
+{
+	patch Q1EX_518, 0, 0
+}
+
+texture Q1EX_604, 32, 32
+{
+	patch Q1EX_604, 0, 0
+}
+
+texture Q1EX_370, 64, 64
+{
+	patch Q1EX_370, 0, 0
+}
+
+texture Q1EX_391, 64, 64
+{
+	patch Q1EX_391, 0, 0
+}
+
+texture Q1EX_527, 320, 192
+{
+	patch Q1EX_527, 0, 0
+}
+
+texture Q1EX_241, 64, 64
+{
+	patch Q1EX_241, 0, 0
+}
+
+texture Q1EX_222, 64, 64
+{
+	patch Q1EX_222, 0, 0
+}
+
+texture Q1EX_223, 64, 64
+{
+	patch Q1EX_223, 0, 0
+}
+
+texture Q1EX_216, 64, 64
+{
+	patch Q1EX_216, 0, 0
+}
+
+texture Q1EX_140, 64, 64
+{
+	patch Q1EX_140, 0, 0
+}
+
+texture Q1EX_117, 64, 64
+{
+	patch Q1EX_117, 0, 0
+}
+
+texture Q1EX_100, 64, 64
+{
+	patch Q1EX_100, 0, 0
+}
+
+texture Q1EX_051, 64, 64
+{
+	patch Q1EX_051, 0, 0
+}
+
+//water
+texture Q1EX_237, 64, 64
+{
+	patch Q1EX_237, 0, 0
+}
+
+//Q1EX_524
+texture Q1EX_524, 64, 64
+{
+	patch Q1EX_524, 0, 0
+}
+
+// central area floor texture
+texture Q1EX_715, 64, 64
+{
+	patch Q1EX_715, 0, 0
+}
+
+
+texture PWATER, 64, 64
+{
+	patch PWATER, 0, 0
+}
+
+texture Q1EXP604, 32, 256
+{
+	patch Q1EXP604, 0, 0
+}
+
+//new or modifide
+
+texture QDM2W1, 64, 128
+{
+	patch QDM2W1, 0, 0
+}
+
+texture QDM2W2, 64, 256
+{
+	patch QDM2W2, 0, 0
+}
+
+texture QDM2W3, 64, 256
+{
+	patch QDM2W3, 0, 0
+}
+
+texture QPILAR2, 32, 256
+{
+	patch QPILAR2, 0, 0
+}
+
+texture QPILAR3, 32, 256
+{
+	patch QPILAR3, 0, 0
+}
+
+texture QPILAR4, 32, 256
+{
+	patch QPILAR4, 0, 0
+}
+
+texture QPILAR5, 32, 256
+{
+	patch QPILAR5, 0, 0
+}
+
+texture QPILAR6, 32, 256
+{
+	patch QPILAR6, 0, 0
+}
+
+texture QPILAR7, 32, 256
+{
+	patch QPILAR7, 0, 0
+}
+
+texture QPILAR8, 32, 256
+{
+	patch QPILAR8, 0, 0
+}
+
+texture QPILA21, 32, 256
+{
+	patch QPILA21, 0, 0
+}
+
+texture QPILA22, 32, 256
+{
+	patch QPILA22, 0, 0
+}
+
+texture QPILA23, 32, 256
+{
+	patch QPILA23, 0, 0
+}
+
+texture QPILA24, 32, 256
+{
+	patch QPILA24, 0, 0
+}
+
+texture QPILA25, 32, 256
+{
+	patch QPILA25, 0, 0
+}
+
+texture QPILA26, 32, 256
+{
+	patch QPILA26, 0, 0
+}
+
+Texture "WOL3TBDR", 256, 96
+{
+	Patch "NMWAL3T2", 0, -154
+	Patch "BDR02BHA", 0, 0
+	Patch "BDR02BHA", 128, 0
+}
+
+Texture "WAL3TBDR", 256, 256
+{
+	Patch "NMWAL3T2", 0, 6
+	Patch "BDR02BHA", 0, 0
+	Patch "BDR02BHA", 128, 0
+}
+
+Texture "WALTBDR", 256, 416
+{
+	Patch "NMWAL2T", 0, -68
+	Patch "WAL3TBDR", 0, 160
+	Patch "BDR02BHB", 0, 0
+	Patch "BDR02BHB", 128, 0
+	Patch "BDR02BHB", 0, 16
+	Patch "BDR02BHB", 128, 16
+	Patch "BDR02BHA", 0, 32
+	Patch "BDR02BHA", 128, 32
+}
+
+Texture "WALTBDR2", 256, 400
+{
+	Patch "WAL3TBDR", 0, 144
+	Patch "BDR02BHA", 0, 0
+	Patch "BDR02BHA", 128, 0
+	Patch "BDR02BHB", 0, 16
+	Patch "BDR02BHB", 128, 16
+	Patch "BDR02BHB", 0, 32
+	Patch "BDR02BHB", 128, 32
+	Patch "BDR02BHB", 0, 48
+	Patch "BDR02BHB", 128, 48
+	Patch "BDR02BHB", 0, 64
+	Patch "BDR02BHB", 128, 64
+	Patch "BDR02BHB", 0, 80
+	Patch "BDR02BHB", 128, 80
+	Patch "BDR02BHB", 0, 96
+	Patch "BDR02BHB", 128, 96
+	Patch "BDR02BHB", 0, 112
+	Patch "BDR02BHB", 128, 112
+	Patch "BDR02BHB", 0, 128
+	Patch "BDR02BHB", 128, 128
+}
+
+Texture "NMWALLT", 256, 736
+{
+	Patch "NMWAL2T", 0, 252
+	Patch "NMWAL2T", 0, 104
+	Patch "NMWAL2T", 0, -136
+	Patch "FLR08HA", 0, -192
+	Patch "WAL3TBDR", 0, 480
+}
+
+Texture "BAS02BDR", 256, 96
+{
+	Patch "BAS02HA", 0, 0
+	Patch "BDR02BHA", 0, 0
+	Patch "BDR02BHA", 128, 0
+}

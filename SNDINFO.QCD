@@ -80,3 +80,36 @@ McBtnPrs MCBTNPRS
 // Arcane Temple
 WatrFall WATRFALL
 $ambient 14 WatrFall point continuous 1.0
+// Deck 17
+SteamFx STEAMFX1
+$attenuation SteamFx 1.5
+$ambient 11 SteamFx point continuous 1.0
+
+UTInterior38 UTINTE38
+$ambient 12 UTInterior38 world continuous 0.4
+
+// Duel 1
+HereTele STFCRK
+$attenuation HereTele 1.0
+$ambient 20 HereTele point continuous 1.0
+
+// Claustrophobolis
+$volume sounds/water 0.4 
+$attenuation sounds/water 2
+sounds/water   	     DRIP1
+
+$volume sounds/lava 0.8
+sounds/lava   	          LAVA1
+
+$volume sounds/lava/lava2 0.4
+sounds/lava/lava2   	LAVA2
+
+$volume sounds/lava3/lava3 0.8
+sounds/lava3/lava3   	LAVA3
+
+$volume sounds/lava/lava4 0.8
+sounds/lava/lava4   	LAVA4
+
+
+//DSBDOPN 
+sounds/ambient/misc   	DSBDOPN

@@ -252,8 +252,11 @@ switch ELRU3OF on sound RuneSwitch pic ELRU3ON tics 0
 switch ELRU4OF on sound RuneSwitch pic ELRU4ON tics 0 off sound EMPTY pic ELRU4OF tics 0
 switch ROCKSWIT on sound RuneSwitch pic ROCKSWI2 tics 0 off sound EMPTY pic ROCKSWIT tics 0
 
+warp2 flat SC_LAVA1 0.05
+
 //The Bad Place
 warp2 flat QALAV01 
+warp2 flat Q1EX_237
 
 //Sight
 Flat TEALW1 Range TEALW4 Tics 8
@@ -854,10 +857,29 @@ texture HRSKY3A
   pic HRSKY3M tics 2
   pic HRSKY3N tics 2
   pic HRSKY3O tics 2
-  
-  //heretic water
-  warp2 texture HRTWAWA1
-  
+
+//heretic water
+warp2 texture HRTWAWA1
+
+Switch	HW2OFF on pic HW2ON Tics 0
+
+Flat	Optional	HRTTELE1	Range	HRTTELE4	Tics 4
+Flat	Optional	FLTTEL31	Range	FLTTEL34	Tics 4
+
+Flat	Optional	HRTSLUD1	Range	HRTSLUD3	Tics 10
+warp2 flat HRTSLUD1 .3
+warp2 flat HRTSLUD2 .3
+warp2 flat HRTSLUD3 .3
+
+Flat	Optional	HRATHUH1	Range	HRATHUH4	Tics 6
+warp2 flat HRATHUH1 .1
+warp2 flat HRATHUH2 .1
+warp2 flat HRATHUH3 .1
+warp2 flat HRATHUH4 .1
+
+Texture	Optional	OFIREA01	Range	OFIREA06	Tics 4
+Texture	Optional	OFIREA11	Range	OFIREA16	Tics 4
+
   
 //-------------------------------
 // Animated Duke3D textures for battleforged
