@@ -1,0 +1,83 @@
+#library "QCDEMAPK"
+#include "zcommon.acs"
+
+Script "QCDE_QCDEMapPackStartMap" (int mapNumber) NET CLIENTSIDE
+{
+	str mapName = numberToMapName(mapNumber);
+	ACS_NamedExecuteWithResult("QCDE_ChangeMap", mapName);
+}
+
+function str numberToMapName (int mapNumber)
+{
+	switch (mapNumber)
+	{
+	// Normal maps
+	case  1:	return "QCDE01";
+	case  2:	return "QCDE02";
+	case  3:	return "QCDE03";
+	case  4:	return "QCDE04";
+	case  5:	return "QCDE05";
+	case  6:	return "QCDE06";
+	case  7:	return "QCDE07";
+	case  8:	return "QCDE08";
+	case  9:	return "QCDE09";
+	case 10:	return "QCDE10";
+	case 11:	return "QCDE11";
+	case 12:	return "QCDE12";
+	case 13:	return "QCDE13";
+	case 14:	return "QCDE14";
+	case 15:	return "QCDE15";
+	case 16:	return "QCDE16";
+	case 17:	return "QCDE17";
+	case 18:	return "QCDE18";
+	case 19:	return "QCDE19";
+	case 20:	return "QCDE20";
+	case 21:	return "QCDE21";
+	case 22:	return "QCDE22";
+	case 23:	return "QCDE23";
+	case 24:	return "QCDE24";
+	case 25:	return "QCDE25";
+	case 26:	return "QCDE26";
+	case 27:	return "QCDE27";
+	case 28:	return "QCDE28";
+	case 29:	return "QCDE29";
+	case 30:	return "QCDE30";
+	case 31:	return "QCDE31";
+	case 32:	return "QCDE32";
+	case 33:	return "QCDE33";
+	case 34:	return "QCDE34";
+	case 35:	return "QCDE35";
+	case 36:	return "QCDE36";
+	case 37:	return "QCDE37";
+	case 38:	return "QCDE38";
+	case 39:	return "QCDE39";
+	case 40:	return "QCDE40";
+	case 41:	return "QCDE41";
+	case 42:	return "QCDE42";
+	case 43:	return "QCDE43";
+	case 44:	return "QCDE44";
+	case 45:	return "QCDE45";
+	case 46:	return "QCDE46";
+	case 47:	return "QCDE47";
+	case 48:	return "QCDE48";
+	case 49:	return "QCDE49";
+
+	// Duel maps
+	case 101:	return "QCDL01";
+	case 102:	return "QCDL02";
+	case 103:	return "QCDL03";
+	case 104:	return "QCDL04";
+	case 105:	return "QCDL05";
+	case 106:	return "QCDL06";
+	case 107:	return "QCDL07";
+	case 108:	return "QCDL08";
+	case 109:	return "QCDL09";
+	case 110:	return "QCDL10";
+
+	// Meme maps
+	case 201:	return "QCME01";
+	case 202:	return "QCME02";
+	}
+
+	return "";
+}
