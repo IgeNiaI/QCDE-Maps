@@ -1,4 +1,14 @@
 
+AddOptionMenu "QCDE_SkirmishMenu" before "qcde_randommap"
+{
+	SubMenuCentered		"Official maps list",	"QCDE_QCDEMaps"
+}
+
+AddOptionMenu "QCDE_CallMapVote" before "qcde_randommap"
+{
+	SubMenuCentered		"Official maps list",	"QCDE_QCDEMaps"
+}
+
 OptionMenu QCDE_QCDEMaps
 {
 	Indent 200
@@ -73,5 +83,5 @@ OptionMenu QCDE_QCDEMaps
 
 	StaticText	"Meme maps"
 	Command		"The Longest Yard - QCME01",				"map_QCME01"
-	Command		"Morpheus - QCME02",						"map_QCME01"
+	Command		"Morpheus - QCME02",						"map_QCME02"
 }
