@@ -3057,8 +3057,8 @@ Texture "CP_NWAEV", 128, 128
 
 Texture "CP_CONEV", 128, 256
 {
-	Patch "CONCRETE", 0, 0
-	Patch "CONCRETE", 0, 128
+	Patch "CONCRETT", 0, 0
+	Patch "CONCRETT", 0, 128
 	Patch "CP_EVIL2", 0, 173
 }
 
