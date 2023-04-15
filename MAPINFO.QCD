@@ -1,6 +1,7 @@
 //Map by DBThanatos
 map QCDE01 "Blood Covenant"
 {
+	PreviewPic = "PVQCDE01"
 	Music = "QCDEM01"
 	sky1 = "QCDSky01", 0.5
 	UsePlayerStartZ
@@ -10,6 +11,7 @@ map QCDE01 "Blood Covenant"
 //Map by DBThanatos
 map QCDE02 "Toxjcity"
 {
+	PreviewPic = "PVQCDE02"
 	Music = "QCDEM02"
 	sky1 = "TOXSKY"
 	UsePlayerStartZ
@@ -19,6 +21,7 @@ map QCDE02 "Toxjcity"
 //Map by DBThanatos
 map QCDE03 "The Chasm"
 {
+	PreviewPic = "PVQCDE03"
 	Music = QCDEM03
 	UsePlayerStartZ
 	Next = "QCDE04"
@@ -27,15 +30,17 @@ map QCDE03 "The Chasm"
 //Map by MrEnchanter
 map QCDE04 "Bitterman's Revenge"
 {
+	PreviewPic = "PVQCDE04"
 	Music = QCDEM04
+	sky1 = "SKY1B"
 	UsePlayerStartZ
 	Next = "QCDE05"
-	sky1 = "SKY1B"
 }
 
 //Map by Ivan Dobrovski
 map QCDE05 "Fortress in the Void"
 {
+	PreviewPic = "PVQCDE05"
 	Music = QCDEM05
 	UsePlayerStartZ
 	Next = "QCDE06"
@@ -44,6 +49,7 @@ map QCDE05 "Fortress in the Void"
 //map by RoosTer
 map QCDE06 "Vertical Vengeance"
 {
+	PreviewPic = "PVQCDE06"
 	Music = QCDEM06
 	UsePlayerStartZ	
 	sky1 = VERTSKY, 0
@@ -53,6 +59,7 @@ map QCDE06 "Vertical Vengeance"
 //Map by RoosTer
 map QCDE07 "Temple of Retribution"
 {
+	PreviewPic = "PVQCDE07"
 	Music = QCDEM07
 	UsePlayerStartZ
 	sky1 = VERTSKY
@@ -62,6 +69,7 @@ map QCDE07 "Temple of Retribution"
 //map by DBThanatos
 map QCDE08 "Furious Heights"
 {
+	PreviewPic = "PVQCDE08"
 	Music = QCDEM08
 	UsePlayerStartZ	
 	sky1 = HDRKSKY1, 0.1
@@ -71,6 +79,7 @@ map QCDE08 "Furious Heights"
 //map by RoosTer
 map QCDE09 "Lost World"
 {
+	PreviewPic = "PVQCDE09"
 	Music = QCDEM09
 	UsePlayerStartZ	
 	sky1 = "LOSTSKY", 0.4
@@ -80,6 +89,7 @@ map QCDE09 "Lost World"
 //map by DBThanatos
 map QCDE10 "Cure"
 {
+	PreviewPic = "PVQCDE10"
 	Music = QCDEM10
 	UsePlayerStartZ	
 	sky1 = "CURESKY", 0.0
@@ -89,6 +99,7 @@ map QCDE10 "Cure"
 //map by DBThanatos
 map QCDE11 "Monsoon"
 {
+	PreviewPic = "PVQCDE11"
 	Music = QCDEM11
 	Lightning
 	Sky1 = "MONSKY1", 0.5
@@ -100,6 +111,7 @@ map QCDE11 "Monsoon"
 //map by RoosTer
 map QCDE12 "Phobos Campgrounds"
 {
+	PreviewPic = "PVQCDE12"
 	Music = QCDEM12
 	UsePlayerStartZ	
 	sky1 = "CAMPSKY", 0
@@ -110,6 +122,7 @@ map QCDE12 "Phobos Campgrounds"
 //Map by Ivan Dobrovski
 map QCDE13 "Sight"
 {
+	PreviewPic = "PVQCDE13"
 	Music = QCDEM13
 	sky1 = "SITESKY"
 	UsePlayerStartZ
@@ -119,6 +132,7 @@ map QCDE13 "Sight"
 //map by RoosTer
 map QCDE14 "Stubborn"
 {
+	PreviewPic = "PVQCDE14"
 	Music = QCDEM14
 	UsePlayerStartZ	
 	sky1 = "VERTSKY"
@@ -130,6 +144,7 @@ map QCDE14 "Stubborn"
 //Map by geNia
 map QCDE15 "Chastity Belt"
 {
+	PreviewPic = "PVQCDE15"
 	Music = "QCDEM15"
 	UsePlayerStartZ
 	Next = "QCDE16"
@@ -138,6 +153,7 @@ map QCDE15 "Chastity Belt"
 //map by DBThanatos & Ivan Dobrovski
 map QCDE16 "Sinister"
 {
+	PreviewPic = "PVQCDE16"
 	Music = QCDEM16
 	UsePlayerStartZ	
 	sky1 = sinisky
@@ -147,6 +163,7 @@ map QCDE16 "Sinister"
 //map by DBThanatos
 map QCDE17 "Lockbox"
 {
+	PreviewPic = "PVQCDE17"
 	Music = QCDEM17
 	UsePlayerStartZ	
 	Next = "QCDE18"
@@ -157,6 +174,7 @@ map QCDE17 "Lockbox"
 //map by Ivory Duke
 map QCDE18 "Elder"
 {
+	PreviewPic = "PVQCDE18"
 	Music = QCDEM18
 	UsePlayerStartZ
 	sky1 = sinisky
@@ -166,6 +184,7 @@ map QCDE18 "Elder"
 //map by DBThanatos
 map QCDE19 "Corrupted Station"
 {
+	PreviewPic = "PVQCDE19"
 	Music = QCDEM19
 	sky1 = "KEEPSKY"
 	UsePlayerStartZ
@@ -175,6 +194,7 @@ map QCDE19 "Corrupted Station"
 //map by RoosTer
 map QCDE20 "Deck"
 {
+	PreviewPic = "PVQCDE20"
 	Music = QCDEM20
 	UsePlayerStartZ	
 	sky1 = "MRPSKY"
@@ -184,6 +204,7 @@ map QCDE20 "Deck"
 //map by RoosTer
 map QCDE21 "Almost Lost"
 {
+	PreviewPic = "PVQCDE21"
 	Music = QCDEM21
 	UsePlayerStartZ	
 	sky1 = "LOSTSKY", 0.45
@@ -193,6 +214,7 @@ map QCDE21 "Almost Lost"
 //map by DBThanatos
 map QCDE22 "Sarnath"
 {
+	PreviewPic = "PVQCDE22"
 	Music = QCDEM22
 	sky1 = "QCDSky01", 0.2
 	UsePlayerStartZ
@@ -202,6 +224,7 @@ map QCDE22 "Sarnath"
 //map by DBThanatos
 map QCDE23 "Lh'owon of Ice and Fire"
 {
+	PreviewPic = "PVQCDE23"
 	UsePlayerStartZ
 	Music = QCDEM23
 	sky1 = "MAR_SKY1"
@@ -211,6 +234,7 @@ map QCDE23 "Lh'owon of Ice and Fire"
 //map by DBThanatos
 map QCDE24 "Vale of Pnath"
 {
+	PreviewPic = "PVQCDE24"
 	Music = QCDEM24
 	sky1 = sinisky
 	UsePlayerStartZ
@@ -219,16 +243,17 @@ map QCDE24 "Vale of Pnath"
 
 map QCDE25 "Quarantine"
 {
+	PreviewPic = "PVQCDE25"
 	Music = QCDEM25
 	UsePlayerStartZ	
 	sky1 = "QUARSKY", 0.03
 	Next = "QCDE26"
 }
 
-
 //map by DBThanatos
 map QCDE26 "Lh'owoken"
 {
+	PreviewPic = "PVQCDE26"
 	Music = QCDEM26
 	sky1 = "MAR_SKY2"
 	UsePlayerStartZ
@@ -238,6 +263,7 @@ map QCDE26 "Lh'owoken"
 //map by DBThanatos
 map QCDE27 "Placebo Effect"
 {
+	PreviewPic = "PVQCDE27"
 	UsePlayerStartZ
 	Music = QCDEM27
 	sky1 = "MRPSKY", 0.2
@@ -247,6 +273,7 @@ map QCDE27 "Placebo Effect"
 //map by DBThanatos
 map QCDE28 "Molten Falls"
 {
+	PreviewPic = "PVQCDE28"
 	Music = QCDEM28
 	sky1 = "BSKY_2"
 	UsePlayerStartZ
@@ -256,6 +283,7 @@ map QCDE28 "Molten Falls"
 //Map by DBThanatos
 map QCDE29 "Blood Run"
 {
+	PreviewPic = "PVQCDE29"
 	Music = QCDEM29
 	sky1 = POSNSKY3, 0.15
 	UsePlayerStartZ
@@ -265,6 +293,7 @@ map QCDE29 "Blood Run"
 //map by DBThanatos
 map QCDE30 "Gibel Complex"
 {
+	PreviewPic = "PVQCDE30"
 	Music = QCDEM30
 	UsePlayerStartZ
 	Next = "QCDE31"
@@ -273,6 +302,7 @@ map QCDE30 "Gibel Complex"
 //map by DBThanatos
 map QCDE31 "Excavation"
 {
+	PreviewPic = "PVQCDE31"
 	Music = QCDEM31
 	sky1 = Q2BIGGUN
 	UsePlayerStartZ
@@ -282,6 +312,7 @@ map QCDE31 "Excavation"
 //map by Ivory Duke
 map QCDE32 "Delirium"
 {
+	PreviewPic = "PVQCDE32"
 	Music = QCDEM32
 	sky1 = deliriumsky
 	SkyStretch
@@ -292,6 +323,7 @@ map QCDE32 "Delirium"
 //map by DBThanatos
 map QCDE33 "Silence"
 {
+	PreviewPic = "PVQCDE33"
 	Music = QCDEM33
 	sky1 = "SILENSKY"
 	UsePlayerStartZ
@@ -301,6 +333,7 @@ map QCDE33 "Silence"
 //map by Killerkouhai
 map QCDE34 "Zenith"
 {
+	PreviewPic = "PVQCDE34"
 	Music = QCDEM34
 	sky1 = ORBIT, 0.1
 	UsePlayerStartZ
@@ -310,6 +343,7 @@ map QCDE34 "Zenith"
 //map by DBThanatos
 map QCDE35 "The Edge"
 {
+	PreviewPic = "PVQCDE35"
 	Music = QCDEM35
 	sky1 = "EdgySun"
 	UsePlayerStartZ
@@ -319,6 +353,7 @@ map QCDE35 "The Edge"
 //map by DBThanatos
 map QCDE36 "Fusillade"
 {
+	PreviewPic = "PVQCDE36"
 	Music = QCDEM36
 	sky1 = "HRSKY3A"
 	UsePlayerStartZ
@@ -328,6 +363,7 @@ map QCDE36 "Fusillade"
 //map by DBThanatos & Ivan Dobrovski
 map QCDE37 "Dukiforged"
 {
+	PreviewPic = "PVQCDE37"
 	Music = QCDEM37
 	UsePlayerStartZ
 	Next = "QCDE38"
@@ -337,6 +373,7 @@ map QCDE37 "Dukiforged"
 //map by DBThanatos
 map QCDE38 "Helix"
 {
+	PreviewPic = "PVQCDE38"
 	Music = QCDEM38
 	sky1 = "HLixSky"
 	UsePlayerStartZ
@@ -347,6 +384,7 @@ map QCDE38 "Helix"
 //map by geNia
 map QCDE39 "Arcane Temple"
 {
+	PreviewPic = "PVQCDE39"
 	Music = "QCDEM39"
 	sky1 = "QCDSky01", 0.5
 	UsePlayerStartZ
@@ -357,6 +395,7 @@ map QCDE39 "Arcane Temple"
 //map by geNia
 map QCDE40 "Rankin"
 {
+	PreviewPic = "PVQCDE40"
 	Music = "QCDEM40"
 	Sky1 = "MONSKY1", 0.5
 	Sky2 = "MONSKY2", 0.5
@@ -368,6 +407,7 @@ map QCDE40 "Rankin"
 //Map by geNia
 map QCDE41 "QWER"
 {
+	PreviewPic = "PVQCDE41"
 	Music = QCDEM41
 	UsePlayerStartZ
 	Next = "QCDE42"
@@ -377,6 +417,7 @@ map QCDE41 "QWER"
 //Map by geNia
 map QCDE42 "Mine Embrace"
 {
+	PreviewPic = "PVQCDE42"
 	Music = "QCDEM42"
 	UsePlayerStartZ
 	Next = "QCDE43"
@@ -386,6 +427,7 @@ map QCDE42 "Mine Embrace"
 //Map by TheSwampylad
 map QCDE43 "Temple of the Blood Serpants"
 {
+	PreviewPic = "PVQCDE43"
 	Music = QCDEM43
 	UsePlayerStartZ
 	Next = "QCDE44"
@@ -395,6 +437,7 @@ map QCDE43 "Temple of the Blood Serpants"
 //Map by TheSwampylad
 map QCDE44 "Exile"
 {
+	PreviewPic = "PVQCDE44"
 	Music = QCDEM44
 	UsePlayerStartZ
 	sky1 = "OSKY35", 0.1
@@ -404,6 +447,7 @@ map QCDE44 "Exile"
 //Map by geNia
 map QCDE45 "Deck 17"
 {
+	PreviewPic = "PVQCDE45"
 	Music = "QCDEM45"
 	UsePlayerStartZ
 	Next = "QCDE46"
@@ -412,6 +456,7 @@ map QCDE45 "Deck 17"
 //map by geNia
 map QCDE46 "Brought 2 doom"
 {
+	PreviewPic = "PVQCDE46"
 	music = "QCDEM46"
 	sky1 = "HRSKY1"
 	UsePlayerStartZ
@@ -421,6 +466,7 @@ map QCDE46 "Brought 2 doom"
 //Map by Mr.Rocket
 Map QCDE47 "Claustrophobopolis"
 {
+	PreviewPic = "PVQCDE47"
 	Music = "QCDEM47"
 	Sky1 = QSKY01
 	UsePlayerStartZ
@@ -430,6 +476,7 @@ Map QCDE47 "Claustrophobopolis"
 //Map by geNia
 Map QCDE48 "Mythic"
 {
+	PreviewPic = "PVQCDE48"
 	Music = "QCDEM48"
 	UsePlayerStartZ
 	Next = "QCDE49"
@@ -438,6 +485,7 @@ Map QCDE48 "Mythic"
 //Map by geNia
 Map QCDE49 "Erase"
 {
+	PreviewPic = "PVQCDE49"
 	Music = "QCDEM49"
 	UsePlayerStartZ
 	Next = "QCDE01"
@@ -451,6 +499,7 @@ Map QCDE49 "Erase"
 //Map by Mr.Rocket
 map QCDL01 "The Bad Place"
 {
+	PreviewPic = "PVQCDL01"
 	Music = "QCDLM01"
 	DoubleSky
 	Sky1 = "QSKY01", 0.5
@@ -463,6 +512,7 @@ map QCDL01 "The Bad Place"
 //map by RoosTer
 map QCDL02 "Aerowalk"	//Edited version, bigger
 {
+	PreviewPic = "PVQCDL02"
 	Music = QCDLM02
 	UsePlayerStartZ	
 	sky1 = aerowalk
@@ -473,6 +523,7 @@ map QCDL02 "Aerowalk"	//Edited version, bigger
 //map by RoosTer
 map QCDL03 "Fatal Instinct"
 {
+	PreviewPic = "PVQCDL03"
 	UsePlayerStartZ	
 	fogdensity = 512
 	skyfog = "1"
@@ -484,6 +535,7 @@ map QCDL03 "Fatal Instinct"
 //Map by DBThanatos
 map QCDL04 "Phrantic"
 {
+	PreviewPic = "PVQCDL04"
 	Music = "QCDLM04"
 	sky1 = "QCDSky12", 0.05
 	UsePlayerStartZ
@@ -493,6 +545,7 @@ map QCDL04 "Phrantic"
 //Map by DBThanatos
 map QCDL05 "House Of Decay"
 {
+	PreviewPic = "PVQCDL05"
 	Music = QCDLM05
 	UsePlayerStartZ
 	Next = "QCDL06"
@@ -501,6 +554,7 @@ map QCDL05 "House Of Decay"
 //Map by Kultasakaali
 map QCDL06 "Hell's Gate"
 {
+	PreviewPic = "PVQCDL06"
 	Music = "QCDLM06"
 	DoubleSky
 	ForceNoSkyStretch
@@ -513,6 +567,7 @@ map QCDL06 "Hell's Gate"
 //map by Mr.Rocket
 map QCDL07 "The Dark Zone"
 {
+	PreviewPic = "PVQCDL07"
 	music = "QCDLM07"
 	Sky1 = SKY4_2
 	UsePlayerStartZ
@@ -522,6 +577,7 @@ map QCDL07 "The Dark Zone"
 //map by Pixo
 map QCDL08 "Crash Course"
 {
+	PreviewPic = "PVQCDL08"
 	music = "QCDLM08"
 	Sky1 = SITESKY
 	UsePlayerStartZ
@@ -531,6 +587,7 @@ map QCDL08 "Crash Course"
 //map by Pixo
 map QCDL09 "Hektik"
 {
+	PreviewPic = "PVQCDL09"
 	music = "QCDLM09"
 	UsePlayerStartZ
 	next = "QCDL10"
@@ -539,6 +596,7 @@ map QCDL09 "Hektik"
 //Map by geNia
 Map QCDL10 "Unreal place"
 {
+	PreviewPic = "PVQCDL10"
 	Music = "QCDLM10"
 	UsePlayerStartZ
 	Next = "QCDL01"
@@ -559,6 +617,7 @@ Map QCDL10 "Unreal place"
 //DBT note: It's a nice map, but people hate longest yard all around :(
 map QCME01 "The Longest Yard"
 {
+	PreviewPic = "PVQCME01"
 	Music = QCMEM01
 	sky1 = "BLKW", 0.1
 	UsePlayerStartZ
@@ -568,6 +627,7 @@ map QCME01 "The Longest Yard"
 //map by RoosTer
 map QCME02 "Morpheus"
 {
+	PreviewPic = "PVQCME02"
 	Music = QCMEM02
 	UsePlayerStartZ	
 	sky1 = "MRPSKY"

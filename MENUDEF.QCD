@@ -1,87 +1,191 @@
 
-AddOptionMenu "QCDE_SkirmishMenu" before "qcde_randommap"
+AddFreeformMenu "QCDE_SkirmishMenu" below "qcde_randommap"
 {
-	SubMenuCentered		"Official maps list",	"QCDE_QCDEMaps"
+	SubMenu {
+		Pos		0, 12				Text				"QC:DE Maps List"	Background			BV21028
+		Size	105, 14				Font				SmallFont			SelectedBackground	BV21028S
+		Anchor	center, center		FontColor			Tan					menu				QCDE_QCDEMaps
+		Padding	0, 0				SelectedFontColor	Tan
+	}
 }
 
-AddOptionMenu "QCDE_CallMapVote" before "qcde_randommap"
+AddFreeformMenu "QCDE_CallVote" below "qcde_randommap"
 {
-	SubMenuCentered		"Official maps list",	"QCDE_QCDEMaps"
+	SubMenu {
+		Pos		0, 12				Text				"QC:DE Maps List"	Background			BV21028
+		Size	105, 14				Font				SmallFont			SelectedBackground	BV21028S
+		Anchor	center, center		FontColor			Tan					menu				QCDE_QCDEMaps
+		Padding	0, 0				SelectedFontColor	Tan
+	}
 }
 
-OptionMenu QCDE_QCDEMaps
+FreeformMenu QCDE_QCDEMaps
 {
-	Indent 200
-	Title		"Select a map"
+	TopPadding 0
+	ScrollSpeed 16
+	OverrideHeight 1400
 
-	StaticText	"General maps"
-	Command		"Blood Covenant - QCDE01",					"map_QCDE01"
-	Command		"Toxjcity - QCDE02",						"map_QCDE02"
-	Command		"The Chasm - QCDE03",						"map_QCDE03"
-	Command		"Bitterman's Revenge - QCDE04",				"map_QCDE04"
-	Command		"Fortress in the Void - QCDE05",			"map_QCDE05"
-	Command		"Vertical Vengeance - QCDE06",				"map_QCDE06"
-	Command		"Temple of Retribution - QCDE07",			"map_QCDE07"
-	Command		"Furious Heights - QCDE08",					"map_QCDE08"
-	Command		"Lost World - QCDE09",						"map_QCDE09"
-	Command		"Cure - QCDE10",							"map_QCDE10"
-	Command		"Monsoon - QCDE11",							"map_QCDE11"
-	Command		"Phobos Campgrounds - QCDE12",				"map_QCDE12"
-	Command		"Sight - QCDE13",							"map_QCDE13"
-	Command		"Stubborn - QCDE14",						"map_QCDE14"
-	Command		"Chastity Belt - QCDE15",					"map_QCDE15"
-	Command		"Sinister - QCDE16",						"map_QCDE16"
-	Command		"Lockbox - QCDE17",							"map_QCDE17"
-	Command		"Elder - QCDE18",							"map_QCDE18"
-	Command		"Corrupted Station - QCDE19",				"map_QCDE19"
-	Command		"Deck - QCDE20",							"map_QCDE20"
-	Command		"Almost Lost - QCDE21",						"map_QCDE21"
-	Command		"Sarnath - QCDE22",							"map_QCDE22"
-	Command		"Lh'owon of Ice and Fire - QCDE23",			"map_QCDE23"
-	Command		"Vale of Pnath - QCDE24",					"map_QCDE24"
-	Command		"Quarantine - QCDE25",						"map_QCDE25"
-	Command		"Lh'owoken - QCDE26",						"map_QCDE26"
-	Command		"Placebo Effect - QCDE27",					"map_QCDE27"
-	Command		"Molten Falls - QCDE28",					"map_QCDE28"
-	Command		"Blood Run - QCDE29",						"map_QCDE29"
-	Command		"Gibel Complex - QCDE30",					"map_QCDE30"
-	Command		"Excavation - QCDE31",						"map_QCDE31"
-	Command		"Delirium - QCDE32",						"map_QCDE32"
-	Command		"Silence - QCDE33",							"map_QCDE33"
-	Command		"Zenith - QCDE34",							"map_QCDE34"
-	Command		"The Edge - QCDE35",						"map_QCDE35"
-	Command		"Fusillade - QCDE36",						"map_QCDE36"
-	Command		"Dukiforged - QCDE37",						"map_QCDE37"
-	Command		"Helix - QCDE38",							"map_QCDE38"
-	Command		"Arcane Temple - QCDE39",					"map_QCDE39"
-	Command		"Rankin - QCDE40",							"map_QCDE40"
-	Command		"QWER - QCDE41",							"map_QCDE41"
-	Command		"Mine Embrace - QCDE42",					"map_QCDE42"
-	Command		"Temple of the Blood Serpants - QCDE43",	"map_QCDE43"
-	Command		"Exile - QCDE44",							"map_QCDE44"
-	Command		"Deck 17 - QCDE45",							"map_QCDE45"
-	Command		"Brought 2 doom - QCDE46",					"map_QCDE46"
-	Command		"Claustrophobopolis - QCDE47",				"map_QCDE47"
-	Command		"Mythic - QCDE48",							"map_QCDE48"
-	Command		"Erase - QCDE49",							"map_QCDE49"
+	Label {	// generic maps background
+		Static
+		Background	"BackMaps"
+		Size		450, 2000
+	}
 
-	StaticText	" "
+	Label {
+		Pos			0, 10				Font		QCSMFONT
+		Text		"General maps"		FontColor	Gold
+	}
 
-	StaticText	"Duel maps"
-	Command		"The Bad Place - QCDL01",					"map_QCDL01"
-	Command		"Aerowalk - QCDL02",						"map_QCDL02"
-	Command		"Fatal Instinct - QCDL03",					"map_QCDL03"
-	Command		"Phrantic - QCDL04",						"map_QCDL04"
-	Command		"House Of Decay - QCDL05",					"map_QCDL05"
-	Command		"Hell's Gate - QCDL06",						"map_QCDL06"
-	Command		"The Dark Zone - QCDL07",					"map_QCDL07"
-	Command		"Crash Course - QCDL08",					"map_QCDL08"
-	Command		"Hektik - QCDL09",							"map_QCDL09"
-	Command		"Unreal place - QCDL10",					"map_QCDL10"
+	Command { Pos -198,   30	Text "QCDE01"	Background PVQCDE01		Command map_QCDE01		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98,   30	Text "QCDE02"	Background PVQCDE02		Command map_QCDE02		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2,   30	Text "QCDE03"	Background PVQCDE03		Command map_QCDE03		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  102,   30	Text "QCDE04"	Background PVQCDE04		Command map_QCDE04		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label {	Pos -150,   84	MaxTextWidth 95		Font SmallFont	Text "Blood Covenant"				}
+	Label {	Pos  -50,   84	MaxTextWidth 95		Font SmallFont	Text "Toxjcity"						}
+	Label {	Pos   50,   84	MaxTextWidth 95		Font SmallFont	Text "The Chasm"					}
+	Label {	Pos  150,   84	MaxTextWidth 95		Font SmallFont	Text "Bitterman's Revenge"			}
 
-	StaticText	" "
+	Command { Pos -198,  105	Text "QCDE05"	Background PVQCDE05		Command map_QCDE05		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98,  105	Text "QCDE06"	Background PVQCDE06		Command map_QCDE06		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2,  105	Text "QCDE07"	Background PVQCDE07		Command map_QCDE07		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  102,  105	Text "QCDE08"	Background PVQCDE08		Command map_QCDE08		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150,  159	MaxTextWidth 95		Font SmallFont	Text "Fortress in the Void"			}
+	Label { Pos  -50,  159	MaxTextWidth 95		Font SmallFont	Text "Vertical Vengeance"			}
+	Label { Pos   50,  159	MaxTextWidth 95		Font SmallFont	Text "Temple of Retribution"		}
+	Label { Pos  150,  159	MaxTextWidth 95		Font SmallFont	Text "Furious Heights"				}
 
-	StaticText	"Meme maps"
-	Command		"The Longest Yard - QCME01",				"map_QCME01"
-	Command		"Morpheus - QCME02",						"map_QCME02"
+	Command { Pos -198,  180	Text "QCDE09"	Background PVQCDE09		Command map_QCDE09		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98,  180	Text "QCDE10"	Background PVQCDE10		Command map_QCDE10		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2,  180	Text "QCDE11"	Background PVQCDE11		Command map_QCDE11		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  102,  180	Text "QCDE12"	Background PVQCDE12		Command map_QCDE12		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150,  234	MaxTextWidth 95		Font SmallFont	Text "Lost World"					}
+	Label { Pos  -50,  234	MaxTextWidth 95		Font SmallFont	Text "Cure"							}
+	Label { Pos   50,  234	MaxTextWidth 95		Font SmallFont	Text "Monsoon"						}
+	Label { Pos  150,  234	MaxTextWidth 95		Font SmallFont	Text "Phobos Campgrounds"			}
+
+	Command { Pos -198,  255	Text "QCDE13"	Background PVQCDE13		Command map_QCDE13		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98,  255	Text "QCDE14"	Background PVQCDE14		Command map_QCDE14		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2,  255	Text "QCDE15"	Background PVQCDE15		Command map_QCDE15		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  102,  255	Text "QCDE16"	Background PVQCDE16		Command map_QCDE16		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150,  309	MaxTextWidth 95		Font SmallFont	Text "Sight"						}
+	Label { Pos  -50,  309	MaxTextWidth 95		Font SmallFont	Text "Stubborn"						}
+	Label { Pos   50,  309	MaxTextWidth 95		Font SmallFont	Text "Chastity Belt"				}
+	Label { Pos  150,  309	MaxTextWidth 95		Font SmallFont	Text "Sinister"						}
+
+	Command { Pos -198,  330	Text "QCDE17"	Background PVQCDE17		Command map_QCDE17		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98,  330	Text "QCDE18"	Background PVQCDE18		Command map_QCDE18		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2,  330	Text "QCDE19"	Background PVQCDE19		Command map_QCDE19		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  102,  330	Text "QCDE20"	Background PVQCDE20		Command map_QCDE20		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150,  384	MaxTextWidth 95		Font SmallFont	Text "Lockbox"						}
+	Label { Pos  -50,  384	MaxTextWidth 95		Font SmallFont	Text "Elder"						}
+	Label { Pos   50,  384	MaxTextWidth 95		Font SmallFont	Text "Corrupted Station"			}
+	Label { Pos  150,  384	MaxTextWidth 95		Font SmallFont	Text "Deck"							}
+
+	Command { Pos -198,  405	Text "QCDE21"	Background PVQCDE21		Command map_QCDE21		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98,  405	Text "QCDE22"	Background PVQCDE22		Command map_QCDE22		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2,  405	Text "QCDE23"	Background PVQCDE23		Command map_QCDE23		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  102,  405	Text "QCDE24"	Background PVQCDE24		Command map_QCDE24		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150,  459	MaxTextWidth 95		Font SmallFont	Text "Almost Lost"					}
+	Label { Pos  -50,  459	MaxTextWidth 95		Font SmallFont	Text "Sarnath"						}
+	Label { Pos   50,  459	MaxTextWidth 95		Font SmallFont	Text "Lh'owon of Ice and Fire"		}
+	Label { Pos  150,  459	MaxTextWidth 95		Font SmallFont	Text "Vale of Pnath"				}
+
+	Command { Pos -198,  480	Text "QCDE25"	Background PVQCDE25		Command map_QCDE25		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98,  480	Text "QCDE26"	Background PVQCDE26		Command map_QCDE26		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2,  480	Text "QCDE27"	Background PVQCDE27		Command map_QCDE27		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  102,  480	Text "QCDE28"	Background PVQCDE28		Command map_QCDE28		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150,  534	MaxTextWidth 95		Font SmallFont	Text "Quarantine"					}
+	Label { Pos  -50,  534	MaxTextWidth 95		Font SmallFont	Text "Lh'owoken"					}
+	Label { Pos   50,  534	MaxTextWidth 95		Font SmallFont	Text "Placebo Effect"				}
+	Label { Pos  150,  534	MaxTextWidth 95		Font SmallFont	Text "Molten Falls"					}
+
+	Command { Pos -198,  555	Text "QCDE29"	Background PVQCDE29		Command map_QCDE29		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98,  555	Text "QCDE30"	Background PVQCDE30		Command map_QCDE30		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2,  555	Text "QCDE31"	Background PVQCDE31		Command map_QCDE31		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  102,  555	Text "QCDE32"	Background PVQCDE32		Command map_QCDE32		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150,  609	MaxTextWidth 95		Font SmallFont	Text "Blood Run"					}
+	Label { Pos  -50,  609	MaxTextWidth 95		Font SmallFont	Text "Gibel Complex"				}
+	Label { Pos   50,  609	MaxTextWidth 95		Font SmallFont	Text "Excavation"					}
+	Label { Pos  150,  609	MaxTextWidth 95		Font SmallFont	Text "Delirium"						}
+
+	Command { Pos -198,  630	Text "QCDE33"	Background PVQCDE33		Command map_QCDE33		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98,  630	Text "QCDE34"	Background PVQCDE34		Command map_QCDE34		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2,  630	Text "QCDE35"	Background PVQCDE35		Command map_QCDE35		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  102,  630	Text "QCDE36"	Background PVQCDE36		Command map_QCDE36		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150,  684	MaxTextWidth 95		Font SmallFont	Text "Silence"						}
+	Label { Pos  -50,  684	MaxTextWidth 95		Font SmallFont	Text "Zenith"						}
+	Label { Pos   50,  684	MaxTextWidth 95		Font SmallFont	Text "The Edge"						}
+	Label { Pos  150,  684	MaxTextWidth 95		Font SmallFont	Text "Fusillade"					}
+
+	Command { Pos -198,  705	Text "QCDE37"	Background PVQCDE37		Command map_QCDE37		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98,  705	Text "QCDE38"	Background PVQCDE38		Command map_QCDE38		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2,  705	Text "QCDE39"	Background PVQCDE39		Command map_QCDE39		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  102,  705	Text "QCDE40"	Background PVQCDE40		Command map_QCDE40		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150,  759	MaxTextWidth 95		Font SmallFont	Text "Dukiforged"					}
+	Label { Pos  -50,  759	MaxTextWidth 95		Font SmallFont	Text "Helix"						}
+	Label { Pos   50,  759	MaxTextWidth 95		Font SmallFont	Text "Arcane Temple"				}
+	Label { Pos  150,  759	MaxTextWidth 95		Font SmallFont	Text "Rankin"						}
+
+	Command { Pos -198,  780	Text "QCDE41"	Background PVQCDE41		Command map_QCDE41		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98,  780	Text "QCDE42"	Background PVQCDE42		Command map_QCDE42		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2,  780	Text "QCDE43"	Background PVQCDE43		Command map_QCDE43		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  102,  780	Text "QCDE44"	Background PVQCDE44		Command map_QCDE44		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150,  834	MaxTextWidth 95		Font SmallFont	Text "QWER"							}
+	Label { Pos  -50,  834	MaxTextWidth 95		Font SmallFont	Text "Mine Embrace"					}
+	Label { Pos   50,  834	MaxTextWidth 95		Font SmallFont	Text "Temple of the Blood Serpants"	}
+	Label { Pos  150,  834	MaxTextWidth 95		Font SmallFont	Text "Exile"						}
+
+	Command { Pos -198,  855	Text "QCDE45"	Background PVQCDE45		Command map_QCDE45		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98,  855	Text "QCDE46"	Background PVQCDE46		Command map_QCDE46		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2,  855	Text "QCDE47"	Background PVQCDE47		Command map_QCDE47		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  102,  855	Text "QCDE48"	Background PVQCDE48		Command map_QCDE48		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150,  909	MaxTextWidth 95		Font SmallFont	Text "Deck 17"						}
+	Label { Pos  -50,  909	MaxTextWidth 95		Font SmallFont	Text "Brought 2 doom"				}
+	Label { Pos   50,  909	MaxTextWidth 95		Font SmallFont	Text "Claustrophobopolis"			}
+	Label { Pos  150,  909	MaxTextWidth 95		Font SmallFont	Text "Mythic"						}
+
+	Command { Pos -198, 925		Text "QCDE49"	Background PVQCDE49		Command map_QCDE49		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150,  979	MaxTextWidth 95		Font SmallFont	Text "Erase"						}
+
+
+
+	Label {
+		Pos			0, 1010				Font		QCSMFONT
+		Text		"Duel maps"			FontColor	Gold
+	}
+
+	Command { Pos -198, 1030	Text "QCDL01"	Background PVQCDL01		Command map_QCDL01		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98, 1030	Text "QCDL02"	Background PVQCDL02		Command map_QCDL02		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2, 1030	Text "QCDL03"	Background PVQCDL03		Command map_QCDL03		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  102, 1030	Text "QCDL04"	Background PVQCDL04		Command map_QCDL04		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150, 1084	MaxTextWidth 95		Font SmallFont	Text "The Bad Place"				}
+	Label { Pos  -50, 1084	MaxTextWidth 95		Font SmallFont	Text "Aerowalk"						}
+	Label { Pos   50, 1084	MaxTextWidth 95		Font SmallFont	Text "Fatal Instinct"				}
+	Label { Pos  150, 1084	MaxTextWidth 95		Font SmallFont	Text "Phrantic"						}
+
+	Command { Pos -198, 1105	Text "QCDL05"	Background PVQCDL05		Command map_QCDL05		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98, 1105	Text "QCDL06"	Background PVQCDL06		Command map_QCDL06		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2, 1105	Text "QCDL07"	Background PVQCDL07		Command map_QCDL07		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  102, 1105	Text "QCDL08"	Background PVQCDL08		Command map_QCDL08		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150, 1159	MaxTextWidth 95		Font SmallFont	Text "House Of Decay"				}
+	Label { Pos  -50, 1159	MaxTextWidth 95		Font SmallFont	Text "Hell's Gate"					}
+	Label { Pos   50, 1159	MaxTextWidth 95		Font SmallFont	Text "The Dark Zone"				}
+	Label { Pos  150, 1159	MaxTextWidth 95		Font SmallFont	Text "Crash Course"					}
+
+	Command { Pos -198, 1180	Text "QCDL09"	Background PVQCDL09		Command map_QCDL09		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98, 1180	Text "QCDL10"	Background PVQCDL10		Command map_QCDL10		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150, 1234	MaxTextWidth 95		Font SmallFont	Text "Hektik"						}
+	Label { Pos  -50, 1234	MaxTextWidth 95		Font SmallFont	Text "Unreal place"					}
+
+
+
+	Label {
+		Pos			0, 1265				Font		QCSMFONT
+		Text		"Meme maps"			FontColor	Gold
+	}
+
+	Command { Pos -198, 1285	Text "QCME01"	Background PVQCME01		Command map_QCME01		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98, 1285	Text "QCME02"	Background PVQCME02		Command map_QCME02		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150, 1339	MaxTextWidth 95		Font SmallFont	Text "The Longest Yard"				}
+	Label { Pos  -50, 1339	MaxTextWidth 95		Font SmallFont	Text "Morpheus"						}
 }
