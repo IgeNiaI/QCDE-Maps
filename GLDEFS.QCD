@@ -74,24 +74,9 @@ Glow
 }
 
 
-brightmap texture QALAV01
-{
-	map "textures/QALAV01X.png"
-}
-
 brightmap texture QFTEL01
 {
 	map "textures/QFTEL01X.png"
-}
-
-brightmap texture QTELFOG1
-{
-	map "textures/QTELFOG1.tga"
-}
-
-brightmap texture QTELFOG2
-{
-	map "textures/QTELFOG2.tga"
 }
 
 brightmap texture QRLIT09
@@ -106,42 +91,42 @@ brightmap texture QRMET48
 
 brightmap texture Q1EXP604 
 {
-	map "textures/Q1EXP60B.png"
+	map "textures/Quake1/Q1EXP60B.png"
 }
 
 brightmap texture QPILAR2 
 {
-	map "textures/QPILAR2B.png"
+	map "textures/Quake1/QPILAR2B.png"
 }
 
 brightmap texture QPILAR3 
 {
-	map "textures/QPILAR3B.png"
+	map "textures/Quake1/QPILAR3B.png"
 }
 
 brightmap texture QPILAR4 
 {
-	map "textures/QPILAR4B.png"
+	map "textures/Quake1/QPILAR4B.png"
 }
 
 brightmap texture QPILAR5 
 {
-	map "textures/QPILAR5B.png"
+	map "textures/Quake1/QPILAR5B.png"
 }
 
 brightmap texture QPILAR6 
 {
-	map "textures/QPILAR6B.png"
+	map "textures/Quake1/QPILAR6B.png"
 }
 
 brightmap texture QPILAR7 
 {
-	map "textures/QPILAR7B.png"
+	map "textures/Quake1/QPILAR7B.png"
 }
 
 brightmap texture QPILAR8 
 {
-	map "textures/QPILAR8B.png"
+	map "textures/Quake1/QPILAR8B.png"
 }
 
 
