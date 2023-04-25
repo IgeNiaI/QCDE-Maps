@@ -605,6 +605,62 @@ Map QCDL10 "Unreal place"
 
 
 
+//---------------------------------------------------
+// INVASION EXCLUSIVE MAPS
+//---------------------------------------------------
+
+//Map by RoosTer
+map QCIN01 "Outpost"
+{
+	PreviewPic = "PVQCIN01"
+	sky1 = "aerowalk"
+	UsePlayerStartZ
+	NoInfighting
+	Next = "QCIN02"
+	Music = "D_SHAWN"
+	fogdensity = 96
+	skyfog = 96
+}
+
+//Map by RoosTer
+map QCIN02 "Hangar"
+{
+	PreviewPic = "PVQCIN02"
+	sky1 = "CAMPSKY"
+	UsePlayerStartZ
+	NoInfighting
+	Next = "QCIN03"
+	Music = "D_SHAWN"
+	skyfog = 16
+	fogdensity = 32
+}
+
+//Map by RoosTer
+map QCIN03 "Cathedral"
+{
+	PreviewPic = "PVQCIN03"
+	sky1 = "LOSTSKY", 0.1
+	UsePlayerStartZ
+	NoInfighting
+	Next = "QCIN04"
+	Music = "D_SHAWN"
+	fogdensity = 32
+	SkyFog = 32
+}
+
+//Map by RoosTer
+map QCIN04 "Asteroid Garden"
+{
+	PreviewPic = "PVQCIN04"
+	sky1 = "MRPSKY"
+	UsePlayerStartZ
+	NoInfighting
+	Next = "QCIN01"
+	Music = "D_SHAWN"
+	fogdensity = 50
+	SkyFog = 96
+}
+
 
 
 //---------------------------------------------------

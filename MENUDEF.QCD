@@ -23,7 +23,7 @@ FreeformMenu QCDE_QCDEMaps
 {
 	TopPadding 0
 	ScrollSpeed 16
-	OverrideHeight 1400
+	OverrideHeight 1500
 
 	Label {	// generic maps background
 		Static
@@ -181,11 +181,27 @@ FreeformMenu QCDE_QCDEMaps
 
 	Label {
 		Pos			0, 1265				Font		QCSMFONT
+		Text		"Invasion maps"		FontColor	Gold
+	}
+
+	Command { Pos -198, 1285	Text "QCIN01"	Background PVQCIN01		Command map_QCIN01		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98, 1285	Text "QCIN02"	Background PVQCIN02		Command map_QCIN02		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2, 1285	Text "QCIN03"	Background PVQCIN03		Command map_QCIN03		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  102, 1285	Text "QCIN04"	Background PVQCIN04		Command map_QCIN04		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150, 1339	MaxTextWidth 95		Font SmallFont	Text "Outpost"						}
+	Label { Pos  -50, 1339	MaxTextWidth 95		Font SmallFont	Text "Hangar"						}
+	Label { Pos   50, 1339	MaxTextWidth 95		Font SmallFont	Text "Cathedral"					}
+	Label { Pos  150, 1339	MaxTextWidth 95		Font SmallFont	Text "Asteroid Garden"				}
+
+
+
+	Label {
+		Pos			0, 1370				Font		QCSMFONT
 		Text		"Meme maps"			FontColor	Gold
 	}
 
-	Command { Pos -198, 1285	Text "QCME01"	Background PVQCME01		Command map_QCME01		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
-	Command { Pos  -98, 1285	Text "QCME02"	Background PVQCME02		Command map_QCME02		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
-	Label { Pos -150, 1339	MaxTextWidth 95		Font SmallFont	Text "The Longest Yard"				}
-	Label { Pos  -50, 1339	MaxTextWidth 95		Font SmallFont	Text "Morpheus"						}
+	Command { Pos -198, 1390	Text "QCME01"	Background PVQCME01		Command map_QCME01		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98, 1390	Text "QCME02"	Background PVQCME02		Command map_QCME02		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150, 1444	MaxTextWidth 95		Font SmallFont	Text "The Longest Yard"				}
+	Label { Pos  -50, 1444	MaxTextWidth 95		Font SmallFont	Text "Morpheus"						}
 }
