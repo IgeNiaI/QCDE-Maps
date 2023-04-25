@@ -662,6 +662,45 @@ map QCIN04 "Asteroid Garden"
 }
 
 
+//---------------------------------------------------
+// CTF EXCLUSIVE MAPS
+//---------------------------------------------------
+
+//Map by Dech
+map QCTF01 "The struggle"
+{
+	PreviewPic = "PVQCTF01"
+	Music = "QCTF01"
+	Lightning
+	Sky1 = "MONSKY1", 0.5
+	Sky2 = "MONSKY2", 0.5
+	//Sky1 = "QCTFSKY1", 0.3
+	UsePlayerStartZ
+	Next = "QCTF02"
+}
+
+//Map by Dech and DBT
+map QCTF02 "CTF Run"
+{
+	PreviewPic = "PVQCTF02"
+	Music = "QCTF02"
+	Sky1 = "VERTSKY"
+	//Sky1 = "QCTFSKY1", 0.3
+	UsePlayerStartZ
+	Next = "QCTF03"
+}
+
+//Map by Dech and Rooster
+map QCTF03 "Fatal Error"
+{
+	PreviewPic = "PVQCTF03"
+	Music = "QCTF03"
+	Sky1 = "VERTSKY"
+	//Sky1 = "QCTFSKY1", 0.3
+	//UsePlayerStartZ
+	Next = "QCTF01"
+}
+
 
 //---------------------------------------------------
 // Meme maps, which for some reason or another fell

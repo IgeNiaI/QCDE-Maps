@@ -23,7 +23,7 @@ FreeformMenu QCDE_QCDEMaps
 {
 	TopPadding 0
 	ScrollSpeed 16
-	OverrideHeight 1500
+	OverrideHeight 1600
 
 	Label {	// generic maps background
 		Static
@@ -197,11 +197,25 @@ FreeformMenu QCDE_QCDEMaps
 
 	Label {
 		Pos			0, 1370				Font		QCSMFONT
+		Text		"CTF maps"			FontColor	Gold
+	}
+
+	Command { Pos -198, 1390	Text "QCTF01"	Background PVQCTF01		Command map_QCTF01		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98, 1390	Text "QCTF02"	Background PVQCTF02		Command map_QCTF02		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2, 1390	Text "QCTF03"	Background PVQCTF03		Command map_QCTF03		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150, 1444	MaxTextWidth 95		Font SmallFont	Text "The struggle"					}
+	Label { Pos  -50, 1444	MaxTextWidth 95		Font SmallFont	Text "CTF Run"						}
+	Label { Pos   50, 1444	MaxTextWidth 95		Font SmallFont	Text "Fatal Error"					}
+
+
+
+	Label {
+		Pos			0, 1475				Font		QCSMFONT
 		Text		"Meme maps"			FontColor	Gold
 	}
 
-	Command { Pos -198, 1390	Text "QCME01"	Background PVQCME01		Command map_QCME01		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
-	Command { Pos  -98, 1390	Text "QCME02"	Background PVQCME02		Command map_QCME02		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
-	Label { Pos -150, 1444	MaxTextWidth 95		Font SmallFont	Text "The Longest Yard"				}
-	Label { Pos  -50, 1444	MaxTextWidth 95		Font SmallFont	Text "Morpheus"						}
+	Command { Pos -198, 1495	Text "QCME01"	Background PVQCME01		Command map_QCME01		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98, 1495	Text "QCME02"	Background PVQCME02		Command map_QCME02		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150, 1549	MaxTextWidth 95		Font SmallFont	Text "The Longest Yard"				}
+	Label { Pos  -50, 1549	MaxTextWidth 95		Font SmallFont	Text "Morpheus"						}
 }

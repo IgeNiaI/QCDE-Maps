@@ -2090,3 +2090,114 @@ ACTOR HereticChandelier 17533
 		Loop
 	}
 }
+
+
+//--------------------------------------------------------------------------------
+//		CTF Stuff
+//--------------------------------------------------------------------------------
+
+Actor QCAllAmmo : CustomInventory 15095
+{
+	//$Angled
+	//$Category "QCDE Ammunition"
+	//$Color 6
+	//$Title "Ammo for everything (CTF)"
+	+FLOORCLIP
+	-TELESTOMP
+	Radius 20
+	Height 16
+	Inventory.PickupMessage "Picked up ammo"
+	Inventory.PickupSound "QC/Items/AmmoPick"
+	Scale 0.901
+	States
+	{
+	Spawn:
+		AMAL A -1 NoDelay
+		Stop
+	Pickup:
+		TNT1 A 0 A_GiveInventory("QCBulletAmmo",50)
+		TNT1 A 0 A_GiveInventory("QCShellAmmo",	 5)
+		TNT1 A 0 A_GiveInventory("QCNailAmmo",	50)
+		TNT1 A 0 A_GiveInventory("QCBoltAmmo", 	 5)
+		TNT1 A 0 A_GiveInventory("QCRocketAmmo", 5)
+		TNT1 A 0 A_GiveInventory("QCCoilAmmo", 	50)
+		TNT1 A 0 A_GiveInventory("QCSlugAmmo", 	 5)
+		Stop
+	}
+}
+
+Actor BRZedek 16990
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Zedek Statue"
+	Scale 2.0
+	Radius 40
+	Height 128
+	+SOLID
+	States
+	{
+	Spawn:
+		DECR Z -1
+		Stop
+	}
+}
+
+Actor BRMenelkir 16991
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Menelkir Statue"
+	Scale 1.8
+	Radius 40
+	Height 128
+	+SOLID
+	States
+	{
+	Spawn:
+		DECR M -1
+		Stop
+	}
+}
+
+Actor RedHoleCTF : BloodBaseNonBlockingDeco 16992
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "RedHole CTF"
+	Scale 0.9
+	Alpha 0.4
+	-FORCEYBILLBOARD
+	+FORCEXYBILLBOARD
+	States
+	{
+	Spawn:
+		TNT1 A 0 NODELAY A_Jump(255,8,16,24,32)
+		DC01 ABCDEFGHIJKLMNOPQRSTUVWXYZ 3 
+		DC02 ABCDEFGHIJKLMNOPQRSTUVWXYZ 3 
+		Goto Spawn+1
+	}
+}
+
+Actor BlueHoleCTF : BloodBaseNonBlockingDeco 16993
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "BlueHole CTF"
+	Scale 0.9
+	Alpha 0.4
+	-FORCEYBILLBOARD
+	+FORCEXYBILLBOARD
+	States
+	{
+	Spawn:
+		TNT1 A 0 NODELAY A_Jump(255,8,16,24,32)
+		DC03 ABCDEFGHIJKLMNOPQRSTUVWXYZ 3 
+		DC04 ABCDEFGHIJKLMNOPQRSTUVWXYZ 3 
+		Goto Spawn+1
+	}
+}
