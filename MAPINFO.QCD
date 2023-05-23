@@ -1,6 +1,8 @@
 //Map by DBThanatos
 map QCDE01 "Blood Covenant"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE01"
 	Music = "QCDEM01"
 	sky1 = "QCDSky01", 0.5
@@ -11,6 +13,8 @@ map QCDE01 "Blood Covenant"
 //Map by DBThanatos
 map QCDE02 "Toxjcity"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE02"
 	Music = "QCDEM02"
 	sky1 = "TOXSKY"
@@ -21,6 +25,8 @@ map QCDE02 "Toxjcity"
 //Map by DBThanatos
 map QCDE03 "The Chasm"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE03"
 	Music = QCDEM03
 	UsePlayerStartZ
@@ -30,6 +36,8 @@ map QCDE03 "The Chasm"
 //Map by MrEnchanter
 map QCDE04 "Bitterman's Revenge"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE04"
 	Music = QCDEM04
 	sky1 = "SKY1B"
@@ -40,6 +48,8 @@ map QCDE04 "Bitterman's Revenge"
 //Map by Ivan Dobrovski
 map QCDE05 "Fortress in the Void"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE05"
 	Music = QCDEM05
 	UsePlayerStartZ
@@ -49,6 +59,8 @@ map QCDE05 "Fortress in the Void"
 //map by RoosTer
 map QCDE06 "Vertical Vengeance"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE06"
 	Music = QCDEM06
 	UsePlayerStartZ	
@@ -59,6 +71,8 @@ map QCDE06 "Vertical Vengeance"
 //Map by RoosTer
 map QCDE07 "Temple of Retribution"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE07"
 	Music = QCDEM07
 	UsePlayerStartZ
@@ -69,6 +83,8 @@ map QCDE07 "Temple of Retribution"
 //map by DBThanatos
 map QCDE08 "Furious Heights"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE08"
 	Music = QCDEM08
 	UsePlayerStartZ	
@@ -79,6 +95,8 @@ map QCDE08 "Furious Heights"
 //map by RoosTer
 map QCDE09 "Lost World"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE09"
 	Music = QCDEM09
 	UsePlayerStartZ	
@@ -89,6 +107,8 @@ map QCDE09 "Lost World"
 //map by DBThanatos
 map QCDE10 "Cure"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE10"
 	Music = QCDEM10
 	UsePlayerStartZ	
@@ -99,6 +119,8 @@ map QCDE10 "Cure"
 //map by DBThanatos
 map QCDE11 "Monsoon"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE11"
 	Music = QCDEM11
 	Lightning
@@ -111,6 +133,8 @@ map QCDE11 "Monsoon"
 //map by RoosTer
 map QCDE12 "Phobos Campgrounds"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE12"
 	Music = QCDEM12
 	UsePlayerStartZ	
@@ -122,6 +146,8 @@ map QCDE12 "Phobos Campgrounds"
 //Map by Ivan Dobrovski
 map QCDE13 "Sight"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE13"
 	Music = QCDEM13
 	sky1 = "SITESKY"
@@ -132,6 +158,8 @@ map QCDE13 "Sight"
 //map by RoosTer
 map QCDE14 "Stubborn"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE14"
 	Music = QCDEM14
 	UsePlayerStartZ	
@@ -144,6 +172,8 @@ map QCDE14 "Stubborn"
 //Map by geNia
 map QCDE15 "Chastity Belt"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE15"
 	Music = "QCDEM15"
 	UsePlayerStartZ
@@ -153,6 +183,8 @@ map QCDE15 "Chastity Belt"
 //map by DBThanatos & Ivan Dobrovski
 map QCDE16 "Sinister"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE16"
 	Music = QCDEM16
 	UsePlayerStartZ	
@@ -163,6 +195,8 @@ map QCDE16 "Sinister"
 //map by DBThanatos
 map QCDE17 "Lockbox"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE17"
 	Music = QCDEM17
 	UsePlayerStartZ	
@@ -174,6 +208,8 @@ map QCDE17 "Lockbox"
 //map by Ivory Duke
 map QCDE18 "Elder"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE18"
 	Music = QCDEM18
 	UsePlayerStartZ
@@ -184,6 +220,8 @@ map QCDE18 "Elder"
 //map by DBThanatos
 map QCDE19 "Corrupted Station"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE19"
 	Music = QCDEM19
 	sky1 = "KEEPSKY"
@@ -194,6 +232,8 @@ map QCDE19 "Corrupted Station"
 //map by RoosTer
 map QCDE20 "Deck"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE20"
 	Music = QCDEM20
 	UsePlayerStartZ	
@@ -204,6 +244,8 @@ map QCDE20 "Deck"
 //map by RoosTer
 map QCDE21 "Almost Lost"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE21"
 	Music = QCDEM21
 	UsePlayerStartZ	
@@ -214,6 +256,8 @@ map QCDE21 "Almost Lost"
 //map by DBThanatos
 map QCDE22 "Sarnath"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE22"
 	Music = QCDEM22
 	sky1 = "QCDSky01", 0.2
@@ -224,6 +268,8 @@ map QCDE22 "Sarnath"
 //map by DBThanatos
 map QCDE23 "Lh'owon of Ice and Fire"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE23"
 	UsePlayerStartZ
 	Music = QCDEM23
@@ -234,6 +280,8 @@ map QCDE23 "Lh'owon of Ice and Fire"
 //map by DBThanatos
 map QCDE24 "Vale of Pnath"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE24"
 	Music = QCDEM24
 	sky1 = sinisky
@@ -243,6 +291,8 @@ map QCDE24 "Vale of Pnath"
 
 map QCDE25 "Quarantine"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE25"
 	Music = QCDEM25
 	UsePlayerStartZ	
@@ -253,6 +303,8 @@ map QCDE25 "Quarantine"
 //map by DBThanatos
 map QCDE26 "Lh'owoken"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE26"
 	Music = QCDEM26
 	sky1 = "MAR_SKY2"
@@ -263,6 +315,8 @@ map QCDE26 "Lh'owoken"
 //map by DBThanatos
 map QCDE27 "Placebo Effect"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE27"
 	UsePlayerStartZ
 	Music = QCDEM27
@@ -273,6 +327,8 @@ map QCDE27 "Placebo Effect"
 //map by DBThanatos
 map QCDE28 "Molten Falls"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE28"
 	Music = QCDEM28
 	sky1 = "BSKY_2"
@@ -283,6 +339,8 @@ map QCDE28 "Molten Falls"
 //Map by DBThanatos
 map QCDE29 "Blood Run"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE29"
 	Music = QCDEM29
 	sky1 = POSNSKY3, 0.15
@@ -293,6 +351,8 @@ map QCDE29 "Blood Run"
 //map by DBThanatos
 map QCDE30 "Gibel Complex"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE30"
 	Music = QCDEM30
 	UsePlayerStartZ
@@ -302,6 +362,8 @@ map QCDE30 "Gibel Complex"
 //map by DBThanatos
 map QCDE31 "Excavation"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE31"
 	Music = QCDEM31
 	sky1 = Q2BIGGUN
@@ -312,6 +374,8 @@ map QCDE31 "Excavation"
 //map by Ivory Duke
 map QCDE32 "Delirium"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE32"
 	Music = QCDEM32
 	sky1 = deliriumsky
@@ -323,6 +387,8 @@ map QCDE32 "Delirium"
 //map by DBThanatos
 map QCDE33 "Silence"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE33"
 	Music = QCDEM33
 	sky1 = "SILENSKY"
@@ -333,6 +399,8 @@ map QCDE33 "Silence"
 //map by Killerkouhai
 map QCDE34 "Zenith"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE34"
 	Music = QCDEM34
 	sky1 = ORBIT, 0.1
@@ -343,6 +411,8 @@ map QCDE34 "Zenith"
 //map by DBThanatos
 map QCDE35 "The Edge"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE35"
 	Music = QCDEM35
 	sky1 = "EdgySun"
@@ -353,6 +423,8 @@ map QCDE35 "The Edge"
 //map by DBThanatos
 map QCDE36 "Fusillade"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE36"
 	Music = QCDEM36
 	sky1 = "HRSKY3A"
@@ -363,6 +435,8 @@ map QCDE36 "Fusillade"
 //map by DBThanatos & Ivan Dobrovski
 map QCDE37 "Dukiforged"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE37"
 	Music = QCDEM37
 	UsePlayerStartZ
@@ -373,6 +447,8 @@ map QCDE37 "Dukiforged"
 //map by DBThanatos
 map QCDE38 "Helix"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE38"
 	Music = QCDEM38
 	sky1 = "HLixSky"
@@ -384,6 +460,8 @@ map QCDE38 "Helix"
 //map by geNia
 map QCDE39 "Arcane Temple"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE39"
 	Music = "QCDEM39"
 	sky1 = "QCDSky01", 0.5
@@ -395,6 +473,8 @@ map QCDE39 "Arcane Temple"
 //map by geNia
 map QCDE40 "Rankin"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE40"
 	Music = "QCDEM40"
 	Sky1 = "MONSKY1", 0.5
@@ -407,6 +487,8 @@ map QCDE40 "Rankin"
 //Map by geNia
 map QCDE41 "QWER"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE41"
 	Music = QCDEM41
 	UsePlayerStartZ
@@ -417,6 +499,8 @@ map QCDE41 "QWER"
 //Map by geNia
 map QCDE42 "Mine Embrace"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE42"
 	Music = "QCDEM42"
 	UsePlayerStartZ
@@ -427,6 +511,8 @@ map QCDE42 "Mine Embrace"
 //Map by TheSwampylad
 map QCDE43 "Temple of the Blood Serpants"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE43"
 	Music = QCDEM43
 	UsePlayerStartZ
@@ -437,6 +523,8 @@ map QCDE43 "Temple of the Blood Serpants"
 //Map by TheSwampylad
 map QCDE44 "Exile"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE44"
 	Music = QCDEM44
 	UsePlayerStartZ
@@ -447,6 +535,8 @@ map QCDE44 "Exile"
 //Map by geNia
 map QCDE45 "Deck 17"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE45"
 	Music = "QCDEM45"
 	UsePlayerStartZ
@@ -456,6 +546,8 @@ map QCDE45 "Deck 17"
 //map by geNia
 map QCDE46 "Brought 2 doom"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE46"
 	music = "QCDEM46"
 	sky1 = "HRSKY1"
@@ -466,6 +558,8 @@ map QCDE46 "Brought 2 doom"
 //Map by Mr.Rocket
 Map QCDE47 "Claustrophobopolis"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE47"
 	Music = "QCDEM47"
 	Sky1 = QSKY01
@@ -476,6 +570,8 @@ Map QCDE47 "Claustrophobopolis"
 //Map by geNia
 Map QCDE48 "Mythic"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE48"
 	Music = "QCDEM48"
 	UsePlayerStartZ
@@ -485,6 +581,8 @@ Map QCDE48 "Mythic"
 //Map by geNia
 Map QCDE49 "Erase"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE49"
 	Music = "QCDEM49"
 	UsePlayerStartZ
@@ -499,6 +597,8 @@ Map QCDE49 "Erase"
 //Map by Mr.Rocket
 map QCDL01 "The Bad Place"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDL01"
 	Music = "QCDLM01"
 	DoubleSky
@@ -512,6 +612,8 @@ map QCDL01 "The Bad Place"
 //map by RoosTer
 map QCDL02 "Aerowalk"	//Edited version, bigger
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDL02"
 	Music = QCDLM02
 	UsePlayerStartZ	
@@ -523,6 +625,8 @@ map QCDL02 "Aerowalk"	//Edited version, bigger
 //map by RoosTer
 map QCDL03 "Fatal Instinct"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDL03"
 	UsePlayerStartZ	
 	fogdensity = 512
@@ -535,6 +639,8 @@ map QCDL03 "Fatal Instinct"
 //Map by DBThanatos
 map QCDL04 "Phrantic"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDL04"
 	Music = "QCDLM04"
 	sky1 = "QCDSky12", 0.05
@@ -545,6 +651,8 @@ map QCDL04 "Phrantic"
 //Map by DBThanatos
 map QCDL05 "House Of Decay"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDL05"
 	Music = QCDLM05
 	UsePlayerStartZ
@@ -554,6 +662,8 @@ map QCDL05 "House Of Decay"
 //Map by Kultasakaali
 map QCDL06 "Hell's Gate"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDL06"
 	Music = "QCDLM06"
 	DoubleSky
@@ -567,6 +677,8 @@ map QCDL06 "Hell's Gate"
 //map by Mr.Rocket
 map QCDL07 "The Dark Zone"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDL07"
 	music = "QCDLM07"
 	Sky1 = SKY4_2
@@ -577,6 +689,8 @@ map QCDL07 "The Dark Zone"
 //map by Pixo
 map QCDL08 "Crash Course"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDL08"
 	music = "QCDLM08"
 	Sky1 = SITESKY
@@ -587,6 +701,8 @@ map QCDL08 "Crash Course"
 //map by Pixo
 map QCDL09 "Hektik"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDL09"
 	music = "QCDLM09"
 	UsePlayerStartZ
@@ -596,109 +712,13 @@ map QCDL09 "Hektik"
 //Map by geNia
 Map QCDL10 "Unreal place"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDL10"
 	Music = "QCDLM10"
 	UsePlayerStartZ
 	Next = "QCDL01"
 	sky1 = RSKY2
-}
-
-
-
-//---------------------------------------------------
-// INVASION EXCLUSIVE MAPS
-//---------------------------------------------------
-
-//Map by RoosTer
-map QCIN01 "Outpost"
-{
-	PreviewPic = "PVQCIN01"
-	sky1 = "aerowalk"
-	UsePlayerStartZ
-	NoInfighting
-	Next = "QCIN02"
-	Music = "D_SHAWN"
-	fogdensity = 96
-	skyfog = 96
-}
-
-//Map by RoosTer
-map QCIN02 "Hangar"
-{
-	PreviewPic = "PVQCIN02"
-	sky1 = "CAMPSKY"
-	UsePlayerStartZ
-	NoInfighting
-	Next = "QCIN03"
-	Music = "D_SHAWN"
-	skyfog = 16
-	fogdensity = 32
-}
-
-//Map by RoosTer
-map QCIN03 "Cathedral"
-{
-	PreviewPic = "PVQCIN03"
-	sky1 = "LOSTSKY", 0.1
-	UsePlayerStartZ
-	NoInfighting
-	Next = "QCIN04"
-	Music = "D_SHAWN"
-	fogdensity = 32
-	SkyFog = 32
-}
-
-//Map by RoosTer
-map QCIN04 "Asteroid Garden"
-{
-	PreviewPic = "PVQCIN04"
-	sky1 = "MRPSKY"
-	UsePlayerStartZ
-	NoInfighting
-	Next = "QCIN01"
-	Music = "D_SHAWN"
-	fogdensity = 50
-	SkyFog = 96
-}
-
-
-//---------------------------------------------------
-// CTF EXCLUSIVE MAPS
-//---------------------------------------------------
-
-//Map by Dech
-map QCTF01 "The struggle"
-{
-	PreviewPic = "PVQCTF01"
-	Music = "QCTF01"
-	Lightning
-	Sky1 = "MONSKY1", 0.5
-	Sky2 = "MONSKY2", 0.5
-	//Sky1 = "QCTFSKY1", 0.3
-	UsePlayerStartZ
-	Next = "QCTF02"
-}
-
-//Map by Dech and DBT
-map QCTF02 "CTF Run"
-{
-	PreviewPic = "PVQCTF02"
-	Music = "QCTF02"
-	Sky1 = "VERTSKY"
-	//Sky1 = "QCTFSKY1", 0.3
-	UsePlayerStartZ
-	Next = "QCTF03"
-}
-
-//Map by Dech and Rooster
-map QCTF03 "Fatal Error"
-{
-	PreviewPic = "PVQCTF03"
-	Music = "QCTF03"
-	Sky1 = "VERTSKY"
-	//Sky1 = "QCTFSKY1", 0.3
-	//UsePlayerStartZ
-	Next = "QCTF01"
 }
 
 
@@ -712,6 +732,8 @@ map QCTF03 "Fatal Error"
 //DBT note: It's a nice map, but people hate longest yard all around :(
 map QCME01 "The Longest Yard"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCME01"
 	Music = QCMEM01
 	sky1 = "BLKW", 0.1
@@ -722,9 +744,123 @@ map QCME01 "The Longest Yard"
 //map by RoosTer
 map QCME02 "Morpheus"
 {
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCME02"
 	Music = QCMEM02
-	UsePlayerStartZ	
+	UsePlayerStartZ
 	sky1 = "MRPSKY"
 	Next = "QCDE01"
+}
+
+
+//---------------------------------------------------
+// CTF EXCLUSIVE MAPS
+//---------------------------------------------------
+
+//Map by Dech
+map QCTF01 "The struggle"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category2 // CTF
+	PreviewPic = "PVQCTF01"
+	Music = "QCTF01"
+	Lightning
+	Sky1 = "MONSKY1", 0.5
+	Sky2 = "MONSKY2", 0.5
+	//Sky1 = "QCTFSKY1", 0.3
+	UsePlayerStartZ
+	Next = "QCTF02"
+}
+
+//Map by Dech and DBT
+map QCTF02 "CTF Run"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category2 // CTF
+	PreviewPic = "PVQCTF02"
+	Music = "QCTF02"
+	Sky1 = "VERTSKY"
+	//Sky1 = "QCTFSKY1", 0.3
+	UsePlayerStartZ
+	Next = "QCTF03"
+}
+
+//Map by Dech and Rooster
+map QCTF03 "Fatal Error"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category2 // CTF
+	PreviewPic = "PVQCTF03"
+	Music = "QCTF03"
+	Sky1 = "VERTSKY"
+	//Sky1 = "QCTFSKY1", 0.3
+	//UsePlayerStartZ
+	Next = "QCTF01"
+}
+
+
+
+//---------------------------------------------------
+// INVASION EXCLUSIVE MAPS
+//---------------------------------------------------
+
+//Map by RoosTer
+map QCIN01 "Outpost"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category3 // Invasion
+	PreviewPic = "PVQCIN01"
+	sky1 = "aerowalk"
+	UsePlayerStartZ
+	NoInfighting
+	Next = "QCIN02"
+	Music = "D_SHAWN"
+	fogdensity = 96
+	skyfog = 96
+}
+
+//Map by RoosTer
+map QCIN02 "Hangar"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category3 // Invasion
+	PreviewPic = "PVQCIN02"
+	sky1 = "CAMPSKY"
+	UsePlayerStartZ
+	NoInfighting
+	Next = "QCIN03"
+	Music = "D_SHAWN"
+	skyfog = 16
+	fogdensity = 32
+}
+
+//Map by RoosTer
+map QCIN03 "Cathedral"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category3 // Invasion
+	PreviewPic = "PVQCIN03"
+	sky1 = "LOSTSKY", 0.1
+	UsePlayerStartZ
+	NoInfighting
+	Next = "QCIN04"
+	Music = "D_SHAWN"
+	fogdensity = 32
+	SkyFog = 32
+}
+
+//Map by RoosTer
+map QCIN04 "Asteroid Garden"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category3 // Invasion
+	PreviewPic = "PVQCIN04"
+	sky1 = "MRPSKY"
+	UsePlayerStartZ
+	NoInfighting
+	Next = "QCIN01"
+	Music = "D_SHAWN"
+	fogdensity = 50
+	SkyFog = 96
 }

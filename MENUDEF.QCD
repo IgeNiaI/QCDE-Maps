@@ -1,29 +1,125 @@
 
-AddFreeformMenu "QCDE_SkirmishMenu" below "qcde_randommap"
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AddFreeformMenu "QCDE_SkirmishMenu" below "qcde_randommap3"
 {
 	SubMenu {
-		Pos		0, 12				Text				"QC:DE Maps List"	Background			BV21028
-		Size	105, 14				Font				SmallFont			SelectedBackground	BV21028S
-		Anchor	center, center		FontColor			Tan					menu				QCDE_QCDEMaps
+		VisibilityCVar skirm_skirmishgamemode,	2, 2
+		Pos		0, 12				Text				"QC:DE Invasion Maps"	Background			BV21028
+		Size	105, 14				Font				SmallFont				SelectedBackground	BV21028S
+		Anchor	center, center		FontColor			Tan						menu				QCDE_QCDEMapsInvasion
 		Padding	0, 0				SelectedFontColor	Tan
 	}
 }
 
-AddFreeformMenu "QCDE_CallVote" below "qcde_randommap"
+AddFreeformMenu "QCDE_SkirmishMenu" below "qcde_randommap1"
 {
 	SubMenu {
-		Pos		0, 12				Text				"QC:DE Maps List"	Background			BV21028
-		Size	105, 14				Font				SmallFont			SelectedBackground	BV21028S
-		Anchor	center, center		FontColor			Tan					menu				QCDE_QCDEMaps
+		VisibilityCVar skirm_skirmishgamemode,	3, 10
+		Pos		0, 12				Text				"QC:DE DM Maps"			Background			BV21028
+		Size	105, 14				Font				SmallFont				SelectedBackground	BV21028S
+		Anchor	center, center		FontColor			Tan						menu				QCDE_QCDEMapsDeathmatch
 		Padding	0, 0				SelectedFontColor	Tan
 	}
 }
 
-FreeformMenu QCDE_QCDEMaps
+AddFreeformMenu "QCDE_SkirmishMenu" below "qcde_randommap2"
+{
+	SubMenu {
+		VisibilityCVar skirm_skirmishgamemode,	11, 11
+		Pos		0, 12				Text				"QC:DE CTF Maps"		Background			BV21028
+		Size	105, 14				Font				SmallFont				SelectedBackground	BV21028S
+		Anchor	center, center		FontColor			Tan						menu				QCDE_QCDEMapsCTF
+		Padding	0, 0				SelectedFontColor	Tan
+	}
+}
+
+//AddFreeformMenu "QCDE_SkirmishMenu" below "qcde_randommap4"
+//{
+//	SubMenu {
+//		VisibilityCVar skirm_skirmishgamemode,	12, 12
+//		Pos		0, 12				Text				"QC:DE Domination Maps"	Background			BV21028
+//		Size	105, 14				Font				SmallFont				SelectedBackground	BV21028S
+//		Anchor	center, center		FontColor			Tan						menu				QCDE_QCDEMapsDomination
+//		Padding	0, 0				SelectedFontColor	Tan
+//	}
+//}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+AddFreeformMenu "QCDE_CallVote" below "qcde_randommapmp"
+{
+	SubMenu {
+		VisibilityCVar invasion,	1, 1
+		Pos		0, 12				Text				"QC:DE Invasion Maps"	Background			BV21028
+		Size	105, 14				Font				SmallFont				SelectedBackground	BV21028S
+		Anchor	center, center		FontColor			Tan						menu				QCDE_QCDEMapsInvasion
+		Padding	0, 0				SelectedFontColor	Tan
+	}
+
+	SubMenu {
+		VisibilityCVar deathmatch,	1, 1
+		Pos		0, 12				Text				"QC:DE DM Maps"			Background			BV21028
+		Size	105, 14				Font				SmallFont				SelectedBackground	BV21028S
+		Anchor	center, center		FontColor			Tan						menu				QCDE_QCDEMapsDeathmatch
+		Padding	0, 0				SelectedFontColor	Tan
+	}
+
+	SubMenu {
+		VisibilityCVar ctf,	1, 1
+		Pos		0, 12				Text				"QC:DE CTF Maps"		Background			BV21028
+		Size	105, 14				Font				SmallFont				SelectedBackground	BV21028S
+		Anchor	center, center		FontColor			Tan						menu				QCDE_QCDEMapsCTF
+		Padding	0, 0				SelectedFontColor	Tan
+	}
+
+//	SubMenu {
+//		VisibilityCVar domination,	1, 1
+//		Pos		0, 12				Text				"QC:DE Domination Maps"	Background			BV21028
+//		Size	105, 14				Font				SmallFont				SelectedBackground	BV21028S
+//		Anchor	center, center		FontColor			Tan						menu				QCDE_QCDEMapsDomination
+//		Padding	0, 0				SelectedFontColor	Tan
+//	}
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+FreeformMenu QCDE_QCDEMapsInvasion
 {
 	TopPadding 0
 	ScrollSpeed 16
-	OverrideHeight 1600
+	OverrideHeight 200
+
+	Label {	// generic maps background
+		Static
+		Background	"BackMaps"
+		Size		450, 2000
+	}
+
+	Label {
+		Pos			0,   10				Font		QCSMFONT
+		Text		"Invasion maps"		FontColor	Gold
+	}
+
+	Command { Pos -198,   30	Text "QCIN01"	Background PVQCIN01		Command map_QCIN01		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98,   30	Text "QCIN02"	Background PVQCIN02		Command map_QCIN02		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2,   30	Text "QCIN03"	Background PVQCIN03		Command map_QCIN03		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  102,   30	Text "QCIN04"	Background PVQCIN04		Command map_QCIN04		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150,   84	MaxTextWidth 95		Font SmallFont	Text "Outpost"						}
+	Label { Pos  -50,   84	MaxTextWidth 95		Font SmallFont	Text "Hangar"						}
+	Label { Pos   50,   84	MaxTextWidth 95		Font SmallFont	Text "Cathedral"					}
+	Label { Pos  150,   84	MaxTextWidth 95		Font SmallFont	Text "Asteroid Garden"				}
+}
+
+FreeformMenu QCDE_QCDEMapsDeathmatch
+{
+	TopPadding 0
+	ScrollSpeed 16
+	OverrideHeight 1400
 
 	Label {	// generic maps background
 		Static
@@ -178,44 +274,38 @@ FreeformMenu QCDE_QCDEMaps
 	Label { Pos  -50, 1234	MaxTextWidth 95		Font SmallFont	Text "Unreal place"					}
 
 
-
 	Label {
 		Pos			0, 1265				Font		QCSMFONT
-		Text		"Invasion maps"		FontColor	Gold
-	}
-
-	Command { Pos -198, 1285	Text "QCIN01"	Background PVQCIN01		Command map_QCIN01		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
-	Command { Pos  -98, 1285	Text "QCIN02"	Background PVQCIN02		Command map_QCIN02		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
-	Command { Pos    2, 1285	Text "QCIN03"	Background PVQCIN03		Command map_QCIN03		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
-	Command { Pos  102, 1285	Text "QCIN04"	Background PVQCIN04		Command map_QCIN04		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
-	Label { Pos -150, 1339	MaxTextWidth 95		Font SmallFont	Text "Outpost"						}
-	Label { Pos  -50, 1339	MaxTextWidth 95		Font SmallFont	Text "Hangar"						}
-	Label { Pos   50, 1339	MaxTextWidth 95		Font SmallFont	Text "Cathedral"					}
-	Label { Pos  150, 1339	MaxTextWidth 95		Font SmallFont	Text "Asteroid Garden"				}
-
-
-
-	Label {
-		Pos			0, 1370				Font		QCSMFONT
-		Text		"CTF maps"			FontColor	Gold
-	}
-
-	Command { Pos -198, 1390	Text "QCTF01"	Background PVQCTF01		Command map_QCTF01		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
-	Command { Pos  -98, 1390	Text "QCTF02"	Background PVQCTF02		Command map_QCTF02		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
-	Command { Pos    2, 1390	Text "QCTF03"	Background PVQCTF03		Command map_QCTF03		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
-	Label { Pos -150, 1444	MaxTextWidth 95		Font SmallFont	Text "The struggle"					}
-	Label { Pos  -50, 1444	MaxTextWidth 95		Font SmallFont	Text "CTF Run"						}
-	Label { Pos   50, 1444	MaxTextWidth 95		Font SmallFont	Text "Fatal Error"					}
-
-
-
-	Label {
-		Pos			0, 1475				Font		QCSMFONT
 		Text		"Meme maps"			FontColor	Gold
 	}
 
-	Command { Pos -198, 1495	Text "QCME01"	Background PVQCME01		Command map_QCME01		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
-	Command { Pos  -98, 1495	Text "QCME02"	Background PVQCME02		Command map_QCME02		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
-	Label { Pos -150, 1549	MaxTextWidth 95		Font SmallFont	Text "The Longest Yard"				}
-	Label { Pos  -50, 1549	MaxTextWidth 95		Font SmallFont	Text "Morpheus"						}
+	Command { Pos -198, 1285	Text "QCME01"	Background PVQCME01		Command map_QCME01		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98, 1285	Text "QCME02"	Background PVQCME02		Command map_QCME02		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150, 1339	MaxTextWidth 95		Font SmallFont	Text "The Longest Yard"				}
+	Label { Pos  -50, 1339	MaxTextWidth 95		Font SmallFont	Text "Morpheus"						}
+}
+
+FreeformMenu QCDE_QCDEMapsCTF
+{
+	TopPadding 0
+	ScrollSpeed 16
+	OverrideHeight 200
+
+	Label {	// generic maps background
+		Static
+		Background	"BackMaps"
+		Size		450, 2000
+	}
+
+	Label {
+		Pos			0, 10				Font		QCSMFONT
+		Text		"CTF maps"			FontColor	Gold
+	}
+
+	Command { Pos -198,   30	Text "QCTF01"	Background PVQCTF01		Command map_QCTF01		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98,   30	Text "QCTF02"	Background PVQCTF02		Command map_QCTF02		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2,   30	Text "QCTF03"	Background PVQCTF03		Command map_QCTF03		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Label { Pos -150,   84	MaxTextWidth 95		Font SmallFont	Text "The struggle"					}
+	Label { Pos  -50,   84	MaxTextWidth 95		Font SmallFont	Text "CTF Run"						}
+	Label { Pos   50,   84	MaxTextWidth 95		Font SmallFont	Text "Fatal Error"					}
 }
