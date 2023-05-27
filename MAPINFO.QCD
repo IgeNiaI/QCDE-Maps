@@ -586,6 +586,18 @@ Map QCDE49 "Erase"
 	PreviewPic = "PVQCDE49"
 	Music = "QCDEM49"
 	UsePlayerStartZ
+	Next = "QCDE50"
+}
+
+//Map by geNia
+Map QCDE50 "Achilles"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
+	PreviewPic = "PVQCDE50"
+	Music = "QCDEM50"
+	sky1 = "QUARSKY", 0.03
+	UsePlayerStartZ
 	Next = "QCDE01"
 }
 

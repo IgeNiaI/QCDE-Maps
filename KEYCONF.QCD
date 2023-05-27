@@ -48,6 +48,7 @@ alias map_QCDE46  "upmenu; setskirmishlevel QCDE46 1; setcallvotemap QCDE46"
 alias map_QCDE47  "upmenu; setskirmishlevel QCDE47 1; setcallvotemap QCDE47"
 alias map_QCDE48  "upmenu; setskirmishlevel QCDE48 1; setcallvotemap QCDE48"
 alias map_QCDE49  "upmenu; setskirmishlevel QCDE49 1; setcallvotemap QCDE49"
+alias map_QCDE50  "upmenu; setskirmishlevel QCDE50 1; setcallvotemap QCDE50"
 
 alias map_QCDL01  "upmenu; setskirmishlevel QCDL01 1; setcallvotemap QCDL01"
 alias map_QCDL02  "upmenu; setskirmishlevel QCDL02 1; setcallvotemap QCDL02"
