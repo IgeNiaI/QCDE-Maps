@@ -747,7 +747,7 @@ ACTOR SarnathEyeholder 15020
 
 	States {
 	Spawn:
-		TREA A -1
+		EMPT A -1
 		Stop
 	}
 }

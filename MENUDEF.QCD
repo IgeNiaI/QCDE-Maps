@@ -240,8 +240,10 @@ FreeformMenu QCDE_QCDEMapsDeathmatch
 	Label { Pos   50,  909	MaxTextWidth 95		Font SmallFont	Text "Claustrophobopolis"			}
 	Label { Pos  150,  909	MaxTextWidth 95		Font SmallFont	Text "Mythic"						}
 
-	Command { Pos -198, 925		Text "QCDE49"	Background PVQCDE49		Command map_QCDE49		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos -198,  925	Text "QCDE49"	Background PVQCDE49		Command map_QCDE49		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98,  925	Text "QCDE50"	Background PVQCDE50		Command map_QCDE50		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
 	Label { Pos -150,  979	MaxTextWidth 95		Font SmallFont	Text "Erase"						}
+	Label { Pos  -50,  979	MaxTextWidth 95		Font SmallFont	Text "Achilles"						}
 
 
 

@@ -119,7 +119,7 @@ Model SarnathEyeholder
 
 	Scale 2.2 2.2 2.2
 	  
-	FrameIndex TREA A 0 0
+	FrameIndex EMPT A 0 0
 }
 
 //--------------------------------------------------------------------------------
