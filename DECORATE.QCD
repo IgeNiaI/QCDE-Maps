@@ -486,24 +486,6 @@ ACTOR AmbientMarsh 14196
 	}
 }
 
-ACTOR X2 15008
-{
-	//$Category Models/Props
-	//$Title x2
-	//$Color 2
-	+SOLID
-	//+SHOOTABLE
-  	Radius 8
-  	Height 64
-  	Mass 100
-
-	States {
-	Spawn:
-		TREA A -1
-		Stop
-	}
-}
-
 ACTOR AmbientDrip 15012
 {
 	//$Category Sounds/Ambient
