@@ -776,7 +776,7 @@ map QCTF01 "The struggle"
 	NotCategory0 // Exclude from "All maps" list
 	Category2 // CTF
 	PreviewPic = "PVQCTF01"
-	Music = "QCTF01"
+	Music = "QCTFM01"
 	Lightning
 	Sky1 = "MONSKY1", 0.5
 	Sky2 = "MONSKY2", 0.5
@@ -791,7 +791,7 @@ map QCTF02 "CTF Run"
 	NotCategory0 // Exclude from "All maps" list
 	Category2 // CTF
 	PreviewPic = "PVQCTF02"
-	Music = "QCTF02"
+	Music = "QCTFM02"
 	Sky1 = "VERTSKY"
 	//Sky1 = "QCTFSKY1", 0.3
 	UsePlayerStartZ
@@ -804,7 +804,7 @@ map QCTF03 "Fatal Error"
 	NotCategory0 // Exclude from "All maps" list
 	Category2 // CTF
 	PreviewPic = "PVQCTF03"
-	Music = "QCTF03"
+	Music = "QCTFM03"
 	Sky1 = "VERTSKY"
 	//Sky1 = "QCTFSKY1", 0.3
 	//UsePlayerStartZ
