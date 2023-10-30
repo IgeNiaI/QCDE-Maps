@@ -300,12 +300,18 @@ texture WFALL_11 range WFALL_15 tics 4
 
 
 
+switch SW1GOTH1 on pic SW2GOTH1 tics 0
+switch SW1GOTH6 on pic SW2GOTH6 tics 0
 
-
-
-
-
-
+Texture SW1GOTH1
+        pic SW1GOTH1 tics 3
+        pic SW1GOTH2 tics 3
+        pic SW1GOTH3 tics 3
+        pic SW1GOTH4 tics 3
+        pic SW1GOTH5 tics 3
+        pic SW1GOTH4 tics 3
+        pic SW1GOTH3 tics 3
+        pic SW1GOTH2 tics 3
 
 
 
@@ -1243,3 +1249,26 @@ Texture DECO01AR
  pic DECO04 tics 3
  pic DECO05 tics 4
  pic DECO06 tics 7
+
+Texture q3_elect
+ pic fx1 tics 2
+ pic fx2 tics 2
+ pic fx3 tics 2
+ pic fx4 tics 2
+ pic fx5 tics 2
+ pic fx6 tics 2
+ pic fx7 tics 2
+ pic fx8 tics 2
+ pic fx9 tics 2
+ pic fx10 tics 2
+ pic fx11 tics 2
+
+Texture noblight
+ pic noblit1 tics 4
+ pic noblit2 tics 4
+ pic noblit3 tics 4
+ pic noblit4 tics 4
+ pic noblit3 tics 4
+ pic noblit2 tics 4
+
+warp2 flat q3t2_fog .3

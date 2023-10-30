@@ -2480,3 +2480,1736 @@ ACTOR QCDE_flagModel 16003
 			Loop
 	}
 }
+
+//--------------------------------------------------------------------------------
+//		Q3 Tourney 2
+//--------------------------------------------------------------------------------
+
+ACTOR telering2 16009
+{
+	//$Category Props/Structures
+	//$Title Teleport ring fx2
+	//$Color 5
+	renderstyle add
+	+NOGRAVITY
+  	Radius 32
+  	Height 1
+
+	States {
+		Spawn:
+			EMPT A 1 BRIGHT
+			EMPT B 1 BRIGHT
+			EMPT C 1 BRIGHT
+			EMPT D 1 BRIGHT
+			EMPT E 1 BRIGHT
+			EMPT F 1 BRIGHT
+			EMPT G 1 BRIGHT
+			EMPT H 1 BRIGHT
+			EMPT I 1 BRIGHT
+			EMPT J 2 BRIGHT
+			EMPT K 2 BRIGHT
+			EMPT L 3 BRIGHT
+			EMPT M 4 BRIGHT
+			EMPT N 3 BRIGHT
+			EMPT O 2 BRIGHT
+			EMPT P 2 BRIGHT
+			EMPT Q 1 BRIGHT
+			EMPT R 1 BRIGHT
+			EMPT S 1 BRIGHT
+			EMPT T 1 BRIGHT
+			EMPT U 1 BRIGHT
+
+		Loop
+	}
+}
+
+
+ACTOR q3t2_rectop 16011
+{
+	//$Category Props/Structures
+	//$Title Reactor top
+	//$Color 5
+	+NOGRAVITY
+  	Radius 32
+  	Height 2
+
+	States {
+		Spawn:
+			EMPT A -1
+			Stop
+	}
+}
+
+ACTOR q3t_torchholder 16014
+{
+	//$Category Props/Structures
+	//$Title q3t Torch Holder
+	//$Color 5
+	+NOGRAVITY
+  	Radius 8
+  	Height 2
+
+	States {
+		Spawn:
+			EMPT A -1
+			Stop
+	}
+}
+
+ACTOR torchflame1 16015
+{
+	//$Category Props/Structures
+	//$Title q3t Torch Flame
+	//$Color 5
+	+NOGRAVITY
+	renderstyle add
+  	Radius 8
+  	Height 2
+
+	States {
+		Spawn:
+			EMPT A 3 BRIGHT
+			EMPT B 3 BRIGHT
+			EMPT C 3 BRIGHT
+			EMPT D 3 BRIGHT
+			EMPT E 3 BRIGHT
+			EMPT F 3 BRIGHT
+			EMPT G 3 BRIGHT
+			EMPT H 3 BRIGHT
+			Loop
+	}
+}
+
+ACTOR Q3Tele 16022
+{
+	//$Category Sounds/Ambient
+	//$Title Q3 Teleport hum
+	//$Color 8
+	Radius 16
+	Height 32
+	RenderStyle "None"
+	+NOBLOCKMAP
+	States
+	{
+	Spawn:
+		TNT1 A 100 NoDelay A_PlaySound ("sounds/q3t_tele")
+		Loop
+	}
+}
+
+ACTOR Q3Reactor 16023
+{
+	//$Category Sounds/Ambient
+	//$Title Q3 Reactor sound fx
+	//$Color 8
+	Radius 16
+	Height 32
+	RenderStyle "None"
+	+NOBLOCKMAP
+	States
+	{
+	Spawn:
+		TNT1 A 100 NoDelay A_PlaySound ("sounds/q3t_reac")
+		Loop
+	}
+}
+
+ACTOR Q3GrowlSound 16024
+{
+	//$Category Sounds/Ambient
+	//$Title Q3 Growl sound fx
+	//$Color 8
+	Radius 16
+	Height 32
+	+NOBLOCKMAP
+	States
+	{
+	Spawn:
+		TNT1 A 400 NoDelay A_PlaySound ("sounds/q3t_grol")
+		Loop
+	}
+}
+
+//--------------------------------------------------------------------------------
+//		Training maps
+//--------------------------------------------------------------------------------
+ACTOR FractalCone 17502 {
+
+	//$Category "Weapon Train Mapobjects"
+	//$Title "Fractal beam cone"
+
+	+NOGRAVITY
+	+NODAMAGE
+	+NOCLIP
+
+	Radius 32
+	Height 32
+	Scale 1
+
+	States {
+		Spawn:
+			EMPT A 1
+			Loop
+	}
+}
+
+ACTOR FractalTrapCollision 17503 {
+
+	//$Category "Weapon Train Mapobjects"
+	//$Title "Fractal trap door platform"
+
+	+SOLID
+	+NOGRAVITY
+
+	Radius 80
+	Height 8
+	Scale 0.1
+	States
+	{
+	Spawn:
+		EMPT A 1
+		Loop
+	}
+}
+
+ACTOR FractalDoor 17504 {
+
+	//$Category "Weapon Train Mapobjects"
+	//$Title "Fractal trapdoor"
+
+	+NOGRAVITY
+	+NODAMAGE
+	+NOCLIP
+
+	Radius 32
+	Height 32
+	Scale 1
+
+	States {
+		Spawn:
+			EMPT A 1
+			Loop
+	}
+}
+
+ACTOR FractalDoorActivator 17505 {
+
+	//$Category "Weapon Train Mapobjects"
+	//$Title "Fractal trapdoor activator"
+
+	Health 99999999
+	Mass 9999999
+	PainChance 256
+	RadiusDamageFactor 0.02
+
+	+NOGRAVITY
+	+NODAMAGE
+	+NOCLIP
+	+SHOOTABLE
+	+NOBLOOD
+
+	Radius 8
+	Height 2
+	Scale 1
+
+	States {
+		Spawn:
+			EMPT A 1
+			Loop
+		Pain:
+			EMPT B 1 ACS_ExecuteWithResult(2)
+			Goto Spawn
+	}
+}
+
+//--------------------------------------------------------------------------------
+//		DM Campaign Stuff
+//--------------------------------------------------------------------------------
+
+Actor QCDMHUB_FireworksSpawner : SwitchableDecoration 17568
+{
+	+NOINTERACTION +NOTONAUTOMAP
+	+NONETID
+	+FORCEYBILLBOARD
+	Scale 0.5
+	States
+	{
+	Spawn:
+	Inactive:
+		TNT1 A 5
+		Loop
+	Active:
+		FRWS A random(12, 35)
+		TNT1 A 0 A_Jump(256, "SpawnRed", "SpawnGreen", "SpawnBlue", "SpawnYellow", "SpawnPurple")
+	ActiveLoop: // longer delay
+		FRWS A random(70, 105)
+		TNT1 A 0 A_Jump(256, "SpawnRed", "SpawnGreen", "SpawnBlue", "SpawnYellow", "SpawnPurple")
+	SpawnRed:
+		FRWS B 3 A_SpawnItemEx("QCDMHUB_Fireworks_Red")
+		Goto ActiveLoop
+	SpawnGreen:
+		FRWS B 3 A_SpawnItemEx("QCDMHUB_Fireworks_Green")
+		Goto ActiveLoop
+	SpawnBlue:
+		FRWS B 3 A_SpawnItemEx("QCDMHUB_Fireworks_Blue")
+		Goto ActiveLoop
+	SpawnYellow:
+		FRWS B 3 A_SpawnItemEx("QCDMHUB_Fireworks_Yellow")
+		Goto ActiveLoop
+	SpawnPurple:
+		FRWS B 3 A_SpawnItemEx("QCDMHUB_Fireworks_Purple")
+		Goto ActiveLoop
+	}
+}
+
+Actor QCDMHUB_Fireworks
+{
+	+NOINTERACTION +NOTONAUTOMAP
+	+NONETID
+	+FORCEYBILLBOARD
+	+MTHRUSPECIES
+	+DONTSPLASH
+	Renderstyle Add
+	Scale 1.0
+	ReactionTime 17
+	States
+	{
+	Spawn:
+		TNT1 A 0
+		TNT1 A 0 A_PlaySound("FIREWORK", CHAN_AUTO, 1.0, 0, 0.25)
+		TNT1 A 0 A_ChangeVelocity(0,0,random(3,7), CVF_REPLACE)
+	SpawnLoop:
+		TNT1 A 0 A_ChangeVelocity(0,0,2)
+		FRWS C 3 BRIGHT A_Countdown
+		Loop
+	Death:
+		TNT1 AAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx("QCDMHUB_FireworksParticle", 0, 0, 0, 0, 0, 0, 0, SXF_TRANSFERTRANSLATION)
+		TNT1 AAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx("QCDMHUB_FireworksParticle", 0, 0, 0, 0, 0, 0, 0, SXF_TRANSFERTRANSLATION)
+		TNT1 AAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx("QCDMHUB_FireworksParticle", 0, 0, 0, 0, 0, 0, 0, SXF_TRANSFERTRANSLATION)
+		TNT1 AAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx("QCDMHUB_FireworksParticle", 0, 0, 0, 0, 0, 0, 0, SXF_TRANSFERTRANSLATION)
+		TNT1 AAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx("QCDMHUB_FireworksParticle", 0, 0, 0, 0, 0, 0, 0, SXF_TRANSFERTRANSLATION)
+		TNT1 AAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx("QCDMHUB_FireworksParticle", 0, 0, 0, 0, 0, 0, 0, SXF_TRANSFERTRANSLATION)
+		TNT1 AAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx("QCDMHUB_FireworksParticle", 0, 0, 0, 0, 0, 0, 0, SXF_TRANSFERTRANSLATION)
+		TNT1 AAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx("QCDMHUB_FireworksParticle", 0, 0, 0, 0, 0, 0, 0, SXF_TRANSFERTRANSLATION)
+		TNT1 AAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx("QCDMHUB_FireworksParticle", 0, 0, 0, 0, 0, 0, 0, SXF_TRANSFERTRANSLATION)
+		TNT1 AAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx("QCDMHUB_FireworksParticle", 0, 0, 0, 0, 0, 0, 0, SXF_TRANSFERTRANSLATION)
+		TNT1 A 70
+		Stop
+	}
+}
+
+Actor QCDMHUB_FireworksParticle
+{
+	+NOINTERACTION +NOTONAUTOMAP
+	+NONETID
+	+FORCEXYBILLBOARD
+	+MTHRUSPECIES
+	+DONTSPLASH
+	Renderstyle Add
+	States
+	{
+	Spawn:
+		TNT1 A 0
+		TNT1 A 0 A_SetAngle(frandom(0, 360))
+		TNT1 A 0 A_SetPitch(frandom(-90, 90))
+		TNT1 A 0 A_ChangeVelocity(frandom(0, 8.0), 0, frandom(-8.0, 8.0), CVF_RELATIVE)
+	SpawnLoop:
+		FRWS P 1 BRIGHT A_FadeOut(0.02)
+		Loop
+	}
+}
+
+Actor QCDMHUB_Fireworks_Red : QCDMHUB_Fireworks { Translation "0:255=%[0,0,0]:[1.0,0.0,0.0]" }
+Actor QCDMHUB_Fireworks_Green : QCDMHUB_Fireworks { Translation "0:255=%[0,0,0]:[0.0,1.0,0.0]" }
+Actor QCDMHUB_Fireworks_Blue : QCDMHUB_Fireworks { Translation "0:255=%[0,0,0]:[0.0,0.5,1.0]" }
+Actor QCDMHUB_Fireworks_Yellow : QCDMHUB_Fireworks { Translation "0:255=%[0,0,0]:[1.0,1.0,0.0]" }
+Actor QCDMHUB_Fireworks_Purple : QCDMHUB_Fireworks { Translation "0:255=%[0,0,0]:[1.0,0.0,1.0]" }
+
+Actor QCDMHUB_RedKey : CustomInventory 17569
+{
+	//$NotAngled
+	//$Category "QCDE DM Hub items"
+	//$Color 16
+	//$Title "DM Hub Red Key"
+	Scale .62
+	Inventory.PickupMessage "$GOT_QCDE_DMCMPGN_RedKey" // "Picked up the Red Key."
+	Inventory.PickupSound "QC/Items/SkullPickup"
+	Tag "$TAG_QCDE_DMCMPGN_RedKey" // "Red Key"
+	States
+	{
+	Spawn:
+		KMKR ABCDDDCBAA 4 Bright
+		Loop
+	Pickup:
+		TNT1 A 0 ACS_NamedExecuteWithResult("QCDMHUB_KeyPickedUp", 1)
+		Stop
+	}
+}
+
+Actor QCDMHUB_BlueKey : CustomInventory 17570
+{
+	//$NotAngled
+	//$Category "QCDE DM Hub items"
+	//$Color 16
+	//$Title "DM Hub Blue Key"
+	Scale .62
+	Inventory.PickupMessage "$GOT_QCDE_DMCMPGN_BlueKey" // "Picked up the Blue Key."
+	Inventory.PickupSound "QC/Items/SkullPickup"
+	Tag "$TAG_QCDE_DMCMPGN_BlueKey" // "Blue Key"
+	States
+	{
+	Spawn:
+		KMKB ABCDDDCBAA 4 Bright
+		Loop
+	Pickup:
+		TNT1 A 0 ACS_NamedExecuteWithResult("QCDMHUB_KeyPickedUp", 2)
+		Stop
+	}
+}
+
+Actor QCDMHUB_GreenKey : CustomInventory 17571
+{
+	//$NotAngled
+	//$Category "QCDE DM Hub items"
+	//$Color 16
+	//$Title "DM Hub Green Key"
+	Scale .62
+	Inventory.PickupMessage "$GOT_QCDE_DMCMPGN_GreenKey" // "Picked up the Green Key."
+	Inventory.PickupSound "QC/Items/SkullPickup"
+	Tag "$TAG_QCDE_DMCMPGN_GreenKey" // "Green Key"
+	States
+	{
+	Spawn:
+		KMKG ABCDDDCBAA 4 Bright
+		Loop
+	Pickup:
+		TNT1 A 0 ACS_NamedExecuteWithResult("QCDMHUB_KeyPickedUp", 3)
+		Stop
+	}
+}
+
+Actor QCDMHUB_YellowKey : CustomInventory 17572
+{
+	//$NotAngled
+	//$Category "QCDE DM Hub items"
+	//$Color 16
+	//$Title "DM Hub Yellow Key"
+	Scale .62
+	Inventory.PickupMessage "$GOT_QCDE_DMCMPGN_YellowKey" // "Picked up the Yellow Key."
+	Inventory.PickupSound "QC/Items/SkullPickup"
+	Tag "$TAG_QCDE_DMCMPGN_YellowKey" // "Yellow Key"
+	States
+	{
+	Spawn:
+		KMKY ABCDDDCBAA 4 Bright
+		Loop
+	Pickup:
+		TNT1 A 0 ACS_NamedExecuteWithResult("QCDMHUB_KeyPickedUp", 4)
+		Stop
+	}
+}
+
+Actor CampaignDeco_Tree1 : BloodBaseNonBlockingDeco 18000
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Generic Tree 1 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		TRII A -1
+		Stop
+	}
+}
+
+Actor CampaignDeco_Tree2 : BloodBaseNonBlockingDeco 18001
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Generic Tree 2 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		TRII B -1
+		Stop
+	}
+}
+
+Actor CampaignDeco_Tree3 : BloodBaseNonBlockingDeco 18002
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Generic Tree 3 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		TRII C -1
+		Stop
+	}
+}
+
+Actor CampaignDeco_Tree4 : BloodBaseNonBlockingDeco 18003
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Generic Tree 4 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		TRII D -1
+		Stop
+	}
+}
+
+Actor CampaignDeco_Tree5 : BloodBaseNonBlockingDeco 18004
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Generic Tree 5 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		TRII E -1
+		Stop
+	}
+}
+
+Actor CampaignDeco_Tree6 : BloodBaseNonBlockingDeco 18005
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Generic Tree 6 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		TRII F -1
+		Stop
+	}
+}
+
+Actor CampaignDeco_Tree7 : BloodBaseNonBlockingDeco 18006
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Generic Tree 7 (No Block)"
+	Scale 1.0
+	States
+	{
+	Spawn:
+		TRII G -1
+		Stop
+	}
+}
+
+Actor CampaignTrophy_Tier1 : BloodBaseNonBlockingDeco
+{
+	//$NotAngled
+	//$Category "QCDE Campaign"
+	//$Color 16
+	//$Title "Tier 1 Trophy"
+	+FORCEYBILLBOARD
+	Scale 0.9
+	States
+	{
+	Spawn:
+		TRPH A -1
+		Stop
+	}
+}
+
+Actor CampaignTrophy_Tier2 : BloodBaseNonBlockingDeco
+{
+	//$NotAngled
+	//$Category "QCDE Campaign"
+	//$Color 16
+	//$Title "Tier 2 Trophy"
+	+FORCEYBILLBOARD
+	Scale 0.9
+	States
+	{
+	Spawn:
+		TRPH B -1
+		Stop
+	}
+}
+
+Actor CampaignTrophy_Tier3 : BloodBaseNonBlockingDeco
+{
+	//$NotAngled
+	//$Category "QCDE Campaign"
+	//$Color 16
+	//$Title "Tier 3 Trophy"
+	+FORCEYBILLBOARD
+	Scale 0.9
+	States
+	{
+	Spawn:
+		TRPH C -1
+		Stop
+	}
+}
+
+Actor CampaignTrophy_Tier4 : BloodBaseNonBlockingDeco
+{
+	//$NotAngled
+	//$Category "QCDE Campaign"
+	//$Color 16
+	//$Title "Tier 4 Trophy"
+	+FORCEYBILLBOARD
+	Scale 0.9
+	States
+	{
+	Spawn:
+		TRPH D -1
+		Stop
+	}
+}
+
+Actor CampaignTrophy_Tier5 : BloodBaseNonBlockingDeco
+{
+	//$NotAngled
+	//$Category "QCDE Campaign"
+	//$Color 16
+	//$Title "Tier 5 Trophy"
+	+FORCEYBILLBOARD
+	Scale 0.9
+	States
+	{
+	Spawn:
+		TRPH E -1
+		Stop
+	}
+}
+
+Actor QCTriggerImp : DoomImp 17534
+{
+	//$Angled
+	//$Category "QCDE Campaign"
+	//$Color 14
+	//$Title "Trigger Imp"
+
+	+NOPAIN
+	+NODAMAGE
+	+NOTELEFRAG
+	+NONSHOOTABLE
+	-COUNTKILL
+
+	States
+	{
+	Spawn:
+		TROO A 1 A_ChangeVelocity(2, 0, 0, CVF_RELATIVE|CVF_REPLACE)
+		Loop
+	Death:
+	XDeath:
+		TNT1 A 1
+		Stop
+	}
+}
+
+Actor QCDDeadBones 17535
+{
+	//$Angled
+	//$Category "QCDE Campaign"
+	//$Color 16
+	//$Title "Bones (When)"
+	States
+	{
+	Spawn:
+		BONE S -1 A_SetScale(0.4,0.34) // Cyan skeleton (side)
+		Stop
+	}
+}
+
+Actor QCDoomSlayerFloat 17536
+{
+	//$Angled
+	//$Category "QCDE Campaign"
+	//$Color 16
+	//$Title "Floating Doom Slayer"
+
+	+NOGRAVITY
+	+FLOATBOB
+	XScale 0.98
+	YScale 1.02
+
+	States
+	{
+	Spawn:
+		QP02 B -1
+		Stop
+	}
+}
+
+Actor QCStatueLight
+{
+	//$Angled
+	//$Category "QCDE Campaign"
+	//$Color 16
+
+	+SOLID
+	Radius 13
+	Height 52
+}
+
+Actor QCStatueMedium
+{
+	//$Angled
+	//$Category "QCDE Campaign"
+	//$Color 16
+
+	+SOLID
+	Radius 16
+	Height 56
+}
+
+Actor QCStatueHeavy
+{
+	//$Angled
+	//$Category "QCDE Campaign"
+	//$Color 16
+
+	+SOLID
+	Radius 18
+	Height 60
+}
+
+Actor QCRangerStatue : QCStatueMedium
+{
+	Scale 0.88
+
+	States
+	{
+	Spawn:
+		QP01 E -1
+		Stop
+	}
+}
+
+Actor QCDoomSlayerStatue : QCStatueMedium
+{
+	XScale 0.98
+	YScale 1.02
+
+	States
+	{
+	Spawn:
+		QP02 E -1
+		Stop
+	}
+}
+
+Actor QCCorvusStatue : QCStatueMedium
+{
+	Scale 1.1
+
+	States
+	{
+	Spawn:
+		QP03 A -1
+		Stop
+	}
+}
+
+Actor QCKaneStatue : QCStatueLight
+{
+	Scale 0.537
+
+	States
+	{
+	Spawn:
+		QP04 E -1
+		Stop
+	}
+}
+
+Actor QCCalebStatue : QCStatueLight
+{
+	Scale 0.46
+
+	States
+	{
+	Spawn:
+		QP05 G -1
+		Stop
+	}
+}
+
+Actor QCMenelkirStatue : QCStatueLight
+{
+	XScale 0.79
+	YScale 0.9
+
+	States
+	{
+	Spawn:
+		QP06 A -1
+		Stop
+	}
+}
+
+Actor QCTerminatorStatue : QCStatueHeavy
+{
+	XScale 0.87
+	YScale 0.9
+
+	States
+	{
+	Spawn:
+		QP07 E -1
+		Stop
+	}
+}
+
+Actor QCZedekStatue : QCStatueHeavy
+{
+	XScale 0.93
+	YScale 0.98
+
+	States
+	{
+	Spawn:
+		QP08 A -1
+		Stop
+	}
+}
+
+Actor QCInquisitorStatue : QCStatueHeavy
+{
+	XScale 0.41
+	YScale 0.525
+
+	States
+	{
+	Spawn:
+		QP09 F -1
+		Stop
+	}
+}
+
+Actor QCBittermanStatue : QCStatueHeavy
+{
+	Scale 0.74
+
+	States
+	{
+	Spawn:
+		QP10 G -1
+		Stop
+	}
+}
+
+Actor QCGalenStatue : QCStatueMedium
+{
+	Scale 0.885
+
+	States
+	{
+	Spawn:
+		QP11 A -1
+		Stop
+	}
+}
+
+Actor QCNyxStatue : QCStatueLight
+{
+	XScale 0.82
+	YScale 0.925
+
+	States
+	{
+	Spawn:
+		QP12 E -1
+		Stop
+	}
+}
+
+Actor QCSorgaulStatue : QCStatueHeavy
+{
+	XScale 0.54
+	YScale 0.74
+
+	States
+	{
+	Spawn:
+		QP13 G -1
+		Stop
+	}
+}
+
+Actor QCDukeNukemStatue : QCStatueMedium
+{
+	Scale 0.692
+
+	States
+	{
+	Spawn:
+		QP14 E -1
+		Stop
+	}
+}
+
+Actor QCDurandalStatue : QCStatueLight
+{
+	XScale 0.7
+	YScale 0.65
+
+	States
+	{
+	Spawn:
+		QP15 A -1
+		Stop
+	}
+}
+
+Actor QCKeelStatue : QCStatueHeavy
+{
+	XScale 0.52
+	YScale 0.645
+
+	States
+	{
+	Spawn:
+		QP16 A -1
+		Stop
+	}
+}
+
+Actor QCSargeStatue : QCStatueMedium
+{
+	Scale 0.71
+
+	States
+	{
+	Spawn:
+		QP17 A -1
+		Stop
+	}
+}
+
+Actor QCLoWangStatue : QCStatueLight
+{
+	Scale 0.53
+
+	States
+	{
+	Spawn:
+		QP18 C -1
+		Stop
+	}
+}
+
+Actor QCGraysonStatue : QCStatueMedium
+{
+	Scale 0.745
+
+	States
+	{
+	Spawn:
+		QP19 E -1
+		Stop
+	}
+}
+
+Actor QCEradicatorStatue : QCStatueHeavy
+{
+	XScale 0.76
+	YScale 0.75
+
+	States
+	{
+	Spawn:
+		QP20 A -1
+		Stop
+	}
+}
+
+Actor QCBlazkowiczStatue : QCStatueMedium
+{
+	XScale 0.61
+	YScale 0.61
+
+	States
+	{
+	Spawn:
+		QP21 E -1
+		Stop
+	}
+}
+
+Actor QCFreemanStatue : QCStatueMedium
+{
+	Scale 0.55
+
+	States
+	{
+	Spawn:
+		QP22 G -1
+		Stop
+	}
+}
+
+Actor QCVorMaturStatue : QCStatueHeavy
+{
+	XScale 0.58
+	YScale 0.76
+
+	States
+	{
+	Spawn:
+		QP23 F -1
+		Stop
+	}
+}
+
+Actor QCEleenaStatue : QCStatueLight
+{
+	Scale 0.595
+
+	States
+	{
+	Spawn:
+		QP24 G -1
+		Stop
+	}
+}
+
+Actor QCLucienneStatue : QCStatueLight
+{
+	Scale 0.551
+
+	States
+	{
+	Spawn:
+		QP25 C -1
+		Stop
+	}
+}
+
+Actor QCMajorStatue : QCStatueHeavy
+{
+	Radius 16	// Same as a medium
+	Scale 0.88
+
+	States
+	{
+	Spawn:
+		QP26 A -1
+		Stop
+	}
+}
+
+Actor QCHunterStatue : QCStatueLight
+{
+	Scale 0.715
+
+	States
+	{
+	Spawn:
+		QP27 A -1
+		Stop
+	}
+}
+
+Actor QCSamStatue : QCStatueHeavy
+{
+	XScale 0.69
+	YScale 0.57
+
+	States
+	{
+	Spawn:
+		QP28 A -1
+		Stop
+	}
+}
+
+Actor QCPostalStatue : QCStatueLight
+{
+	XScale 0.5
+	YScale 0.58
+
+	States
+	{
+	Spawn:
+		QP29 A -1
+		Stop
+	}
+}
+
+Actor QCPainkillerStatue : QCStatueMedium
+{
+	Scale 0.75
+
+	States
+	{
+	Spawn:
+		QP30 A -1
+		Stop
+	}
+}
+
+Actor QCIntruderStatue : QCStatueMedium
+{
+	XScale 0.68
+	YScale 0.75
+
+	States
+	{
+	Spawn:
+		QP31 A -1
+		Stop
+	}
+}
+
+Actor QCOrbbStatue : QCStatueLight
+{
+	Height 39
+	Scale 0.46
+
+	States
+	{
+	Spawn:
+		QP32 G -1
+		Stop
+	}
+}
+
+Actor QCBrockStatue : QCStatueHeavy
+{
+	Scale 0.56
+
+	States
+	{
+	Spawn:
+		QP33 A -1
+		Stop
+	}
+}
+
+
+Actor QCPlayerWanderer
+{
+	Speed 16
+	Health 100
+	Mass 58
+	Gravity 0.75
+
+	+SOLID
+	+ISMONSTER
+	//+FRIENDLY
+	-COUNTKILL
+	+DONTBLAST
+	+INVULNERABLE
+	+CANPASS
+	+ACTIVATEMCROSS
+}
+
+Actor QCPlayerWandererLight : QCPlayerWanderer
+{
+	Radius 13
+	Height 52
+}
+
+Actor QCPlayerWandererMedium : QCPlayerWanderer
+{
+	Radius 16
+	Height 56
+}
+
+Actor QCPlayerWandererHeavy : QCPlayerWanderer
+{
+	Radius 18
+	Height 60
+}
+
+
+Actor QCRangerWanderer : QCPlayerWandererMedium
+{
+	Scale 0.88
+
+	States
+	{
+	Spawn:
+		QP01 E random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP01 ABCD 4 A_Wander
+		QP01 ABCD 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCDoomSlayerWanderer : QCPlayerWandererMedium
+{
+	XScale 0.98
+	YScale 1.02
+
+	States
+	{
+	Spawn:
+		QP02 E random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP02 ABCD 4 A_Wander
+		QP02 ABCD 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCCorvusWanderer : QCPlayerWandererMedium
+{
+	Scale 1.1
+
+	States
+	{
+	Spawn:
+		QP03 A random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP03 ABCD 4 A_Wander
+		QP03 ABCD 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCKaneWanderer : QCPlayerWandererLight
+{
+	Scale 0.537
+
+	States
+	{
+	Spawn:
+		QP04 E random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP04 ABCD 4 A_Wander
+		QP04 ABCD 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCCalebWanderer : QCPlayerWandererLight
+{
+	Scale 0.46
+
+	States
+	{
+	Spawn:
+		QP05 G random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP05 ABCDEF 3 A_Wander
+		QP05 ABCDEF 3 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCMenelkirWanderer : QCPlayerWandererLight
+{
+	XScale 0.79
+	YScale 0.9
+
+	States
+	{
+	Spawn:
+		QP06 A random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP06 ABCD 4 A_Wander
+		QP06 ABCD 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCTerminatorWanderer : QCPlayerWandererHeavy
+{
+	XScale 0.87
+	YScale 0.9
+
+	States
+	{
+	Spawn:
+		QP07 E random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP07 ABCD 4 A_Wander
+		QP07 ABCD 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCZedekWanderer : QCPlayerWandererHeavy
+{
+	XScale 0.93
+	YScale 0.98
+
+	States
+	{
+	Spawn:
+		QP08 A random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP08 ABCD 4 A_Wander
+		QP08 ABCD 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCInquisitorWanderer : QCPlayerWandererHeavy
+{
+	XScale 0.41
+	YScale 0.525
+
+	States
+	{
+	Spawn:
+		QP09 F random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP09 ABCDCB 4 A_Wander
+		QP09 ABCDCB 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCBittermanWanderer : QCPlayerWandererHeavy
+{
+	Scale 0.74
+
+	States
+	{
+	Spawn:
+		QP10 G random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP10 ABCDEF 4 A_Wander
+		QP10 ABCDEF 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCGalenWanderer : QCPlayerWandererMedium
+{
+	Scale 0.885
+
+	States
+	{
+	Spawn:
+		QP11 A random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP11 ABCD 4 A_Wander
+		QP11 ABCD 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCNyxWanderer : QCPlayerWandererLight
+{
+	XScale 0.82
+	YScale 0.925
+
+	States
+	{
+	Spawn:
+		QP12 E random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP12 ABCD 4 A_Wander
+		QP12 ABCD 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCSorgaulWanderer : QCPlayerWandererHeavy
+{
+	XScale 0.54
+	YScale 0.74
+
+	States
+	{
+	Spawn:
+		QP13 G random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP13 ABCDEF 3 A_Wander
+		QP13 ABCDEF 3 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCDukeNukemWanderer : QCPlayerWandererMedium
+{
+	Scale 0.692
+
+	States
+	{
+	Spawn:
+		QP14 E random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP14 ABCD 4 A_Wander
+		QP14 ABCD 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCDurandalWanderer : QCPlayerWandererLight
+{
+	XScale 0.7
+	YScale 0.65
+
+	States
+	{
+	Spawn:
+		QP15 A random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP15 BCDE 4 A_Wander
+		QP15 BCDE 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCKeelWanderer : QCPlayerWandererHeavy
+{
+	XScale 0.52
+	YScale 0.645
+
+	States
+	{
+	Spawn:
+		QP16 A random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP16 ABCD 5 A_Wander
+		QP16 ABCD 5 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCSargeWanderer : QCPlayerWandererMedium
+{
+	Scale 0.71
+
+	States
+	{
+	Spawn:
+		QP17 A random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP17 BCDE 4 A_Wander
+		QP17 BCDE 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCLoWangWanderer : QCPlayerWandererLight
+{
+	Scale 0.53
+
+	States
+	{
+	Spawn:
+		QP18 C random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP18 ABCD 4 A_Wander
+		QP18 ABCD 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCGraysonWanderer : QCPlayerWandererMedium
+{
+	Scale 0.745
+
+	States
+	{
+	Spawn:
+		QP19 E random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP19 ABCD 4 A_Wander
+		QP19 ABCD 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCEradicatorWanderer : QCPlayerWandererHeavy
+{
+	XScale 0.76
+	YScale 0.75
+
+	States
+	{
+	Spawn:
+		QP20 A random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP20 BCDEFG 3 A_Wander
+		QP20 BCDEFG 3 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCBlazkowiczWanderer : QCPlayerWandererMedium
+{
+	XScale 0.61
+	YScale 0.61
+
+	States
+	{
+	Spawn:
+		QP21 E random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP21 ABCD 4 A_Wander
+		QP21 ABCD 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCFreemanWanderer : QCPlayerWandererMedium
+{
+	Scale 0.55
+
+	States
+	{
+	Spawn:
+		QP22 G random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP22 ABCDEF 3 A_Wander
+		QP22 ABCDEF 3 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCVormaturWanderer : QCPlayerWandererHeavy
+{
+	XScale 0.58
+	YScale 0.76
+
+	States
+	{
+	Spawn:
+		QP23 F random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP23 ABCD 4 A_Wander
+		QP23 ABCD 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCEleenaWanderer : QCPlayerWandererLight
+{
+	Scale 0.595
+
+	States
+	{
+	Spawn:
+		QP24 G random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP24 ABCDEF 3 A_Wander
+		QP24 ABCDEF 3 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCLucienneWanderer : QCPlayerWandererLight
+{
+	Scale 0.551
+
+	States
+	{
+	Spawn:
+		QP25 C random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP25 ABCDCB 3 A_Wander
+		QP25 ABCDCB 3 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCMajorWanderer : QCPlayerWandererHeavy
+{
+	Radius 16	// Same as a medium
+	Scale 0.88
+
+	States
+	{
+	Spawn:
+		QP26 A random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP26 BCDE 4 A_Wander
+		QP26 BCDE 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCHunterWanderer : QCPlayerWandererLight
+{
+	Scale 0.715
+
+	States
+	{
+	Spawn:
+		QP27 A random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP27 BCDE 4 A_Wander
+		QP27 BCDE 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCSamWanderer : QCPlayerWandererHeavy
+{
+	XScale 0.69
+	YScale 0.57
+
+	States
+	{
+	Spawn:
+		QP28 A random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP28 BCDEFG 4 A_Wander
+		QP28 BCDEFG 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCPostalWanderer : QCPlayerWandererLight
+{
+	XScale 0.5
+	YScale 0.58
+
+	States
+	{
+	Spawn:
+		QP29 A random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP29 ABCD 4 A_Wander
+		QP29 ABCD 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCPainkillerWanderer : QCPlayerWandererMedium
+{
+	Scale 0.75
+
+	States
+	{
+	Spawn:
+		QP30 A random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP30 BCDE 4 A_Wander
+		QP30 BCDE 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCIntruderWanderer : QCPlayerWandererMedium
+{
+	XScale 0.68
+	YScale 0.75
+
+	States
+	{
+	Spawn:
+		QP31 A random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP31 ABCD 4 A_Wander
+		QP31 ABCD 4 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCOrbbWanderer : QCPlayerWandererLight
+{
+	Height 39
+	Scale 0.46
+
+	States
+	{
+	Spawn:
+		QP32 G random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP32 ABCDEF 3 A_Wander
+		QP32 ABCDEF 3 A_Wander
+		Goto Spawn
+	}
+}
+
+Actor QCBrockWanderer : QCPlayerWandererHeavy
+{
+	Scale 0.56
+
+	States
+	{
+	Spawn:
+		QP33 A random(32, 128)
+		TNT1 A 0 A_Jump(256, "Wander")
+		Loop
+	Wander:
+		QP33 BCDEF 4 A_Wander
+		QP33 BCDEF 4 A_Wander
+		Goto Spawn
+	}
+}

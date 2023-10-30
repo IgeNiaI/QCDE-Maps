@@ -1,0 +1,5 @@
+
+user noarchive bool filter_qcmaps = true;
+user noarchive bool filter_qlmaps = true;
+user noarchive bool filter_utmaps = true;
+user noarchive bool filter_othermaps = true;

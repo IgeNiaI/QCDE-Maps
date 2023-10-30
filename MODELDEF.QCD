@@ -324,3 +324,130 @@ Model QCDE_flagModel
 	FrameIndex EMPT G 0 6
 	FrameIndex EMPT H 0 7
 }
+
+//--------------------------------------------------------------------------------
+//		Fractal
+//--------------------------------------------------------------------------------
+
+Model FractalCone {
+	Path "MD3"
+	SKIN 0 "Q2TX0358.png"
+	MODEL 0 "cone.md3"
+	Offset 0 0 0
+	Scale 1 1 1
+	FrameIndex EMPT A 0 0
+}
+
+Model FractalDoor {
+	Path "MD3"
+	SKIN 0 "Q2TX0605.png"
+	MODEL 0 "door.md3"
+	Offset 0 0 0
+	Scale 1 1 1
+	FrameIndex EMPT A 0 0
+}
+
+//--------------------------------------------------------------------------------
+//		Q3 Tourney 2
+//--------------------------------------------------------------------------------
+
+Model telering2
+{
+	Path "MD3"
+	Model 0 "telering1.md3"
+	Scale 0.7 0.7 0.7
+	ROTATING
+	rotation-speed 8.0
+	SurfaceSkin 0 0 "telefog.png"
+	FrameIndex EMPT A 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog1.png"
+	FrameIndex EMPT B 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog2.png"
+	FrameIndex EMPT C 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog3.png"
+	FrameIndex EMPT D 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog4.png"
+	FrameIndex EMPT E 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog5.png"
+	FrameIndex EMPT F 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog6.png"
+	FrameIndex EMPT G 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog7.png"
+	FrameIndex EMPT H 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog8.png"
+
+	FrameIndex EMPT I 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog9.png"
+	FrameIndex EMPT J 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog10.png"
+	FrameIndex EMPT K 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog11.png"
+	FrameIndex EMPT L 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog12.png"
+	FrameIndex EMPT M 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog13.png"
+	FrameIndex EMPT N 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog14.png"
+	FrameIndex EMPT O 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog15.png"
+	FrameIndex EMPT P 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog16.png"
+
+	FrameIndex EMPT Q 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog17.png"
+	FrameIndex EMPT R 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog18.png"
+	FrameIndex EMPT S 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog19.png"
+	FrameIndex EMPT T 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog20.png"
+	FrameIndex EMPT U 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/telefog21.png"
+}
+
+Model q3t2_rectop
+{
+	Path "MD3"
+	Model 0 "q3t2_rectop.md3"
+	//Skin 0 "q3t2_recttex.png"
+	SurfaceSkin 0 0 "q3t2_recttex.png"
+	SurfaceSkin 0 1 "rectlits.png"
+	SurfaceSkin 0 2 "rectlits2.png"
+	Scale 1.4 1.4 1.4
+	FrameIndex EMPT A 0 0
+}
+
+Model q3t_torchholder
+{
+	Path "MD3"
+	Model 0 "q3t_torchholder.md3"
+	Skin 0 "q2t_torchholder.png"
+	FrameIndex EMPT A 0 0
+	Scale 0.6 0.6 0.6
+}
+
+Model torchflame1
+{
+	Path "MD3"
+	Model 0 "torchflame1.md3"
+	//ROTATING
+	//rotation-speed 0.3
+	SurfaceSkin 0 0 "q3t_model_ani/flame1.png"
+	FrameIndex EMPT A 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/flame2.png"
+	FrameIndex EMPT B 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/flame3.png"
+	FrameIndex EMPT C 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/flame4.png"
+	FrameIndex EMPT D 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/flame5.png"
+	FrameIndex EMPT E 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/flame6.png"
+	FrameIndex EMPT F 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/flame7.png"
+	FrameIndex EMPT G 0 0
+	SurfaceSkin 0 0 "q3t_model_ani/flame8.png"
+	FrameIndex EMPT H 0 0
+
+	Scale 0.6 0.6 0.6
+}

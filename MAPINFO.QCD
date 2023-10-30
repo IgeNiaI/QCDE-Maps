@@ -7,6 +7,9 @@ map QCDE01 "Blood Covenant"
 	sky1 = "QCDSky01", 0.5
 	UsePlayerStartZ
 	Next = "QCDE02"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //Map by DBThanatos
@@ -18,6 +21,9 @@ map QCDE02 "Toxjcity"
 	sky1 = "TOXSKY"
 	UsePlayerStartZ
 	Next = "QCDE03"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //Map by geNia
@@ -51,6 +57,9 @@ map QCDE05 "Fortress in the Void"
 	PreviewPic = "PVQCDE05"
 	UsePlayerStartZ
 	Next = "QCDE06"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by RoosTer
@@ -62,6 +71,9 @@ map QCDE06 "Vertical Vengeance"
 	UsePlayerStartZ
 	sky1 = VERTSKY, 0
 	Next = "QCDE07"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //Map by RoosTer
@@ -73,6 +85,9 @@ map QCDE07 "Temple of Retribution"
 	UsePlayerStartZ
 	sky1 = VERTSKY
 	Next = "QCDE08"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by DBThanatos
@@ -84,6 +99,9 @@ map QCDE08 "Furious Heights"
 	UsePlayerStartZ
 	sky1 = HDRKSKY1, 0.1
 	Next = "QCDE09"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by RoosTer
@@ -95,6 +113,9 @@ map QCDE09 "Lost World"
 	UsePlayerStartZ
 	sky1 = "LOSTSKY", 0.4
 	Next = "QCDE10"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by DBThanatos
@@ -106,6 +127,9 @@ map QCDE10 "Cure"
 	UsePlayerStartZ
 	sky1 = "CURESKY", 0.0
 	Next = "QCDE11"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by DBThanatos
@@ -119,6 +143,9 @@ map QCDE11 "Monsoon"
 	Sky2 = "MONSKY2", 0.5
 	UsePlayerStartZ
 	Next = "QCDE12"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by RoosTer
@@ -165,6 +192,9 @@ map QCDE15 "Chastity Belt"
 	PreviewPic = "PVQCDE15"
 	UsePlayerStartZ
 	Next = "QCDE16"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by DBThanatos & Ivan Dobrovski
@@ -176,6 +206,9 @@ map QCDE16 "Sinister"
 	UsePlayerStartZ
 	sky1 = sinisky
 	Next = "QCDE17"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by DBThanatos
@@ -210,6 +243,9 @@ map QCDE19 "Corrupted Station"
 	sky1 = "KEEPSKY"
 	UsePlayerStartZ
 	Next = "QCDE20"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by RoosTer
@@ -232,6 +268,9 @@ map QCDE21 "Almost Lost"
 	UsePlayerStartZ
 	sky1 = "LOSTSKY", 0.45
 	Next = "QCDE22"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by DBThanatos
@@ -243,6 +282,9 @@ map QCDE22 "Sarnath"
 	sky1 = "QCDSky01", 0.2
 	UsePlayerStartZ
 	Next = "QCDE23"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by Mr.Rocket
@@ -265,6 +307,9 @@ map QCDE24 "Vale of Pnath"
 	sky1 = sinisky
 	UsePlayerStartZ
 	Next = "QCDE25"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 map QCDE25 "Quarantine"
@@ -286,6 +331,9 @@ map QCDE26 "Lh'owoken"
 	sky1 = "MAR_SKY2"
 	UsePlayerStartZ
 	Next = "QCDE27"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by DBThanatos
@@ -297,6 +345,9 @@ map QCDE27 "Placebo Effect"
 	UsePlayerStartZ
 	sky1 = "MRPSKY", 0.2
 	Next = "QCDE28"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by DBThanatos
@@ -308,6 +359,9 @@ map QCDE28 "Molten Falls"
 	sky1 = "BSKY_2"
 	UsePlayerStartZ
 	Next = "QCDE29"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //Map by DBThanatos
@@ -319,6 +373,9 @@ map QCDE29 "Blood Run"
 	sky1 = POSNSKY3, 0.15
 	UsePlayerStartZ
 	Next = "QCDE30"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by DBThanatos
@@ -329,6 +386,9 @@ map QCDE30 "Gibel Complex"
 	PreviewPic = "PVQCDE30"
 	UsePlayerStartZ
 	Next = "QCDE31"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by DBThanatos
@@ -348,10 +408,13 @@ map QCDE32 "Delirium"
 	NotCategory0 // Exclude from "All maps" list
 	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE32"
-	sky1 = deliriumsky
+	sky1 = delirium
 	SkyStretch
 	UsePlayerStartZ
 	Next = "QCDE33"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by DBThanatos
@@ -385,6 +448,9 @@ map QCDE35 "The Edge"
 	sky1 = "EdgySun"
 	UsePlayerStartZ
 	Next = "QCDE36"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by DBThanatos
@@ -406,6 +472,9 @@ map QCDE37 "Dukiforged"
 	PreviewPic = "PVQCDE37"
 	UsePlayerStartZ
 	Next = "QCDE38"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 
@@ -430,6 +499,9 @@ map QCDE39 "Arcane Temple"
 	sky1 = "QCDSky01", 0.5
 	UsePlayerStartZ
 	Next = "QCDE40"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 
@@ -443,6 +515,9 @@ map QCDE40 "Rankin"
 	Sky2 = "MONSKY2", 0.5
 	UsePlayerStartZ
 	Next = "QCDE41"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 
@@ -465,6 +540,9 @@ map QCDE42 "Mine Embrace"
 	PreviewPic = "PVQCDE42"
 	UsePlayerStartZ
 	Next = "QCDE43"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 
@@ -498,6 +576,9 @@ map QCDE45 "Deck 17"
 	PreviewPic = "PVQCDE45"
 	UsePlayerStartZ
 	Next = "QCDE46"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by geNia
@@ -509,6 +590,9 @@ map QCDE46 "Brought 2 doom"
 	sky1 = "HRSKY1"
 	UsePlayerStartZ
 	next = "QCDE47"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //Map by Mr.Rocket
@@ -530,6 +614,9 @@ Map QCDE48 "Mythic"
 	PreviewPic = "PVQCDE48"
 	UsePlayerStartZ
 	Next = "QCDE49"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //Map by geNia
@@ -540,6 +627,9 @@ Map QCDE49 "Erase"
 	PreviewPic = "PVQCDE49"
 	UsePlayerStartZ
 	Next = "QCDE50"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //Map by geNia
@@ -551,6 +641,9 @@ Map QCDE50 "Achilles"
 	sky1 = "QUARSKY", 0.03
 	UsePlayerStartZ
 	Next = "QCDE01"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //---------------------------------------------------
@@ -581,6 +674,9 @@ map QCDL02 "Aerowalk"	//Edited version, bigger
 	UsePlayerStartZ
 	sky1 = aerowalk
 	Next = "QCDL03"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 	
@@ -595,6 +691,9 @@ map QCDL03 "Fatal Instinct"
 	skyfog = "1"
 	sky1 = "FATASKY"
 	Next = "QCDL04"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //Map by DBThanatos
@@ -616,6 +715,9 @@ map QCDL05 "House Of Decay"
 	PreviewPic = "PVQCDL05"
 	UsePlayerStartZ
 	Next = "QCDL06"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //Map by Kultasakaali
@@ -630,6 +732,9 @@ map QCDL06 "Hell's Gate"
 	Sky2 = "killsky1", 0.3
 	UsePlayerStartZ
 	Next = "QCDL07"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by Mr.Rocket
@@ -641,6 +746,9 @@ map QCDL07 "The Dark Zone"
 	Sky1 = SKY4_2
 	UsePlayerStartZ
 	next = "QCDL08"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by Pixo
@@ -649,9 +757,15 @@ map QCDL08 "Crash Course"
 	NotCategory0 // Exclude from "All maps" list
 	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDL08"
-	Sky1 = SITESKY
+	DoubleSky
+	ForceNoSkyStretch
+	Sky1 = "killsky2", 0.5
+	Sky2 = "killsky1", 0.3
 	UsePlayerStartZ
 	next = "QCDL09"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by Pixo
@@ -662,6 +776,9 @@ map QCDL09 "Hektik"
 	PreviewPic = "PVQCDL09"
 	UsePlayerStartZ
 	next = "QCDL10"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //Map by geNia
@@ -671,10 +788,49 @@ Map QCDL10 "Unreal place"
 	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDL10"
 	UsePlayerStartZ
-	Next = "QCDL01"
+	Next = "QCDL11"
 	sky1 = RSKY2
 }
 
+// Map by kultasakaali
+map QCDL11 "Fractal Reactor"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
+	PreviewPic = "PVQCDL11"
+	sky1 = MRPSKY
+	UsePlayerStartZ
+	Next = "QCDL12"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
+}
+
+// Map by Pixo
+map QCDL12 "Okey"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
+	PreviewPic = "PVQCDL12"
+	sky1 = "QCDSky01", 0.5
+	UsePlayerStartZ
+	Next = "QCDL13"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
+}
+
+
+// Map by Mr.Rocket
+map QCDL13 "The Proving Grounds"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
+	PreviewPic = "PVQCDL13"
+ 	sky1 = Q3Tsky, -0.1
+	UsePlayerStartZ
+	Next = "QCDL01"
+}
 
 //---------------------------------------------------
 // Meme maps, which for some reason or another fell
@@ -691,6 +847,9 @@ map QCME01 "The Longest Yard"
 	sky1 = "LONGYARD", -0.05
 	UsePlayerStartZ
 	Next = "QCME02"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 //map by RoosTer
@@ -702,6 +861,9 @@ map QCME02 "Morpheus"
 	UsePlayerStartZ
 	sky1 = "MRPSKY"
 	Next = "QCDE01"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 
@@ -742,9 +904,22 @@ map QCTF03 "Fatal Error"
 	Category2 // CTF
 	PreviewPic = "PVQCTF03"
 	Sky1 = "VERTSKY"
-	//Sky1 = "QCTFSKY1", 0.3
 	//UsePlayerStartZ
+	Next = "QCTF04"
+}
+
+//Map by geNia
+map QCTF04 "w00tabulous"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category2 // CTF
+	PreviewPic = "PVQCTF04"
+	sky1 = "MRPSKY", 0.1
+	UsePlayerStartZ
 	Next = "QCTF01"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
 }
 
 
@@ -807,4 +982,70 @@ map QCIN04 "Asteroid Garden"
 	Next = "QCIN01"
 	fogdensity = 50
 	SkyFog = 96
+}
+
+
+
+
+//---------------------------------------------------
+// DEFRAG EXCLUSIVE MAPS
+//---------------------------------------------------
+
+//Map by geNia
+map QCDF01 "Quake Movement Training"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category5 // Defrag
+	PreviewPic = "PVQCDF01"
+	DoubleSky
+	ForceNoSkyStretch
+	Sky1 = "killsky2", 0.5
+	Sky2 = "killsky1", 0.3
+	UsePlayerStartZ
+	Next = "QCDF02"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
+}
+
+//Map by geNia
+map QCDF02 "Unreal Movement Training"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category5 // Defrag
+	PreviewPic = "PVQCDF02"
+	UsePlayerStartZ
+	Next = "QCDF01"
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	forgetstate
+}
+
+
+//---------------------------------------------------
+// DEATHMATCH CAMPAIGN
+//---------------------------------------------------
+
+//DM Campaign lobby map, by geNia
+map QCDMHUB "Deathmatch Hub"
+{
+	NotCategory0 // Exclude from "All maps" list
+	PreviewPic = "PVDMHUB"
+	UsePlayerStartZ
+	Next = "QCDMHUB"
+	sky1 = MORNING
+	CampaignHub = "QCDMHUB"
+	cluster = 1
+	lobby
+}
+
+episode QCDMHUB
+{
+	botepisode
+	Name = "QC:DE Arena"
+}
+
+clusterdef 1
+{
+	hub
 }

@@ -1,0 +1,17 @@
+
+[enu default]
+
+GOT_QCDE_DMCMPGN_RedKey                  = "\ccPicked up the \caRed Key\cc.";
+GOT_QCDE_DMCMPGN_BlueKey                 = "\ccPicked up the \cnBlue Key\cc.";
+GOT_QCDE_DMCMPGN_GreenKey                = "\ccPicked up the \cdGreen Key\cc.";
+GOT_QCDE_DMCMPGN_YellowKey               = "\ccPicked up the \ckYellow Key\cc.";
+
+TAG_QCDE_DMCMPGN_RedKey                  = "Red Key";
+TAG_QCDE_DMCMPGN_BlueKey                 = "Blue Key";
+TAG_QCDE_DMCMPGN_GreenKey                = "Green Key";
+TAG_QCDE_DMCMPGN_YellowKey               = "Yellow Key";
+
+TRAIN_RED_ROOM							 = "You need the red key to access this room";
+TRAIN_BLUE_ROOM							 = "You need the blue key to access this room";
+TRAIN_GREEN_ROOM						 = "You need the green key to access this room";
+TRAIN_YELLOW_ROOM						 = "You need the yellow key to access this room";

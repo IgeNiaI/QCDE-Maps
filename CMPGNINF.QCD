@@ -1,0 +1,885 @@
+
+///////////////////////////// HUB /////////////////////////////
+// QCDE Deathmatch Hub
+{
+	mapname = QCDMHUB
+
+	gamemode = cooperative
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+///////////////////////////// INTRODUCTION /////////////////////////////
+// Crash Course
+{
+	mapname = QCDL08
+
+	gamemode = deathmatch
+	fraglimit = 1
+	cvar sv_QCDEPowerups = 0
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+///////////////////////////// Tier 1 /////////////////////////////
+
+// Vertical Vengeance
+{
+	mapname = QCDE06
+
+	gamemode = deathmatch
+	fraglimit = 1
+	cvar sv_QCDEPowerups = 0
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Corrupted Station
+{
+	mapname = QCDE19
+
+	gamemode = teamplay
+	fraglimit = 1
+	cvar sv_QCDEPowerups = 0
+
+	playerteam = Blue
+	botteam[0] = 1
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+// Monsoon
+{
+	mapname = QCDE11
+
+	gamemode = deathmatch
+	fraglimit = 1
+	cvar sv_QCDEPowerups = 0
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Placebo Effect
+{
+	mapname = QCDE27
+
+	gamemode = deathmatch
+	cvar rocketarena = 1
+	fraglimit = 1
+	cvar sv_QCDEPowerups = 0
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+// House of Decay
+{
+	mapname = QCDL05
+
+	gamemode = duel
+	fraglimit = 1
+	duellimit = 1
+	cvar sv_QCDEPowerups = 0
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+///////////////////////////// Tier 2 /////////////////////////////
+
+// Toxicity
+{
+	mapname = QCDE02
+
+	gamemode = deathmatch
+	fraglimit = 1
+	cvar sv_QCDEPowerups = 0
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Cure
+{
+	mapname = QCDE10
+
+	gamemode = teamplay
+	fraglimit = 1
+
+	playerteam = Blue
+	botteam[0] = 1
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Vale of Pnath
+{
+	mapname = QCDE24
+
+	gamemode = teamplay
+	fraglimit = 1
+
+	playerteam = Blue
+	botteam[0] = 1
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+// Almost Lost
+{
+	mapname = QCDE21
+
+	gamemode = deathmatch
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Lost World
+{
+	mapname = QCDE09
+
+	gamemode = deathmatch
+	cvar rocketarena = 1
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Morpheus
+{
+	mapname = QCME02
+
+	gamemode = deathmatch
+	instagib = true
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+// Fatal Instinct
+{
+	mapname = QCDL03
+
+	gamemode = duel
+	fraglimit = 1
+	duellimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+///////////////////////////// Tier 3 /////////////////////////////
+
+// Arcane Temple
+{
+	mapname = QCDE39
+
+	gamemode = deathmatch
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// The Edge
+{
+	mapname = QCDE35
+
+	gamemode = deathmatch
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// The Longest Yard
+{
+	mapname = QCME01
+
+	gamemode = deathmatch
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+// Blood Covenant
+{
+	mapname = QCDE01
+
+	gamemode = teamplay
+	fraglimit = 1
+
+	playerteam = Blue
+	botteam[0] = 1
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Sinister
+{
+	mapname = QCDE16
+
+	gamemode = teamplay
+	fraglimit = 1
+
+	playerteam = Blue
+	botteam[0] = 1
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Erase
+{
+	mapname = QCDE49
+
+	gamemode = teamplay
+	instagib = true
+	fraglimit = 1
+
+	playerteam = Blue
+	botteam[0] = 1
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+// Fortress in the Void
+{
+	mapname = QCDE05
+
+	gamemode = deathmatch
+	cvar rocketarena = 1
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Delirium
+{
+	mapname = QCDE32
+
+	gamemode = deathmatch
+	instagib = true
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Temple of Retribution
+{
+	mapname = QCDE07
+
+	gamemode = deathmatch
+	cvar qc_elderssoul = 1
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+// The Dark Zone
+{
+	mapname = QCDL07
+
+	gamemode = duel
+	fraglimit = 1
+	duellimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+///////////////////////////// Tier 4 /////////////////////////////
+
+// Rankin
+{
+	mapname = QCDE40
+
+	gamemode = deathmatch
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Mine Embrace
+{
+	mapname = QCDE42
+
+	gamemode = deathmatch
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Blood Run
+{
+	mapname = QCDE29
+
+	gamemode = deathmatch
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Gibel Complex
+{
+	mapname = QCDE30
+
+	gamemode = deathmatch
+	fraglimit = 1
+
+	playerteam = Blue
+	botteam[0] = 1
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+// Chastity Belt
+{
+	mapname = QCDE15
+
+	gamemode = teamplay
+	fraglimit = 1
+
+	playerteam = Blue
+	botteam[0] = 1
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Mythic
+{
+	mapname = QCDE48
+
+	gamemode = teamplay
+	fraglimit = 1
+
+	playerteam = Blue
+	botteam[0] = 1
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Sarnath
+{
+	mapname = QCDE22
+
+	gamemode = teamplay
+	fraglimit = 1
+
+	playerteam = Blue
+	botteam[0] = 1
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Furious Heights
+{
+	mapname = QCDE08
+
+	gamemode = teamplay
+	instagib = true
+	fraglimit = 1
+
+	playerteam = Blue
+	botteam[0] = 1
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+// Dukiforged
+{
+	mapname = QCDE37
+
+	gamemode = deathmatch
+	cvar rocketarena = 1
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Brought 2 doom
+{
+	mapname = QCDE46
+
+	gamemode = deathmatch
+	instagib = true
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Achilles
+{
+	mapname = QCDE50
+
+	gamemode = deathmatch
+	cvar rocketarena = 3
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Molten Falls
+{
+	mapname = QCDE28
+
+	gamemode = deathmatch
+	cvar qc_elderssoul = 1
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+// Hektik
+{
+	mapname = QCDL09
+
+	gamemode = duel
+	fraglimit = 1
+	duellimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+///////////////////////////// Final tier /////////////////////////////
+
+// Awoken
+{
+	mapname = QCDE26
+
+	gamemode = deathmatch
+	fraglimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Deck 17
+{
+	mapname = QCDE45
+
+	gamemode = teamplay
+	fraglimit = 1
+
+	playerteam = Blue
+	botteam[0] = 1
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+// Aerowalk
+{
+	mapname = QCDL02
+
+	gamemode = duel
+	fraglimit = 1
+	duellimit = 1
+
+	bot[0] = Zedek
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+
+
+///////////////////////////// Training Levels /////////////////////////////
+
+// Fractal Reactor
+{
+	mapname = QCDL11
+
+	gamemode = duel
+	cvar sv_healonkill = 1
+	cvar rocketarena = 4
+	fraglimit = 30
+	duellimit = 1
+
+	bot[0] = Sarge
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Hell's Gate
+{
+	mapname = QCDL06
+
+	gamemode = duel
+	cvar sv_healonkill = 1
+	cvar rocketarena = 1
+	fraglimit = 30
+	duellimit = 1
+
+	bot[0] = Sarge
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// w00tabulous
+{
+	mapname = QCTF04
+
+	gamemode = ctf
+	cvar sv_healonkill = 1
+	instagib = true
+	pointlimit = 10
+
+	playerteam = Blue
+	bot[0] = Brock		botteam[0] = 1
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Okey
+{
+	mapname = QCDL12
+
+	gamemode = duel
+	cvar sv_healonkill = 1
+	buckshot = true
+	fraglimit = 30
+	duellimit = 1
+
+	bot[0] = Brock
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Quake Movement Training
+{
+	mapname = QCDF01
+
+	gamemode = cooperative
+	cvar qc_defrag = 1
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}
+
+// Unreal Movement Training
+{
+	mapname = QCDF02
+
+	gamemode = cooperative
+	cvar qc_defrag = 1
+
+	dmflags = 8536448
+	dmflags2 = 2
+	zadmflags = 8143872
+	compatflags = 0
+	compatflags2 = 0
+	zacompatflags = 134217728
+}

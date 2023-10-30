@@ -124,3 +124,45 @@ sounds/wood3  squeek3
 $volume sounds/wood1 10
 $volume sounds/wood2 10
 $volume sounds/wood3 10
+
+
+// Fractal
+world/generator		GENER3
+$alias FracGen world/generator
+$ambient 5 FracGen point continuous .25
+
+
+// Q3 Tourney 2
+sounds/q3t_tele   	     "Sounds/q3tele.ogg"
+$volume sounds/q3t_tele 0.9
+$attenuation sounds/q3t_tele 2
+
+sounds/q3t_reac   	     "Sounds/reactor.ogg"
+$volume sounds/q3t_reac 0.9
+$attenuation sounds/q3t_reac 2
+
+sounds/q3t_grol   	     "Sounds/growl.ogg"
+$volume sounds/q3t_grol 0.9
+$attenuation sounds/q3t_grol 2
+
+
+// Campaign
+Monitor2 MONITOR2
+$ambient 15 Monitor2 point continuous 1.0
+
+Portal01 PORTAL01
+$attenuation Portal01 3.0
+$limit Portal01 128 256
+$ambient 16 Portal01 point continuous 1.0
+
+FIREWORK "Sounds/FIREWORK.wav"
+
+CampaignIntro "Sounds/CampaignIntro.ogg"
+CampaignTier1 "Sounds/CampaignTier1.ogg"
+CampaignTier2 "Sounds/CampaignTier2.ogg"
+CampaignTier3 "Sounds/CampaignTier3.ogg"
+CampaignTier4 "Sounds/CampaignTier4.ogg"
+CampaignTier5 "Sounds/CampaignTier5.ogg"
+champion/Bones "Sounds/QCBones.ogg"
+PortalCharge "Sounds/PRTLCHRG.mp3"
+DukeIsGood "Sounds/IMGOOD12.ogg"

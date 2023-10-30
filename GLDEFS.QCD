@@ -209,6 +209,54 @@ HLSKY1_U
 HLSKY1_D
 }
 
+//-----------
+//Skybox for DMHUB
+skybox "ABVCLDS"
+{
+ABVCLDSN
+ABVCLDSE
+ABVCLDSS
+ABVCLDSW
+ABVCLDST
+ABVCLDSB
+}
+
+//-----------
+//Skybox for DMHUB
+skybox "APRODIT"
+{
+APRODITN
+APRODITE
+APRODITS
+APRODITW
+APRODITT
+APRODITB
+}
+
+//-----------
+//Skybox for DMHUB
+skybox "JUNGLE"
+{
+JUNGLEN
+JUNGLEE
+JUNGLES
+JUNGLEW
+JUNGLET
+JUNGLEB
+}
+
+//-----------
+//Skybox for DMHUB
+skybox "MORNING"
+{
+MORNINGN
+MORNINGE
+MORNINGS
+MORNINGW
+MORNINGT
+MORNINGB
+}
+
 //--------------------------------------------------------------------------------
 //		Longest Yard
 //--------------------------------------------------------------------------------
@@ -231,4 +279,108 @@ brightmap texture qplat1
 brightmap texture lylight1.png
 {
 	map "Textures/LongestYard/lylightB.png"
+}
+
+brightmap texture PTLFRDL
+{
+	map "Textures/Campaign/brightmaps/BTLFRDL.png"
+}
+
+brightmap texture PTLFRDM
+{
+	map "Textures/Campaign/brightmaps/BTLFRDM.png"
+}
+
+brightmap texture PTLFRES
+{
+	map "Textures/Campaign/brightmaps/BTLFRES.png"
+}
+
+brightmap texture PTLFRIG
+{
+	map "Textures/Campaign/brightmaps/BTLFRIG.png"
+}
+
+brightmap texture PTLFRING
+{
+	map "Textures/Campaign/brightmaps/BTLFRING.png"
+}
+
+brightmap texture PTLFRINP
+{
+	map "Textures/Campaign/brightmaps/BTLFRINP.png"
+}
+
+brightmap texture PTLFRLMS
+{
+	map "Textures/Campaign/brightmaps/BTLFRLMS.png"
+}
+
+brightmap texture PTLFROUT
+{
+	map "Textures/Campaign/brightmaps/BTLFROUT.png"
+}
+
+brightmap texture PTLFRTDM
+{
+	map "Textures/Campaign/brightmaps/BTLFRTDM.png"
+}
+
+brightmap texture PTLFRTIG
+{
+	map "Textures/Campaign/brightmaps/BTLFRTIG.png"
+}
+
+brightmap texture PTLFRTMS
+{
+	map "Textures/Campaign/brightmaps/BTLFRTMS.png"
+}
+
+brightmap texture PTLFRUT
+{
+	map "Textures/Campaign/brightmaps/BTLFRUT.png"
+}
+
+brightmap texture PTLFRRA
+{
+	map "Textures/Campaign/brightmaps/BTLFRRA.png"
+}
+
+//--------------------------------------------------------------------------------
+//		The Proving Grounds
+//--------------------------------------------------------------------------------
+
+brightmap texture "MD3/rectlits.png"
+{
+	map "MD3/q3t_model_brightmaps/rectlitB.png"
+}
+
+brightmap texture "MD3/rectlits2.png"
+{
+	map "MD3/q3t_model_brightmaps/rectlits2B.png"
+}
+
+brightmap texture q3t_lit1
+{
+	map "Textures/Quake3/brightmaps/q3t_litB.png"
+}
+
+brightmap texture q3tTelit
+{
+	map "Textures/Quake3/brightmaps/q3tTeliB.png"
+}
+
+brightmap texture teletex1
+{
+	map "Textures/Quake3/brightmaps/teletexB.png"
+}
+
+brightmap texture q3t_tpad
+{
+	map "Textures/Quake3/brightmaps/q3t_tpaB.png"
+}
+
+brightmap texture teleedge
+{
+	map "Textures/Quake3/brightmaps/teleedgB.png"
 }
