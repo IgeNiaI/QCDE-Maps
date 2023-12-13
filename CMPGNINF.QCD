@@ -22,10 +22,11 @@
 	mapname = QCDL08
 
 	gamemode = deathmatch
-	fraglimit = 1
+	fraglimit = 5
 	cvar sv_QCDEPowerups = 0
 
-	bot[0] = Zedek
+	botsSkillOffset = -2
+	bot[0] = DoomSlayer
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -44,10 +45,12 @@
 	mapname = QCDE06
 
 	gamemode = deathmatch
-	fraglimit = 1
+	fraglimit = 10
 	cvar sv_QCDEPowerups = 0
 
-	bot[0] = Zedek
+	botsSkillOffset = -1
+	bot[0] = DoomSlayer
+	bot[1] = Kane
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -62,12 +65,15 @@
 	mapname = QCDE19
 
 	gamemode = teamplay
-	fraglimit = 1
+	fraglimit = 15
 	cvar sv_QCDEPowerups = 0
 
 	playerteam = Blue
-	botteam[0] = 1
-	bot[0] = Zedek
+
+	botsSkillOffset = -1
+	bot[0] = Caleb		botteam[0] = 1
+	bot[1] = Kane		botteam[1] = 0
+	bot[2] = Grayson	botteam[2] = 1
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -84,10 +90,12 @@
 	mapname = QCDE11
 
 	gamemode = deathmatch
-	fraglimit = 1
+	fraglimit = 10
 	cvar sv_QCDEPowerups = 0
 
-	bot[0] = Zedek
+	botsSkillOffset = -1
+	bot[0] = DoomSlayer
+	bot[1] = Sam
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -103,10 +111,13 @@
 
 	gamemode = deathmatch
 	cvar rocketarena = 1
-	fraglimit = 1
+	fraglimit = 15
 	cvar sv_QCDEPowerups = 0
 
-	bot[0] = Zedek
+	botsSkillOffset = -1
+	bot[0] = Caleb
+	bot[1] = Grayson
+	bot[2] = Sam
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -123,11 +134,12 @@
 	mapname = QCDL05
 
 	gamemode = duel
-	fraglimit = 1
+	fraglimit = 10
 	duellimit = 1
 	cvar sv_QCDEPowerups = 0
 
-	bot[0] = Zedek
+	botsSkillOffset = -1
+	bot[0] = Hunter
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -146,10 +158,13 @@
 	mapname = QCDE02
 
 	gamemode = deathmatch
-	fraglimit = 1
+	fraglimit = 15
 	cvar sv_QCDEPowerups = 0
 
-	bot[0] = Zedek
+	botsSkillOffset = -1
+	bot[0] = Kane
+	bot[1] = Caleb
+	bot[2] = Menelkir
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -164,11 +179,14 @@
 	mapname = QCDE10
 
 	gamemode = teamplay
-	fraglimit = 1
+	fraglimit = 20
 
 	playerteam = Blue
-	botteam[0] = 1
-	bot[0] = Zedek
+
+	botsSkillOffset = -1
+	bot[0] = Corvus		botteam[0] = 1
+	bot[1] = DukeNukem	botteam[1] = 0
+	bot[2] = Sorgaul	botteam[2] = 1
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -183,11 +201,14 @@
 	mapname = QCDE24
 
 	gamemode = teamplay
-	fraglimit = 1
+	fraglimit = 25
 
 	playerteam = Blue
-	botteam[0] = 1
-	bot[0] = Zedek
+
+	botsSkillOffset = -1
+	bot[0] = DukeNukem	botteam[0] = 1
+	bot[1] = Sam		botteam[1] = 0
+	bot[2] = Corvus		botteam[2] = 1
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -204,9 +225,12 @@
 	mapname = QCDE21
 
 	gamemode = deathmatch
-	fraglimit = 1
+	fraglimit = 15
 
-	bot[0] = Zedek
+	botsSkillOffset = -1
+	bot[0] = Grayson
+	bot[1] = Menelkir
+	bot[2] = Freeman
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -222,9 +246,12 @@
 
 	gamemode = deathmatch
 	cvar rocketarena = 1
-	fraglimit = 1
+	fraglimit = 20
 
-	bot[0] = Zedek
+	botsSkillOffset = -1
+	bot[0] = Sorgaul
+	bot[1] = Corvus
+	bot[2] = Eradicator
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -240,9 +267,12 @@
 
 	gamemode = deathmatch
 	instagib = true
-	fraglimit = 1
+	fraglimit = 25
 
-	bot[0] = Zedek
+	botsSkillOffset = -1
+	bot[0] = Eradicator
+	bot[1] = Freeman
+	bot[2] = DukeNukem
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -259,10 +289,11 @@
 	mapname = QCDL03
 
 	gamemode = duel
-	fraglimit = 1
+	fraglimit = 10
 	duellimit = 1
 
-	bot[0] = Zedek
+	botsSkillOffset = 0
+	bot[0] = VorMatur
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -281,9 +312,12 @@
 	mapname = QCDE39
 
 	gamemode = deathmatch
-	fraglimit = 1
+	fraglimit = 20
 
-	bot[0] = Zedek
+	botsSkillOffset = 0
+	bot[0] = Freeman
+	bot[1] = Nyx
+	bot[2] = Galen
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -298,9 +332,13 @@
 	mapname = QCDE35
 
 	gamemode = deathmatch
-	fraglimit = 1
+	fraglimit = 25
 
-	bot[0] = Zedek
+	botsSkillOffset = 0
+	bot[0] = Bitterman
+	bot[1] = Nyx
+	bot[2] = Major
+	bot[3] = Lucienne
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -315,9 +353,13 @@
 	mapname = QCME01
 
 	gamemode = deathmatch
-	fraglimit = 1
+	fraglimit = 25
 
-	bot[0] = Zedek
+	botsSkillOffset = 0
+	bot[0] = Major
+	bot[1] = Orbb
+	bot[2] = Painkiller
+	bot[3] = Galen
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -334,11 +376,14 @@
 	mapname = QCDE01
 
 	gamemode = teamplay
-	fraglimit = 1
+	fraglimit = 25
 
 	playerteam = Blue
-	botteam[0] = 1
-	bot[0] = Zedek
+
+	botsSkillOffset = 0
+	bot[0] = Eradicator	botteam[0] = 1
+	bot[1] = Galen		botteam[1] = 0
+	bot[2] = Painkiller	botteam[2] = 1
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -353,11 +398,16 @@
 	mapname = QCDE16
 
 	gamemode = teamplay
-	fraglimit = 1
+	fraglimit = 30
 
 	playerteam = Blue
-	botteam[0] = 1
-	bot[0] = Zedek
+
+	botsSkillOffset = 0
+	bot[0] = Eleena		botteam[0] = 1
+	bot[1] = Menelkir	botteam[1] = 0
+	bot[2] = Lucienne	botteam[2] = 1
+	bot[3] = Bitterman	botteam[3] = 0
+	bot[4] = Nyx		botteam[4] = 1
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -373,11 +423,16 @@
 
 	gamemode = teamplay
 	instagib = true
-	fraglimit = 1
+	fraglimit = 30
 
 	playerteam = Blue
-	botteam[0] = 1
-	bot[0] = Zedek
+
+	botsSkillOffset = -1 // Lowering difficulty for this instagib match specifically because it is too insane on NIGHTMARE for a tier 3 match
+	bot[0] = Eleena		botteam[0] = 1
+	bot[1] = Orbb		botteam[1] = 0
+	bot[2] = Lucienne	botteam[2] = 1
+	bot[3] = Nyx		botteam[3] = 0
+	bot[4] = Galen		botteam[4] = 1
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -395,9 +450,12 @@
 
 	gamemode = deathmatch
 	cvar rocketarena = 1
-	fraglimit = 1
+	fraglimit = 25
 
-	bot[0] = Zedek
+	botsSkillOffset = 0
+	bot[0] = Sorgaul
+	bot[1] = Orbb
+	bot[2] = Painkiller
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -413,9 +471,13 @@
 
 	gamemode = deathmatch
 	instagib = true
-	fraglimit = 1
+	fraglimit = 30
 
-	bot[0] = Zedek
+	botsSkillOffset = -1 // Lowering difficulty for this instagib match specifically because it is too insane on NIGHTMARE for a tier 3 match
+	bot[0] = Eleena
+	bot[1] = Lucienne
+	bot[2] = Bitterman
+	bot[3] = Major
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -431,9 +493,14 @@
 
 	gamemode = deathmatch
 	cvar qc_elderssoul = 1
-	fraglimit = 1
+	fraglimit = 30
 
-	bot[0] = Zedek
+	botsSkillOffset = 0
+	bot[0] = Major
+	bot[1] = Bitterman
+	bot[2] = Painkiller
+	bot[3] = Orbb
+	bot[4] = Eleena
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -450,10 +517,11 @@
 	mapname = QCDL07
 
 	gamemode = duel
-	fraglimit = 1
+	fraglimit = 10
 	duellimit = 1
 
-	bot[0] = Zedek
+	botsSkillOffset = 0
+	bot[0] = Ranger
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -472,9 +540,13 @@
 	mapname = QCDE40
 
 	gamemode = deathmatch
-	fraglimit = 1
+	fraglimit = 30
 
-	bot[0] = Zedek
+	botsSkillOffset = 0
+	bot[0] = Blazkowicz
+	bot[1] = Postal
+	bot[2] = Terminator
+	bot[3] = Brock
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -489,9 +561,13 @@
 	mapname = QCDE42
 
 	gamemode = deathmatch
-	fraglimit = 1
+	fraglimit = 30
 
-	bot[0] = Zedek
+	botsSkillOffset = 0
+	bot[0] = LoWang
+	bot[1] = Intruder
+	bot[2] = Keel
+	bot[3] = DoomSlayer
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -506,9 +582,13 @@
 	mapname = QCDE29
 
 	gamemode = deathmatch
-	fraglimit = 1
+	fraglimit = 30
 
-	bot[0] = Zedek
+	botsSkillOffset = 0
+	bot[0] = Durandal
+	bot[1] = Inquisitor
+	bot[2] = Postal
+	bot[3] = Eradicator
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -523,11 +603,13 @@
 	mapname = QCDE30
 
 	gamemode = deathmatch
-	fraglimit = 1
+	fraglimit = 30
 
-	playerteam = Blue
-	botteam[0] = 1
-	bot[0] = Zedek
+	botsSkillOffset = 0
+	bot[0] = LoWang
+	bot[1] = Zedek
+	bot[2] = Blazkowicz
+	bot[3] = Sorgaul
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -544,11 +626,16 @@
 	mapname = QCDE15
 
 	gamemode = teamplay
-	fraglimit = 1
+	fraglimit = 30
 
 	playerteam = Blue
-	botteam[0] = 1
-	bot[0] = Zedek
+
+	botsSkillOffset = 0
+	bot[0] = Durandal		botteam[0] = 1
+	bot[1] = Keel			botteam[1] = 0
+	bot[2] = Blazkowicz		botteam[2] = 1
+	bot[3] = Kane			botteam[3] = 0
+	bot[4] = Brock			botteam[4] = 1
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -563,11 +650,16 @@
 	mapname = QCDE48
 
 	gamemode = teamplay
-	fraglimit = 1
+	fraglimit = 30
 
 	playerteam = Blue
-	botteam[0] = 1
-	bot[0] = Zedek
+
+	botsSkillOffset = 0
+	bot[0] = Keel		botteam[0] = 1
+	bot[1] = LoWang		botteam[1] = 0
+	bot[2] = Postal		botteam[2] = 1
+	bot[3] = Sam		botteam[3] = 0
+	bot[4] = Ranger		botteam[4] = 1
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -582,11 +674,16 @@
 	mapname = QCDE22
 
 	gamemode = teamplay
-	fraglimit = 1
+	fraglimit = 30
 
 	playerteam = Blue
-	botteam[0] = 1
-	bot[0] = Zedek
+
+	botsSkillOffset = 0
+	bot[0] = Terminator		botteam[0] = 1
+	bot[1] = Blazkowicz		botteam[1] = 0
+	bot[2] = Zedek			botteam[2] = 1
+	bot[3] = Brock			botteam[3] = 0
+	bot[4] = Grayson		botteam[4] = 1
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -602,11 +699,16 @@
 
 	gamemode = teamplay
 	instagib = true
-	fraglimit = 1
+	fraglimit = 30
 
 	playerteam = Blue
-	botteam[0] = 1
-	bot[0] = Zedek
+
+	botsSkillOffset = 0
+	bot[0] = Intruder		botteam[0] = 1
+	bot[1] = Inquisitor		botteam[1] = 0
+	bot[2] = Durandal		botteam[2] = 1
+	bot[3] = Corvus			botteam[3] = 0
+	bot[4] = Brock			botteam[4] = 1
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -624,9 +726,13 @@
 
 	gamemode = deathmatch
 	cvar rocketarena = 1
-	fraglimit = 1
+	fraglimit = 30
 
-	bot[0] = Zedek
+	botsSkillOffset = 0
+	bot[0] = Inquisitor
+	bot[1] = Postal
+	bot[2] = Terminator
+	bot[3] = VorMatur
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -642,9 +748,13 @@
 
 	gamemode = deathmatch
 	instagib = true
-	fraglimit = 1
+	fraglimit = 30
 
-	bot[0] = Zedek
+	botsSkillOffset = -1 // Top tier bots in Instagib are insane
+	bot[0] = Intruder
+	bot[1] = Zedek
+	bot[2] = Caleb
+	bot[3] = Menelkir
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -660,9 +770,14 @@
 
 	gamemode = deathmatch
 	cvar rocketarena = 3
-	fraglimit = 1
+	fraglimit = 30
 
-	bot[0] = Zedek
+	botsSkillOffset = -1 // Top tier bots with Unholy Trinity are insane
+	bot[0] = Durandal
+	bot[1] = Intruder
+	bot[2] = LoWang
+	bot[3] = Keel
+	bot[4] = Freeman
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -678,9 +793,14 @@
 
 	gamemode = deathmatch
 	cvar qc_elderssoul = 1
-	fraglimit = 1
+	fraglimit = 30
 
+	botsSkillOffset = 0
 	bot[0] = Zedek
+	bot[1] = Terminator
+	bot[2] = Inquisitor
+	bot[3] = DukeNukem
+	bot[4] = Hunter
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -697,10 +817,11 @@
 	mapname = QCDL09
 
 	gamemode = duel
-	fraglimit = 1
+	fraglimit = 10
 	duellimit = 1
 
-	bot[0] = Zedek
+	botsSkillOffset = 0 // This is pretty close in difficulty to final duel, so lower it
+	bot[0] = Sarge
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -719,9 +840,14 @@
 	mapname = QCDE26
 
 	gamemode = deathmatch
-	fraglimit = 1
+	fraglimit = 30
 
-	bot[0] = Zedek
+	botsSkillOffset = -2 // Bots in this tier are stronger by default, so need to compensate that with lower offset than before
+	bot[0] = COOLLER
+	bot[1] = Toxjq
+	bot[2] = Rapha
+	bot[3] = Cypher
+	bot[4] = Raisy
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -736,11 +862,16 @@
 	mapname = QCDE45
 
 	gamemode = teamplay
-	fraglimit = 1
+	fraglimit = 30
 
 	playerteam = Blue
-	botteam[0] = 1
-	bot[0] = Zedek
+
+	botsSkillOffset = -1 // Bots in this tier are stronger by default, so need to compensate that with lower offset than before
+	bot[0] = COOLLER	botteam[0] = 1
+	bot[1] = Toxjq		botteam[1] = 0
+	bot[2] = Rapha		botteam[2] = 1
+	bot[3] = Cypher		botteam[3] = 0
+	bot[4] = Raisy		botteam[4] = 1
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -757,10 +888,11 @@
 	mapname = QCDL02
 
 	gamemode = duel
-	fraglimit = 1
+	fraglimit = 10
 	duellimit = 1
 
-	bot[0] = Zedek
+	botsSkillOffset = 0 // Bots in this tier are stronger by default, so need to compensate that with lower offset than before
+	bot[0] = Rapha
 
 	dmflags = 8536448
 	dmflags2 = 2
@@ -784,6 +916,7 @@
 	fraglimit = 30
 	duellimit = 1
 
+	botsSkillOffset = 0
 	bot[0] = Sarge
 
 	dmflags = 8536448
@@ -804,6 +937,7 @@
 	fraglimit = 30
 	duellimit = 1
 
+	botsSkillOffset = 0
 	bot[0] = Sarge
 
 	dmflags = 8536448
@@ -824,6 +958,8 @@
 	pointlimit = 10
 
 	playerteam = Blue
+
+	botsSkillOffset = 0
 	bot[0] = Brock		botteam[0] = 1
 
 	dmflags = 8536448
@@ -844,6 +980,7 @@
 	fraglimit = 30
 	duellimit = 1
 
+	botsSkillOffset = 0
 	bot[0] = Brock
 
 	dmflags = 8536448
