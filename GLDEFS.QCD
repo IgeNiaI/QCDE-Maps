@@ -157,7 +157,7 @@ Q2BG_dn
 
 //-----------
 //Skybox for Delirium
-skybox deliriumsky fliptop
+skybox delirium fliptop
 {
 DLAND_N
 DLAND_E
@@ -207,4 +207,28 @@ HLSKY1_S
 HLSKY1_W
 HLSKY1_U
 HLSKY1_D
+}
+
+//--------------------------------------------------------------------------------
+//		Longest Yard
+//--------------------------------------------------------------------------------
+
+skybox LONGYARD
+{
+	blkhof1
+	blkhol1
+	blkhob1
+	blkhor1
+	blkhou1
+	blkhod1
+}
+
+brightmap texture qplat1
+{
+	map "Textures/qplat1B.png"
+}
+
+brightmap texture lylight1.png
+{
+	map "Textures/lylightB.png"
 }

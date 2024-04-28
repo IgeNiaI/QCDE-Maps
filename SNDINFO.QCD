@@ -2,8 +2,8 @@
 world/quake/buttonpress				QBTNPRS
 world/quake/windambience			QWNDAMB
 world/bloodfall						BWTRFL
-$alias QAmbience1 world/quake/windambience
 
+$alias QAmbience1 world/quake/windambience
 $ambient 10 QAmbience1 point continuous 1.0
 
 PlatXST			PLAT1ST
@@ -71,15 +71,6 @@ DukiNukiTheme			DUKITHM
 // Rankin
 Ambient/Rain	AMBRAIN
 
-// Minecraft
-McPortal MCPORTAL
-$attenuation McPortal 3.0
-$ambient 13 McPortal point continuous 1.0
-McBtnPrs MCBTNPRS
-
-// Arcane Temple
-WatrFall WATRFALL
-$ambient 14 WatrFall point continuous 1.0
 // Deck 17
 SteamFx STEAMFX1
 $attenuation SteamFx 1.5
@@ -87,6 +78,17 @@ $ambient 11 SteamFx point continuous 1.0
 
 UTInterior38 UTINTE38
 $ambient 12 UTInterior38 world continuous 0.4
+
+// Minecraft
+McPortal MCPORTAL
+$attenuation McPortal 3.0
+$ambient 13 McPortal point continuous 1.0
+
+McBtnPrs MCBTNPRS
+
+// Arcane Temple
+WatrFall WATRFALL
+$ambient 14 WatrFall point continuous 1.0
 
 // Duel 1
 HereTele STFCRK

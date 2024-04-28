@@ -930,6 +930,62 @@ Flat	Optional	0WATER01	Range	0WATER32	Tics 4
 Flat	Optional	0PORTL01	Range	0PORTL32	Tics 2
 Flat	Optional	0LANTRN1	Range	0LANTRN3	Tics 10
 
+//--------------------------------------------------------------------------------
+//		Longest Yard Animations
+//--------------------------------------------------------------------------------
+
+warp flat telefx1
+warp flat telefx2
+
+Texture LRPAD1
+        pic LRPAD1 tics 6
+        pic LRPAD2 tics 5
+        pic LRPAD3 tics 4
+        pic LRPAD4 tics 3
+        pic LRPAD5 tics 2
+        pic LRPAD6 tics 1
+
+Texture SPAD1
+	pic SPAD1 tics 1
+	pic SPAD2 tics 1
+	pic SPAD3 tics 1
+	pic SPAD4 tics 1
+	pic SPAD5 tics 1
+	pic SPAD6 tics 1
+	pic SPAD7 tics 1
+	pic SPAD8 tics 1
+	pic SPAD9 tics 1
+	pic SPAD10 tics 1
+	pic SPAD11 tics 1
+	pic SPAD12 tics 1
+	pic SPAD13 tics 1
+	pic SPAD14 tics 1
+	pic SPAD15 tics 1
+	pic SPAD16 tics 1
+	pic SPAD17 tics 1
+	pic SPAD18 tics 1
+	pic SPAD19 tics 1
+	pic SPAD20 tics 1
+	pic SPAD21 tics 1
+	pic SPAD22 tics 1
+	pic SPAD23 tics 1
+	pic SPAD24 tics 1
+	pic SPAD25 tics 1
+	pic SPAD26 tics 1
+	pic SPAD27 tics 1
+	pic SPAD28 tics 1
+	pic SPAD29 tics 1
+	pic SPAD30 tics 1
+	pic SPAD31 tics 1
+	pic SPAD32 tics 1
+	pic SPAD33 tics 1
+	pic SPAD34 tics 1
+	pic SPAD35 tics 1
+	pic SPAD36 tics 1
+	pic SPAD37 tics 1
+	pic SPAD38 tics 1
+	pic SPAD39 tics 1
+	pic SPAD40 tics 1
 
 //--------------------------------------------------------------------------------
 //		CTF Animations

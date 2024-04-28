@@ -2088,6 +2088,7 @@ Actor BRZedek 16990
 	Radius 40
 	Height 128
 	+SOLID
+	+FORCEYBILLBOARD
 	States
 	{
 	Spawn:
@@ -2106,6 +2107,7 @@ Actor BRMenelkir 16991
 	Radius 40
 	Height 128
 	+SOLID
+	+FORCEYBILLBOARD
 	States
 	{
 	Spawn:
@@ -2151,5 +2153,240 @@ Actor BlueHoleCTF : BloodBaseNonBlockingDeco 16993
 		DC03 ABCDEFGHIJKLMNOPQRSTUVWXYZ 3 
 		DC04 ABCDEFGHIJKLMNOPQRSTUVWXYZ 3 
 		Goto Spawn+1
+	}
+}
+
+//--------------------------------------------------------------------------------
+//		Longest Yard models
+//--------------------------------------------------------------------------------
+
+ACTOR Quad_holder 15000
+{
+	//$Category Props/Structures
+	//$Title Quad platform holder
+	//$Color 5
+	+NOGRAVITY
+	+FLOATBOB
+	Floatspeed 0.2
+	+SOLID
+
+  	Radius 64
+  	Height 400
+
+	States
+	{
+	Spawn:
+		EMPT A -1
+		Stop
+	}
+}
+
+ACTOR 3arch 15001
+{
+	//$Category Props/Structures
+	//$Title 3rd floor Arch
+	//$Color 5
+	+NOGRAVITY
+
+	+SOLID
+
+  	Radius 16
+  	Height 1
+
+	States
+	{
+	Spawn:
+		EMPT A -1
+		Stop
+	}
+}
+
+ACTOR chain1 15002
+{
+	//$Category Props/Structures
+	//$Title Chains for Quad holders
+	//$Color 5
+	+NOGRAVITY
+
+	+SOLID
+
+  	Radius 64
+  	Height 1
+
+	States
+	{
+	Spawn:
+		EMPT A -1
+		Stop
+	}
+}
+
+//glass globe ringx
+ACTOR ringx 15004
+{
+	//$Category Props/Structures
+	//$Title Blackhole FX RingX
+	//$Color 5
+	+SOLID
+	+NOGRAVITY
+	renderstyle add
+  	Radius 64
+  	Height 64
+
+	States
+	{
+	Spawn:
+		EMPT A -1
+		Stop
+	}
+}
+
+//glass globe ringy
+ACTOR ringy 15005
+{
+	//$Category Props/Structures
+	//$Title Blackhole FX RingY
+	//$Color 5
+	+SOLID
+	+NOGRAVITY
+	renderstyle add
+  	Radius 64
+  	Height 64
+
+	States
+	{
+	Spawn:
+		EMPT A -1
+		Stop
+	}
+}
+
+ACTOR blackhole 15006
+{
+	//$Category Props/Structures
+	//$Title Blackhole
+	//$Color 2
+	//+SOLID
+	+NOGRAVITY
+	renderstyle add
+  	Radius 8
+  	Height 8
+
+	States
+	{
+	Spawn:
+		BLKH A -1
+		Stop
+	}
+}
+
+ACTOR blackholeFX 15007
+{
+	//$Category Props/Structures
+	//$Title BlackholeFX
+	//$Color 2
+	//+SOLID
+	+NOGRAVITY
+	renderstyle add
+  	Radius 8
+  	Height 8
+
+	States
+	{
+	Spawn:
+		BLKH A -1
+		Stop
+	}
+}
+
+ACTOR blackholeFX2 15003
+{
+	//$Category Props/Structures
+	//$Title Blackhole black backdrop
+	//$Color 2
+	//+SOLID
+	+NOGRAVITY
+	renderstyle add
+  	Radius 8
+  	Height 8
+
+	States
+	{
+	Spawn:
+		BLKH A -1
+		Stop
+	}
+}
+
+ACTOR teleport2 15009
+{
+	//$Category Props/Structures
+	//$Title Teleport frame
+	//$Color 5
+	+SOLID
+  	Radius 8
+  	Height 8
+
+	States
+	{
+	Spawn:
+		EMPT A -1
+		Stop
+	}
+}
+
+ACTOR Roots1 15010
+{
+	//$Category Props/Structures
+	//$Title Roots1
+	//$Color 5
+	+NOGRAVITY
+	+SOLID
+
+  	Radius 64
+  	Height 1
+
+	States
+	{
+	Spawn:
+		EMPT A -1
+		Stop
+	}
+}
+
+ACTOR Roots2 15008
+{
+	//$Category Props/Structures
+	//$Title Roots2
+	//$Color 5
+	+NOGRAVITY
+
+	+SOLID
+
+  	Radius 8
+  	Height 1
+
+	States
+	{
+	Spawn:
+		EMPT A -1
+		Stop
+	}
+}
+
+ACTOR 2arch 15011
+{
+	//$Category Props/Structures
+	//$Title 3rd floor Arch2
+	//$Color 5
+	+SOLID
+  	Radius 8
+  	Height 8
+
+	States
+	{
+	Spawn:
+		EMPT A -1
+		Stop
 	}
 }

@@ -136,3 +136,140 @@ Model Deck17Lift {
     Scale 0.83 0.83 0.83
     FrameIndex EMPT A 0 0
 }
+
+//--------------------------------------------------------------------------------
+//		Longest Yard
+//--------------------------------------------------------------------------------
+
+Model Quad_holder
+{
+	Path "MD3"
+	Model 0 "quad_holder1.md3"
+	Skin 0 "ruinbrk.png"
+	ROTATING
+	rotation-speed 0.1
+	Scale 1 1 1
+	FrameIndex EMPT A 0 0
+}
+
+Model chain1
+{
+	Path "MD3"
+	Model 0 "chain2.md3"
+	Skin 0 "bmetal3.png"
+	Scale 1 1 1
+	FrameIndex EMPT A 0 0
+}
+
+Model 3arch
+{
+	Path "MD3"
+	Model 0 "3arch.md3"
+  	SurfaceSkin 0 0 "3arch.png"
+	SurfaceSkin 0 1 "archinner.png"
+	Scale 1 1 1
+	FrameIndex EMPT A 0 0
+}
+
+Model ringx
+{
+	Path "MD3"
+	Model 0 "ringfar.md3"
+	Skin 0 "star1.png"
+	Scale 2 2 2
+
+	ROTATING
+	rotation-speed 0.1
+	//rotate-Left
+	FrameIndex EMPT A 0 0
+}
+
+Model ringy
+{
+	Path "MD3"
+	Model 0 "ringfar.md3"
+	Skin 0 "star2.png"
+	Scale 1 1 1
+	//PitchOffset 45
+	ROTATING
+	rotation-speed 0.2
+	FrameIndex EMPT A 0 0
+}
+
+Model Roots1
+{
+	Path "MD3"
+	Model 0 "roots01.md3"
+	Skin 0 "rubble.png"
+	Scale 0.9 1 1
+	FrameIndex EMPT A 0 0
+}
+
+Model Roots2
+{
+	Path "MD3"
+	Model 0 "roots01.md3"
+	Skin 0 "rubble.png"
+	Scale 2.5 2.5 2.5
+	FrameIndex EMPT A 0 0
+}
+
+Model blackhole
+{
+	Path "MD3"
+	Model 0 "reel1.md3"
+	Skin 0 "blkhole6.png"
+	Scale 1.25 1.25 1.39
+	ROTATING
+	Rotation-Center 0 0 0
+	Rotation-Vector 0 0 -1
+	Rotation-Speed  -0.03//-0.02
+	FrameIndex BLKH A 0 0
+}
+
+Model blackholeFX
+{
+	Path "MD3"
+	Model 0 "reel1.md3"
+	Skin 0 "blkhole7.png"
+	Scale 1.25 1.25 1.39
+	ROTATING
+	Rotation-Center 0 0 0
+	Rotation-Vector 0 0 1
+	Rotation-Speed -0.2
+	FrameIndex BLKH A 0 0
+}
+
+Model blackholeFX2
+{
+	Path "MD3"
+	Model 0 "reel1.md3"
+	Skin 0 "star4.png"
+	Scale 2 2 2
+	PitchOffset 45
+	ROTATING
+	Rotation-Center 0 0 0
+	Rotation-Vector 0 0 -1
+	Rotation-Speed -0.009
+	FrameIndex BLKH A 0 0
+}
+
+Model teleport2
+{
+	Path "MD3"
+	Model 0 "teleport2.md3"
+	SurfaceSkin 0 0 "tele_frame1.png"
+	SurfaceSkin 0 1 "tele_frame2.png"
+	FrameIndex EMPT A 0 0
+	Scale 1 1 1
+}
+
+Model 2arch
+{
+	Path "MD3"
+	Model 0 "2arch.md3"
+  	SurfaceSkin 0 0 "2arch.png"
+	SurfaceSkin 0 1 "archinner.png"
+	Scale 1 1 1
+	FrameIndex EMPT A 0 0
+}
