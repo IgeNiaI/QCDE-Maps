@@ -1948,6 +1948,23 @@ Texture "OADCFB90", 256, 256
 	Patch "OC0_1B_2", 0, 224
 }
 
+Texture "AQ63_224", 64, 224
+{
+	Patch "ADEL_Q62", 0, -32
+	Patch "ADEL_Q62", 0, 32
+	Patch "ADEL_Q62", 0, 96
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 208
+}
+
+Texture "AQ63_208", 64, 208
+{
+	Patch "ADEL_Q62", 0, 16
+	Patch "ADEL_Q62", 0, 80
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 192
+}
+
 Texture "AQ63_192", 64, 192
 {
 	Patch "ADEL_Q62", 0, 0
@@ -1964,12 +1981,28 @@ Texture "AQ63_180", 64, 180
 	Patch "ADEL_Y07", 0, 164
 }
 
+Texture "AQ63_176", 64, 176
+{
+	Patch "ADEL_Q62", 0, -16
+	Patch "ADEL_Q62", 0, 48
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 160
+}
+
 Texture "AQ63_168", 64, 168
 {
 	Patch "ADEL_Q62", 0, -24
 	Patch "ADEL_Q62", 0, 40
 	Patch "ADEL_Y07", 0, 0
 	Patch "ADEL_Y07", 0, 152
+}
+
+Texture "AQ63_160", 64, 160
+{
+	Patch "ADEL_Q62", 0, -32
+	Patch "ADEL_Q62", 0, 32
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 144
 }
 
 Texture "AQ63_156", 64, 156
@@ -2001,6 +2034,13 @@ Texture "AQ63_120", 64, 120
 	Patch "ADEL_Q62", 0, -8
 	Patch "ADEL_Y07", 0, 0
 	Patch "ADEL_Y07", 0, 104
+}
+
+Texture "AQ63_112", 64, 112
+{
+	Patch "ADEL_Q62", 0, -16
+	Patch "ADEL_Y07", 0, 0
+	Patch "ADEL_Y07", 0, 96
 }
 
 Texture "AQ63_108", 64, 108

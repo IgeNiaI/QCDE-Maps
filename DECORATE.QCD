@@ -2390,3 +2390,22 @@ ACTOR 2arch 15011
 		Stop
 	}
 }
+
+//--------------------------------------------------------------------------------
+//		Menelkir's Domaign
+//--------------------------------------------------------------------------------
+
+Actor Hertcdeco_DsparilStatueFullColor : BloodBaseNonBlockingDeco 16645
+{
+	//$NotAngled
+	//$Category "QCDE Map Decoration"
+	//$Color 16
+	//$Title "Dsparil Statue"
+	Scale 5.0
+	States
+	{
+	Spawn:
+		ZOR2 R -1
+		Stop
+	}
+}

@@ -138,7 +138,7 @@ FreeformMenu QCDE_QCDEMapsDeathmatch
 	Command { Pos  102,   30	Text "QCDE04"	Background PVQCDE04		Command map_QCDE04		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
 	Label {	Pos -150,   84	MaxTextWidth 95		Font SmallFont	Text "Blood Covenant"				}
 	Label {	Pos  -50,   84	MaxTextWidth 95		Font SmallFont	Text "Toxjcity"						}
-	Label {	Pos   50,   84	MaxTextWidth 95		Font SmallFont	Text "The Chasm"					}
+	Label {	Pos   50,   84	MaxTextWidth 95		Font SmallFont	Text "Menelir's Domaign"			}
 	Label {	Pos  150,   84	MaxTextWidth 95		Font SmallFont	Text "Bitterman's Revenge"			}
 
 	Command { Pos -198,  105	Text "QCDE05"	Background PVQCDE05		Command map_QCDE05		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}

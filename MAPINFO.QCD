@@ -20,13 +20,15 @@ map QCDE02 "Toxjcity"
 	Next = "QCDE03"
 }
 
-//Map by DBThanatos
-map QCDE03 "The Chasm"
+//Map by geNia
+Map QCDE03 "Menelkir's domain"
 {
 	NotCategory0 // Exclude from "All maps" list
 	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE03"
 	UsePlayerStartZ
+	fogdensity = 48
+	skyfog = 1
 	Next = "QCDE04"
 }
 
