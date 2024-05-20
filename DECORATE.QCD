@@ -2392,7 +2392,7 @@ ACTOR 2arch 15011
 }
 
 //--------------------------------------------------------------------------------
-//		Menelkir's Domaign
+//		Menelkir's Domain
 //--------------------------------------------------------------------------------
 
 Actor Hertcdeco_DsparilStatueFullColor : BloodBaseNonBlockingDeco 16645
