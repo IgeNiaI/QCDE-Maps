@@ -1,8 +1,8 @@
 terrain LockBoxAcid
 {
 	damagetype		Slime
-	damageamount		8
-	damagetimemask		7
+	damageamount		15
+	damagetimemask		31
 	allowprotection
 }
 terrain LockBoxSuperAcid
