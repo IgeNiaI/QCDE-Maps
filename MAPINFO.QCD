@@ -689,7 +689,7 @@ map QCME01 "The Longest Yard"
 	NotCategory0 // Exclude from "All maps" list
 	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCME01"
-	sky1 = "BLKW", 0.1
+	sky1 = "LONGYARD", -0.05
 	UsePlayerStartZ
 	Next = "QCME02"
 }
