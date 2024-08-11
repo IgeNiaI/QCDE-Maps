@@ -225,10 +225,10 @@ skybox LONGYARD
 
 brightmap texture qplat1
 {
-	map "Textures/qplat1B.png"
+	map "Textures/LongestYard/qplat1B.png"
 }
 
 brightmap texture lylight1.png
 {
-	map "Textures/lylightB.png"
+	map "Textures/LongestYard/lylightB.png"
 }
