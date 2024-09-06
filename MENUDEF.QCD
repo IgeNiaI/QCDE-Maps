@@ -26,7 +26,7 @@ AddFreeformMenu "QCDE_SkirmishMenu" below "qcde_randommap1"
 AddFreeformMenu "QCDE_SkirmishMenu" below "qcde_randommap2"
 {
 	SubMenu {
-		VisibilityCVar skirm_skirmishgamemode,	11, 11
+		VisibilityCVar skirm_skirmishgamemode,	11, 12
 		Pos		0, 12				Text				"QC:DE CTF Maps"		Background			BV21028
 		Size	105, 14				Font				SmallFont				SelectedBackground	BV21028S
 		Anchor	center, center		FontColor			Tan						menu				QCDE_QCDEMapsCTF
@@ -37,7 +37,7 @@ AddFreeformMenu "QCDE_SkirmishMenu" below "qcde_randommap2"
 //AddFreeformMenu "QCDE_SkirmishMenu" below "qcde_randommap4"
 //{
 //	SubMenu {
-//		VisibilityCVar skirm_skirmishgamemode,	12, 12
+//		VisibilityCVar skirm_skirmishgamemode,	13, 13
 //		Pos		0, 12				Text				"QC:DE Domination Maps"	Background			BV21028
 //		Size	105, 14				Font				SmallFont				SelectedBackground	BV21028S
 //		Anchor	center, center		FontColor			Tan						menu				QCDE_QCDEMapsDomination
