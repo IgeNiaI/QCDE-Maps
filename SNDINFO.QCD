@@ -117,3 +117,10 @@ sounds/lava/lava4   	LAVA4
 sounds/ambient/misc   	DSBDOPN
 
 DECH/Q3TATELEPORT	"Sounds/Q3TATELEPORT.ogg"
+
+sounds/wood1  squeek1
+sounds/wood2  squeek2
+sounds/wood3  squeek3
+$volume sounds/wood1 10
+$volume sounds/wood2 10
+$volume sounds/wood3 10

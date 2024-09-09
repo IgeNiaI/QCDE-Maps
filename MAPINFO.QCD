@@ -245,14 +245,14 @@ map QCDE22 "Sarnath"
 	Next = "QCDE23"
 }
 
-//map by DBThanatos
-map QCDE23 "Lh'owon of Ice and Fire"
+//map by Mr.Rocket
+map QCDE23 "Lea"
 {
 	NotCategory0 // Exclude from "All maps" list
 	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE23"
 	UsePlayerStartZ
-	sky1 = "MAR_SKY1"
+ 	sky1 = UT_CLDS, -0.05
 	Next = "QCDE24"
 }
 

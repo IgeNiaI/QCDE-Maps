@@ -273,3 +273,54 @@ Model 2arch
 	Scale 1 1 1
 	FrameIndex EMPT A 0 0
 }
+
+//--------------------------------------------------------------------------------
+//		Lea models
+//--------------------------------------------------------------------------------
+
+Model skylight1
+{
+	Path "MD3"
+	Model 0 "ut_lea_skylight01.md3"
+	SurfaceSkin 0 0 "ut_lea_skylight.png"
+	SurfaceSkin 0 1 "ut_lea02.png"
+	SurfaceSkin 0 2 "ut_lea01.png"
+	Scale 0.5 0.5 0.5
+	FrameIndex EMPT A 0 0
+}
+
+Model Rocky_Skylight
+{
+	Path "MD3"
+	Model 0 "ut_lea_rock_skylight1.md3"
+	Skin 0 "ut_lea_rock01.png"
+	Scale 1 1 1
+	FrameIndex EMPT A 0 0
+}
+
+Model Plant_Hanger
+{
+	Path "MD3"
+	Model 0 "ut_lea_plant_hanger1.md3"
+	SurfaceSkin 0 0 "ut_lea01.png"
+	SurfaceSkin 0 1 "ut_lea02.png"
+	Scale 1 1 1
+	FrameIndex EMPT A 0 0
+}
+
+Model QCDE_flagModel
+{
+	Path "MD3"
+	Model 0 "qcde_flag1.md3"
+	SurfaceSkin 0 0 "flagtex2.tga"
+	SurfaceSkin 0 1 "ut_lea03.png"
+	Scale 2 2 2
+	FrameIndex EMPT A 0 0
+	FrameIndex EMPT B 0 1
+	FrameIndex EMPT C 0 2
+	FrameIndex EMPT D 0 3
+	FrameIndex EMPT E 0 4
+	FrameIndex EMPT F 0 5
+	FrameIndex EMPT G 0 6
+	FrameIndex EMPT H 0 7
+}

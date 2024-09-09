@@ -2409,3 +2409,74 @@ Actor Hertcdeco_DsparilStatueFullColor : BloodBaseNonBlockingDeco 16645
 		Stop
 	}
 }
+
+//--------------------------------------------------------------------------------
+//		Lea
+//--------------------------------------------------------------------------------
+
+ACTOR skylight1 16000
+{
+	//$Category Props/Structures
+	//$Title Skylight 1
+	//$Color 5
+	+NOGRAVITY
+  	Radius 128
+  	Height 4
+
+	States {
+		Spawn:
+			EMPT A -1
+			Stop
+	}
+}
+
+ACTOR Rocky_Skylight 16001
+{
+	//$Category Props/Structures
+	//$Title Rocky Skylight
+	//$Color 5
+	+NOGRAVITY
+  	Radius 64
+  	Height 4
+
+	States {
+		Spawn:
+			EMPT A -1
+			Stop
+	}
+}
+
+ACTOR Plant_Hanger 16002
+{
+	//$Category Props/Structures
+	//$Title Plant Hanger
+	//$Color 5
+	+NOGRAVITY
+	+SOLID
+  	Radius 16
+  	Height 4
+
+	States {
+		Spawn:
+			EMPT A -1
+			Stop
+	}
+}
+
+ACTOR QCDE_flagModel 16003
+{
+	//$Category Props/Structures
+	//$Title QCDE_Flag - Tan
+	//$Color 5
+	+NOGRAVITY
+  	Radius 8
+  	Height 4
+
+	States {
+		Spawn:
+			EMPT ABCD 3
+			EMPT EF 7
+			EMPT GH 12
+			Loop
+	}
+}

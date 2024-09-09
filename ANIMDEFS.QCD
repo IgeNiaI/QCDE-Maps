@@ -1229,3 +1229,17 @@ texture DC03AZ
  pic DC04X0 tics 1
  pic DC04Y0 tics 1
  pic DC04Z0 tics 1
+
+Texture DECO01AR
+ pic DECO07 tics 20
+ pic DECO06 tics 5
+ pic DECO05 tics 4
+ pic DECO04 tics 3
+ pic DECO03 tics 2
+ pic DECO02 tics 1
+ pic DECO01 tics 1
+ pic DECO02 tics 1
+ pic DECO03 tics 1
+ pic DECO04 tics 3
+ pic DECO05 tics 4
+ pic DECO06 tics 7

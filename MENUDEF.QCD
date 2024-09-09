@@ -183,7 +183,7 @@ FreeformMenu QCDE_QCDEMapsDeathmatch
 	Command { Pos  102,  405	Text "QCDE24"	Background PVQCDE24		Command map_QCDE24		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
 	Label { Pos -150,  459	MaxTextWidth 95		Font SmallFont	Text "Almost Lost"					}
 	Label { Pos  -50,  459	MaxTextWidth 95		Font SmallFont	Text "Sarnath"						}
-	Label { Pos   50,  459	MaxTextWidth 95		Font SmallFont	Text "Lh'owon of Ice and Fire"		}
+	Label { Pos   50,  459	MaxTextWidth 95		Font SmallFont	Text "Lea"							}
 	Label { Pos  150,  459	MaxTextWidth 95		Font SmallFont	Text "Vale of Pnath"				}
 
 	Command { Pos -198,  480	Text "QCDE25"	Background PVQCDE25		Command map_QCDE25		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
