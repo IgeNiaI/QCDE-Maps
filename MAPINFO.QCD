@@ -682,8 +682,7 @@ Map QCDL10 "Unreal place"
 // tho
 //---------------------------------------------------
 
-//Map by Abysswalker "Credits to MrRocket for the inspiration to do this map!"
-//DBT note: It's a nice map, but people hate longest yard all around :(
+//Map by Mr.Rocket
 map QCME01 "The Longest Yard"
 {
 	NotCategory0 // Exclude from "All maps" list
