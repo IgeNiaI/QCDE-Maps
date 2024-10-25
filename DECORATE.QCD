@@ -2414,7 +2414,7 @@ Actor Hertcdeco_DsparilStatueFullColor : BloodBaseNonBlockingDeco 16645
 //		Lea
 //--------------------------------------------------------------------------------
 
-ACTOR skylight1 16000
+ACTOR skylight1 15013
 {
 	//$Category Props/Structures
 	//$Title Skylight 1
@@ -2430,7 +2430,7 @@ ACTOR skylight1 16000
 	}
 }
 
-ACTOR Rocky_Skylight 16001
+ACTOR Rocky_Skylight 15014
 {
 	//$Category Props/Structures
 	//$Title Rocky Skylight
@@ -2446,7 +2446,7 @@ ACTOR Rocky_Skylight 16001
 	}
 }
 
-ACTOR Plant_Hanger 16002
+ACTOR Plant_Hanger 15015
 {
 	//$Category Props/Structures
 	//$Title Plant Hanger
@@ -2463,7 +2463,7 @@ ACTOR Plant_Hanger 16002
 	}
 }
 
-ACTOR QCDE_flagModel 16003
+ACTOR QCDE_flagModel 15016
 {
 	//$Category Props/Structures
 	//$Title QCDE_Flag - Tan
@@ -2485,7 +2485,7 @@ ACTOR QCDE_flagModel 16003
 //		Q3 Tourney 2
 //--------------------------------------------------------------------------------
 
-ACTOR telering2 16009
+ACTOR telering2 15017
 {
 	//$Category Props/Structures
 	//$Title Teleport ring fx2
@@ -2524,7 +2524,7 @@ ACTOR telering2 16009
 }
 
 
-ACTOR q3t2_rectop 16011
+ACTOR q3t2_rectop 15018
 {
 	//$Category Props/Structures
 	//$Title Reactor top
@@ -2540,7 +2540,7 @@ ACTOR q3t2_rectop 16011
 	}
 }
 
-ACTOR q3t_torchholder 16014
+ACTOR q3t_torchholder 15023
 {
 	//$Category Props/Structures
 	//$Title q3t Torch Holder
@@ -2556,7 +2556,7 @@ ACTOR q3t_torchholder 16014
 	}
 }
 
-ACTOR torchflame1 16015
+ACTOR torchflame1 15024
 {
 	//$Category Props/Structures
 	//$Title q3t Torch Flame
@@ -2580,7 +2580,7 @@ ACTOR torchflame1 16015
 	}
 }
 
-ACTOR Q3Tele 16022
+ACTOR Q3Tele 15025
 {
 	//$Category Sounds/Ambient
 	//$Title Q3 Teleport hum
@@ -2597,7 +2597,7 @@ ACTOR Q3Tele 16022
 	}
 }
 
-ACTOR Q3Reactor 16023
+ACTOR Q3Reactor 15026
 {
 	//$Category Sounds/Ambient
 	//$Title Q3 Reactor sound fx
@@ -2614,7 +2614,7 @@ ACTOR Q3Reactor 16023
 	}
 }
 
-ACTOR Q3GrowlSound 16024
+ACTOR Q3GrowlSound 15027
 {
 	//$Category Sounds/Ambient
 	//$Title Q3 Growl sound fx
