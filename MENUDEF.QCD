@@ -486,15 +486,15 @@ FreeformMenu QCDE_QCDEMapsDefrag
 
 	Label {
 		Pos			0, 10				Font		QCSMFONT
-		Text		"CTF maps"			FontColor	Gold
+		Text		"Defrag maps"		FontColor	Gold
 	}
 
 	Command { Pos -198,   30	Text "QCDF01"	Background PVQCDF01		Command map_QCDF01		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
 	Command { Pos  -98,   30	Text "QCDF02"	Background PVQCDF02		Command map_QCDF02		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
 	//Command { Pos    2,   30	Text "QCDF03"	Background PVQCDF03		Command map_QCDF03		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
 	//Command { Pos  102,   30	Text "QCDF04"	Background PVQCDF04		Command map_QCDF04		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
-	Label { Pos -150,   84	MaxTextWidth 95		Font SmallFont	Text "The struggle"					}
-	Label { Pos  -50,   84	MaxTextWidth 95		Font SmallFont	Text "CTF Run"						}
+	Label { Pos -150,   84	MaxTextWidth 95		Font SmallFont	Text "Quake Movement Training"		}
+	Label { Pos  -50,   84	MaxTextWidth 95		Font SmallFont	Text "Unreal Movement Training"		}
 	//Label { Pos   50,   84	MaxTextWidth 95		Font SmallFont	Text ""					}
 	//Label { Pos  150,   84	MaxTextWidth 95		Font SmallFont	Text ""					}
 }
