@@ -79,3 +79,4 @@ alias map_QCME02  "upmenu; setskirmishlevel QCME02 1; setcallvotemap QCME02"
 
 alias map_QCDF01  "upmenu; setskirmishlevel QCDF01 2; setcallvotemap QCDF01"
 alias map_QCDF02  "upmenu; setskirmishlevel QCDF02 2; setcallvotemap QCDF02"
+alias map_QCDF03  "upmenu; setskirmishlevel QCDF03 2; setcallvotemap QCDF03"

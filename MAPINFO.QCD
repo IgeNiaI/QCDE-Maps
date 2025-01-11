@@ -1015,10 +1015,24 @@ map QCDF02 "Unreal Movement Training"
 	Category5 // Defrag
 	PreviewPic = "PVQCDF02"
 	UsePlayerStartZ
-	Next = "QCDF01"
+	Next = "QCDF03"
 	CampaignHub = "QCDMHUB"
 	cluster = 1
 	forgetstate
+}
+
+//Map by geNia
+map QCDF03 "Quake Training (Inverse)"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category5 // Defrag
+	PreviewPic = "PVQCDF03"
+	DoubleSky
+	ForceNoSkyStretch
+	Sky1 = "killsky2", 0.5
+	Sky2 = "killsky1", 0.3
+	UsePlayerStartZ
+	Next = "QCDF01"
 }
 
 
