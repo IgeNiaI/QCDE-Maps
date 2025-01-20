@@ -805,6 +805,14 @@ pic OBRCKU3G tics 3
 
 
 
+//-------------------------------
+// Otex
+//-------------------------------
+
+Flat    Optional    0SLUDG01    Range    0SLUDG08    Tics 5
+
+
+
 // Zenith Teleporter
 texture EQPORT1 range EQPORT5 tics 4
 
