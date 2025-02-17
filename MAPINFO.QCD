@@ -8,7 +8,7 @@ map QCDE01 "Blood Covenant"
 	UsePlayerStartZ
 	Next = "QCDE02"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -22,7 +22,7 @@ map QCDE02 "Toxjcity"
 	UsePlayerStartZ
 	Next = "QCDE03"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -58,7 +58,7 @@ map QCDE05 "Fortress in the Void"
 	UsePlayerStartZ
 	Next = "QCDE06"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -72,7 +72,7 @@ map QCDE06 "Vertical Vengeance"
 	sky1 = VERTSKY, 0
 	Next = "QCDE07"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -86,7 +86,7 @@ map QCDE07 "Temple of Retribution"
 	sky1 = VERTSKY
 	Next = "QCDE08"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -100,7 +100,7 @@ map QCDE08 "Furious Heights"
 	sky1 = HDRKSKY1, 0.1
 	Next = "QCDE09"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -114,7 +114,7 @@ map QCDE09 "Lost World"
 	sky1 = "LOSTSKY", 0.4
 	Next = "QCDE10"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -128,7 +128,7 @@ map QCDE10 "Cure"
 	sky1 = "CURESKY", 0.0
 	Next = "QCDE11"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -144,7 +144,7 @@ map QCDE11 "Monsoon"
 	UsePlayerStartZ
 	Next = "QCDE12"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -193,7 +193,7 @@ map QCDE15 "Chastity Belt"
 	UsePlayerStartZ
 	Next = "QCDE16"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -207,7 +207,7 @@ map QCDE16 "Sinister"
 	sky1 = sinisky
 	Next = "QCDE17"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -244,7 +244,7 @@ map QCDE19 "Corrupted Station"
 	UsePlayerStartZ
 	Next = "QCDE20"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -269,7 +269,7 @@ map QCDE21 "Almost Lost"
 	sky1 = "LOSTSKY", 0.45
 	Next = "QCDE22"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -283,7 +283,7 @@ map QCDE22 "Sarnath"
 	UsePlayerStartZ
 	Next = "QCDE23"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -308,7 +308,7 @@ map QCDE24 "Vale of Pnath"
 	UsePlayerStartZ
 	Next = "QCDE25"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -332,7 +332,7 @@ map QCDE26 "Lh'owoken"
 	UsePlayerStartZ
 	Next = "QCDE27"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -346,7 +346,7 @@ map QCDE27 "Placebo Effect"
 	sky1 = "MRPSKY", 0.2
 	Next = "QCDE28"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -360,7 +360,7 @@ map QCDE28 "Molten Falls"
 	UsePlayerStartZ
 	Next = "QCDE29"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -374,7 +374,7 @@ map QCDE29 "Blood Run"
 	UsePlayerStartZ
 	Next = "QCDE30"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -387,7 +387,7 @@ map QCDE30 "Gibel Complex"
 	UsePlayerStartZ
 	Next = "QCDE31"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -413,7 +413,7 @@ map QCDE32 "Delirium"
 	UsePlayerStartZ
 	Next = "QCDE33"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -449,7 +449,7 @@ map QCDE35 "The Edge"
 	UsePlayerStartZ
 	Next = "QCDE36"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -473,7 +473,7 @@ map QCDE37 "Dukiforged"
 	UsePlayerStartZ
 	Next = "QCDE38"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -500,7 +500,7 @@ map QCDE39 "Arcane Temple"
 	UsePlayerStartZ
 	Next = "QCDE40"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -516,7 +516,7 @@ map QCDE40 "Rankin"
 	UsePlayerStartZ
 	Next = "QCDE41"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -541,7 +541,7 @@ map QCDE42 "Mine Embrace"
 	UsePlayerStartZ
 	Next = "QCDE43"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -577,7 +577,7 @@ map QCDE45 "Deck 17"
 	UsePlayerStartZ
 	Next = "QCDE46"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -591,7 +591,7 @@ map QCDE46 "Brought 2 doom"
 	UsePlayerStartZ
 	next = "QCDE47"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -615,7 +615,7 @@ Map QCDE48 "Mythic"
 	UsePlayerStartZ
 	Next = "QCDE49"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -628,7 +628,7 @@ Map QCDE49 "Erase"
 	UsePlayerStartZ
 	Next = "QCDE50"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -642,7 +642,7 @@ Map QCDE50 "Achilles"
 	UsePlayerStartZ
 	Next = "QCDE01"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -675,7 +675,7 @@ map QCDL02 "Aerowalk"	//Edited version, bigger
 	sky1 = aerowalk
 	Next = "QCDL03"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -692,7 +692,7 @@ map QCDL03 "Fatal Instinct"
 	sky1 = "FATASKY"
 	Next = "QCDL04"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -716,7 +716,7 @@ map QCDL05 "House Of Decay"
 	UsePlayerStartZ
 	Next = "QCDL06"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -733,7 +733,7 @@ map QCDL06 "Hell's Gate"
 	UsePlayerStartZ
 	Next = "QCDL07"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -747,7 +747,7 @@ map QCDL07 "The Dark Zone"
 	UsePlayerStartZ
 	next = "QCDL08"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -764,7 +764,7 @@ map QCDL08 "Crash Course"
 	UsePlayerStartZ
 	next = "QCDL09"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -777,7 +777,7 @@ map QCDL09 "Hektik"
 	UsePlayerStartZ
 	next = "QCDL10"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -802,7 +802,7 @@ map QCDL11 "Fractal Reactor"
 	UsePlayerStartZ
 	Next = "QCDL12"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -816,7 +816,7 @@ map QCDL12 "Okey"
 	UsePlayerStartZ
 	Next = "QCDL13"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -848,7 +848,7 @@ map QCME01 "The Longest Yard"
 	UsePlayerStartZ
 	Next = "QCME02"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -862,7 +862,7 @@ map QCME02 "Morpheus"
 	sky1 = "MRPSKY"
 	Next = "QCDE01"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -918,7 +918,7 @@ map QCTF04 "w00tabulous"
 	UsePlayerStartZ
 	Next = "QCTF01"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -1004,7 +1004,7 @@ map QCDF01 "Quake Movement Training"
 	UsePlayerStartZ
 	Next = "QCDF02"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -1017,7 +1017,7 @@ map QCDF02 "Unreal Movement Training"
 	UsePlayerStartZ
 	Next = "QCDF01"
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	forgetstate
 }
 
@@ -1035,7 +1035,7 @@ map QCDMHUB "Deathmatch Hub"
 	Next = "QCDMHUB"
 	sky1 = MORNING
 	CampaignHub = "QCDMHUB"
-	cluster = 1
+	cluster = 10
 	lobby
 }
 
@@ -1045,7 +1045,7 @@ episode QCDMHUB
 	Name = "QC:DE Arena"
 }
 
-clusterdef 1
+clusterdef 10
 {
 	hub
 }
