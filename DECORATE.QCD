@@ -1986,17 +1986,17 @@ ACTOR TeleGlitterRedGenerator 17530
 	}
 }
 
-//ACTOR TeleGlitterBlueGenerator : TeleGlitterRedGenerator 17531
-//{
-//	//$Color 0000FF
-//	//$Title "Heretic Tele Glitter Generator Blue"
-//	States
-//	{
-//	Spawn:
-//		TNT1 A 2 A_SpawnItemEx("TeleGlitterBlue", random(-28,28), random(-28,28), 0, 0,0,0.25, 0, SXF_NOCHECKPOSITION)
-//		Loop
-//	}
-//}
+ACTOR TeleGlitterBlueGenerator : TeleGlitterRedGenerator 17531
+{
+	//$Color 0000FF
+	//$Title "Heretic Tele Glitter Generator Blue"
+	States
+	{
+	Spawn:
+		TNT1 A 2 A_SpawnItemEx("TeleGlitterBlue", random(-28,28), random(-28,28), 0, 0,0,0.25, 0, SXF_NOCHECKPOSITION)
+		Loop
+	}
+}
 
 ACTOR TeleGlitterRed
 {
@@ -2019,21 +2019,21 @@ ACTOR TeleGlitterRed
 	}
 }
 
-//ACTOR TeleGlitterBlue : TeleGlitterRed
-//{
-//	States
-//	{
-//	Spawn:
-//		TGLT F 2 BRIGHT A_Countdown
-//		TGLT G 1 BRIGHT A_Countdown
-//		TGLT G 1 BRIGHT A_ChangeVelocity(0,0,velz + velz/2.5)
-//		TGLT H 2 BRIGHT A_Countdown
-//		TGLT I 1 BRIGHT A_Countdown
-//		TGLT I 1 BRIGHT A_ChangeVelocity(0,0,velz + velz/2.5)
-//		TGLT J 2 BRIGHT A_Countdown
-//		Loop
-//	}
-//}
+ACTOR TeleGlitterBlue : TeleGlitterRed
+{
+	States
+	{
+	Spawn:
+		TGLT F 2 BRIGHT A_Countdown
+		TGLT G 1 BRIGHT A_Countdown
+		TGLT G 1 BRIGHT A_ChangeVelocity(0,0,velz + velz/2.5)
+		TGLT H 2 BRIGHT A_Countdown
+		TGLT I 1 BRIGHT A_Countdown
+		TGLT I 1 BRIGHT A_ChangeVelocity(0,0,velz + velz/2.5)
+		TGLT J 2 BRIGHT A_Countdown
+		Loop
+	}
+}
 
 ACTOR HereticWallTorch 17532
 {
