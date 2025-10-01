@@ -916,12 +916,22 @@ map QCTF04 "w00tabulous"
 	PreviewPic = "PVQCTF04"
 	sky1 = "MRPSKY", 0.1
 	UsePlayerStartZ
-	Next = "QCTF01"
+	Next = "QCTF05"
 	CampaignHub = "QCDMHUB"
 	cluster = 10
 	forgetstate
 }
 
+//Map by DBThanatos & kultasakaali
+map QCTF05 "Blood Covenant CTF"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category2 // CTF
+	PreviewPic = "PVQCTF05"
+	sky1 = "QCDSky01", 0.5
+	UsePlayerStartZ
+	Next = "QCTF01"
+}
 
 
 //---------------------------------------------------
