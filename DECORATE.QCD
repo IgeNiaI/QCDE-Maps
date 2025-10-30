@@ -2631,6 +2631,36 @@ ACTOR Q3GrowlSound 15027
 }
 
 //--------------------------------------------------------------------------------
+//		Facing Worlds
+//--------------------------------------------------------------------------------
+ACTOR LightBig 17537
+{
+	//$NotAngled
+    //$Category Light sources
+    //$Title "Light Big"
+	Speed 0
+	+NOGRAVITY
+	+THRUACTORS
+	+NOINTERACTION
+	+NOTARGET
+	Monster
+	-IsMonster
+	-COUNTKILL
+	-SOLID
+	-CANPUSHWALLS
+	-CANUSEWALLS
+	-ACTIVATEMCROSS
+	Height 1
+	Radius 1
+	States
+	{
+	Spawn:
+		TNT1 A 99 Light("HugePoint256")
+		Wait
+	}
+}
+
+//--------------------------------------------------------------------------------
 //		Training maps
 //--------------------------------------------------------------------------------
 ACTOR FractalCone 17502 {

@@ -472,7 +472,9 @@ FreeformMenu QCDE_QCDEMapsCTF
 	Label { Pos  150,   84	MaxTextWidth 95		Font SmallFont	Text "w00tabulous"					}
 
 	Command { Pos -198,   105	Text "QCTF05"	Background PVQCTF05		Command map_QCTF05		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos  -98,   105	Text "QCTF06"	Background PVQCTF06		Command map_QCTF06		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
 	Label { Pos -150,   160	MaxTextWidth 95		Font SmallFont	Text "Blood Covenant"				}
+	Label { Pos  -50,   160	MaxTextWidth 95		Font SmallFont	Text "CTF-Face"						}
 }
 
 FreeformMenu QCDE_QCDEMapsDefrag
