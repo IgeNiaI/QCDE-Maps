@@ -384,3 +384,12 @@ brightmap texture teleedge
 {
 	map "Textures/Quake3/brightmaps/teleedgB.png"
 }
+
+//--------------------------------------------------------------------------------
+//		Facing Worlds
+//--------------------------------------------------------------------------------
+pointlight HugePoint256
+{
+	color 1.0 1.0 1.0
+	size 256
+}
