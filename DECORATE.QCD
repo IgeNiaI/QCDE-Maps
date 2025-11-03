@@ -3260,7 +3260,7 @@ Actor QCKaneStatue : QCStatueLight
 	States
 	{
 	Spawn:
-		QP04 E -1
+		QP04 G -1
 		Stop
 	}
 }
@@ -3725,12 +3725,12 @@ Actor QCKaneWanderer : QCPlayerWandererLight
 	States
 	{
 	Spawn:
-		QP04 E random(32, 128)
+		QP04 G random(32, 128)
 		TNT1 A 0 A_Jump(256, "Wander")
 		Loop
 	Wander:
-		QP04 ABCD 4 A_Wander
-		QP04 ABCD 4 A_Wander
+		QP04 ABCDEF 4 A_Wander
+		QP04 ABCDEF 4 A_Wander
 		Goto Spawn
 	}
 }
