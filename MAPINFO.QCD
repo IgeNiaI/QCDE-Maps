@@ -820,7 +820,6 @@ map QCDL12 "Okey"
 	forgetstate
 }
 
-
 // Map by Mr.Rocket
 map QCDL13 "The Proving Grounds"
 {
@@ -828,6 +827,16 @@ map QCDL13 "The Proving Grounds"
 	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDL13"
  	sky1 = Q3Tsky, -0.1
+	UsePlayerStartZ
+	Next = "QCDL14"
+}
+
+// Map by Pixo
+map QCDL14 "Akuse"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
+	PreviewPic = "PVQCDL14"
 	UsePlayerStartZ
 	Next = "QCDL01"
 }

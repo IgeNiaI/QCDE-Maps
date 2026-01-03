@@ -1280,3 +1280,9 @@ Texture noblight
  pic noblit2 tics 4
 
 warp2 flat q3t2_fog .3
+
+//-------------------------------
+// DMC (Deathmatch classic, not devil may cry) textures
+//
+warp2 texture DMCLVA 0.5
+warp texture DMCTELE 0.5
