@@ -311,11 +311,6 @@ brightmap texture PTLFRINP
 	map "Textures/Campaign/brightmaps/BTLFRINP.png"
 }
 
-brightmap texture PTLFRLMS
-{
-	map "Textures/Campaign/brightmaps/BTLFRLMS.png"
-}
-
 brightmap texture PTLFROUT
 {
 	map "Textures/Campaign/brightmaps/BTLFROUT.png"
@@ -329,11 +324,6 @@ brightmap texture PTLFRTDM
 brightmap texture PTLFRTIG
 {
 	map "Textures/Campaign/brightmaps/BTLFRTIG.png"
-}
-
-brightmap texture PTLFRTMS
-{
-	map "Textures/Campaign/brightmaps/BTLFRTMS.png"
 }
 
 brightmap texture PTLFRUT
