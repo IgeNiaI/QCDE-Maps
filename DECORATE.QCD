@@ -2732,7 +2732,6 @@ ACTOR FractalDoorActivator 17505 {
 	PainChance 256
 	RadiusDamageFactor 0.02
 
-	+NOGRAVITY
 	+NODAMAGE
 	+NOCLIP
 	+SHOOTABLE
@@ -2747,7 +2746,7 @@ ACTOR FractalDoorActivator 17505 {
 			EMPT A 1
 			Loop
 		Pain:
-			EMPT B 1 ACS_ExecuteWithResult(2)
+			EMPT B 1 ACS_NamedExecuteWithResult("activateTrapDoor")
 			Goto Spawn
 	}
 }
