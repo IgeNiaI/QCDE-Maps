@@ -932,7 +932,7 @@ map QCTF04 "w00tabulous"
 }
 
 //Map by DBThanatos & kultasakaali
-map QCTF05 "Blood Covenant CTF"
+map QCTF05 "Blood Crossings"
 {
 	NotCategory0 // Exclude from "All maps" list
 	Category2 // CTF
