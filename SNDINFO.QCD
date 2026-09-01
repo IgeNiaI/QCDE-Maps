@@ -145,6 +145,9 @@ sounds/q3t_grol   	     "Sounds/growl.ogg"
 $volume sounds/q3t_grol 0.9
 $attenuation sounds/q3t_grol 2
 
+// Dismemberment
+sounds/q1secret   	     "Sounds/Q1SECRET.ogg"
+sounds/q1talk     	     "Sounds/Q1TALK.ogg"
 
 // Campaign
 Monitor2 MONITOR2

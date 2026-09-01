@@ -838,6 +838,16 @@ map QCDL14 "Akuse"
 	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDL14"
 	UsePlayerStartZ
+	Next = "QCDL15"
+}
+
+// Map by Pixo
+map QCDL15 "Takken Apart"
+{
+	NotCategory0 // Exclude from "All maps" list
+	Category1 // Deathmatch & Duel
+	PreviewPic = "PVQCDL15"
+	UsePlayerStartZ
 	Next = "QCDL01"
 }
 
