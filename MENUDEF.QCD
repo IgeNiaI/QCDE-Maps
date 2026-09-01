@@ -362,10 +362,13 @@ FreeformMenu QCDE_QCDEMapsDeathmatch
 
 	Command { Pos -198, 1295	Text "QCDL13"	Background PVQCDL13		Command map_QCDL13		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
 	Command { Pos  -98, 1295	Text "QCDL14"	Background PVQCDL14		Command map_QCDL14		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
+	Command { Pos    2, 1295	Text "QCDL15"	Background PVQCDL15		Command map_QCDL15		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
 	Command { NotSelectable	EnableCVar filter_qlmaps,	 1, 1	Pos -150, 1349	MaxTextWidth 95		Font SmallFont	Text "The Proving Grounds"			}
 	Command { NotSelectable	EnableCVar filter_qlmaps,	 1, 1	Pos  -50, 1349	MaxTextWidth 95		Font SmallFont	Text "Akuse"						}
+	Command { NotSelectable	EnableCVar filter_qlmaps,	 1, 1	Pos   50, 1349	MaxTextWidth 95		Font SmallFont	Text "Takken Apart"					}
 	Label { VisibilityCVar filter_qlmaps,	 0, 0	Pos -198, 1295	Background MenuDim		Size 96, 54		Anchor left, top	}
 	Label { VisibilityCVar filter_qlmaps,	 0, 0	Pos  -98, 1295	Background MenuDim		Size 96, 54		Anchor left, top	}
+	Label { VisibilityCVar filter_qlmaps,	 0, 0	Pos	   2, 1295	Background MenuDim		Size 96, 54		Anchor left, top	}
 
 
 	Label {
