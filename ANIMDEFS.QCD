@@ -914,29 +914,27 @@ warp texture KILLSKY2 0.3
 
 warp2 flat LAVAHELL 0.1
 
+texture BLOKS_W1 range BLOKS_W8 tics 1.5
+
+// Jump pads
+
 texture BPAD18B
-  allowdecals
   pic BPAD18B tics 32
-  pic JUMPPAD1 tics 2
-  pic JUMPPAD2 tics 1.9
-  pic JUMPPAD3 tics 1.75
-  pic JUMPPAD4 tics 1.55
-  pic JUMPPAD5 tics 1.3
-  pic JUMPPAD6 tics 1
-  pic JUMPPAD7 tics 0.65
-  pic JUMPPAD8 tics 0.25
+  pic Q3JPAD01 tics 1
+  pic Q3JPAD02 tics 1
+  pic Q3JPAD03 tics 1
+  pic Q3JPAD04 tics 1
+  pic Q3JPAD05 tics 1
+  pic Q3JPAD06 tics 1
+  pic Q3JPAD07 tics 1
+  pic Q3JPAD08 tics 1
+  pic Q3JPAD09 tics 1
+  pic Q3JPAD10 tics 1
+  pic Q3JPAD11 tics 1
+  pic Q3JPAD12 tics 1
+  pic Q3JPAD13 tics 1
 
-texture BLOKS_W1
-  allowdecals
-  pic BLOKS_W1 tics 2
-  pic BLOKS_W2 tics 2
-  pic BLOKS_W3 tics 2
-  pic BLOKS_W4 tics 2
-  pic BLOKS_W5 tics 2
-  pic BLOKS_W6 tics 2
-  pic BLOKS_W7 tics 2
-  pic BLOKS_W8 tics 2
-
+texture TAJPAD01 range TAJPAD24 tics 1.75
 
 //--------------------------------------------------------------------------------
 //		Minecraft Animations
