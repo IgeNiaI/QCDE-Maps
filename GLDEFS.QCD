@@ -383,3 +383,16 @@ pointlight HugePoint256
 	color 1.0 1.0 1.0
 	size 256
 }
+
+//--------------------------------------------------------------------------------
+//		Crossfire
+//--------------------------------------------------------------------------------
+skybox crossfirerainy
+{
+	HLRAIN_N	//north
+	HLRAIN_E	//east
+	HLRAIN_S	//south
+	HLRAIN_W	//west
+	HLRAIN_U	//top
+	HLRAIN_D	//bottom
+}

@@ -210,11 +210,11 @@ FreeformMenu QCDE_QCDEMapsDeathmatch
 	Command { NotSelectable	EnableCVar filter_qcmaps,	 1, 1	Pos -150,  424	MaxTextWidth 95		Font SmallFont	Text "Lockbox"						}
 	Command { NotSelectable	EnableCVar filter_qlmaps,	 1, 1	Pos  -50,  424	MaxTextWidth 95		Font SmallFont	Text "Elder"						}
 	Command { NotSelectable	EnableCVar filter_qcmaps,	 1, 1	Pos   50,  424	MaxTextWidth 95		Font SmallFont	Text "Corrupted Station"			}
-	Command { NotSelectable	EnableCVar filter_utmaps,	 1, 1	Pos  150,  424	MaxTextWidth 95		Font SmallFont	Text "Deck"							}
+	Command { NotSelectable	EnableCVar filter_othermaps, 1, 1	Pos  150,  424	MaxTextWidth 95		Font SmallFont	Text "Crossfire"					}
 	Label { VisibilityCVar filter_qcmaps,	 0, 0	Pos -198,  370	Background MenuDim		Size 96, 54		Anchor left, top	}
 	Label { VisibilityCVar filter_qlmaps,	 0, 0	Pos  -98,  370	Background MenuDim		Size 96, 54		Anchor left, top	}
 	Label { VisibilityCVar filter_qcmaps,	 0, 0	Pos    2,  370	Background MenuDim		Size 96, 54		Anchor left, top	}
-	Label { VisibilityCVar filter_utmaps,	 0, 0	Pos  102,  370	Background MenuDim		Size 96, 54		Anchor left, top	}
+	Label { VisibilityCVar filter_othermaps, 0, 0	Pos  102,  370	Background MenuDim		Size 96, 54		Anchor left, top	}
 
 	Command { Pos -198,  445	Text "QCDE21"	Background PVQCDE21		Command map_QCDE21		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}
 	Command { Pos  -98,  445	Text "QCDE22"	Background PVQCDE22		Command map_QCDE22		Size 96, 54		MouseArea 96, 64	Font SmallFont		SelectedForeground	MAPSELEC, 104, 62		Anchor left, top	FontColor DarkGray		Padding	2, 1 SelectedFontColor Gray	}

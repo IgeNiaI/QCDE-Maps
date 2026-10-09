@@ -1125,3 +1125,47 @@ warp2 flat q3t2_fog .3
 //
 warp2 texture DMCLVA 0.5
 warp texture DMCTELE 0.5
+
+//-------------------------------
+// Half-Life textures
+//
+TEXTURE qfan
+    pic qfan1 tics 1
+	pic qfan2 tics 1
+    pic qfan3 tics 1
+	pic qfan4 tics 1
+    pic qfan5 tics 1
+	pic qfan6 tics 1
+    pic qfan7 tics 1
+	pic qfan8 tics 1
+    pic qfan9 tics 1
+
+
+switch HLSWON01  on sound button1   pic HLSWOF01 tics 0
+switch HLSWOF02 off sound button1 	pic HLSWON01 tics 0//NoSoundHax
+
+switch HLSWON02  on sound button2 pic HLSWOF02 tics 0
+switch HLSWOF02 off sound button2 pic HLSWON02 tics 0
+
+switch HLSWON03  on sound button3 pic HLSWOF03 tics 0
+switch HLSWOF03 off sound button3 pic HLSWON03 tics 0
+
+switch HLSWON04  on sound button4 pic HLSWOF04 tics 210
+switch HLSWOF04 off sound button4 pic HLSWON04 tics 0
+
+texture WATER_1
+	pic WATER_2 tics 2
+	pic WATER_3 tics 2
+	pic WATER_4 tics 2
+	pic WATER_5 tics 2
+	pic WATER_6 tics 2
+	pic WATER_7 tics 2
+	pic WATER_8 tics 2
+	pic WATER_9 tics 2
+	pic WATER_10 tics 2
+	pic WATER_11 tics 2
+	pic WATER_12 tics 2
+	pic WATER_13 tics 2
+	pic WATER_14 tics 2
+	pic WATER_15 tics 2
+	pic WATER_16 tics 2

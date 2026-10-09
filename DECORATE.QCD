@@ -4240,3 +4240,232 @@ Actor QCBrockWanderer : QCPlayerWandererHeavy
 		Goto Spawn
 	}
 }
+
+///////////////////
+//HALF LIFE CHARGING STATIONS//
+///////////////////
+Actor HEVArmor : CustomInventory
+{
+	+Inventory.QUIET
+	+SERVERNETID
+	States
+	{
+	Pickup:
+		TNT1 A 0 A_JumpIfInventory("PowerGhostTint",1,"Nope")
+		TNT1 A 0 A_GiveInventory("HEVArmorShardGiven",1)
+		TNT1 A 35 A_SetBlend("DarkSeaGreen", 0.05, 10)
+		Stop
+	Nope:
+		TNT1 A 35
+		Stop
+	}
+}
+
+Actor HEVArmorShardGiven : InventoryClassChecker //BasicArmorBonus 30668
+{
+	Radius 20
+	Height 48
+	Scale 0.9
+	-Inventory.QUIET
+	Inventory.PickupMessage "\cd+15 Armor"
+	Inventory.PickupSound	""
+	Inventory.RespawnTics 1050 //30 sec
+	+INVENTORY.ALWAYSPICKUP
+	+SERVERNETID
+	States
+	{
+	Spawn:
+		QCAR B 0
+		Stop
+
+		DoRanger:
+		DoDoomSlayer:
+		DoCorvus:
+		DoKane:
+		DoCaleb:
+		DoMenelkir:
+		DoTerminator:
+		DoZedek:
+		DoInquisitor:
+		DoGalen:
+		DoNyx:
+		DoDukeNukem:
+		DoKeel:
+		DoLoWang:
+		DoGrayson:
+		DoEradicator:
+		DoBlazkowicz:
+		DoFreeman:
+		DoEleena:
+		DoLucienne:
+		DoMajor:
+		DoHunter:
+		DoPostal:
+		DoPainkiller:
+		DoIntruder:
+		DoOrbb:
+		DoSarge:
+		DoVorMatur:
+		DoSam:
+		DoBrock:
+		DoBitterman:
+		DoSorgaul:
+		Default:
+			TNT1 A 0 A_JumpIfInventory("BasicArmor",CallACS("MaxArmor"),"Failer") //If already at max armor for this class, fails
+			TNT1 A 0 ACS_NamedExecuteWithResult("ArmorGiver",	CallACS("MaxArmor"),	15,0) 	//arg 1 = max class armor,
+			Goto ArmorDoneSuccess																		// arg 2 = armor given, arg 3= bool "does it overcharge?"
+
+		DoDurandal:
+			TNT1 A 0 A_JumpIfHealthLower(CallACS("MaxHealth"),"ActuallyDoDurandal")//1. if health low, do activate
+			TNT1 A 0 A_JumpIfInventory("BasicArmor",CallACS("MaxArmor"),"Failer")	//2. if armor max, fail
+			ActuallyDoDurandal:			//3. Armor wasnt max, activate
+				TNT1 A 0 ACS_NamedExecuteWithResult("DurandalArmor",	CallACS("MaxArmor"),CallACS("MaxHealth"),15)
+				Goto ArmorDoneSuccess
+
+	ArmorDoneSuccess:
+		TNT1 A 0
+		Stop
+	Failer:
+		TNT1 A 0
+		Fail
+	}
+}
+
+Actor HEVChargerSwitch100 : SwitchableDecoration 30669
+{
+	//$NotAngled
+	//$Category "Half-Life Items"
+	//$Color 16
+	//$Title "HEV Charger Switch"
+	Radius 10
+	Height 20
+	+RELATIVETOFLOOR
+	States
+	{
+	Spawn:
+	Inactive:
+		TNT1 A 5
+		loop
+	Active:
+		TNT1 A 35 A_RadiusGive("HEVArmor",100,RGF_PLAYERS)
+		Loop
+	}
+}
+
+//CROSSFIRE
+
+
+Actor Nuclear_Bomb 30704
+{
+	//$NotAngled
+	//$Category "Half-Life Items"
+	//$Color 16
+	//$Title "Bombing-Run Killzone (512 UDB unit radius, ~400 height)"
+	Radius 64
+	Height 64
+	+NOCLIP
+	+NODAMAGETHRUST
+	Obituary "The H.E.C.U. killed %o."
+	States
+	{
+	Spawn:
+		TNT1 A 0 NODELAY A_RadiusGive("NukeDamage",48,RGF_PLAYERS)
+		//TNT1 A 99 A_Explode(499,256,0,0,256) //3648
+		Stop
+	}
+}
+
+Actor GiantNuclearBomb : Nuclear_Bomb 30705
+{
+	States{
+	Spawn:
+		TNT1 A 0 NODELAY A_RadiusGive("NukeDamage",3648,RGF_PLAYERS)
+		TNT1 A 99 A_Explode(499,1824,0,0,1824)
+		Stop
+		}
+}
+
+
+Actor NukeDamage : CustomInventory
+{
+	-Inventory.QUIET
+	+SERVERNETID
+	Inventory.PickupSound ""
+	States
+	{
+	Pickup:
+		TNT1 A 0 A_JumpIfInventory("PowerGhostTint",1,"Nope")
+		TNT1 A 35 A_SetBlend("White", 1.0, 70)
+		TNT1 A 0 A_Print("The H.E.C.U. destroyed you.")
+		Stop
+	Nope:
+		TNT1 A 35
+		Stop
+	}
+}
+
+Actor BombingRunExplo
+{
+	Scale 5.0
+	+NOINTERACTION +NOTONAUTOMAP
+	+CLIENTSIDEONLY +NONETID
+	+FORCEXYBILLBOARD
+	+DONTBLAST
+	States
+	{
+	Spawn:
+		X125 A 0
+		TNT1 A 0 A_PlaySound("quake4/Misc/Explo",CHAN_5,2.0,0,0.0)
+		X125 A 1 Light("YellowSmallFlicker2") 	Bright A_SetScale(scalex+0.1125)
+		X125 A 1 Light("YellowMediumFlicker3") 	Bright A_SetScale(scalex+0.1125)
+		X125 B 1 Light("YellowMediumFlicker1") 	Bright A_SetScale(scalex+0.075)
+		X125 B 1 Light("YellowBigFlicker3") 	Bright A_SetScale(scalex+0.075)
+		X125 C 1 Light("YellowBigFlicker3") 	Bright A_SetScale(scalex+0.0525)
+		X125 C 1 Light("YellowBigFlicker3") 	Bright A_SetScale(scalex+0.0525)
+		X125 D 1 Light("YellowBigFlicker3") 	Bright
+		X125 D 1 Light("YellowBigFlicker3") 	Bright
+		X125 E 1 Light("YellowBigFlicker3")		Bright A_SetScale(scalex*1.05)
+		TNT1 A 0 A_SpawnItemEx("ThumperDustSpawner",0,0,0,0,0,0,0,SXF_NOCHECKPOSITION|SXF_NOUNLAGGED)
+		X125 E 1 Light("YellowMediumFlicker1")	Bright
+		X125 F 1 Light("YellowMediumFlicker1")	Bright A_SetScale(scalex*1.05)
+		X125 F 1 Light("YellowMediumFlicker2")	Bright
+		X125 G 1 Light("YellowMediumFlicker2")	Bright A_SetScale(scalex*1.05)
+		X125 G 1 Light("YellowMediumFlicker3")	Bright
+		X125 H 0 Light("YellowSmallFlicker1")	Bright A_SetScale(scalex*1.05)
+		X125 H 1 Light("YellowSmallFlicker1")	Bright A_FadeOut(0.075)
+		X125 H 1 Light("YellowSmallFlicker2")	Bright A_FadeOut(0.075)
+		X125 I 0 Light("YellowSmallFlicker3")	Bright A_SetScale(scalex*1.05)
+		X125 I 1 Light("YellowSmallFlicker3")	Bright A_FadeOut(0.075)
+		X125 I 1 Bright A_FadeOut(0.075)
+		X125 J 0 Bright A_SetScale(scalex*1.05)
+		X125 J 1 Bright A_FadeOut(0.075)
+		X125 J 1 Bright A_FadeOut(0.075)
+		X125 K 0 Bright A_SetScale(scalex*1.05)
+		X125 K 1 Bright A_FadeOut(0.075)
+		X125 K 1 Bright A_FadeOut(0.075)
+		X125 L 0 Bright A_FadeOut(0.075)
+		X125 L 1 Bright A_SetScale(scalex*1.05)
+		X125 L 1 Bright A_FadeOut(0.075)
+		X125 M 0 Bright A_FadeOut(0.075)
+		X125 M 1 Bright A_SetScale(scalex*1.05)
+		X125 M 1 Bright A_FadeOut(0.075)
+		X125 N 0 Bright A_FadeOut(0.075)
+		X125 N 1 Bright A_SetScale(scalex*1.05)
+		X125 N 1 Bright A_FadeOut(0.075)
+		X125 O 0 Bright A_FadeOut(0.075)
+		X125 O 1 Bright A_SetScale(scalex*1.05)
+		X125 O 1 Bright A_FadeOut(0.075)
+		X125 P 0 Bright A_FadeOut(0.075)
+		X125 P 1 Bright A_SetScale(scalex*1.05)
+		X125 P 1 Bright A_FadeOut(0.075)
+		X125 Q 0 Bright A_FadeOut(0.075)
+		X125 Q 1 Bright A_SetScale(scalex*1.05)
+		X125 Q 1 Bright A_FadeOut(0.075)
+		X125 R 0 Bright A_FadeOut(0.075)
+		X125 R 1 Bright A_SetScale(scalex*1.05)
+		X125 R 1 Bright A_FadeOut(0.075)
+		TNT1 A 10 A_PlaySound("quake4/Misc/Explo",CHAN_6,0.8,0,0.2)
+		Stop
+	}
+
+}
