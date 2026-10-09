@@ -248,14 +248,16 @@ map QCDE19 "Corrupted Station"
 	forgetstate
 }
 
-//map by RoosTer
-map QCDE20 "Deck"
+//map by Amosu
+map QCDE20 "Crossfire"
 {
 	NotCategory0 // Exclude from "All maps" list
 	Category1 // Deathmatch & Duel
 	PreviewPic = "PVQCDE20"
 	UsePlayerStartZ
-	sky1 = "MRPSKY"
+	Lightning
+	Sky1 = "GRAYSKY", 0.05
+	Sky2 = "GRAYSKY2", 0.05
 	Next = "QCDE21"
 }
 

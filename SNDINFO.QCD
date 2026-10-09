@@ -169,3 +169,54 @@ CampaignTier5 "Sounds/CampaignTier5.ogg"
 champion/Bones "Sounds/QCBones.ogg"
 PortalCharge "Sounds/PRTLCHRG.mp3"
 DukeIsGood "Sounds/IMGOOD12.ogg"
+
+//--------------------------------
+// Half-Life SFX
+//--------------------------------
+jetflyby1		"Sounds/HalfLifeAmbience/jetflyby1-converted.ogg"
+MortarFly		"Sounds/hlSFX/mortar_fly.ogg"
+MortarHit		"Sounds/hlSFX/mortar_hit.ogg"
+XenBounce		"Sounds/hlSFX/aliendoor3.ogg"
+GibClassic  	"Sounds/hlSFX/bodygib.ogg"
+loaderstep		"Sounds/HalfLifeAmbience/loader_step1-converted.ogg"
+
+breather		"Sounds/HalfLifeAmbience/breather-converted.ogg"
+$ambient 43  	breather			point continuous 0.8
+
+dripsHL			"Sounds/HalfLifeAmbience/drips-converted.ogg"
+$ambient 48  	dripsHL			point continuous 1.2
+
+computalk1		"Sounds/HalfLifeAmbience/computalk1-converted.ogg"
+$ambient 44  	computalk1			point continuous 1.2
+
+computalk2		"Sounds/HalfLifeAmbience/computalk2-converted.ogg"
+$ambient 45  	computalk2			point continuous 1.2
+
+sirenHL			"Sounds/HalfLifeAmbience/siren-converted.ogg"
+$ambient 18  	sirenHL			point continuous 1.0
+
+medcharge		"Sounds/hlSFX/medchrge.wav"
+medshot			"Sounds/hlSFX/medshot.wav"
+
+hevcharge		"Sounds/hlSFX/suitcharge1.wav"
+hevoff			"Sounds/hlSFX/suitchargeno1.wav"
+hevstart		"Sounds/hlSFX/suitchargeok1.wav"
+
+buttonelectricon	"Sounds/HalfLifeAmbience/buttons/button9.ogg"
+$volume buttonelectricon 10.0
+
+buttonbuzzdenied	"Sounds/HalfLifeAmbience/buttons/button11.ogg"
+button1				"Sounds/HalfLifeAmbience/buttons/button3.ogg"
+button2				"Sounds/HalfLifeAmbience/buttons/button1.ogg"
+button3				"Sounds/HalfLifeAmbience/buttons/button7.ogg"
+button4				"Sounds/HalfLifeAmbience/buttons/button4.ogg"
+
+Warbler		"Sounds/hlSFX/Leiothlypis _celata_song01-converted.ogg"
+Cardinal	"Sounds/hlSFX/Pyrrhuloxia _Cardinalis -inuatus_Song_02-converted.ogg"
+
+
+$random rocketgroan { rocketgroan1 rocketgroan2 rocketgroan3 rocketgroan4 }
+rocketgroan1		"Sounds/HalfLifeAmbience/rocket_groan1-converted.ogg"
+rocketgroan2		"Sounds/HalfLifeAmbience/rocket_groan2-converted.ogg"
+rocketgroan3		"Sounds/HalfLifeAmbience/rocket_groan3-converted.ogg"
+rocketgroan4		"Sounds/HalfLifeAmbience/rocket_groan4-converted.ogg"
