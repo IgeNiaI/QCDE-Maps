@@ -281,60 +281,42 @@ brightmap texture lylight1.png
 	map "Textures/LongestYard/lylightB.png"
 }
 
-brightmap texture PTLFRDL
-{
-	map "Textures/Campaign/brightmaps/BTLFRDL.png"
-}
+brightmap texture PTFRDL	{	map "Textures/Campaign/brightmaps/BTFRDL.png" }
+brightmap texture PTFRDL1	{	map "Textures/Campaign/brightmaps/BTFRDL1.png" }
+brightmap texture PTFRDL2	{	map "Textures/Campaign/brightmaps/BTFRDL2.png" }
+brightmap texture PTFRDL3	{	map "Textures/Campaign/brightmaps/BTFRDL3.png" }
+brightmap texture PTFRDM	{	map "Textures/Campaign/brightmaps/BTFRDM.png" }
+brightmap texture PTFRDM1	{	map "Textures/Campaign/brightmaps/BTFRDM1.png" }
+brightmap texture PTFRDM2	{	map "Textures/Campaign/brightmaps/BTFRDM2.png" }
+brightmap texture PTFRDM3	{	map "Textures/Campaign/brightmaps/BTFRDM3.png" }
+brightmap texture PTFRES	{	map "Textures/Campaign/brightmaps/BTFRES.png" }
+brightmap texture PTFRES1	{	map "Textures/Campaign/brightmaps/BTFRES1.png" }
+brightmap texture PTFRES2	{	map "Textures/Campaign/brightmaps/BTFRES2.png" }
+brightmap texture PTFRES3	{	map "Textures/Campaign/brightmaps/BTFRES3.png" }
+brightmap texture PTFRIG	{	map "Textures/Campaign/brightmaps/BTFRIG.png" }
+brightmap texture PTFRIG1	{	map "Textures/Campaign/brightmaps/BTFRIG1.png" }
+brightmap texture PTFRIG2	{	map "Textures/Campaign/brightmaps/BTFRIG2.png" }
+brightmap texture PTFRIG3	{	map "Textures/Campaign/brightmaps/BTFRIG3.png" }
+brightmap texture PTFRRA	{	map "Textures/Campaign/brightmaps/BTFRRA.png" }
+brightmap texture PTFRRA1	{	map "Textures/Campaign/brightmaps/BTFRRA1.png" }
+brightmap texture PTFRRA2	{	map "Textures/Campaign/brightmaps/BTFRRA2.png" }
+brightmap texture PTFRRA3	{	map "Textures/Campaign/brightmaps/BTFRRA3.png" }
+brightmap texture PTFRTDM	{	map "Textures/Campaign/brightmaps/BTFRTDM.png" }
+brightmap texture PTFRTDM1	{	map "Textures/Campaign/brightmaps/BTFRTDM1.png" }
+brightmap texture PTFRTDM2	{	map "Textures/Campaign/brightmaps/BTFRTDM2.png" }
+brightmap texture PTFRTDM3	{	map "Textures/Campaign/brightmaps/BTFRTDM3.png" }
+brightmap texture PTFRTIG	{	map "Textures/Campaign/brightmaps/BTFRTIG.png" }
+brightmap texture PTFRTIG1	{	map "Textures/Campaign/brightmaps/BTFRTIG1.png" }
+brightmap texture PTFRTIG2	{	map "Textures/Campaign/brightmaps/BTFRTIG2.png" }
+brightmap texture PTFRTIG3	{	map "Textures/Campaign/brightmaps/BTFRTIG3.png" }
+brightmap texture PTFRUT	{	map "Textures/Campaign/brightmaps/BTFRUT.png" }
+brightmap texture PTFRUT1	{	map "Textures/Campaign/brightmaps/BTFRUT1.png" }
+brightmap texture PTFRUT2	{	map "Textures/Campaign/brightmaps/BTFRUT2.png" }
+brightmap texture PTFRUT3	{	map "Textures/Campaign/brightmaps/BTFRUT3.png" }
 
-brightmap texture PTLFRDM
-{
-	map "Textures/Campaign/brightmaps/BTLFRDM.png"
-}
-
-brightmap texture PTLFRES
-{
-	map "Textures/Campaign/brightmaps/BTLFRES.png"
-}
-
-brightmap texture PTLFRIG
-{
-	map "Textures/Campaign/brightmaps/BTLFRIG.png"
-}
-
-brightmap texture PTLFRING
-{
-	map "Textures/Campaign/brightmaps/BTLFRING.png"
-}
-
-brightmap texture PTLFRINP
-{
-	map "Textures/Campaign/brightmaps/BTLFRINP.png"
-}
-
-brightmap texture PTLFROUT
-{
-	map "Textures/Campaign/brightmaps/BTLFROUT.png"
-}
-
-brightmap texture PTLFRTDM
-{
-	map "Textures/Campaign/brightmaps/BTLFRTDM.png"
-}
-
-brightmap texture PTLFRTIG
-{
-	map "Textures/Campaign/brightmaps/BTLFRTIG.png"
-}
-
-brightmap texture PTLFRUT
-{
-	map "Textures/Campaign/brightmaps/BTLFRUT.png"
-}
-
-brightmap texture PTLFRRA
-{
-	map "Textures/Campaign/brightmaps/BTLFRRA.png"
-}
+brightmap texture PTFRING	{	map "Textures/Campaign/brightmaps/BTFRING.png" }
+brightmap texture PTFRINP	{	map "Textures/Campaign/brightmaps/BTFRINP.png" }
+brightmap texture PTFROUT	{	map "Textures/Campaign/brightmaps/BTFROUT.png" }
 
 //--------------------------------------------------------------------------------
 //		The Proving Grounds

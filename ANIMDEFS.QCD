@@ -1169,3 +1169,62 @@ texture WATER_1
 	pic WATER_14 tics 2
 	pic WATER_15 tics 2
 	pic WATER_16 tics 2
+
+
+//-------------------------------
+// Campaign portals
+//
+
+Texture PTFRDL
+ pic PTFRDL tics 8
+ pic PTFRDL1 tics 8
+ pic PTFRDL2 tics 8
+ pic PTFRDL3 tics 8
+
+Texture PTFRDM
+ pic PTFRDM tics 8
+ pic PTFRDM1 tics 8
+ pic PTFRDM2 tics 8
+ pic PTFRDM3 tics 8
+
+Texture PTFRES
+ pic PTFRES tics 8
+ pic PTFRES1 tics 8
+ pic PTFRES2 tics 8
+ pic PTFRES3 tics 8
+
+Texture PTFRDM
+ pic PTFRDM tics 8
+ pic PTFRDM1 tics 8
+ pic PTFRDM2 tics 8
+ pic PTFRDM3 tics 8
+
+Texture PTFRIG
+ pic PTFRIG tics 8
+ pic PTFRIG1 tics 8
+ pic PTFRIG2 tics 8
+ pic PTFRIG3 tics 8
+
+Texture PTFRRA
+ pic PTFRRA tics 8
+ pic PTFRRA1 tics 8
+ pic PTFRRA2 tics 8
+ pic PTFRRA3 tics 8
+
+Texture PTFRTDM
+ pic PTFRTDM tics 8
+ pic PTFRTDM1 tics 8
+ pic PTFRTDM2 tics 8
+ pic PTFRTDM3 tics 8
+
+Texture PTFRTIG
+ pic PTFRTIG tics 8
+ pic PTFRTIG1 tics 8
+ pic PTFRTIG2 tics 8
+ pic PTFRTIG3 tics 8
+
+Texture PTFRUT
+ pic PTFRUT tics 8
+ pic PTFRUT1 tics 8
+ pic PTFRUT2 tics 8
+ pic PTFRUT3 tics 8
