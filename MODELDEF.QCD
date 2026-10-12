@@ -451,3 +451,21 @@ Model torchflame1
 
 	Scale 0.6 0.6 0.6
 }
+
+
+//--------------------------------------------------------------------------------
+//		Dark Zone and Takken Apart
+//--------------------------------------------------------------------------------
+
+Model DarkZoneTorch
+{
+	NOINTERPOLATION
+	Path "MD3"
+	Model 0 "q1flame.md3"
+	SurfaceSkin 0 0 "q1flame.png"
+	Scale 2 2 2
+	FrameIndex DZTC A 0 0
+	FrameIndex DZTC B 0 1
+	FrameIndex DZTC C 0 2
+	FrameIndex DZTC D 0 3
+}
