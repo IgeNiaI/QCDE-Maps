@@ -1,0 +1,50 @@
+// Campaign hub keys
+// Cyan is used by the BlueKey actor.
+
+KMKRA = "Voxels/Pickups/HubKeyRed.kvx" {Spin=50}
+KMKRB = "Voxels/Pickups/HubKeyRed.kvx" {Spin=50}
+KMKRC = "Voxels/Pickups/HubKeyRed.kvx" {Spin=50}
+KMKRD = "Voxels/Pickups/HubKeyRed.kvx" {Spin=50}
+KMKRE = "Voxels/Pickups/HubKeyRed.kvx" {Spin=50}
+KMKRF = "Voxels/Pickups/HubKeyRed.kvx" {Spin=50}
+KMKRG = "Voxels/Pickups/HubKeyRed.kvx" {Spin=50}
+KMKRH = "Voxels/Pickups/HubKeyRed.kvx" {Spin=50}
+
+KMKBA = "Voxels/Pickups/HubKeyCyan.kvx" {Spin=50}
+KMKBB = "Voxels/Pickups/HubKeyCyan.kvx" {Spin=50}
+KMKBC = "Voxels/Pickups/HubKeyCyan.kvx" {Spin=50}
+KMKBD = "Voxels/Pickups/HubKeyCyan.kvx" {Spin=50}
+KMKBE = "Voxels/Pickups/HubKeyCyan.kvx" {Spin=50}
+KMKBF = "Voxels/Pickups/HubKeyCyan.kvx" {Spin=50}
+KMKBG = "Voxels/Pickups/HubKeyCyan.kvx" {Spin=50}
+KMKBH = "Voxels/Pickups/HubKeyCyan.kvx" {Spin=50}
+
+KMKGA = "Voxels/Pickups/HubKeyGreen.kvx" {Spin=50}
+KMKGB = "Voxels/Pickups/HubKeyGreen.kvx" {Spin=50}
+KMKGC = "Voxels/Pickups/HubKeyGreen.kvx" {Spin=50}
+KMKGD = "Voxels/Pickups/HubKeyGreen.kvx" {Spin=50}
+KMKGE = "Voxels/Pickups/HubKeyGreen.kvx" {Spin=50}
+KMKGF = "Voxels/Pickups/HubKeyGreen.kvx" {Spin=50}
+KMKGG = "Voxels/Pickups/HubKeyGreen.kvx" {Spin=50}
+KMKGH = "Voxels/Pickups/HubKeyGreen.kvx" {Spin=50}
+
+KMKYA = "Voxels/Pickups/HubKeyYellow.kvx" {Spin=50}
+KMKYB = "Voxels/Pickups/HubKeyYellow.kvx" {Spin=50}
+KMKYC = "Voxels/Pickups/HubKeyYellow.kvx" {Spin=50}
+KMKYD = "Voxels/Pickups/HubKeyYellow.kvx" {Spin=50}
+KMKYE = "Voxels/Pickups/HubKeyYellow.kvx" {Spin=50}
+KMKYF = "Voxels/Pickups/HubKeyYellow.kvx" {Spin=50}
+KMKYG = "Voxels/Pickups/HubKeyYellow.kvx" {Spin=50}
+KMKYH = "Voxels/Pickups/HubKeyYellow.kvx" {Spin=50}
+
+// Campaign trophies
+
+TRPHA = "Voxels/Trophies/TrophyQ1.kvx"
+TRPHB = "Voxels/Trophies/TrophyQ2.kvx"
+TRPHC = "Voxels/Trophies/TrophyQ3.kvx"
+TRPHD = "Voxels/Trophies/TrophyQ4.kvx"
+TRPHE = "Voxels/Trophies/TrophyQC.kvx"
+
+// Map decorations
+
+DECCP = "Voxels/Decorations/WetFloorSign.kvx"
