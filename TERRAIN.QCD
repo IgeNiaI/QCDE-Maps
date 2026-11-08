@@ -36,7 +36,15 @@ terrain BadLava
 
 floor QALAV01X		BadLava
 
+Terrain AkuseLava
+{
+	damagetype		Lava
+	damageamount		10
+	damagetimemask		7 //Every 2^3 gametics, https://zdoom.org/wiki/TERRAIN
+	allowprotection
+}
 
+Floor DMCLVA AkuseLava
 
 // Edge water for splash sounds
 Splash EdgeWaterSplash
