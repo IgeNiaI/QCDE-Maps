@@ -202,6 +202,10 @@ hevcharge		"Sounds/hlSFX/suitcharge1.wav"
 hevoff			"Sounds/hlSFX/suitchargeno1.wav"
 hevstart		"Sounds/hlSFX/suitchargeok1.wav"
 
+mygod			"Sounds/hlSFX/whatyoudoing.ogg"
+XenTeleport1	"Sounds/hlSFX/beamstart2.ogg"
+XenTeleport2	"Sounds/hlSFX/beamstart7.ogg"
+
 buttonelectricon	"Sounds/HalfLifeAmbience/buttons/button9.ogg"
 $volume buttonelectricon 10.0
 
